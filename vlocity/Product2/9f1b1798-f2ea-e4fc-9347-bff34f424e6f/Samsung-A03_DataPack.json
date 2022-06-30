@@ -1,0 +1,344 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Samsung-A03_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "ATT_CAPCTY": "32 GB",
+        "ATT_COLOR": null,
+        "ATT_PAYMTHD": "Outright Purchase"
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "1ea174c3-d48b-57f1-2d78-76bf20180e4d",
+                "Name": "Devices",
+                "displaySequence": 301,
+                "id": "a2D8G0000004cjFUAQ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a2E8G000000DENCUA4",
+                            "cloneable": true,
+                            "code": "ATT_PAYMTHD",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 10,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Payment Method",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "0ad52277-9725-5bd9-1cc9-20b782eec72e",
+                                    "label": "Straight Lease",
+                                    "name": "0ad52277-9725-5bd9-1cc9-20b782eec72e",
+                                    "readonly": false,
+                                    "value": "Straight Lease"
+                                },
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "3a95de00-f7e4-50c2-9090-a2864b2aaeee",
+                                    "label": "Outright Purchase",
+                                    "name": "3a95de00-f7e4-50c2-9090-a2864b2aaeee",
+                                    "readonly": false,
+                                    "value": "Outright Purchase"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "f4e93b9d-c091-6130-2623-d9fdbbc23ec5",
+                                    "label": "Lease to Own",
+                                    "name": "f4e93b9d-c091-6130-2623-d9fdbbc23ec5",
+                                    "readonly": false,
+                                    "value": "Lease to Own"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000DENAUA4",
+                            "cloneable": true,
+                            "code": "ATT_CAPCTY",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 20,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Capacity(GB)",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "0aef7f38-9305-88c8-639f-46418bdf2bde",
+                                    "label": "256 GB",
+                                    "name": "0aef7f38-9305-88c8-639f-46418bdf2bde",
+                                    "readonly": true,
+                                    "value": "256 GB"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "5f76c9cc-45b5-5556-a55d-35937a9bbc17",
+                                    "label": "128 GB",
+                                    "name": "5f76c9cc-45b5-5556-a55d-35937a9bbc17",
+                                    "readonly": true,
+                                    "value": "128 GB"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "8a5cefc8-ac05-c05a-8668-ff71e104d7e0",
+                                    "label": "512 GB",
+                                    "name": "8a5cefc8-ac05-c05a-8668-ff71e104d7e0",
+                                    "readonly": true,
+                                    "value": "512 GB"
+                                },
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "b1040062-0563-7a05-83cd-4c35171c5b85",
+                                    "label": "32 GB",
+                                    "name": "b1040062-0563-7a05-83cd-4c35171c5b85",
+                                    "readonly": true,
+                                    "value": "32 GB"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "bb7294a7-28ab-bf09-4ddd-50f230813729",
+                                    "label": "64 GB",
+                                    "name": "bb7294a7-28ab-bf09-4ddd-50f230813729",
+                                    "readonly": true,
+                                    "value": "64 GB"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000DENBUA4",
+                            "cloneable": true,
+                            "code": "ATT_COLOR",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 30,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Color",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "65e99877-d9aa-41ce-239e-6d13885f7550",
+                                    "label": "Blue",
+                                    "name": "65e99877-d9aa-41ce-239e-6d13885f7550",
+                                    "readonly": false,
+                                    "value": "Blue"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "a4573f92-30eb-c8cb-80f3-1d7d741d84f4",
+                                    "label": "Red",
+                                    "name": "a4573f92-30eb-c8cb-80f3-1d7d741d84f4",
+                                    "readonly": false,
+                                    "value": "Red"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "be569a95-0dd4-a70a-4c6c-88cac21ca3bd",
+                                    "label": "Green",
+                                    "name": "be569a95-0dd4-a70a-4c6c-88cac21ca3bd",
+                                    "readonly": false,
+                                    "value": "Green"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 3
+                }
+            }
+        ],
+        "totalSize": 1
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": [
+        {
+            "actions": {
+            },
+            "childCategories": [
+            ],
+            "displaySequence": -1,
+            "fields": {
+            },
+            "id": "a2l8G0000043RR4QAM",
+            "messages": [
+            ],
+            "name": "Mobility Product",
+            "nameResult": {
+            },
+            "uiStates": {
+            }
+        }
+    ],
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2022-05-23",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2022-05-23T18:30:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "ff817152-b23c-af6f-e1c5-8750ff6c0f41",
+    "%vlocity_namespace%__GlobalKey__c": "9f1b1798-f2ea-e4fc-9347-bff34f424e6f",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__MainFeatureQuantityUom__c": "",
+    "%vlocity_namespace%__MainFeatureQuantity__c": "",
+    "%vlocity_namespace%__MainFeatureTermInDays__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectFieldAttribute__c": "Samsung-A03_ObjectFieldAttributes.json",
+    "%vlocity_namespace%__ObjectTypeId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "5ecab3d8f89565001bc8d1ce43e9e5a8",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/5ecab3d8f89565001bc8d1ce43e9e5a8",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+    },
+    "%vlocity_namespace%__ObjectTypeName__c": "Mobile Product Spec Type",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PriceListEntry__c": "Samsung-A03_PriceListEntries.json",
+    "%vlocity_namespace%__ProductChildItem__c": "Samsung-A03_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "2022-05-23T18:30:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "Product",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "None",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "None",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "CanUseQuantitySchedule": false,
+    "CanUseRevenueSchedule": false,
+    "Description": "Device Product",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "None",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "Samsung A03",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "PricebookEntry": "Samsung-A03_PricebookEntries.json",
+    "ProductCode": "C-SMSNGA03",
+    "Product_Ext_Id__c": "",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": 0,
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "Samsung A03",
+            "Price_Book_Entry_Ext_Id__c": "",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "9f1b1798-f2ea-e4fc-9347-bff34f424e6f",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "9f1b1798-f2ea-e4fc-9347-bff34f424e6f",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/9f1b1798-f2ea-e4fc-9347-bff34f424e6f",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "C-SMSNGA03",
+            "UnitPrice": 0,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/9f1b1798-f2ea-e4fc-9347-bff34f424e6f"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/9f1b1798-f2ea-e4fc-9347-bff34f424e6f"
+}

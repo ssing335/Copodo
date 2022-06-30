@@ -1,0 +1,108 @@
+[
+    {
+        "%vlocity_namespace%__AddDate__c": "",
+        "%vlocity_namespace%__AttributeAdjustmentComments__c": "",
+        "%vlocity_namespace%__AttributeAdjustmentUnits__c": "",
+        "%vlocity_namespace%__AttributeCategoryId__c": {
+            "%vlocity_namespace%__Code__c": "e3a204a0-23ef-25e2-e13a-8df9b69f37d3",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__AttributeCategory__c/e3a204a0-23ef-25e2-e13a-8df9b69f37d3",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeCategory__c"
+        },
+        "%vlocity_namespace%__AttributeDisplayNameOverride__c": "3PP Provider",
+        "%vlocity_namespace%__AttributeDisplaySequence__c": "10",
+        "%vlocity_namespace%__AttributeId__c": {
+            "%vlocity_namespace%__Code__c": "ATT_3PPPROVIDER",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__Attribute__c/ATT_3PPPROVIDER",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Attribute__c"
+        },
+        "%vlocity_namespace%__AttributeId__r.%vlocity_namespace%__Code__c": "ATT_3PPPROVIDER",
+        "%vlocity_namespace%__AttributeName__c": "3PP Provider",
+        "%vlocity_namespace%__ConfigurationDetail__c": "",
+        "%vlocity_namespace%__ConfigurationStages__c": "",
+        "%vlocity_namespace%__CustomConfigUiTemplate__c": "",
+        "%vlocity_namespace%__Data__c": "",
+        "%vlocity_namespace%__DefaultPicklistEntryId__c": "",
+        "%vlocity_namespace%__DefaultPicklistValueId__c": "",
+        "%vlocity_namespace%__DisplaySequence__c": "null",
+        "%vlocity_namespace%__EndStory__c": "",
+        "%vlocity_namespace%__ExcludedPicklistEntryIds__c": "",
+        "%vlocity_namespace%__ExcludedPicklistValues__c": "",
+        "%vlocity_namespace%__FormatMask__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "2f9c1094-8395-9a35-6a44-93175f467cf5",
+        "%vlocity_namespace%__HasRule__c": false,
+        "%vlocity_namespace%__HelpText__c": "",
+        "%vlocity_namespace%__IsActiveAssignment__c": true,
+        "%vlocity_namespace%__IsConfigurable__c": true,
+        "%vlocity_namespace%__IsDynamic__c": false,
+        "%vlocity_namespace%__IsEncrypted__c": false,
+        "%vlocity_namespace%__IsHidden__c": false,
+        "%vlocity_namespace%__IsNotAssetizable__c": false,
+        "%vlocity_namespace%__IsNotTranslatable__c": false,
+        "%vlocity_namespace%__IsOverride__c": false,
+        "%vlocity_namespace%__IsQueryDriven__c": false,
+        "%vlocity_namespace%__IsReadOnly__c": false,
+        "%vlocity_namespace%__IsRequired__c": false,
+        "%vlocity_namespace%__LookupFilter__c": "",
+        "%vlocity_namespace%__LookupObjectId__c": "",
+        "%vlocity_namespace%__LookupObjectTypeId__c": "",
+        "%vlocity_namespace%__ObjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "20c8bb4e-8773-1004-11e2-712a360dc171",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/20c8bb4e-8773-1004-11e2-712a360dc171",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__ObjectType__c": "Product2",
+        "%vlocity_namespace%__OverrideContext__c": "",
+        "%vlocity_namespace%__PicklistId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "65ffc74b-9002-fc9d-e3a1-270126c262b9",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__Picklist__c/65ffc74b-9002-fc9d-e3a1-270126c262b9",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Picklist__c"
+        },
+        "%vlocity_namespace%__QueryCode__c": "",
+        "%vlocity_namespace%__QueryLabel__c": "",
+        "%vlocity_namespace%__RemoveDate__c": "",
+        "%vlocity_namespace%__RemovedFlag__c": false,
+        "%vlocity_namespace%__RuleData__c": "",
+        "%vlocity_namespace%__RuleMessage__c": "",
+        "%vlocity_namespace%__StartStory__c": "",
+        "%vlocity_namespace%__StyleClass__c": "",
+        "%vlocity_namespace%__UIDisplayType__c": "Dropdown",
+        "%vlocity_namespace%__ValidValuesData__c": [
+            {
+                "displayText": "SP1",
+                "id": "42264595-8e9d-8ba0-53da-bf7272199811",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 10,
+                "value": "SP1"
+            },
+            {
+                "displayText": "SP2",
+                "id": "ec2c5d44-73d9-4f6d-7a28-d8e0784a8491",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 20,
+                "value": "SP2"
+            },
+            {
+                "displayText": "SP3",
+                "id": "c23b3d22-914e-135d-462d-d3a89f413986",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 30,
+                "value": "SP3"
+            }
+        ],
+        "%vlocity_namespace%__ValueDataType__c": "Picklist",
+        "%vlocity_namespace%__ValueDecoder__c": "",
+        "%vlocity_namespace%__ValueDescription__c": "",
+        "%vlocity_namespace%__Value__c": "",
+        "Name": "TempAA-ATT_3PPPROVIDER",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/2f9c1094-8395-9a35-6a44-93175f467cf5"
+    }
+]

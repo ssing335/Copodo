@@ -1,0 +1,88 @@
+[
+    {
+        "%vlocity_namespace%__BasePriceListId__c": "",
+        "%vlocity_namespace%__DisplayText__c": "$100",
+        "%vlocity_namespace%__EffectiveFromDate__c": "2021-11-22T18:30:00.000Z",
+        "%vlocity_namespace%__EffectiveUntilDate__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "03ee67c9-49ee-3664-53aa-40cbd822358f",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__IsBasePrice__c": true,
+        "%vlocity_namespace%__IsOverride__c": false,
+        "%vlocity_namespace%__IsVirtualPrice__c": false,
+        "%vlocity_namespace%__OfferId__c": "",
+        "%vlocity_namespace%__PriceListId__c": {
+            "%vlocity_namespace%__Code__c": "PL_Default",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__PriceList__c/PL_Default",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__PriceList__c"
+        },
+        "%vlocity_namespace%__PriceListName__c": "Default RateCard",
+        "%vlocity_namespace%__PricingElementAmount__c": 100,
+        "%vlocity_namespace%__PricingElementGlobalKey__c": "c14ae686-7448-2775-14da-9ad96814bc40",
+        "%vlocity_namespace%__PricingElementId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "97e6050e-2c2c-9031-e2e2-8056b75ae661",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__PricingElement__c/97e6050e-2c2c-9031-e2e2-8056b75ae661",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__PricingElement__c"
+        },
+        "%vlocity_namespace%__PricingMatrixBindingData__c": "",
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "003169d4-0fef-9e63-efb8-5103ce39bb17",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/003169d4-0fef-9e63-efb8-5103ce39bb17",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__PromotionItemId__c": "",
+        "%vlocity_namespace%__RulesDescription__c": "",
+        "%vlocity_namespace%__TimePlanId__c": "",
+        "%vlocity_namespace%__TimePolicyId__c": "",
+        "Name": "03ee67c9-49ee-3664-53aa-40cbd822358f",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__PriceListEntry__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__PriceListEntry__c/03ee67c9-49ee-3664-53aa-40cbd822358f"
+    },
+    {
+        "%vlocity_namespace%__BasePriceListId__c": "",
+        "%vlocity_namespace%__DisplayText__c": "$80",
+        "%vlocity_namespace%__EffectiveFromDate__c": "2021-11-22T18:30:00.000Z",
+        "%vlocity_namespace%__EffectiveUntilDate__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "02989b07-5a19-c768-83d9-dfeb842afec9",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__IsBasePrice__c": true,
+        "%vlocity_namespace%__IsOverride__c": false,
+        "%vlocity_namespace%__IsVirtualPrice__c": false,
+        "%vlocity_namespace%__OfferId__c": "",
+        "%vlocity_namespace%__PriceListId__c": {
+            "%vlocity_namespace%__Code__c": "PL_SpaceX",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__PriceList__c/PL_SpaceX",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__PriceList__c"
+        },
+        "%vlocity_namespace%__PriceListName__c": "SpaceX RateCard",
+        "%vlocity_namespace%__PricingElementAmount__c": 80,
+        "%vlocity_namespace%__PricingElementGlobalKey__c": "c95252c3-c377-3231-3b70-b9b8ad18415e",
+        "%vlocity_namespace%__PricingElementId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "fd2d34af-26fc-92fa-f040-de082c618331",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__PricingElement__c/fd2d34af-26fc-92fa-f040-de082c618331",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__PricingElement__c"
+        },
+        "%vlocity_namespace%__PricingMatrixBindingData__c": "",
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "003169d4-0fef-9e63-efb8-5103ce39bb17",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/003169d4-0fef-9e63-efb8-5103ce39bb17",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__PromotionItemId__c": "",
+        "%vlocity_namespace%__RulesDescription__c": "",
+        "%vlocity_namespace%__TimePlanId__c": "",
+        "%vlocity_namespace%__TimePolicyId__c": "",
+        "Name": "02989b07-5a19-c768-83d9-dfeb842afec9",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__PriceListEntry__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__PriceListEntry__c/02989b07-5a19-c768-83d9-dfeb842afec9"
+    }
+]

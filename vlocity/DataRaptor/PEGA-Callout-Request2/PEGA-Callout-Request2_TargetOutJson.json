@@ -1,0 +1,55 @@
+{
+    "Account": {
+        "AccountId": "123456",
+        "AccountType": "Carrier",
+        "CompanyName": "Sample",
+        "MultiMarket": "Yes",
+        "QuickConnect": "Yes",
+        "Status": "Active"
+    },
+    "Contacts": [
+        {
+            "ContactId": "JOHN-123",
+            "EmailContact": "John.Doe@test.com",
+            "FullName": "John Doe",
+            "Phone1": "1234567890",
+            "Type": "SalesRep"
+        }
+    ],
+    "Cost": "2000",
+    "Location": {
+        "consolidatedAddress": "123D, 12345 Test St,OKLAHOMA CITY,Oklahoma,74041",
+        "houseNum": "123D",
+        "preDirectional": "Test Direction",
+        "pyCity": "OKLAHOMA CITY",
+        "pyPostalCode": "74041",
+        "pyState": "Oklahoma",
+        "pyStreet": "12345 Test St"
+    },
+    "Market": "Oklahoma City",
+    "Medium": "fiber",
+    "OrderName": "TestOrder__109",
+    "OrderType": "Install On Net",
+    "Region": "Central",
+    "SFOrderID": "a317i000000L9IBAA0",
+    "Serviceability": "OnNet",
+    "Services": [
+        {
+            "BillingID": "CABS-7192FW6529TUL",
+            "FromQty": "12",
+            "NewTerm": "FALSE",
+            "Price": "24",
+            "Product": "Fiber Access 1Gb EVC Interstate",
+            "ProductID": "Fiber-1234",
+            "ProductType": "Fiber",
+            "Promotion": "Fiber Extend",
+            "SubTotal": "12",
+            "Term": "2",
+            "ToQty": "12",
+            "Transport": "Yes"
+        }
+    ],
+    "SiteID": "131",
+    "Status": "Active",
+    "Technology": "GPON"
+}

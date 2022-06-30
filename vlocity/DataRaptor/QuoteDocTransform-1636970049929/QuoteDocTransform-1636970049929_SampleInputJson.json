@@ -1,0 +1,57 @@
+{
+    "BillingCity": "Seattle",
+    "BillingCountry": "USA",
+    "BillingPostalCode": "98109",
+    "BillingState": "WA",
+    "BillingStreet": "440 Terry Avenue North",
+    "CompanyName": "Amazon.com, Inc.",
+    "Line": [
+        {
+            "LineNumber": "0002",
+            "OneTimeCharge": 250,
+            "OneTimeTotal": 550,
+            "ProductCode": "Product_001",
+            "ProductName": "Fiber Internet Connection",
+            "Quantity": 1,
+            "RecurringCharge": 0,
+            "RecurringTotal": 95
+        },
+        {
+            "LineNumber": "0002.0001",
+            "OneTimeCharge": 0,
+            "OneTimeTotal": 0,
+            "ProductCode": "Product_002",
+            "ProductName": "Internet Connection",
+            "Quantity": 1,
+            "RecurringCharge": 95,
+            "RecurringTotal": 95
+        },
+        {
+            "LineNumber": "0002.0002",
+            "OneTimeCharge": 120,
+            "OneTimeTotal": 120,
+            "ProductCode": "Product_003",
+            "ProductName": "IP Address",
+            "Quantity": 1,
+            "RecurringCharge": 0,
+            "RecurringTotal": 0
+        },
+        {
+            "LineNumber": "0002.0003",
+            "OneTimeCharge": 180,
+            "OneTimeTotal": 180,
+            "ProductCode": "Product_003",
+            "ProductName": "MRC Fees",
+            "Quantity": 1,
+            "RecurringCharge": 0,
+            "RecurringTotal": 0
+        }
+    ],
+    "Name": "New Test",
+    "OneTimeTotal": 850,
+    "QuoteId": "0Q0f0000000NHbACAW",
+    "QuoteNumber": "00000301",
+    "QuoteTotal": 850,
+    "RecordTypeName": "Default Record Type",
+    "RecurringTotal": 190
+}

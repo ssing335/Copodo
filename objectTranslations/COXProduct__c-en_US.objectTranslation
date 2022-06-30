@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>COXProduct</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>COXProducts</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category Issue --></label>
+        <name>Category_Issue__c</name>
+        <picklistValues>
+            <masterLabel>Connectivity Issue</masterLabel>
+            <translation><!-- Connectivity Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manage Gateway</masterLabel>
+            <translation><!-- Manage Gateway --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manage Static IPS</masterLabel>
+            <translation><!-- Manage Static IPS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Check Equipment Connection --></label>
+        <name>Check_Equipment_Connection__c</name>
+    </fields>
+    <fields>
+        <label><!-- Check Equipment Power --></label>
+        <name>Check_Equipment_Power__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Issue --></label>
+        <name>Customer_Issue__c</name>
+        <picklistValues>
+            <masterLabel>IP Issues</masterLabel>
+            <translation><!-- IP Issues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intermittent Connectivity</masterLabel>
+            <translation><!-- Intermittent Connectivity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Connectivity</masterLabel>
+            <translation><!-- No Connectivity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slow Speeds</masterLabel>
+            <translation><!-- Slow Speeds --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Get Ethernet Status --></label>
+        <name>Get_Ethernet_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Power Cycle Cox EQ --></label>
+        <name>Power_Cycle_Cox_EQ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>Product__c</name>
+        <picklistValues>
+            <masterLabel>Internet</masterLabel>
+            <translation><!-- Internet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TV-DTA</masterLabel>
+            <translation><!-- TV-DTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telephone</masterLabel>
+            <translation><!-- Telephone --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reboot Modem --></label>
+        <name>Reboot_Modem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Self Guided --></label>
+        <name>Self_Guided__c</name>
+    </fields>
+    <fields>
+        <label><!-- Swap Ethernet Cables --></label>
+        <name>Swap_Ethernet_Cables__c</name>
+    </fields>
+    <fields>
+        <label><!-- Toggle Device WiFi Radio --></label>
+        <name>Toggle_Device_WiFi_Radio__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

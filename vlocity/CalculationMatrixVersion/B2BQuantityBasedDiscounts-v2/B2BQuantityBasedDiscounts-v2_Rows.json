@@ -1,0 +1,332 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "B2BQuantityBasedDiscounts",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/B2BQuantityBasedDiscounts",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "985c853d-de6a-dc24-e682-cb0544f53327",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "4172d0",
+            "dataType": "Percent",
+            "displayOrder": 4,
+            "headerType": "Output",
+            "label": null,
+            "listValues": null,
+            "name": "MRC Discount (%)"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "B2BQuantityBasedDiscounts",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/B2BQuantityBasedDiscounts",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "6db87bbf-707c-8aa3-9e66-87ded524aeaa",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "6caea6",
+            "dataType": "Text",
+            "displayOrder": 3,
+            "headerType": "Input",
+            "label": null,
+            "listValues": null,
+            "name": "Quantity"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "B2BQuantityBasedDiscounts",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/B2BQuantityBasedDiscounts",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "d8442c87-b5d9-6d07-7674-662b766d0b73",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "b685f",
+            "dataType": "Text",
+            "displayOrder": 2,
+            "headerType": "Input",
+            "label": null,
+            "listValues": null,
+            "name": "Source Product Code"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "B2BQuantityBasedDiscounts",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/B2BQuantityBasedDiscounts",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "c3ab7923-ae1f-93cf-d9c2-9c6a9cf89902",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "f4a4e9",
+            "dataType": "Text",
+            "displayOrder": 1,
+            "headerType": "Input",
+            "label": null,
+            "listValues": null,
+            "name": "Source Product Name"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "B2BQuantityBasedDiscounts",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/B2BQuantityBasedDiscounts",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "3a6ffd37-6a61-591a-f681-32ea1124cc1d",
+        "%vlocity_namespace%__InputData__c": {
+            "Quantity": "1-20",
+            "Source Product Code": "VPL_IPHONE11PRO",
+            "Source Product Name": "Iphone 11 Pro"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC Discount (%)": 5
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-07-29T21:23:51.000Z",
+        "Name": "2d767d340fc9c87ac8cd4a9fdf5ecabc",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "B2BQuantityBasedDiscounts",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/B2BQuantityBasedDiscounts",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "f1a02deb-c9aa-4664-f31c-3ed85d184a24",
+        "%vlocity_namespace%__InputData__c": {
+            "Quantity": "1-20",
+            "Source Product Code": "VPL_OFFERING_POSTPAID_PLAN_L",
+            "Source Product Name": "Business Postpaid PRO Plan"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC Discount (%)": 5
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-07-29T21:23:51.000Z",
+        "Name": "6f4ecaf7166540d8f7ce69cfb88db07e",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "B2BQuantityBasedDiscounts",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/B2BQuantityBasedDiscounts",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "8650074c-d57b-a6e0-e672-7e92a260b70c",
+        "%vlocity_namespace%__InputData__c": {
+            "Quantity": "1-20",
+            "Source Product Code": "VPL_OFFERING_POSTPAID_PLAN_M",
+            "Source Product Name": "Business Postpaid Enhanced Plan"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC Discount (%)": 5
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-07-29T21:23:51.000Z",
+        "Name": "cd435b66b30f3c41eb62b89758bc2ee4",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "B2BQuantityBasedDiscounts",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/B2BQuantityBasedDiscounts",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "3ce0403d-2b50-185e-f1c7-6f68082afc58",
+        "%vlocity_namespace%__InputData__c": {
+            "Quantity": "101-9999",
+            "Source Product Code": "VPL_OFFERING_POSTPAID_PLAN_L",
+            "Source Product Name": "Business Postpaid PRO Plan"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC Discount (%)": 20
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-07-29T21:23:51.000Z",
+        "Name": "64b1381b271e21f27872c95c28df2546",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "B2BQuantityBasedDiscounts",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/B2BQuantityBasedDiscounts",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "3bab6acb-15a0-4507-db1b-93b06da07a99",
+        "%vlocity_namespace%__InputData__c": {
+            "Quantity": "101-9999",
+            "Source Product Code": "VPL_OFFERING_POSTPAID_PLAN_M",
+            "Source Product Name": "Business Postpaid Enhanced Plan"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC Discount (%)": 20
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-07-29T21:23:51.000Z",
+        "Name": "1213b6290956c7352dbb41e6dccdefca",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "B2BQuantityBasedDiscounts",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/B2BQuantityBasedDiscounts",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "2c18684b-5c7e-6087-f05a-b16135d8b891",
+        "%vlocity_namespace%__InputData__c": {
+            "Quantity": "21-50",
+            "Source Product Code": "VPL_IPHONE11PRO",
+            "Source Product Name": "Iphone 11 Pro"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC Discount (%)": 10
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-07-29T21:23:51.000Z",
+        "Name": "f5900836a407188c3e135e14b6ce5f96",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "B2BQuantityBasedDiscounts",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/B2BQuantityBasedDiscounts",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "bab0c06b-d169-d66a-e3d1-39f71d282d07",
+        "%vlocity_namespace%__InputData__c": {
+            "Quantity": "21-50",
+            "Source Product Code": "VPL_OFFERING_POSTPAID_PLAN_L",
+            "Source Product Name": "Business Postpaid PRO Plan"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC Discount (%)": 10
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-07-29T21:23:51.000Z",
+        "Name": "a3ee8e059a66c75e46c9c3ad95481df7",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "B2BQuantityBasedDiscounts",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/B2BQuantityBasedDiscounts",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "198ada2d-b89b-cafb-a547-3105705c41e2",
+        "%vlocity_namespace%__InputData__c": {
+            "Quantity": "21-50",
+            "Source Product Code": "VPL_OFFERING_POSTPAID_PLAN_M",
+            "Source Product Name": "Business Postpaid Enhanced Plan"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC Discount (%)": 10
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-07-29T21:23:51.000Z",
+        "Name": "2e07e71e8c820c297989abe68fdfd6ab",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "B2BQuantityBasedDiscounts",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/B2BQuantityBasedDiscounts",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "23703435-7294-c02e-7498-49f4d4897498",
+        "%vlocity_namespace%__InputData__c": {
+            "Quantity": "51-100",
+            "Source Product Code": "VPL_OFFERING_POSTPAID_PLAN_L",
+            "Source Product Name": "Business Postpaid PRO Plan"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC Discount (%)": 15
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-07-29T21:23:51.000Z",
+        "Name": "cbc61a1b97c9d5db1268bdc123b60587",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "B2BQuantityBasedDiscounts",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/B2BQuantityBasedDiscounts",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "b8189afe-2b58-70db-aff3-e6d958a5ae7c",
+        "%vlocity_namespace%__InputData__c": {
+            "Quantity": "51-100",
+            "Source Product Code": "VPL_OFFERING_POSTPAID_PLAN_M",
+            "Source Product Name": "Business Postpaid Enhanced Plan"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC Discount (%)": 15
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-07-29T21:23:51.000Z",
+        "Name": "d215759f4c1812204416784f4e8ef68d",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "B2BQuantityBasedDiscounts",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/B2BQuantityBasedDiscounts",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "6ada4c95-7818-9678-5bfa-372b540e9192",
+        "%vlocity_namespace%__InputData__c": {
+            "Quantity": "51-9999",
+            "Source Product Code": "VPL_IPHONE11PRO",
+            "Source Product Name": "Iphone 11 Pro"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC Discount (%)": 20
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-07-29T21:23:51.000Z",
+        "Name": "2eb44e84a1c51d499d23448f94538194",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    }
+]

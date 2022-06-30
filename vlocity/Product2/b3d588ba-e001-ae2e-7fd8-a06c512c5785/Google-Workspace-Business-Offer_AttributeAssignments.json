@@ -1,0 +1,294 @@
+[
+    {
+        "%vlocity_namespace%__AddDate__c": "",
+        "%vlocity_namespace%__AttributeAdjustmentComments__c": "",
+        "%vlocity_namespace%__AttributeAdjustmentUnits__c": "",
+        "%vlocity_namespace%__AttributeCategoryId__c": {
+            "%vlocity_namespace%__Code__c": "19b65f0f-df79-df70-3eaa-12ebdfd2b8cc",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__AttributeCategory__c/19b65f0f-df79-df70-3eaa-12ebdfd2b8cc",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeCategory__c"
+        },
+        "%vlocity_namespace%__AttributeDisplayNameOverride__c": "Contract Term(months)",
+        "%vlocity_namespace%__AttributeDisplaySequence__c": "1",
+        "%vlocity_namespace%__AttributeId__c": {
+            "%vlocity_namespace%__Code__c": "ATT_GOOGLECONTTERM",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__Attribute__c/ATT_GOOGLECONTTERM",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Attribute__c"
+        },
+        "%vlocity_namespace%__AttributeId__r.%vlocity_namespace%__Code__c": "ATT_GOOGLECONTTERM",
+        "%vlocity_namespace%__AttributeName__c": "Contract Term(months)",
+        "%vlocity_namespace%__ConfigurationDetail__c": "",
+        "%vlocity_namespace%__ConfigurationStages__c": "",
+        "%vlocity_namespace%__CustomConfigUiTemplate__c": "",
+        "%vlocity_namespace%__Data__c": "",
+        "%vlocity_namespace%__DefaultPicklistEntryId__c": "",
+        "%vlocity_namespace%__DefaultPicklistValueId__c": "",
+        "%vlocity_namespace%__DisplaySequence__c": "null",
+        "%vlocity_namespace%__EndStory__c": "",
+        "%vlocity_namespace%__ExcludedPicklistEntryIds__c": "",
+        "%vlocity_namespace%__ExcludedPicklistValues__c": "",
+        "%vlocity_namespace%__FormatMask__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "2a96f23b-a487-e0bf-ca62-4315a1e8f3c9",
+        "%vlocity_namespace%__HasRule__c": false,
+        "%vlocity_namespace%__HelpText__c": "",
+        "%vlocity_namespace%__IsActiveAssignment__c": true,
+        "%vlocity_namespace%__IsConfigurable__c": true,
+        "%vlocity_namespace%__IsDynamic__c": false,
+        "%vlocity_namespace%__IsEncrypted__c": false,
+        "%vlocity_namespace%__IsHidden__c": false,
+        "%vlocity_namespace%__IsNotAssetizable__c": false,
+        "%vlocity_namespace%__IsNotTranslatable__c": false,
+        "%vlocity_namespace%__IsOverride__c": false,
+        "%vlocity_namespace%__IsQueryDriven__c": false,
+        "%vlocity_namespace%__IsReadOnly__c": false,
+        "%vlocity_namespace%__IsRequired__c": false,
+        "%vlocity_namespace%__LookupFilter__c": "",
+        "%vlocity_namespace%__LookupObjectId__c": "",
+        "%vlocity_namespace%__LookupObjectTypeId__c": "",
+        "%vlocity_namespace%__ObjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b3d588ba-e001-ae2e-7fd8-a06c512c5785",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/b3d588ba-e001-ae2e-7fd8-a06c512c5785",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__ObjectType__c": "Product2",
+        "%vlocity_namespace%__OverrideContext__c": "",
+        "%vlocity_namespace%__PicklistId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "177f31fd-aa4c-155a-eca8-fc4d614ac6fe",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__Picklist__c/177f31fd-aa4c-155a-eca8-fc4d614ac6fe",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Picklist__c"
+        },
+        "%vlocity_namespace%__QueryCode__c": "",
+        "%vlocity_namespace%__QueryLabel__c": "",
+        "%vlocity_namespace%__RemoveDate__c": "",
+        "%vlocity_namespace%__RemovedFlag__c": false,
+        "%vlocity_namespace%__RuleData__c": "",
+        "%vlocity_namespace%__RuleMessage__c": "",
+        "%vlocity_namespace%__StartStory__c": "",
+        "%vlocity_namespace%__StyleClass__c": "",
+        "%vlocity_namespace%__UIDisplayType__c": "Dropdown",
+        "%vlocity_namespace%__ValidValuesData__c": [
+            {
+                "displayText": "1 Year",
+                "id": "ddb387dc-07c8-a2e8-f70a-c00af5cce968",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 10,
+                "value": "1 Year"
+            },
+            {
+                "displayText": "2 Year",
+                "id": "310c3481-e660-1484-316a-2e1bb3a4d9ce",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 20,
+                "value": "2 Year"
+            },
+            {
+                "displayText": "3 Year",
+                "id": "4d33dac1-9183-f568-5104-3cb5aead6a62",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 30,
+                "value": "3 Year"
+            },
+            {
+                "displayText": "4 Year",
+                "id": "55462697-b5b2-c88b-02de-dbe5c65afac5",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 40,
+                "value": "4 Year"
+            },
+            {
+                "displayText": "5 Year",
+                "id": "130d568a-214b-84a5-6b09-daee3a9be6dd",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 50,
+                "value": "5 Year"
+            },
+            {
+                "displayText": "6 Year",
+                "id": "d3ce8f3a-bf7a-ca73-43df-45aa78fd33fd",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 60,
+                "value": "6 Year"
+            },
+            {
+                "displayText": "7 Year",
+                "id": "8d6399b2-f64f-3fce-fc19-ce50a6e57935",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 70,
+                "value": "7 Year"
+            },
+            {
+                "displayText": "8 Year",
+                "id": "639732b8-0c00-3889-4e75-0704257937ad",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 80,
+                "value": "8 Year"
+            },
+            {
+                "displayText": "9 Year",
+                "id": "b15943f0-974d-23bc-b2d3-eb767deaa706",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 90,
+                "value": "9 Year"
+            },
+            {
+                "displayText": "10 Year",
+                "id": "2e64a648-c78b-2e85-39f5-56241d49b2e4",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 91,
+                "value": "10 Year"
+            },
+            {
+                "displayText": "11 Year",
+                "id": "5631c33d-b10b-241f-fded-99e47cbb4d78",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 92,
+                "value": "11 Year"
+            },
+            {
+                "displayText": "12 Year",
+                "id": "94beb7f3-4554-6ca5-94e1-47501e8940bd",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 93,
+                "value": "12 Year"
+            },
+            {
+                "displayText": "13 Year",
+                "id": "2b91d395-c845-b067-ce82-0573b38d8bfb",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 94,
+                "value": "13 Year"
+            },
+            {
+                "displayText": "14 Year",
+                "id": "aa8a3cd6-98b8-f516-d1fb-36bf7f636225",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 95,
+                "value": "14 Year"
+            },
+            {
+                "displayText": "15 Year",
+                "id": "4359056c-7135-f412-9a46-0ae9870d3f99",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 96,
+                "value": "15 Year"
+            }
+        ],
+        "%vlocity_namespace%__ValueDataType__c": "Picklist",
+        "%vlocity_namespace%__ValueDecoder__c": "",
+        "%vlocity_namespace%__ValueDescription__c": "",
+        "%vlocity_namespace%__Value__c": "",
+        "Name": "TempAA-ATT_GOOGLECONTTERM",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/2a96f23b-a487-e0bf-ca62-4315a1e8f3c9"
+    },
+    {
+        "%vlocity_namespace%__AddDate__c": "",
+        "%vlocity_namespace%__AttributeAdjustmentComments__c": "",
+        "%vlocity_namespace%__AttributeAdjustmentUnits__c": "",
+        "%vlocity_namespace%__AttributeCategoryId__c": {
+            "%vlocity_namespace%__Code__c": "19b65f0f-df79-df70-3eaa-12ebdfd2b8cc",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__AttributeCategory__c/19b65f0f-df79-df70-3eaa-12ebdfd2b8cc",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeCategory__c"
+        },
+        "%vlocity_namespace%__AttributeDisplayNameOverride__c": "Pricing Option",
+        "%vlocity_namespace%__AttributeDisplaySequence__c": "10",
+        "%vlocity_namespace%__AttributeId__c": {
+            "%vlocity_namespace%__Code__c": "ATT_PRICINGOPTION",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__Attribute__c/ATT_PRICINGOPTION",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Attribute__c"
+        },
+        "%vlocity_namespace%__AttributeId__r.%vlocity_namespace%__Code__c": "ATT_PRICINGOPTION",
+        "%vlocity_namespace%__AttributeName__c": "Pricing Option",
+        "%vlocity_namespace%__ConfigurationDetail__c": "",
+        "%vlocity_namespace%__ConfigurationStages__c": "",
+        "%vlocity_namespace%__CustomConfigUiTemplate__c": "",
+        "%vlocity_namespace%__Data__c": "",
+        "%vlocity_namespace%__DefaultPicklistEntryId__c": "",
+        "%vlocity_namespace%__DefaultPicklistValueId__c": "",
+        "%vlocity_namespace%__DisplaySequence__c": "null",
+        "%vlocity_namespace%__EndStory__c": "",
+        "%vlocity_namespace%__ExcludedPicklistEntryIds__c": "",
+        "%vlocity_namespace%__ExcludedPicklistValues__c": "",
+        "%vlocity_namespace%__FormatMask__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "e8a20085-ab4f-076f-cea4-d2917fe8f570",
+        "%vlocity_namespace%__HasRule__c": false,
+        "%vlocity_namespace%__HelpText__c": "",
+        "%vlocity_namespace%__IsActiveAssignment__c": true,
+        "%vlocity_namespace%__IsConfigurable__c": true,
+        "%vlocity_namespace%__IsDynamic__c": false,
+        "%vlocity_namespace%__IsEncrypted__c": false,
+        "%vlocity_namespace%__IsHidden__c": false,
+        "%vlocity_namespace%__IsNotAssetizable__c": false,
+        "%vlocity_namespace%__IsNotTranslatable__c": false,
+        "%vlocity_namespace%__IsOverride__c": false,
+        "%vlocity_namespace%__IsQueryDriven__c": false,
+        "%vlocity_namespace%__IsReadOnly__c": true,
+        "%vlocity_namespace%__IsRequired__c": false,
+        "%vlocity_namespace%__LookupFilter__c": "",
+        "%vlocity_namespace%__LookupObjectId__c": "",
+        "%vlocity_namespace%__LookupObjectTypeId__c": "",
+        "%vlocity_namespace%__ObjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b3d588ba-e001-ae2e-7fd8-a06c512c5785",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/b3d588ba-e001-ae2e-7fd8-a06c512c5785",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__ObjectType__c": "Product2",
+        "%vlocity_namespace%__OverrideContext__c": "",
+        "%vlocity_namespace%__PicklistId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "c48ecd19-3016-8102-2468-4c80581f5887",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__Picklist__c/c48ecd19-3016-8102-2468-4c80581f5887",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Picklist__c"
+        },
+        "%vlocity_namespace%__QueryCode__c": "",
+        "%vlocity_namespace%__QueryLabel__c": "",
+        "%vlocity_namespace%__RemoveDate__c": "",
+        "%vlocity_namespace%__RemovedFlag__c": false,
+        "%vlocity_namespace%__RuleData__c": "",
+        "%vlocity_namespace%__RuleMessage__c": "",
+        "%vlocity_namespace%__StartStory__c": "",
+        "%vlocity_namespace%__StyleClass__c": "",
+        "%vlocity_namespace%__UIDisplayType__c": "Dropdown",
+        "%vlocity_namespace%__ValidValuesData__c": [
+            {
+                "displayText": "ARC",
+                "id": "4e81d219-b529-89e2-9a46-a4a5ae6e267e",
+                "isDefault": true,
+                "isEditable": false,
+                "sequence": 10,
+                "value": "ARC"
+            }
+        ],
+        "%vlocity_namespace%__ValueDataType__c": "Picklist",
+        "%vlocity_namespace%__ValueDecoder__c": "",
+        "%vlocity_namespace%__ValueDescription__c": "",
+        "%vlocity_namespace%__Value__c": "ARC",
+        "Name": "TempAA-ATT_PRICINGOPTION",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/e8a20085-ab4f-076f-cea4-d2917fe8f570"
+    }
+]

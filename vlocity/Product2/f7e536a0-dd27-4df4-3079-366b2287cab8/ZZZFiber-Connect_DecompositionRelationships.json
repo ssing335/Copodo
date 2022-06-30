@@ -1,0 +1,64 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "43daf535-93e0-7fbd-c60f-25417eb20226",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/43daf535-93e0-7fbd-c60f-25417eb20226",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "fe032578-313e-dab1-9627-8fcb2a072463",
+        "%vlocity_namespace%__MappingsData__c": "[{\"value\":\"Sample Type\",\"mapping_type\":\"static\",\"destination_attr_name\":\"Band Type\",\"destination_attr_code\":\"ATT_RT_BT\"},{\"value\":\"Sample Connectivity\",\"mapping_type\":\"static\",\"destination_attr_name\":\"Connectivity\",\"destination_attr_code\":\"ATT_RT_CT\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "f7e536a0-dd27-4df4-3079-366b2287cab8",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/f7e536a0-dd27-4df4-3079-366b2287cab8",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "f7e536a0-dd27-4df4-3079-366b2287cab8",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "TProd1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/TProd1/Product2/f7e536a0-dd27-4df4-3079-366b2287cab8"
+    },
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "8dc9337e-bab4-40ec-ce74-a51f8c427c14",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/8dc9337e-bab4-40ec-ce74-a51f8c427c14",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "4df4cd8c-9710-dcfc-8fa0-6c019abe6c10",
+        "%vlocity_namespace%__MappingsData__c": "[{\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Band Type\",\"destination_attr_code\":\"ATT_RT_BT\",\"source_field_name\":\"%vlocity_namespace%__BaseRecurringCharge__c\",\"source_type\":\"Field\"},{\"value\":\"Connectivity Sample 2\",\"mapping_type\":\"static\",\"destination_attr_name\":\"Connectivity\",\"destination_attr_code\":\"ATT_RT_CT\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "f7e536a0-dd27-4df4-3079-366b2287cab8",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/f7e536a0-dd27-4df4-3079-366b2287cab8",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "f7e536a0-dd27-4df4-3079-366b2287cab8",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "TProd2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/TProd2/Product2/f7e536a0-dd27-4df4-3079-366b2287cab8"
+    }
+]

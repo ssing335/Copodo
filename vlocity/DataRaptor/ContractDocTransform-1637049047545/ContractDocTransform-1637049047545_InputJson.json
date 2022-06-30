@@ -1,0 +1,150 @@
+{
+    "BillingCity": "New York",
+    "BillingCountry": "United States",
+    "BillingPostalCode": "10044",
+    "BillingState": "NY",
+    "BillingStreet": "490 Main Street",
+    "CompanyName": "Acme",
+    "ContractTerm": 12,
+    "GroupQuote": [
+        {
+            "Line": [
+                {
+                    "LineNumber": "0001",
+                    "OneTimeCharge": 699.99,
+                    "OneTimeTotal": 699.99,
+                    "ProductCode": "C-PHO-002",
+                    "ProductName": "Apple iPhone 8",
+                    "Quantity": 1,
+                    "RecurringCharge": 0,
+                    "RecurringTotal": 0
+                },
+                {
+                    "LineNumber": "0002",
+                    "OneTimeCharge": 349.99,
+                    "OneTimeTotal": 349.99,
+                    "ProductCode": "C-PHO-004",
+                    "ProductName": "Apple iPhone 7",
+                    "Quantity": 1,
+                    "RecurringCharge": 0,
+                    "RecurringTotal": 0
+                },
+                {
+                    "LineNumber": "0003",
+                    "OneTimeCharge": 699.99,
+                    "OneTimeTotal": 699.99,
+                    "ProductCode": "C-PHO-012",
+                    "ProductName": "Apple iPhone 11",
+                    "Quantity": 1,
+                    "RecurringCharge": 0,
+                    "RecurringTotal": 0
+                }
+            ],
+            "Name": "Group B",
+            "OneTimeTotal": 1749.97,
+            "QuoteTotal": 1749.97,
+            "ReccuringTotal": 0,
+            "RecordTypeName": "Group Cart",
+            "ServiceAccount": [
+                {
+                    "BillingCity": "Test City 4",
+                    "BillingCountry": "US",
+                    "BillingPostalCode": "423456",
+                    "BillingState": "Test Province 4",
+                    "BillingStreet": "Test Address 4",
+                    "Name": "Acme Service Account 4"
+                },
+                {
+                    "BillingCity": "Test City 5",
+                    "BillingCountry": "US",
+                    "BillingPostalCode": "523456",
+                    "BillingState": "Test Province 5",
+                    "BillingStreet": "Test Address 5",
+                    "Name": "Acme Service Account 5"
+                }
+            ]
+        },
+        {
+            "Line": [
+                {
+                    "LineNumber": "0001",
+                    "OneTimeCharge": 1000,
+                    "OneTimeTotal": 3000,
+                    "ProductCode": "C-PHO-001",
+                    "ProductName": "Apple iPhone X",
+                    "Quantity": 3,
+                    "RecurringCharge": 0,
+                    "RecurringTotal": 0
+                },
+                {
+                    "LineNumber": "0002",
+                    "OneTimeCharge": 1000000,
+                    "OneTimeTotal": 1000000,
+                    "ProductCode": "C-ACC-002",
+                    "ProductName": "BeatsX Wireless Earphones",
+                    "Quantity": 1,
+                    "RecurringCharge": 0,
+                    "RecurringTotal": 0
+                },
+                {
+                    "LineNumber": "0003",
+                    "OneTimeCharge": 0,
+                    "OneTimeTotal": 0,
+                    "ProductCode": "C-ACC-006",
+                    "ProductName": "Incipio Canvas Fabric Wrap Case - iPhone X",
+                    "Quantity": 2,
+                    "RecurringCharge": 0,
+                    "RecurringTotal": 0
+                }
+            ],
+            "Name": "Group A",
+            "OneTimeTotal": 1003000,
+            "QuoteTotal": 1003000,
+            "ReccuringTotal": 0,
+            "RecordTypeName": "Group Cart",
+            "ServiceAccount": [
+                {
+                    "BillingCity": "Test City 1",
+                    "BillingCountry": "US",
+                    "BillingPostalCode": "123456",
+                    "BillingState": "Test Province 1",
+                    "BillingStreet": "Test Address 1",
+                    "Name": "Acme Service Account 1"
+                },
+                {
+                    "BillingCity": "Test City 2",
+                    "BillingCountry": "US",
+                    "BillingPostalCode": "223456",
+                    "BillingState": "Test Province 2",
+                    "BillingStreet": "Test Address 2",
+                    "Name": "Acme Service Account 2"
+                },
+                {
+                    "BillingCity": "Test City 3",
+                    "BillingCountry": "US",
+                    "BillingPostalCode": "323456",
+                    "BillingState": "Test Province 3",
+                    "BillingStreet": "Test Address 3",
+                    "Name": "Acme Service Account 3"
+                }
+            ]
+        }
+    ],
+    "Line": {
+        "LineNumber": "0001",
+        "OneTimeCharge": 0,
+        "OneTimeTotal": 0,
+        "ProductCode": "C-DPP-005",
+        "ProductName": "4G Data Plan",
+        "Quantity": 1,
+        "RecurringCharge": 24.99,
+        "RecurringTotal": 24.99
+    },
+    "Name": "New Acme Master Quote 3",
+    "OneTimeTotal": 0,
+    "QuoteId": "0Q05e0000006vICCAY",
+    "QuoteNumber": "00000017",
+    "QuoteTotal": 0,
+    "RecordTypeName": "Master Quote",
+    "RecurringTotal": 24.99
+}

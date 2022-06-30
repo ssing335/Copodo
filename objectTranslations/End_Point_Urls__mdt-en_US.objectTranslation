@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>End_Point_Urls</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>End_Point_Urls</value>
+    </caseValues>
+    <fields>
+        <label><!-- Content_Type --></label>
+        <name>Content_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- End_Point_Url --></label>
+        <name>End_Point_Url__c</name>
+    </fields>
+    <fields>
+        <label><!-- Environment --></label>
+        <name>Environment__c</name>
+        <picklistValues>
+            <masterLabel>PROD</masterLabel>
+            <translation><!-- PROD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIT</masterLabel>
+            <translation><!-- SIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UAT</masterLabel>
+            <translation><!-- UAT --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Integration_Procedure_Name --></label>
+        <name>Integration_Procedure_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- MethodName --></label>
+        <name>MethodName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order_Type --></label>
+        <name>Order_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- X_Correlation_Id --></label>
+        <name>X_Correlation_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- client_id --></label>
+        <name>client_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- client_secret --></label>
+        <name>client_secret__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

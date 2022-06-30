@@ -1,0 +1,117 @@
+{
+    "href": "/services/apexrest/%vlocity_namespace%/v1/productopenapi/productSpecification/01t0m000005hhMnAAI",
+    "id": "01t0m000005hhMnAAI",
+    "name": "Internet Connection",
+    "productSpecCharacteristic": [
+        {
+            "configurable": true,
+            "description": "Bandwidth : ",
+            "displayName": "Bandwidth",
+            "name": "TempAA-ATT_BANDWIDTH",
+            "productSpecCharacteristicValue": [
+                {
+                    "isDefault": "false",
+                    "validFor": {
+                        "startDateTime": "2021-07-15"
+                    },
+                    "valueType": "Text"
+                }
+            ],
+            "validFor": {
+                "startDateTime": "2021-07-15"
+            },
+            "valueType": "Text"
+        },
+        {
+            "configurable": true,
+            "description": "E-Rate : ",
+            "displayName": "E-Rate",
+            "name": "TempAA-ATT_ERATE",
+            "productSpecCharacteristicValue": [
+                {
+                    "valueType": "Checkbox"
+                }
+            ],
+            "valueType": "Checkbox"
+        },
+        {
+            "configurable": true,
+            "description": "Requires MultiGig SPARC : ",
+            "displayName": "Requires MultiGig SPARC",
+            "name": "TempAA-ATT_MGSPARC",
+            "productSpecCharacteristicValue": [
+                {
+                    "valueType": "Checkbox"
+                }
+            ],
+            "valueType": "Checkbox"
+        },
+        {
+            "configurable": true,
+            "description": "On-Net/Off-Net : ",
+            "displayName": "On-Net/Off-Net",
+            "name": "TempAA-ATT_ONNETOFFNET",
+            "productSpecCharacteristicValue": [
+                {
+                    "isDefault": "false",
+                    "validFor": {
+                        "startDateTime": "2021-07-08"
+                    },
+                    "value": "On-Net",
+                    "valueType": "Text"
+                }
+            ],
+            "validFor": {
+                "startDateTime": "2021-07-08"
+            },
+            "valueType": "Text"
+        },
+        {
+            "configurable": true,
+            "description": "Term : ",
+            "displayName": "Term",
+            "name": "TempAA-ATT_TERM",
+            "productSpecCharacteristicValue": [
+                {
+                    "isDefault": "false",
+                    "validFor": {
+                        "startDateTime": "2021-07-01"
+                    },
+                    "value": "12 Months",
+                    "valueType": "Text"
+                }
+            ],
+            "validFor": {
+                "startDateTime": "2021-07-01"
+            },
+            "valueType": "Text"
+        },
+        {
+            "configurable": true,
+            "description": "Type of Order : ",
+            "displayName": "Type of Order",
+            "name": "TempAA-ATT_TYPORDER",
+            "productSpecCharacteristicValue": [
+                {
+                    "isDefault": "false",
+                    "validFor": {
+                        "startDateTime": "2021-07-15"
+                    },
+                    "value": "Retail",
+                    "valueType": "Text"
+                }
+            ],
+            "validFor": {
+                "startDateTime": "2021-07-15"
+            },
+            "valueType": "Text"
+        }
+    ],
+    "relatedParty": [
+        {
+            "href": "/services/data/v48.0/sobjects/User/005f0000004bBRCAA2",
+            "id": "005f0000004bBRCAA2",
+            "name": "Kaustav Chowdhury"
+        }
+    ]
+}

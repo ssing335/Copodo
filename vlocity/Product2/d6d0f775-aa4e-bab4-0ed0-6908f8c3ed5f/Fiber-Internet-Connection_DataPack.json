@@ -1,0 +1,232 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Fiber-Internet-Connection_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "ATT_OOF": false,
+        "ATT_TIITRACKING": false,
+        "ATT_TypeII": false
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "eae0497b-bedb-16cc-e615-4cb0ef42ae9b",
+                "Name": "Internet Service",
+                "displaySequence": 1,
+                "id": "a2D8G0000000auDUAQ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a2E8G000000AWu9UAG",
+                            "cloneable": true,
+                            "code": "ATT_OOF",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 4,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Out Of Footprint",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000AWuDUAW",
+                            "cloneable": true,
+                            "code": "ATT_TypeII",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 5,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Type II",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000AWuBUAW",
+                            "cloneable": true,
+                            "code": "ATT_TIITRACKING",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 7,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Type II Tracking",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 3
+                }
+            }
+        ],
+        "totalSize": 1
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DecompositionRelationship__c": "Fiber-Internet-Connection_DecompositionRelationships.json",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2021-11-23",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2021-11-23T08:00:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "77e78245-73fe-f824-6bf1-03440e3e4d1e",
+    "%vlocity_namespace%__GlobalKey__c": "d6d0f775-aa4e-bab4-0ed0-6908f8c3ed5f",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__MainFeatureQuantityUom__c": "",
+    "%vlocity_namespace%__MainFeatureQuantity__c": "",
+    "%vlocity_namespace%__MainFeatureTermInDays__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectTypeId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "4f97b075bbbc224a4b7844233e16339d",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/4f97b075bbbc224a4b7844233e16339d",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+    },
+    "%vlocity_namespace%__ObjectTypeName__c": "Fiber Internet Connection Spec",
+    "%vlocity_namespace%__OrchestrationScenario__c": "Fiber-Internet-Connection_OrchestrationScenarios.json",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PriceListEntry__c": "Fiber-Internet-Connection_PriceListEntries.json",
+    "%vlocity_namespace%__ProductChildItem__c": "Fiber-Internet-Connection_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "2021-11-23T08:00:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "Bundle",
+    "%vlocity_namespace%__SpecificationType__c": "Product",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "None",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "None",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "V1",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "CanUseQuantitySchedule": false,
+    "CanUseRevenueSchedule": false,
+    "Description": "",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "Fiber Internet Connection",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "PricebookEntry": "Fiber-Internet-Connection_PricebookEntries.json",
+    "ProductCode": "Product_001",
+    "Product_Ext_Id__c": "",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": 0,
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "Fiber Internet Connection",
+            "Price_Book_Entry_Ext_Id__c": "",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "d6d0f775-aa4e-bab4-0ed0-6908f8c3ed5f",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "d6d0f775-aa4e-bab4-0ed0-6908f8c3ed5f",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/d6d0f775-aa4e-bab4-0ed0-6908f8c3ed5f",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "Product_001",
+            "UnitPrice": 0,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/d6d0f775-aa4e-bab4-0ed0-6908f8c3ed5f"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/d6d0f775-aa4e-bab4-0ed0-6908f8c3ed5f"
+}

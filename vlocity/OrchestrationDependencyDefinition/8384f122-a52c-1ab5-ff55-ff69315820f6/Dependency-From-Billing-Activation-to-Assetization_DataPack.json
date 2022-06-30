@@ -1,0 +1,29 @@
+{
+    "%vlocity_namespace%__DependencyItemDefinitionId__c": {
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__r.Name": "Vlocity",
+        "Name": "Billing Activation",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationItemDefinition__c/Billing Activation/%vlocity_namespace%__OrchestrationPlanDefinition__c/Vlocity",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationItemDefinition__c"
+    },
+    "%vlocity_namespace%__DependencyPlanDefinitionId__c": {
+        "Name": "Vlocity",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Vlocity",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+    },
+    "%vlocity_namespace%__DependencyType__c": "Depends On",
+    "%vlocity_namespace%__GlobalKey__c": "8384f122-a52c-1ab5-ff55-ff69315820f6",
+    "%vlocity_namespace%__OrchestrationItemDefinitionId__c": {
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__r.Name": "Vlocity",
+        "Name": "Assetization",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationItemDefinition__c/Assetization/%vlocity_namespace%__OrchestrationPlanDefinition__c/Vlocity",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationItemDefinition__c"
+    },
+    "%vlocity_namespace%__Scope__c": "Global",
+    "Name": "Dependency From Billing Activation to Assetization",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationDependencyDefinition__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationDependencyDefinition__c/8384f122-a52c-1ab5-ff55-ff69315820f6"
+}

@@ -1,0 +1,29 @@
+{
+    "%vlocity_namespace%__DependencyItemDefinitionId__c": {
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__r.Name": "Vlocity",
+        "Name": "Delivery Confirmation",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationItemDefinition__c/Delivery Confirmation/%vlocity_namespace%__OrchestrationPlanDefinition__c/Vlocity",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationItemDefinition__c"
+    },
+    "%vlocity_namespace%__DependencyPlanDefinitionId__c": {
+        "Name": "Vlocity",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Vlocity",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+    },
+    "%vlocity_namespace%__DependencyType__c": "Depends On",
+    "%vlocity_namespace%__GlobalKey__c": "add14f25-cc91-35ae-6966-3a48b6ec3491",
+    "%vlocity_namespace%__OrchestrationItemDefinitionId__c": {
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__r.Name": "Vlocity",
+        "Name": "Installation Work",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationItemDefinition__c/Installation Work/%vlocity_namespace%__OrchestrationPlanDefinition__c/Vlocity",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationItemDefinition__c"
+    },
+    "%vlocity_namespace%__Scope__c": "Global",
+    "Name": "Dependency From Delivery Confirmation to Installation Work",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationDependencyDefinition__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationDependencyDefinition__c/add14f25-cc91-35ae-6966-3a48b6ec3491"
+}

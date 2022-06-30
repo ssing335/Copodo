@@ -1,0 +1,39 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SystemGuidedFlow",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Cox/SystemGuidedFlow/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "SystemGuidedFlow",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Cox/SystemGuidedFlow/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "Step2",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Cox/SystemGuidedFlow/English/Step2",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "Step2",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "TextBlock14",
+        "sanitize": false,
+        "show": null,
+        "text": "<p><span style=\"background-color: #ffffff;\"><strong>Time Stamp&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Packet Size&nbsp; &nbsp; &nbsp; Transmitted&nbsp; &nbsp; &nbsp; Recieved&nbsp; &nbsp; &nbsp; Packet Loss(%)&nbsp; &nbsp; &nbsp; Min Time&nbsp; &nbsp; &nbsp; &nbsp; Avg Time&nbsp; &nbsp; &nbsp; &nbsp;Max Time&nbsp; &nbsp; &nbsp; &nbsp;Max Deviation&nbsp; &nbsp; Average Jitter&nbsp;</strong></span></p>",
+        "textKey": ""
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "TextBlock14",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Cox/SystemGuidedFlow/English/TextBlock14"
+}

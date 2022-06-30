@@ -1,0 +1,26 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Demonstrates how a single document can be generated using a DOCX or PPTX template. Uses VF page for generation.",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "Demo_QuoteDocGenerator_English_Element_SetGenerationOptions.json",
+        "Demo_QuoteDocGenerator_English_Element_GenerateDocument.json",
+        "Demo_QuoteDocGenerator_English_Element_ValidateVariables.json",
+        "Demo_QuoteDocGenerator_English_Element_ValidateMessage.json",
+        "Demo_QuoteDocGenerator_English_Element_GenerateDocumentWordPPT.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__LastPreviewPage__c": "Lightning Universal Page",
+    "%vlocity_namespace%__OmniProcessType__c": "OmniScript",
+    "%vlocity_namespace%__PropertySet__c": "Demo_QuoteDocGenerator_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "QuoteDocGenerator",
+    "%vlocity_namespace%__Type__c": "Demo",
+    "Name": "QuoteDocGenerator",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Demo/QuoteDocGenerator/English"
+}

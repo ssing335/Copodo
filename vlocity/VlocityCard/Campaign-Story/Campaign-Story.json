@@ -1,0 +1,59 @@
+{
+    "filter": {
+        "['objAPIName']": "Campaign"
+    },
+    "lwc": {
+        "DeveloperName": "cfCampaignStory",
+        "Id": "0Rb0m0000009fiDCAQ",
+        "ManageableState": "unmanaged",
+        "MasterLabel": "cfCampaignStory",
+        "NamespacePrefix": "c"
+    },
+    "states": [
+        {
+            "collapse": false,
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Status",
+                    "name": "['subtitle']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Type",
+                    "name": "['highlight']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Responded",
+                    "name": "['activityType']",
+                    "type": "string"
+                }
+            ],
+            "name": "Campaign",
+            "sObjectType": "Campaign",
+            "templateUrl": "story-card"
+        }
+    ],
+    "title": "Campaigns"
+}

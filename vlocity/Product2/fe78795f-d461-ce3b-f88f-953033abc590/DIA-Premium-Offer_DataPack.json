@@ -1,0 +1,237 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "DIA-Premium-Offer_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "ATT_CONTTYPE": "Regular",
+        "ATT_DIACONTTERM": null
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "f2c9e00a-655b-d9e0-57ce-36ee717b56e4",
+                "Name": "DIA Basic/Premium Offer",
+                "displaySequence": 490,
+                "id": "a2D8G0000004cjWUAQ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a2E8G000000DENYUA4",
+                            "cloneable": true,
+                            "code": "ATT_DIACONTTERM",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 10,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Contract Term(months)",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "1882ca5c-8c43-e572-179f-f3212e58d006",
+                                    "label": "60",
+                                    "name": "1882ca5c-8c43-e572-179f-f3212e58d006",
+                                    "readonly": false,
+                                    "value": "60"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "8dd3e81b-f7bd-557e-618b-df2dc534cc57",
+                                    "label": "36",
+                                    "name": "8dd3e81b-f7bd-557e-618b-df2dc534cc57",
+                                    "readonly": false,
+                                    "value": "36"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "91069c62-61cc-c575-b3b0-d98f22e40069",
+                                    "label": "48",
+                                    "name": "91069c62-61cc-c575-b3b0-d98f22e40069",
+                                    "readonly": false,
+                                    "value": "48"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "c7a22c7a-8540-e3cb-97af-f093bf8cecd0",
+                                    "label": "24",
+                                    "name": "c7a22c7a-8540-e3cb-97af-f093bf8cecd0",
+                                    "readonly": false,
+                                    "value": "24"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "d39dd733-34ea-a3a1-0a01-d2d7ca443c4f",
+                                    "label": "12",
+                                    "name": "d39dd733-34ea-a3a1-0a01-d2d7ca443c4f",
+                                    "readonly": false,
+                                    "value": "12"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000DENXUA4",
+                            "cloneable": true,
+                            "code": "ATT_CONTTYPE",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 20,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Contract Type",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "8e4a1072-65bf-4439-da6b-a2a1621ce928",
+                                    "label": "Regular",
+                                    "name": "8e4a1072-65bf-4439-da6b-a2a1621ce928",
+                                    "readonly": false,
+                                    "value": "Regular"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 2
+                }
+            }
+        ],
+        "totalSize": 1
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": [
+        {
+            "actions": {
+            },
+            "childCategories": [
+            ],
+            "displaySequence": -1,
+            "fields": {
+            },
+            "id": "a2l8G0000043RR9QAM",
+            "messages": [
+            ],
+            "name": "Broad Band Connection",
+            "nameResult": {
+            },
+            "uiStates": {
+            }
+        }
+    ],
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2022-05-30",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2022-05-30T18:30:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "b9251eed-b11a-6f84-f180-23f4eaa99a9f",
+    "%vlocity_namespace%__GlobalKey__c": "fe78795f-d461-ce3b-f88f-953033abc590",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__MainFeatureQuantityUom__c": "",
+    "%vlocity_namespace%__MainFeatureQuantity__c": "",
+    "%vlocity_namespace%__MainFeatureTermInDays__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectFieldAttribute__c": "DIA-Premium-Offer_ObjectFieldAttributes.json",
+    "%vlocity_namespace%__ObjectTypeId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "a22caaa1e34d1c21f1c61eb31d29e4e7",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/a22caaa1e34d1c21f1c61eb31d29e4e7",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+    },
+    "%vlocity_namespace%__ObjectTypeName__c": "Base Offer Spec Type",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__ProductChildItem__c": "DIA-Premium-Offer_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "2022-05-30T18:30:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "Offer",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "None",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "None",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "CanUseQuantitySchedule": false,
+    "CanUseRevenueSchedule": false,
+    "Description": "",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "DIA Premium Offer",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "PricebookEntry": "DIA-Premium-Offer_PricebookEntries.json",
+    "ProductCode": "C-DIAPREMIUMOFFR",
+    "Product_Ext_Id__c": "",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/fe78795f-d461-ce3b-f88f-953033abc590"
+}
