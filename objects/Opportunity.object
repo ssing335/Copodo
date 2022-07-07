@@ -287,6 +287,18 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>CopadoTest_3__c</fullName>
+        <externalId>false</externalId>
+        <label>CopadoTest 3</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>DaysToClosing__c</fullName>
         <externalId>false</externalId>
         <formula>CloseDate - TODAY()</formula>
