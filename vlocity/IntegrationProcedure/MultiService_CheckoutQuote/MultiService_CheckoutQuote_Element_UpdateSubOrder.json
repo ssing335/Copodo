@@ -20,7 +20,7 @@
         "bundle": "MultiService - Update Sub Order",
         "chainOnStep": false,
         "disOnTplt": false,
-        "executionConditionalFormula": "",
+        "executionConditionalFormula": "%CreateOrder:records|1%!=null",
         "failOnStepError": true,
         "failureConditionalFormula": "",
         "failureResponse": {

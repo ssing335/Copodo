@@ -124,6 +124,7 @@
     },
     "%vlocity_namespace%__ObjectTypeName__c": "Mobile Product Spec Type",
     "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PriceListEntry__c": "Conference-Calling_PriceListEntries.json",
     "%vlocity_namespace%__ProductChildItem__c": "Conference-Calling_ProductChildItems.json",
     "%vlocity_namespace%__ProductSpecId__c": "",
     "%vlocity_namespace%__ProductTemplateProductId__c": "",
@@ -142,8 +143,8 @@
     "%vlocity_namespace%__VersionEndDateTime__c": "",
     "%vlocity_namespace%__VersionLabel__c": "",
     "%vlocity_namespace%__VersionStartDateTime__c": "",
-    "CanUseQuantitySchedule": false,
-    "CanUseRevenueSchedule": false,
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
     "Description": "",
     "DisplayUrl": "",
     "ExternalDataSourceId": "",
@@ -169,6 +170,39 @@
     },
     "RevenueInstallmentPeriod": "",
     "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": 0,
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "Conference Calling",
+            "Price_Book_Entry_Ext_Id__c": "",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "05a435fe-b662-2c68-d5b7-c3446c007ec5",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "05a435fe-b662-2c68-d5b7-c3446c007ec5",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/05a435fe-b662-2c68-d5b7-c3446c007ec5",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "C-CONFCALL",
+            "UnitPrice": 0,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/05a435fe-b662-2c68-d5b7-c3446c007ec5"
+        }
+    ],
     "StockKeepingUnit": "",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "Product2",

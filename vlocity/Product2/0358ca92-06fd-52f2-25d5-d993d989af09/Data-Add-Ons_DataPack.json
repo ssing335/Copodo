@@ -4,7 +4,8 @@
     "%vlocity_namespace%__AttributeAssignment__c": "Data-Add-Ons_AttributeAssignments.json",
     "%vlocity_namespace%__AttributeDefaultValues__c": {
         "ATT_DATALIMIT": "Unltd",
-        "ATT_ZRORATAPPS": null
+        "ATT_ZRORATAPPS": [
+        ]
     },
     "%vlocity_namespace%__AttributeMetadata__c": {
         "messages": [
@@ -13,7 +14,7 @@
             {
                 "Code__c": "7f0bea1d-620d-8a10-aebc-7094b2ab5b4e",
                 "Name": "Mobile Service",
-                "displaySequence": 2,
+                "displaySequence": 6,
                 "id": "a2D8G0000004cjUUAQ",
                 "messages": [
                 ],
@@ -32,7 +33,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Data Limit(GB)",
                             "messages": [
@@ -43,76 +43,94 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "5c215e53-2c42-c992-2dbd-f97be033f1fb",
-                                    "label": "Unltd",
-                                    "readonly": false,
-                                    "value": "Unltd"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 20,
-                                    "id": "38496aea-e145-5bcb-1e03-12eb12a64530",
-                                    "label": "1GB",
-                                    "readonly": false,
-                                    "value": "1GB"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 30,
-                                    "id": "ff0be36d-9dfc-67e1-11cd-f3bab6cf5f3a",
-                                    "label": "2GB",
-                                    "readonly": false,
-                                    "value": "2GB"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 40,
-                                    "id": "aefcc39f-ba77-76f8-89e1-18863124f20a",
-                                    "label": "5GB",
-                                    "readonly": false,
-                                    "value": "5GB"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 50,
                                     "id": "0837fedc-d9bc-aab7-8f9c-b166452a1141",
                                     "label": "10GB",
+                                    "name": "0837fedc-d9bc-aab7-8f9c-b166452a1141",
                                     "readonly": false,
                                     "value": "10GB"
                                 },
                                 {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "38496aea-e145-5bcb-1e03-12eb12a64530",
+                                    "label": "1GB",
+                                    "name": "38496aea-e145-5bcb-1e03-12eb12a64530",
+                                    "readonly": false,
+                                    "value": "1GB"
+                                },
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "5c215e53-2c42-c992-2dbd-f97be033f1fb",
+                                    "label": "Unltd",
+                                    "name": "5c215e53-2c42-c992-2dbd-f97be033f1fb",
+                                    "readonly": false,
+                                    "value": "Unltd"
+                                },
+                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 60,
                                     "id": "7b348832-d070-4a26-d054-96b23217ac92",
                                     "label": "20GB",
+                                    "name": "7b348832-d070-4a26-d054-96b23217ac92",
                                     "readonly": false,
                                     "value": "20GB"
                                 },
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 70,
-                                    "id": "cfde79ac-337b-4eb8-e2ef-b7c80f767c85",
-                                    "label": "30GB",
-                                    "readonly": false,
-                                    "value": "30GB"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 80,
-                                    "id": "e3126975-7399-3cda-3a4c-9d88eeae2a9f",
-                                    "label": "40GB",
-                                    "readonly": false,
-                                    "value": "40GB"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 90,
                                     "id": "98525b39-e9ad-985f-a54b-e8f542cf2860",
                                     "label": "100GB",
+                                    "name": "98525b39-e9ad-985f-a54b-e8f542cf2860",
                                     "readonly": false,
                                     "value": "100GB"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "aefcc39f-ba77-76f8-89e1-18863124f20a",
+                                    "label": "5GB",
+                                    "name": "aefcc39f-ba77-76f8-89e1-18863124f20a",
+                                    "readonly": false,
+                                    "value": "5GB"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 70,
+                                    "id": "cfde79ac-337b-4eb8-e2ef-b7c80f767c85",
+                                    "label": "30GB",
+                                    "name": "cfde79ac-337b-4eb8-e2ef-b7c80f767c85",
+                                    "readonly": false,
+                                    "value": "30GB"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 80,
+                                    "id": "e3126975-7399-3cda-3a4c-9d88eeae2a9f",
+                                    "label": "40GB",
+                                    "name": "e3126975-7399-3cda-3a4c-9d88eeae2a9f",
+                                    "readonly": false,
+                                    "value": "40GB"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "ff0be36d-9dfc-67e1-11cd-f3bab6cf5f3a",
+                                    "label": "2GB",
+                                    "name": "ff0be36d-9dfc-67e1-11cd-f3bab6cf5f3a",
+                                    "readonly": false,
+                                    "value": "2GB"
                                 }
                             ]
                         }
@@ -142,7 +160,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Zero Rated Apps",
                             "messages": [
@@ -153,42 +170,52 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "f2ceca7e-683a-23f4-22ee-36159ab6691b",
-                                    "label": "Facebook",
-                                    "readonly": false,
-                                    "value": "Facebook"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 20,
-                                    "id": "b9e1999e-7ae5-dae7-735a-01ccb824d27f",
-                                    "label": "WhatsApp",
-                                    "readonly": false,
-                                    "value": "WhatsApp"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 30,
                                     "id": "b1499ae3-3f9b-2150-5e57-c2256a8ea943",
                                     "label": "Google",
+                                    "name": "b1499ae3-3f9b-2150-5e57-c2256a8ea943",
                                     "readonly": false,
                                     "value": "Google"
                                 },
                                 {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "b9e1999e-7ae5-dae7-735a-01ccb824d27f",
+                                    "label": "WhatsApp",
+                                    "name": "b9e1999e-7ae5-dae7-735a-01ccb824d27f",
+                                    "readonly": false,
+                                    "value": "WhatsApp"
+                                },
+                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 40,
                                     "id": "c3b7b934-f339-e4d4-e229-2500232c1956",
                                     "label": "Microsoft",
+                                    "name": "c3b7b934-f339-e4d4-e229-2500232c1956",
                                     "readonly": false,
                                     "value": "Microsoft"
                                 },
                                 {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "f2ceca7e-683a-23f4-22ee-36159ab6691b",
+                                    "label": "Facebook",
+                                    "name": "f2ceca7e-683a-23f4-22ee-36159ab6691b",
+                                    "readonly": false,
+                                    "value": "Facebook"
+                                },
+                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 50,
                                     "id": "f5e9647c-3ad4-83b5-a939-6555ea8fc11d",
                                     "label": "Telegram",
+                                    "name": "f5e9647c-3ad4-83b5-a939-6555ea8fc11d",
                                     "readonly": false,
                                     "value": "Telegram"
                                 }
@@ -236,6 +263,7 @@
     },
     "%vlocity_namespace%__ObjectTypeName__c": "Mobile Product Spec Type",
     "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PriceListEntry__c": "Data-Add-Ons_PriceListEntries.json",
     "%vlocity_namespace%__ProductChildItem__c": "Data-Add-Ons_ProductChildItems.json",
     "%vlocity_namespace%__ProductSpecId__c": "",
     "%vlocity_namespace%__ProductTemplateProductId__c": "",
@@ -254,8 +282,8 @@
     "%vlocity_namespace%__VersionEndDateTime__c": "",
     "%vlocity_namespace%__VersionLabel__c": "",
     "%vlocity_namespace%__VersionStartDateTime__c": "",
-    "CanUseQuantitySchedule": false,
-    "CanUseRevenueSchedule": false,
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
     "Description": "",
     "DisplayUrl": "",
     "ExternalDataSourceId": "",
@@ -281,6 +309,39 @@
     },
     "RevenueInstallmentPeriod": "",
     "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": 0,
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "Data Add-Ons",
+            "Price_Book_Entry_Ext_Id__c": "",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "0358ca92-06fd-52f2-25d5-d993d989af09",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "0358ca92-06fd-52f2-25d5-d993d989af09",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/0358ca92-06fd-52f2-25d5-d993d989af09",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "C-DataAddOns",
+            "UnitPrice": 0,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/0358ca92-06fd-52f2-25d5-d993d989af09"
+        }
+    ],
     "StockKeepingUnit": "",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "Product2",

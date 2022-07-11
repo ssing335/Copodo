@@ -8,6 +8,7 @@
     },
     "%vlocity_namespace%__PropertySet__c": {
         "additionalOutput": {
+            "createOrderMessage": "%CreateOrder:messages|1:message%",
             "member": "%CreateOrUpdateOrderMember:%vlocity_namespace%__OrderMember__c_1|1%"
         },
         "disOnTplt": false,

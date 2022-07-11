@@ -28,5 +28,6 @@
     <tabs>standard-Quote</tabs>
     <tabs>COXProduct__c</tabs>
     <tabs>CoxTreatmentQA__c</tabs>
+    <tabs>vlocity_cmt__ObjectClass__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

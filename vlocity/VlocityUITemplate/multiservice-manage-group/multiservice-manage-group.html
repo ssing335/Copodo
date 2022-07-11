@@ -83,7 +83,14 @@
                 </div>
                 <div class="slds-float_right" ng-if="!disableGroupActions && context.ungroupedItemSelected > 0">
                     <span class="slds-p-right_x-small" ng-if="context.ungroupedItemSelected > 0 && context.groupedItemSelected === 0">{{context.ungroupedItemSelected}} {{::customLabelsMap.MSItemsSelectedLabel}}</span>
-                    
+                    <!-- Gmail-like Selection option -->
+                    <div class="slds-button-group" ng-if="!context.selectAll && context.selectedAll && context.unGroupedMemberTotalCount > context.ungroupedItemSelected">
+                        <button class="slds-button slds-button_outline-brand select-all-button" ng-click="selectAllTrigger(context)">Select All {{context.unGroupedMemberTotalCount}} {{memberType.label}}</button>
+                    </div>
+                    <div class="slds-button-group" ng-if="context.selectAll">
+                        <button class="slds-button slds-button_outline-brand clear-all-button" ng-click="clearSelection(context)">Clear Selection</button>
+                    </div>
+
 
                     <div class="slds-dropdown-trigger slds-dropdown-trigger_click slds-button_last slds-m-right_x-small" 
                         ng-class="{'slds-is-open': showGropDropdown}">
@@ -249,6 +256,30 @@
                                     <span class="slds-form-element__label slds-assistive-text">Select All</span>
                                 </label>
                             </div>
+                            <!-- Multi-Select-dropdown-->
+                            <div class="slds-dropdown-trigger slds-dropdown-trigger_click" ng-class="{'slds-is-open': context.showSelectDropdown}">
+                                <button class="slds-button slds-button_icon" aria-haspopup="false" aria-expanded="false" title="Mark Selection" ng-click="context.showSelectDropdown = !context.showSelectDropdown" ng-blur="context.showSelectDropdown = false">
+                                    <slds-svg-icon size="'small'" extra-classes="'slds-input__icon slds-icon-text-default slds-m-left_x-small dropdown-icon'" 
+                                sprite="'utility'" icon="'down'"></slds-svg-icon>
+                                    <span class="slds-assistive-text">Mark Selection</span>
+                                </button>
+                            <div class="slds-dropdown slds-dropdown_left">
+                                <ul class="slds-dropdown__list" role="menu" aria-label="Mark Selection">
+                                
+                                <li class="slds-dropdown__item" role="presentation" ng-mousedown="selecAllGroupedItem(context, context.selectedAll = !context.selectedAll)">
+                                    <a href="javascript:void(0);" role="menuitem" tabindex="0">
+                                        <span class="slds-truncate" title="Groups">Groups</span>
+                                    </a>
+                                </li>
+                                <li class="slds-dropdown__item" role="presentation" ng-mousedown="selecAllUngroupedItem(context, context.selectedAll = !context.selectedAll)">
+                                    <a href="javascript:void(0);" role="menuitem" tabindex="0">
+                                        <span class="slds-truncate" title="{{memberType.label}}">{{memberType.label}}</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
                         </th>
                         <th aria-label="{{field.fieldLabel}}" aria-sort="ascending" class="sortable-column slds-is-resizable slds-is-sortable" 
                             scope="col" ng-repeat="field in context.fieldList | orderBy: 'displaySequence'" 
@@ -311,9 +342,9 @@
                             </span>
                             <slds-svg-icon ng-if="group[nsp + 'LockedBy__c'].value && group[nsp + 'AsyncOperation__c'].value === 'Apply To Group'" sprite="'utility'" size="'xx-small'" icon="'dash'" 
                                 extra-classes="'status-icon slds-icon-text-warning'"></slds-svg-icon>
-                            <slds-svg-icon ng-if="!group[nsp + 'LockedBy__c'].value && !group.hasUnappliedGroupItems && (group.groupCart && !group.groupCart[nsp + 'IsPriced__c'] && !group.groupCart[nsp + 'IsValidated__c'])"
+                            <slds-svg-icon ng-if="!group[nsp + 'LockedBy__c'].value && !group.hasUnappliedGroupItems && !group.hasUnappliedMembers &&  (group.groupCart && !group.groupCart[nsp + 'IsPriced__c'] && !group.groupCart[nsp + 'IsValidated__c'])"
                                 sprite="'utility'" size="'xx-small'" icon="'check'" extra-classes="'status-icon slds-icon-text-active'"></slds-svg-icon>
-                            <span ng-if="!group[nsp + 'LockedBy__c'].value && !group.hasUnappliedGroupItems && group.groupCart[nsp + 'IsPriced__c'] && group.groupCart[nsp + 'IsValidated__c']" 
+                            <span ng-if="!group[nsp + 'LockedBy__c'].value && !group.hasUnappliedGroupItems && !group.hasUnappliedMembers && group.groupCart[nsp + 'IsPriced__c'] && group.groupCart[nsp + 'IsValidated__c']" 
                                     class="slds-badge group-validation-success-badage">Complete
                             </span>
 
@@ -441,13 +472,14 @@
                 <div class="slds-col">
                     <div class="slds-button-group" role="group">
                         <button class="slds-button slds-button_neutral" 
+                            style="margin-right: 1px;"
                             ng-click="previousPage(context)"
                             ng-disabled="context.ungroupedMemberPagination.offset === 0">
                             {{::customLabelsMap.MSPreviousLabel}}
                         </button>
                         <button class="slds-button slds-button_neutral" 
                             ng-click="nextPage(context)" 
-                            ng-disabled="!context.ungroupedItemList">
+                            ng-disabled="!context.ungroupedItemList || (context.ungroupedMemberPagination.offset + context.ungroupedMemberPagination.pageSize) >= context.unGroupedMemberTotalCount">
                             {{::customLabelsMap.MSNextLabel}}
                         </button>
                     </div>

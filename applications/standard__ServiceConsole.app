@@ -182,6 +182,7 @@
     <tabs>standard-Lead</tabs>
     <tabs>COXProduct__c</tabs>
     <tabs>CoxTreatmentQA__c</tabs>
+    <tabs>vlocity_cmt__ObjectClass__c</tabs>
     <workspaceConfig>
         <mappings>
             <tab>COXProduct__c</tab>
@@ -206,6 +207,9 @@
         <mappings>
             <fieldName>AccountId</fieldName>
             <tab>standard-Opportunity</tab>
+        </mappings>
+        <mappings>
+            <tab>vlocity_cmt__ObjectClass__c</tab>
         </mappings>
     </workspaceConfig>
 </CustomApplication>

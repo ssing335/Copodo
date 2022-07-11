@@ -152,6 +152,7 @@
     },
     "%vlocity_namespace%__ObjectTypeName__c": "Base Offer Spec Type",
     "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PriceListEntry__c": "Mobile-Postpaid-100-Offer_PriceListEntries.json",
     "%vlocity_namespace%__ProductChildItem__c": "Mobile-Postpaid-100-Offer_ProductChildItems.json",
     "%vlocity_namespace%__ProductRelationship__c": "Mobile-Postpaid-100-Offer_ProductRelationships.json",
     "%vlocity_namespace%__ProductSpecId__c": "",
@@ -171,8 +172,8 @@
     "%vlocity_namespace%__VersionEndDateTime__c": "",
     "%vlocity_namespace%__VersionLabel__c": "",
     "%vlocity_namespace%__VersionStartDateTime__c": "",
-    "CanUseQuantitySchedule": false,
-    "CanUseRevenueSchedule": false,
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
     "Description": "",
     "DisplayUrl": "",
     "ExternalDataSourceId": "",
@@ -198,6 +199,39 @@
     },
     "RevenueInstallmentPeriod": "",
     "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": 0,
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "Mobile Postpaid 100 Offer",
+            "Price_Book_Entry_Ext_Id__c": "",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "89e20002-fa5a-0b1f-69bd-1a6c5f6610ae",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "89e20002-fa5a-0b1f-69bd-1a6c5f6610ae",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/89e20002-fa5a-0b1f-69bd-1a6c5f6610ae",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "C-MOB-POST-100",
+            "UnitPrice": 0,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/89e20002-fa5a-0b1f-69bd-1a6c5f6610ae"
+        }
+    ],
     "StockKeepingUnit": "",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "Product2",

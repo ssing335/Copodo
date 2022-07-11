@@ -218,6 +218,14 @@
                         </div>
                     </div>
                 </div>
+                <!-- uncomment to hardcode recordtype in the form. ENE-388
+                <label class="slds-form-element__label slds-m-around_small" for="filter-for-id-recordtype">Record Type<abbr class="slds-required" title="required">*</abbr></label>
+                <div class="slds-form-element__control slds-m-around_small">
+                    <select class="slds-select slds-input" id="filter-for-id-recordtype" ng-model="masterCart['recordType']" ng-required="true">
+                        <option value="">{{customLabelsMap.selectDefaultOption}}</option>
+                        <option ng-repeat="picklist in recordTypePicklist[cartType.toLowerCase()]" value="{{picklist.value}}">{{picklist.label}}</option>
+                    </select>
+                </div> -->
             </div>
 
             <div class="slds-modal__footer">

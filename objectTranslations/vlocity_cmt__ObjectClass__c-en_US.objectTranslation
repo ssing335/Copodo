@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>*Vlocity Object or Object Type</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>**Vlocity Objects and Object Types</value>
+    </caseValues>
     <fieldSets>
         <label><!-- Console Admin Search --></label>
         <name>vlocity_cmt__ConsoleAdminSearch</name>
@@ -84,7 +92,7 @@
     <fields>
         <label><!-- Root Object Class --></label>
         <name>vlocity_cmt__RootObjectClassId__c</name>
-        <relationshipLabel><!-- Vlocity Objects and Object Types (Root Object Class) --></relationshipLabel>
+        <relationshipLabel><!-- **Vlocity Objects and Object Types (Root Object Class) --></relationshipLabel>
     </fields>
     <fields>
         <label><!-- Version Label --></label>
@@ -98,6 +106,7 @@
         <label><!-- Object Type --></label>
         <name>vlocity_cmt__ObjectType</name>
     </recordTypes>
+    <startsWith>Consonant</startsWith>
     <validationRules>
         <errorMessage><!-- Effective Until Date should be greater than or equal to Effective From Date. --></errorMessage>
         <name>vlocity_cmt__EffectiveFrom_Greater_EffectiveUntil</name>

@@ -15,9 +15,10 @@ vlocity.cardframework.registerModule.controller('manageGroupController', ['$root
                 group: false
             },
             numberOfFiltersApplied: 0,
-            selectedAll: false,
+            selectedAll: false, /*used for ng-model at checkbox to select all items*/
             unGroupedMemberTotalCount: 0,
-            showFilter: false
+            showFilter: false,
+            selectAll:false /*used for selecting all items in total(greater than page view size) */
         }
         /*
          * object list to keep describe details.
@@ -66,7 +67,7 @@ vlocity.cardframework.registerModule.controller('manageGroupController', ['$root
                             'MSGroupDescLabel', 'MSCancelLabel', 'MSSaveLabel', 'MSCloseLabel', 'MSLoadMoreGroupsLabel',
                             'MSCreatingGroupMsg', 'MSUpdateGroupMsg', 'MSGroupUpdatedMsg', 'MSDeletingGroupMsg',
                             'MSDeleteGroupsLabel', 'MSGroupDeletedMsg', 'MSGroupCreatedMsg', 'MSRemovingItemGroupMsg',
-                            'MSRemovedSuccMsg', 'MSAddedSuccMsg', 'MSAddingToMsg', 'MSApplyFilterLabel', 'MSAddToGroupLabel',
+                            'MSRemovedSuccMsg', 'MSAddedSuccMsg', 'MSAddingToMsg', 'MSAddingNextSet', 'MSApplyFilterLabel', 'MSAddToGroupLabel',
                             'MSNoChangeAllowedLabel', 'MSBatchStarting','MSBatchStarted','MSNoPriceValidateMsg',
                             'MSSeletectedGroupsToDeleteLabel', 'MSRunApplyToGroupMsg',
                             'MSApplyToGroups','MSPriceAndValidate','MultiServiceCPQQuoteCheckoutAction', 'MultiServiceCPQOrderCheckoutAction',
@@ -644,12 +645,15 @@ vlocity.cardframework.registerModule.controller('manageGroupController', ['$root
                 context.unGroupedMemberTotalCount = 0;
                 var ungroupedRecords = angular.fromJson(result);
                 //check for message
-                if(ungroupedRecords && ungroupedRecords.message) {
-                    $scope.toast(ungroupedRecords.message, '', 'error');
-                }
-                if(ungroupedRecords && ungroupedRecords.records) {
-                    context.ungroupedItemList = ungroupedRecords.records;
-                    if(ungroupedRecords.data && ungroupedRecords.data.totalCount) {
+                if (ungroupedRecords)
+                {
+                    if (ungroupedRecords.message) {
+                        $scope.toast(ungroupedRecords.message, '', 'error');
+                    }
+                    if (ungroupedRecords.records) {
+                        context.ungroupedItemList = ungroupedRecords.records;
+                    }
+                    if (ungroupedRecords.data && ungroupedRecords.data.totalCount) {
                         context.unGroupedMemberTotalCount = ungroupedRecords.data.totalCount;
                     }
                 }
@@ -996,7 +1000,7 @@ vlocity.cardframework.registerModule.controller('manageGroupController', ['$root
                     if(!itemCount || itemCount < 1) {
                         groupList[i].isActionValid = false;
                         groupList[i].actionMessage = $scope.customLabelsMap.MSInvalidConfigMsg;
-                    } else if(!groupList[i].hasUnappliedGroupItems) {
+                    } else if(!groupList[i].hasUnappliedGroupItems && !groupList[i].hasUnappliedMembers) {
                         groupList[i].isActionValid = true;
                         groupList[i].hasWarning = true;
                         if($scope.customLabelsMap.MSReRunATGMsg) {
@@ -1022,7 +1026,7 @@ vlocity.cardframework.registerModule.controller('manageGroupController', ['$root
                     continue;
                 }
 
-                if(group.hasUnappliedGroupItems)
+                if(group.hasUnappliedGroupItems || group.hasUnappliedMembers)
                 {
                     group.isActionValid = false;
                     group.actionMessage = $scope.customLabelsMap.MSRunApplyToGroupMsg;
@@ -1048,7 +1052,7 @@ vlocity.cardframework.registerModule.controller('manageGroupController', ['$root
                     continue;
                 }
 
-                if(group.hasUnappliedGroupItems)
+                if(group.hasUnappliedGroupItems || group.hasUnappliedMembers)
                 {
                     group.isActionValid = false;
                     group.actionMessage = $scope.customLabelsMap.MSRunApplyToGroupMsg;
@@ -1247,16 +1251,21 @@ vlocity.cardframework.registerModule.controller('manageGroupController', ['$root
             });
         }
 
-        $scope.addToGroup = function(context, group, reload) {
+        $scope.addToGroup = function(context, group, reload, addingNextSetToast) {
 
+            if(addingNextSetToast) {
+                addingNextSetToast.hide();
+            }
             var selectedIds = [], i;
-            for(i=0; i<context.ungroupedItemList.length; i++) {
-                if(context.ungroupedItemList[i].isSelected)
-                {
-                    selectedIds.push(context.ungroupedItemList[i].Id.value); 
+            if(!context.selectAll) {
+                for(i=0; i<context.ungroupedItemList.length; i++) {
+                    if(context.ungroupedItemList[i].isSelected)
+                    {
+                        selectedIds.push(context.ungroupedItemList[i].Id.value);
+                    }
                 }
             }
-            if(selectedIds.length === 0 || !group) {
+            if((selectedIds.length === 0 && !context.selectAll )|| !group) {
                 if(reload) {
                     $scope.getUngroupedRecords(context);
                     $scope.getGroups(context);
@@ -1272,12 +1281,17 @@ vlocity.cardframework.registerModule.controller('manageGroupController', ['$root
                 parentId: $scope.bpTree.ContextId,
                 contextId: $scope.bpTree.wrapperCart.Id,
                 groupJSON: groupInfo,
-                memberType: context.memberType
+                memberType: context.memberType,
+                selectAll: context.selectAll
             };
-            var addingToast = $scope.toast($scope.customLabelsMap.MSAddingToMsg + ' ' + group.groupName + '...', undefined, 'info');
+            var filters = getFilters(context);
+            if(filters) {
+                input.filters = filters;
+            }
+            if(!addingNextSetToast) {
+                var addingToast = $scope.toast($scope.customLabelsMap.MSAddingToMsg + ' ' + group.groupName + '...', undefined, 'info');
+            }
             fireRemoteAction('addToGroup', input, {}, function(result){
-                $scope.getUngroupedRecords(context);
-                $scope.getGroups(context);
                 if(addingToast) {
                     addingToast.hide();
                 }
@@ -1285,7 +1299,17 @@ vlocity.cardframework.registerModule.controller('manageGroupController', ['$root
                 if(response && response.message) {
                     $scope.toast(response.message, '', 'error');
                 } else {
-                    $scope.toast($scope.customLabelsMap.MSAddedSuccMsg, undefined, 'success');
+                    if(response.data && response.data.fetchNextSet) {
+                        $scope.bpTree.holdCart = true;
+                        var addingNextSetToast = $scope.toast($scope.customLabelsMap.MSAddingNextSet + ' ' + group.groupName + '...', undefined, 'info');
+                        $scope.addToGroup(context, group, reload, addingNextSetToast);
+                    } else {
+                        delete $scope.bpTree.holdCart;
+                        $scope.toast($scope.customLabelsMap.MSAddedSuccMsg, undefined, 'success');
+                        context.selectAll = false;  // reset after all members have been added
+                        $scope.getUngroupedRecords(context);
+                        $scope.getGroups(context);
+                    }
                 }
                 $scope.bpTree.randomCount++;
             });
@@ -1363,7 +1387,11 @@ vlocity.cardframework.registerModule.controller('manageGroupController', ['$root
             if(isSelected === undefined) {
                 return;
             }
-            if(context.ungroupedItemList) {
+            if(isSelected === false) {
+                $scope.clearSelection(context);
+            }
+            else if(context.ungroupedItemList) {
+                context.selectedAll = isSelected;
                 context.ungroupedItemSelected = 0;
                 for(i=0; i<context.ungroupedItemList.length; i++) {
                     context.ungroupedItemList[i].isSelected = isSelected;
@@ -1373,18 +1401,72 @@ vlocity.cardframework.registerModule.controller('manageGroupController', ['$root
                 }
             }
         }
+        /* New functions added for selection */
+        $scope.selecAllGroupedItem = function(context, isSelected) {
+            var i;
+            if(isSelected === undefined) {
+                return;
+            }
+            $scope.clearSelection(context);
+            if(isSelected && context.groupList) {
+                context.selectedAll = isSelected;
+                context.groupedItemSelected = 0;
+                for(i=0; i<context.groupList.length; i++) {
+                    context.groupList[i].isSelected = isSelected;
+                    if(isSelected) {
+                        context.groupedItemSelected++;
+                    }
+                }
+            }
+        }
+
+        $scope.selectAllTrigger = function(context){
+            context.selectAll = true;
+            context.ungroupedItemSelected = context.unGroupedMemberTotalCount;
+            
+        }
+
+        $scope.clearSelection = function(context){
+            context.selectedAll = false;
+            context.ungroupedItemSelected = 0;
+            if(context.ungroupedItemList) {
+                context.ungroupedItemSelected = 0;
+                for(i=0; i<context.ungroupedItemList.length; i++) {
+                    context.ungroupedItemList[i].isSelected = false;
+                }
+            }
+
+            context.groupedItemSelected = 0;
+            if(context.groupList) {
+                context.groupedItemSelected = 0;
+                for(i=0; i<context.groupList.length; i++) {
+                    context.groupList[i].isSelected = false;
+                }
+            }
+            context.selectAll = false;
+        }
+
+        /* End of new functions */
 
         $scope.groupedItemSelectionChange = function(context, groupedItem) {
 
             if(!groupedItem) {
                 return;
             }
-            
+
             if(groupedItem.isSelected) {
                 context.groupedItemSelected++;
             } else {
                 context.groupedItemSelected--;
             }
+
+            if(context.groupedItemSelected<context.groupPagination.pageSize){
+                context.selectedAll = false;
+            }else 
+                if(context.groupedItemSelected===context.groupPagination.pageSize){
+                    context.selectedAll = true;
+            }
+
         }
 
         $scope.enableAddToGroup = function(context) {
@@ -1408,6 +1490,18 @@ vlocity.cardframework.registerModule.controller('manageGroupController', ['$root
                 context.ungroupedItemSelected++;
             } else {
                 context.ungroupedItemSelected--;
+            }
+
+            if(context.selectAll){
+                context.selectAll = false;
+                context.ungroupedItemSelected = context.ungroupedMemberPagination.pageSize - (context.unGroupedMemberTotalCount - context.ungroupedItemSelected)
+            }
+
+            if(context.ungroupedItemSelected<context.ungroupedMemberPagination.pageSize){
+                context.selectedAll = false;
+            }else 
+                if(context.ungroupedItemSelected===context.ungroupedMemberPagination.pageSize){
+                    context.selectedAll = true;
             }
         }
 

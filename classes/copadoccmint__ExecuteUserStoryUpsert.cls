@@ -2,11 +2,14 @@
  * Upserts an External User Story into Copado's User Story.
  *
  * @author Ümit Can Uçkan
+ * @lastModifiedBy Kunal Kaushik
  * @version 2.0
  * @since CCM Integrations 1.0
  */
-
-global class ExecuteUserStoryUpsert extends CommonIntegrationConstants implements Database.Batchable<Object>, Database.AllowsCallouts {
+global class ExecuteUserStoryUpsert extends JiraIntegrationConstants implements Database.Batchable<Object>, Database.AllowsCallouts {
+    private String salesforceAssigneeApiName;
+    private Map<String, Id> userIdsByUserEmails = new Map<String, Id>();
+    private Map<String, List<copado__User_Story__c>> userStoriesByAssignee = new Map<String, List<copado__User_Story__c>>();
     private final String DONT_EXCLUDE_FROM_SALESFORCE = ' and Exclude_from_su__c = false';
     global copado__Project__c gProject;
     private Boolean isSprint;
@@ -32,7 +35,6 @@ global class ExecuteUserStoryUpsert extends CommonIntegrationConstants implement
         }
         set;
     }
-
     //User Story object record Type name=>Id Map
     global Map<String, String> UserStoryRecordTypeMap {
         get {
@@ -44,7 +46,6 @@ global class ExecuteUserStoryUpsert extends CommonIntegrationConstants implement
         }
         set;
     }
-
     //constructor to have the project via schedule class
     global ExecuteUserStoryUpsert(copado__Project__c proParam, Boolean isSprint) {
         gProject = proParam;
@@ -57,6 +58,11 @@ global class ExecuteUserStoryUpsert extends CommonIntegrationConstants implement
         this.isSprint = true;
         userStoryList = userStoryListParam;
     }
+    global ExecuteUserStoryUpsert(copado__Project__c proParam, List<Map<String, String>> userStoryListParam, Boolean isSprint) {
+        gProject = proParam;
+        this.isSprint = isSprint;
+        userStoryList = userStoryListParam;
+    }
     //Finds related instance based on external system to use via factory pattern, fetches and parses the JSON and return to execute method
     global Iterable<Object> start(Database.BatchableContext BC) {
         if (null != userStoryList && !userStoryList.isEmpty()) {
@@ -67,7 +73,6 @@ global class ExecuteUserStoryUpsert extends CommonIntegrationConstants implement
             );
         }
     }
-
     global void execute(Database.BatchableContext BC, List<Object> scope) {
         userStories2Upsert = new List<copado__User_Story__c>();
         //loops among user story Items Map
@@ -79,6 +84,7 @@ global class ExecuteUserStoryUpsert extends CommonIntegrationConstants implement
                 fieldName = fieldName.toLowerCase();
                 //puts the value on sf Object if the current user story item value Map stores current field Map keyset
                 if (tempMap.containsKey(fieldMap.get(fieldName))) {
+                    String thirdPartyApiName = fieldMap.get(fieldName);
                     if (
                         fieldName == COPADO_RELEASE &&
                         CopadoCCMutilities.returnCastedValue(tempMap.get(fieldMap.get(fieldName)), fieldName) != null
@@ -87,8 +93,8 @@ global class ExecuteUserStoryUpsert extends CommonIntegrationConstants implement
                         releaseObj.put(EXTERNAL_ID, CopadoCCMutilities.returnCastedValue(tempMap.get(fieldMap.get(fieldName)), fieldName));
                         sobj.putsObject(copado__User_Story__c.copado__Release__c.getDescribe().getSObjectField(), releaseObj);
                     } else if (fieldName == RECORD_TYPE_ID && !recordTypeMap.isEmpty()) {
-                        String jiraType = tempMap.get(fieldMap.get(fieldName));
-                        String sfType = recordTypeMap.get(jiraType);
+                        String thirdPartyType = tempMap.get(fieldMap.get(fieldName));
+                        String sfType = recordTypeMap.get(thirdPartyType);
                         if (null != sfType) {
                             Id sfTypeId = UserStoryRecordTypeMap.get(sfType);
                             sobj.put(fieldName, sfTypeId);
@@ -96,9 +102,30 @@ global class ExecuteUserStoryUpsert extends CommonIntegrationConstants implement
                     } else {
                         sobj.put(fieldName, CopadoCCMutilities.returnCastedValue(tempMap.get(fieldMap.get(fieldName)), fieldName));
                     }
+                    if (thirdPartyApiName == ASSIGNEE || thirdPartyApiName == DEVELOPER_KEYWORD) {
+                        salesforceAssigneeApiName = fieldName;
+                        String emailValue = tempMap.get(fieldMap.get(fieldName));
+                        List<copado__User_Story__c> userStories = new List<copado__User_Story__c>();
+                        if(userStoriesByAssignee.containsKey(emailValue)){
+                            userStories = userStoriesByAssignee.get(emailValue);
+                        }
+                        userStories.add((copado__User_Story__c) sobj);
+                        userIdsByUserEmails.put(tempMap.get(fieldMap.get(fieldName)), null);
+                        userStoriesByAssignee.put(emailValue, userStories);
+                    }
                 }
             }
-            userStories2Upsert.add((copado__User_Story__c) sobj);
+        }
+        for(User userItem : [SELECT Id, Email FROM User WHERE Email IN : userIdsByUserEmails.keySet()]){
+            userIdsByUserEmails.put(userItem.Email, userItem.Id);
+        }
+        for(String email : userStoriesByAssignee.keySet()){
+            for(copado__User_Story__c userStory : userStoriesByAssignee.get(email)){
+                if(userIdsByUserEmails.containsKey(email)){
+                    userStory.put(salesforceAssigneeApiName, userIdsByUserEmails.get(email));
+                }
+                userStories2Upsert.add(userStory);
+            }
         }
         try {
             //performs upsert based on third party id
@@ -107,7 +134,6 @@ global class ExecuteUserStoryUpsert extends CommonIntegrationConstants implement
             System.debug('ExecuteUserStoryUpsert dml exception==> ' + ex.getMessage());
         }
     }
-
     global void finish(Database.BatchableContext BC) {
     }
 }

@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>*Vlocity Attribute</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>**Vlocity Attributes</value>
+    </caseValues>
     <fieldSets>
         <label><!-- Console Admin Search --></label>
         <name>vlocity_cmt__ConsoleAdminSearch</name>
@@ -213,7 +221,7 @@
     <fields>
         <label><!-- Owner --></label>
         <name>vlocity_cmt__OwnerId__c</name>
-        <relationshipLabel><!-- Vlocity Attributes --></relationshipLabel>
+        <relationshipLabel><!-- **Vlocity Attributes --></relationshipLabel>
     </fields>
     <fields>
         <label><!-- Picklist --></label>
@@ -292,6 +300,7 @@
         <label><!-- Hidden By Default --></label>
         <name>vlocity_cmt__isDefaultHidden__c</name>
     </fields>
+    <startsWith>Vowel</startsWith>
     <validationRules>
         <errorMessage><!-- Value must be a Boolean. --></errorMessage>
         <name>vlocity_cmt__BooleanType</name>

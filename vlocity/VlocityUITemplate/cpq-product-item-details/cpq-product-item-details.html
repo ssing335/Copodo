@@ -66,7 +66,7 @@
                     <img src="{{::media.url}}" alt="{{::media.title}}" ng-if="::media.contentType === 'Image'"/>
     
                     <figure ng-if="::media.contentType === 'File'">
-                        <a href="{{::media.url}}" target="_blank">
+                        <a href="{{::media.url}}" target="_blank" rel="noopener noreferrer">
                             <span class="slds-icon_container">
                                 <slds-svg-icon sprite="'doctype'" size="'large'" icon="'unknown'" extra-classes="'icon-unknown icon__svg_no-background'"></slds-svg-icon>
                             </span>
@@ -75,7 +75,7 @@
                     </figure>
     
                     <figure ng-if="::media.contentType === 'Video'">
-                        <a href="{{::media.url}}" target="_blank">
+                        <a href="{{::media.url}}" target="_blank" rel="noopener noreferrer">
                             <span class="slds-icon_container">
                                 <slds-svg-icon sprite="'doctype'" size="'large'" icon="'video'" extra-classes="'icon-unknown icon__svg_no-background'"></slds-svg-icon>
                             </span>
