@@ -141,6 +141,7 @@
         <type>Flexipage</type>
         <profile>Admin</profile>
     </profileActionOverrides>
+    <subscriberTabs>copado__Project__c</subscriberTabs>
     <tabs>standard-Product2</tabs>
     <tabs>vlocity_cmt__Attribute__c</tabs>
     <tabs>vlocity_cmt__Catalog__c</tabs>

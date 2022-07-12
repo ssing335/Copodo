@@ -2764,6 +2764,30 @@
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <webLinks>
+        <fullName>Add_Products</fullName>
+        <availability>online</availability>
+        <description>Add Products</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Add Products</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/lightning/app/c__Industries_CPQ/r/{!Quote.Id}/view</url>
+    </webLinks>
+    <webLinks>
+        <fullName>CreateOrder</fullName>
+        <availability>online</availability>
+        <description>Create multiple orders based on the member type</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Create Order</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/lightning/cmp/vlocity_cmt__vlocityLWCOmniWrapper?c__target=vlocity_cmt:cPQBulkQuoteToOrderMultiLanguage&amp;c__layout=Flyout&amp;c__tabIcon=custom:custom18&amp;c__ContextId={!Quote.Id}</url>
+    </webLinks>
+    <webLinks>
         <fullName>vlocity_cmt__CPQ</fullName>
         <availability>online</availability>
         <displayType>button</displayType>

@@ -15,6 +15,7 @@
     <tabs>standard-RetailRexOnDesktop</tabs>
     <tabs>COXProduct__c</tabs>
     <tabs>CoxTreatmentQA__c</tabs>
+    <tabs>vlocity_cmt__ObjectClass__c</tabs>
     <uiType>Lightning</uiType>
     <workspaceConfig>
         <mappings>
@@ -43,6 +44,9 @@
         </mappings>
         <mappings>
             <tab>standard-home</tab>
+        </mappings>
+        <mappings>
+            <tab>vlocity_cmt__ObjectClass__c</tab>
         </mappings>
     </workspaceConfig>
 </CustomApplication>

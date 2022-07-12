@@ -36,6 +36,7 @@
     <tabs>COXProduct__c</tabs>
     <tabs>CoxTreatmentQA__c</tabs>
     <tabs>standard-Case</tabs>
+    <tabs>vlocity_cmt__ObjectClass__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>SOLUTION_CENTER_UtilityBar</utilityBar>
 </CustomApplication>

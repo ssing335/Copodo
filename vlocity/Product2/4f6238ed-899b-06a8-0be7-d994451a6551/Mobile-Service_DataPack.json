@@ -5,8 +5,8 @@
     "%vlocity_namespace%__AttributeDefaultValues__c": {
         "ATT_DATAACCESS": "Enabled",
         "ATT_DATALIMIT": "100GB",
-        "ATT_OFFNET": "500",
-        "ATT_ONNET": "500",
+        "ATT_OFFNET": null,
+        "ATT_ONNET": null,
         "ATT_SMSACCESS": "Enabled",
         "ATT_SMSCR": "Unltd",
         "ATT_VOACCESS": "Enabled"
@@ -291,7 +291,7 @@
                             ],
                             "multiselect": false,
                             "readonly": false,
-                            "required": true,
+                            "required": false,
                             "userValues": null,
                             "values": [
                                 {
@@ -315,7 +315,7 @@
                                     "value": "Unltd"
                                 },
                                 {
-                                    "defaultSelected": true,
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 40,
                                     "id": "7a07d70d-f58c-3abd-a1ab-3262812e7a05",
@@ -351,7 +351,7 @@
                             "cloneable": true,
                             "code": "ATT_OFFNET",
                             "dataType": "text",
-                            "disabled": true,
+                            "disabled": false,
                             "displaySequence": 60,
                             "filterable": false,
                             "hasRules": false,
@@ -362,7 +362,7 @@
                             "messages": [
                             ],
                             "multiselect": false,
-                            "readonly": true,
+                            "readonly": false,
                             "required": false,
                             "userValues": null,
                             "values": [
@@ -373,7 +373,7 @@
                                     "id": "08e6482e-58f8-cbd3-3489-4e55c757ffd3",
                                     "label": "1000",
                                     "name": "08e6482e-58f8-cbd3-3489-4e55c757ffd3",
-                                    "readonly": true,
+                                    "readonly": false,
                                     "value": "1000"
                                 },
                                 {
@@ -383,17 +383,17 @@
                                     "id": "1b63d927-8e54-e9e8-2ed4-f2b712b3d622",
                                     "label": "Unltd",
                                     "name": "1b63d927-8e54-e9e8-2ed4-f2b712b3d622",
-                                    "readonly": true,
+                                    "readonly": false,
                                     "value": "Unltd"
                                 },
                                 {
-                                    "defaultSelected": true,
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 40,
                                     "id": "7a07d70d-f58c-3abd-a1ab-3262812e7a05",
                                     "label": "500",
                                     "name": "7a07d70d-f58c-3abd-a1ab-3262812e7a05",
-                                    "readonly": true,
+                                    "readonly": false,
                                     "value": "500"
                                 },
                                 {
@@ -403,7 +403,7 @@
                                     "id": "af36c2f3-7f41-3214-1b8d-9022828e6eac",
                                     "label": "None",
                                     "name": "af36c2f3-7f41-3214-1b8d-9022828e6eac",
-                                    "readonly": true,
+                                    "readonly": false,
                                     "value": "None"
                                 },
                                 {
@@ -413,7 +413,7 @@
                                     "id": "ef55e21c-1e3d-df62-cd6c-8af8e046d52c",
                                     "label": "200",
                                     "name": "ef55e21c-1e3d-df62-cd6c-8af8e046d52c",
-                                    "readonly": true,
+                                    "readonly": false,
                                     "value": "200"
                                 }
                             ]
@@ -551,8 +551,8 @@
     "%vlocity_namespace%__VersionEndDateTime__c": "",
     "%vlocity_namespace%__VersionLabel__c": "",
     "%vlocity_namespace%__VersionStartDateTime__c": "",
-    "CanUseQuantitySchedule": false,
-    "CanUseRevenueSchedule": false,
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
     "Description": "",
     "DisplayUrl": "",
     "ExternalDataSourceId": "",

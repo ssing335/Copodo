@@ -8,8 +8,8 @@
         <div class="slds-media__body">
             <div class="slds-grid slds-wrap">
                 <div class="slds-col slds-small-size_10-of-12 slds-medium-size_10-of-12 slds-large-size_10-of-12">
-                    <span class="slds-tile__title slds-truncate cpq-discount-name">
-                        {{::obj.Name | uppercase}}
+                    <span class="slds-tile__title slds-truncate cpq-discount-name slds-text-title_caps" cpq-translate="Promotion.Name" ng-attr-title="{{obj.Name | CPQTranslateFilter: 'Product2.Name'}}">
+                        {{obj.Name}}
                     </span>
                 </div>
                 <div class="slds-colslds-small-size_2-of-12 slds-medium-size_2-of-12 slds-large-size_2-of-12">

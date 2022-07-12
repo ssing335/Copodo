@@ -8,6 +8,10 @@ vlocity.cardframework.registerModule.controller('ManageMasterCartController', ['
          * fields to display.
          */ 
         $scope.fieldList = [];
+        /* uncomment to hardcode recordtype in the form. ENE-388
+        $scope.recordTypePicklist = {  'quote': [{value: 'ElectricityQuote', label: 'Electricity Quote'}],
+                                    'order': [{value: 'ElectricityOrder', label: 'Electricity Order'}]
+                                }; */
         /*
          * custom labels
          */
@@ -15,7 +19,7 @@ vlocity.cardframework.registerModule.controller('ManageMasterCartController', ['
                             'MSUpdatedSuccMsg','MSCloneMQLabel', 'MSCloneMOLabel', 'MSNewMQLabel', 'MSNewMOLabel', 'MSRenameMQLabel', 'MSUpdateMOLabel', 'MSNameLabel', 'MSCloneLabel',
                             'MSCloseLabel', 'MSCancelLabel', 'MSSaveLabel', 'MSSelectMQLabel', 'MSSelectMOLabel', 'MSRenameLabel', 'MSNewLabel',
                             'MSRequestExternalLabel', 'MSGetExternalLabel', 'MSRequestExternalMsg', 'MSGetExternalMsg', 'MSEmptyNameMsg', 'MSDupNameMsg',
-                            'MSRequestedStatusLabel', 'MSCreateFailure', 'MSUpdateFailure'];
+                            'MSRequestedStatusLabel', 'MSCreateFailure', 'MSUpdateFailure', 'selectDefaultOption'];
         /*
          * custom labels map.
          */ 
@@ -382,10 +386,20 @@ vlocity.cardframework.registerModule.controller('ManageMasterCartController', ['
         }
 
         function formCreateCartInput(input) {
-            input.recordType = 'Master' + $scope.cartType;
+            if (!input.recordType) {
+                input.recordType = 'Master' + $scope.cartType;
+            }
             input.OpportunityId = $scope.bpTree.ContextId;
             addDefaultFields(input);
             let apiInput = formCPQAPIInput(input);
+            if ('quote' === $scope.cartType.toLowerCase())
+            {
+                let copyGroups = $scope.bpTree.response.copyOpportunityGroups;
+                if (copyGroups && (typeof copyGroups === 'boolean' || (typeof copyGroups === 'string' && 'true' === copyGroups.toLowerCase())))
+                {
+                    apiInput['copyGroups'] = true;
+                }
+            }
             apiInput['objectType'] = $scope.cartType;
             return apiInput;
         }

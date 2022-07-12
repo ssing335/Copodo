@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>*Offer Migration Plan</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>**Offer Migration Plans</value>
+    </caseValues>
     <fieldSets>
         <label><!-- Console Admin Search --></label>
         <name>vlocity_cmt__ConsoleAdminSearch</name>
@@ -84,6 +92,7 @@
         <label><!-- Active --></label>
         <name>vlocity_cmt__isActive__c</name>
     </fields>
+    <startsWith>Consonant</startsWith>
     <validationRules>
         <errorMessage><!-- Effective End Date should be greater than or equal to Effective Start Date. --></errorMessage>
         <name>vlocity_cmt__EffectiveStart_Greater_EffectiveEnd</name>

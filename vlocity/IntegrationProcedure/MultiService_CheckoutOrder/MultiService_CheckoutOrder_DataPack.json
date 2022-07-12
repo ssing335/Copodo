@@ -3,7 +3,10 @@
     "%vlocity_namespace%__CustomJavaScript__c": "{}",
     "%vlocity_namespace%__DisableMetadataCache__c": false,
     "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
-    "%vlocity_namespace%__Element__c": "MultiService_CheckoutOrder_Element_SubmitOrder.json",
+    "%vlocity_namespace%__Element__c": [
+        "MultiService_CheckoutOrder_Element_SubmitOrder.json",
+        "MultiService_CheckoutOrder_Element_SetResponse.json"
+    ],
     "%vlocity_namespace%__IsLwcEnabled__c": false,
     "%vlocity_namespace%__IsProcedure__c": true,
     "%vlocity_namespace%__IsReusable__c": false,

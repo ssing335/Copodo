@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>*Vlocity Attribute Category</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>**Vlocity Attribute Categories</value>
+    </caseValues>
     <fieldSets>
         <label><!-- Console Admin Search --></label>
         <name>vlocity_cmt__ConsoleAdminSearch</name>
@@ -178,6 +186,8 @@
             <translation><!-- TextComment --></translation>
         </picklistValues>
     </fields>
+    <nameFieldLabel>Vlocity Attribute Category Name</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
     <webLinks>
         <label><!-- ContentAttributes --></label>
         <name>vlocity_cmt__ContentAttributes</name>

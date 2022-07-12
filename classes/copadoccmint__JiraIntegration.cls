@@ -6,6 +6,7 @@
  * String str = Datetime.now().addSeconds(5).format('s m H d M ? yyyy');
  * String jobID = system.schedule('ScheduleUserStoryFetch - ' + DateTime.Now() + '.' + math.mod(DateTime.now().getTime(), 1000), str, Susf);
  * @author Ümit Can Uçkan
+ * @lastModifiedBy Kunal Kaushik
  * @version 1.11
  */
 
@@ -14,16 +15,7 @@ public with sharing class JiraIntegration extends JiraIntegrationConstants imple
     //will be filled with related project/user Story record
     public String projectExtId;
     public String namedCredential;
-    public Map<String, Id> userMap {
-        get {
-            if (null == userMap) {
-                Boolean unableCommunityUser = [SELECT Id, Enable_Community_User__c FROM copado__Project__c WHERE Id = :pId].Enable_Community_User__c;
-                userMap = CopadoCCMutilities.returnUsers(unableCommunityUser);
-            }
-            return userMap;
-        }
-        private set;
-    }
+
     public Map<String, Map<String, String>> keyValuepairsByExternalId {
         get {
             if (null == keyValuepairsByExternalId) {
@@ -336,12 +328,7 @@ public with sharing class JiraIntegration extends JiraIntegrationConstants imple
                 if (null != tempObject.get(EMAIL_ADDRESS)) {
                     //Fills up user look up fields, if email address in use on Third Party Platform matches any of the email addresses on current salesforce org.
                     String cuEmail = ((String) tempObject.get(EMAIL_ADDRESS)).toLowerCase();
-                    if (userMap.containsKey(cuEmail)) {
-                        String mapKey = (cf == ASSIGNEE ? DEVELOPER_KEYWORD : cf);
-                        keyValuepairs.put(mapKey, userMap.get(cuEmail));
-                    } else {
-                        keyValuepairs.put(cf, (String) tempObject.get(EMAIL_ADDRESS));
-                    }
+                    keyValuepairs.put(cf, cuEmail);
                 } else if (null != tempObject.get(NAME_KEYWORD)) {
                     keyValuepairs.put(cf, (String) tempObject.get(NAME_KEYWORD));
                 } else if (null != tempObject.get(VALUE_KEYWORD)) {
@@ -404,7 +391,7 @@ public with sharing class JiraIntegration extends JiraIntegrationConstants imple
         String finalJson = JSON_TEMPLATE_OUTER;
         for (String fieldName : fieldMap.keyset()) {
             if (null != cUserStory.get(fieldName) && fieldMap.get(fieldName) != STATUS) {
-                String fieldKey = fieldMap.get(fieldName), fieldValue = String.escapeSingleQuotes(String.valueOf(cUserStory.get(fieldName)));
+                String fieldKey = fieldMap.get(fieldName), fieldValue = String.valueOf(cUserStory.get(fieldName));
                 if (fieldName == RECORD_TYPE_ID) {
                     String recordTypeId = fieldValue;
                     String recordTypeName = userStoryRecordTypeMap.get(recordTypeId);
@@ -471,11 +458,12 @@ public with sharing class JiraIntegration extends JiraIntegrationConstants imple
      * @return sprint list response
      */
     private List<copado__Sprint__c> getSprints(copado__Project__c selectedProject) {
+        correctExtendedFilter(selectedProject.JQL_Extended_Filter__c);
         String responseText = CopadoCCMutilities.MakeCallout(
             namedCredential,
             SPRINT_QUERY_PATH,
             EMPTY_CHAR,
-            projectExtId,
+            projectExtId + jqlExtFilter,
             EMPTY_CHAR,
             new List<String>{ CONTENT_TYPE_HEADER },
             Method.GET,

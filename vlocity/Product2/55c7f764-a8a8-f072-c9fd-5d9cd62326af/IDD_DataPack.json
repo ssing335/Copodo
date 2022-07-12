@@ -201,6 +201,7 @@
     },
     "%vlocity_namespace%__ObjectTypeName__c": "Mobile Product Spec Type",
     "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PriceListEntry__c": "IDD_PriceListEntries.json",
     "%vlocity_namespace%__ProductChildItem__c": "IDD_ProductChildItems.json",
     "%vlocity_namespace%__ProductSpecId__c": "",
     "%vlocity_namespace%__ProductTemplateProductId__c": "",
@@ -219,8 +220,8 @@
     "%vlocity_namespace%__VersionEndDateTime__c": "",
     "%vlocity_namespace%__VersionLabel__c": "",
     "%vlocity_namespace%__VersionStartDateTime__c": "",
-    "CanUseQuantitySchedule": false,
-    "CanUseRevenueSchedule": false,
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
     "Description": "",
     "DisplayUrl": "",
     "ExternalDataSourceId": "",
@@ -246,6 +247,39 @@
     },
     "RevenueInstallmentPeriod": "",
     "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": 0,
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "IDD",
+            "Price_Book_Entry_Ext_Id__c": "",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "55c7f764-a8a8-f072-c9fd-5d9cd62326af",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "55c7f764-a8a8-f072-c9fd-5d9cd62326af",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/55c7f764-a8a8-f072-c9fd-5d9cd62326af",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "C-IDD",
+            "UnitPrice": 0,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/55c7f764-a8a8-f072-c9fd-5d9cd62326af"
+        }
+    ],
     "StockKeepingUnit": "",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "Product2",

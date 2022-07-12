@@ -5,21 +5,8 @@
 @import "cpq-mixin";
 
 /*** STYLES ***/
-
-    
 .vlocity {
-
     &.via-slds {
-        .total-bar-customize {
-            .slds-shrink{
-                flex-shrink: 1;
-                margin-right: 20px;
-                margin-left: 20px;
-                flex-direction: row;
-                border-right: 2px solid white;
-                padding-right: 30px;
-            }
-        }
         .cpq-total-bar {
             background-color: $cpq-cart-total-bar-bg-color;
             color: $cpq-cart-container-bg-color;
@@ -28,6 +15,10 @@
             bottom: 0;
             right: 8px;
             left: 8px;
+        }
+        .cpq-permission-error-msg {
+            color: red;
+            margin-left: 80px;
         }
         // 64rem
         @media screen and (max-width: $bp-large) {

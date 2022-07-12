@@ -42,7 +42,7 @@
             </span>
             
             <!-- Action Buttons -->
-            <button ng-repeat="action in data.actions | limitTo: 4" 
+            <button ng-repeat="action in data.actions | limitTo: 3" 
                 class="slds-button slds-button_neutral"
                 ng-click="performAction(action)"
                 id="{{idPrefix}}-import-btn" 
@@ -50,7 +50,7 @@
                 {{::$root.vlocity.getCustomLabel(action[$root.nsPrefix+'CustomLabelName__c'] ? action[$root.nsPrefix+'CustomLabelName__c'] : action.displayName, action.displayName)}}
             </button>
             
-            <div class="slds-dropdown-trigger slds-dropdown-trigger_click slds-button_last" ng-class="{'slds-is-open': isOpen}" type="'button-group'" aria-expanded="true" ng-if="data.actions.length > 4">
+            <div class="slds-dropdown-trigger slds-dropdown-trigger_click slds-button_last" ng-class="{'slds-is-open': isOpen}" type="'button-group'" aria-expanded="true" ng-if="data.actions.length > 3">
               
                 <button cpq-dropdown-handler="isOpen = false" class="slds-button slds-button_icon-border-filled" aria-haspopup="true" ng-click="isOpen = !isOpen" id="{{idPrefix}}-toggle" title="{{::importedScope.customLabels.CPQShowMore}}">
                     <slds-button-svg-icon size="type === 'button-group' ? null : 'small'" sprite="'utility'" icon="'down'" ></slds-button-svg-icon>
@@ -59,7 +59,7 @@
                 
                 <div class="slds-dropdown slds-dropdown_down slds-dropdown_actions cpq-dropdown-to-btn">
                     <ul class="dropdown__list" role="menu">
-                        <li class="slds-dropdown__item" ng-repeat="action in data.actions" ng-if="$index >= 4">
+                        <li class="slds-dropdown__item" ng-repeat="action in data.actions" ng-if="$index >= 3">
                             <a role="menuitem" ng-href="#" ng-click="performAction(action)" title="{{::$root.vlocity.getCustomLabel(action[$root.nsPrefix+'CustomLabelName__c'] ? action[$root.nsPrefix+'CustomLabelName__c'] : action.displayName, action.displayName)}}">
                                 <p class="slds-truncate">
                                     <slds-svg-icon size="'x-small'" extra-classes="'slds-m-right_x-small'"  sprite="item.icon(this).sprite" icon="item.icon(this).icon" ng-show="item.icon(this).icon"></slds-svg-icon>

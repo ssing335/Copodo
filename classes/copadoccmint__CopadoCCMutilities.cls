@@ -2,6 +2,7 @@
  * Utilities class for CCM Integrations.
  *
  * @author Ümit Can Uçkan
+ * @lastModifiedBy : Kunal Kaushik
  * @version 1.0
  * @since CCM Integrations 1.0
  */
@@ -124,25 +125,6 @@ public with sharing class CopadoCCMutilities {
     }
     private static String applySalesforceDateTimeFormatString(Object param) {
         return String.valueOf(param).replace('T', ' ');
-    }
-
-    public static Map<String, Id> returnUsers(Boolean enableCommunityUsers) {
-        //usermap to match lookup values via third party users' mail addresses
-        Map<String, Id> userMap = new Map<String, id>();
-        List<User> users;
-        try {
-            users = Database.query(
-                'SELECT Id, Email FROM User WHERE IsActive = TRUE AND Email != NULL' + (enableCommunityUsers ? '' : ' AND IsPortalEnabled = FALSE ')
-            );
-        } catch (QueryException exp) {
-            //portal or community is not enabled for the org, hence IsPortalEnabled is not available for the environment yet
-            //no need to handle this
-            users = [SELECT Id, Email FROM User WHERE IsActive = TRUE AND Email != NULL];
-        }
-        for (User u : users) {
-            userMap.put(u.Email.toLowercase(), u.Id);
-        }
-        return userMap;
     }
 
     //Field mapping values between salesforce and third party platform fields under related project

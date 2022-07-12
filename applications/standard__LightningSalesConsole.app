@@ -22,6 +22,7 @@
     <tabs>standard-File</tabs>
     <tabs>COXProduct__c</tabs>
     <tabs>CoxTreatmentQA__c</tabs>
+    <tabs>vlocity_cmt__ObjectClass__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
     <workspaceConfig>
@@ -69,6 +70,9 @@
         </mappings>
         <mappings>
             <tab>standard-report</tab>
+        </mappings>
+        <mappings>
+            <tab>vlocity_cmt__ObjectClass__c</tab>
         </mappings>
     </workspaceConfig>
 </CustomApplication>

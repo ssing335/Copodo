@@ -14,6 +14,9 @@ vlocity.cardframework.registerModule.controller('DisplayCPQController', ['$scope
         var cartURL;
 
         $scope.getURL = function() {
+            if ($scope.bpTree.holdCart) {
+                return null;
+            }
             $scope.isToShow = false;
             var cartStrategy = $scope.bpTree.response.cartStrategy;
             if(cartStrategy === 'select') {

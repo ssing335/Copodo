@@ -2213,6 +2213,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Draft</fullName>
                 <default>false</default>
             </values>
@@ -2609,6 +2613,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Draft</fullName>
                 <default>false</default>
             </values>
@@ -2970,6 +2978,10 @@
             <picklist>Status</picklist>
             <values>
                 <fullName>Activated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -3365,6 +3377,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Draft</fullName>
                 <default>false</default>
             </values>
@@ -3725,6 +3741,10 @@
             <picklist>Status</picklist>
             <values>
                 <fullName>Activated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -4093,6 +4113,10 @@
             <picklist>Status</picklist>
             <values>
                 <fullName>Activated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -4492,6 +4516,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Draft</fullName>
                 <default>false</default>
             </values>
@@ -4853,6 +4881,10 @@
             <picklist>Status</picklist>
             <values>
                 <fullName>Activated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -5252,6 +5284,18 @@
         <searchResultsAdditionalFields>CONTRACT.CONTRACT_NUMBER</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
+    <webLinks>
+        <fullName>Add_Products</fullName>
+        <availability>online</availability>
+        <description>Add Products</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Add Products</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/lightning/app/c__Industries_CPQ/r/{!Order.Id}/view</url>
+    </webLinks>
     <webLinks>
         <fullName>vlocity_cmt__Amend</fullName>
         <availability>online</availability>

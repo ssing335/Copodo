@@ -11,6 +11,7 @@
         "additionalChainableResponse": {
         },
         "additionalInput": {
+            "HasFailedGroupMembers": "%HasFailedGroupMembers%",
             "batchInput": [
                 {
                     "batchOperationType": "Validate",
@@ -54,6 +55,12 @@
                                 "": ""
                             }
                         },
+                        "postFinishVIP": {
+                            "vipName": "MultiService_ValidateAndUpdateExternalPricingStatus",
+                            "vipParams": {
+                                "": ""
+                            }
+                        },
                         "startVIP": {
                             "vipName": "",
                             "vipParams": {
@@ -69,6 +76,12 @@
             "groupCartId": "%groupCartId%",
             "groupId": "%groupId%",
             "groupIds": "%groupIds%",
+            "notifications": {
+                "appNotification": {
+                    "ValidateAndPriceNotificationEnabled": true,
+                    "customNotificationTypeName": "CMEbatchJob"
+                }
+            },
             "parentId": "%parentId%",
             "startJobVIPName": "%startJobVIPName%"
         },

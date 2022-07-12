@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>*Product Relationship</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>**Product Relationships</value>
+    </caseValues>
     <fields>
         <label><!-- Action Parameters --></label>
         <name>vlocity_cmt__ActionParameters__c</name>
@@ -199,6 +207,7 @@
         <label><!-- Reverse Min Quantity --></label>
         <name>vlocity_cmt__ReverseMinQuantity__c</name>
     </fields>
+    <startsWith>Consonant</startsWith>
     <validationRules>
         <errorMessage><!-- Default quantity should not be zero --></errorMessage>
         <name>vlocity_cmt__Default_quntity_cannot_be_zero</name>

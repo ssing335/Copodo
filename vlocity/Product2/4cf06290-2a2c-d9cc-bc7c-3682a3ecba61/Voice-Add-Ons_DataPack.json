@@ -3,6 +3,8 @@
     "%vlocity_namespace%__ApprovedOn__c": "",
     "%vlocity_namespace%__AttributeAssignment__c": "Voice-Add-Ons_AttributeAssignments.json",
     "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "ATT_OFFNET": null,
+        "ATT_ONNET": null
     },
     "%vlocity_namespace%__AttributeMetadata__c": {
         "messages": [
@@ -11,7 +13,7 @@
             {
                 "Code__c": "7f0bea1d-620d-8a10-aebc-7094b2ab5b4e",
                 "Name": "Mobile Service",
-                "displaySequence": 2,
+                "displaySequence": 6,
                 "id": "a2D8G0000004cjUUAQ",
                 "messages": [
                 ],
@@ -30,7 +32,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "OnNet(min)",
                             "messages": [
@@ -39,7 +40,58 @@
                             "readonly": false,
                             "required": false,
                             "userValues": null,
-                            "values": null
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "08e6482e-58f8-cbd3-3489-4e55c757ffd3",
+                                    "label": "1000",
+                                    "name": "08e6482e-58f8-cbd3-3489-4e55c757ffd3",
+                                    "readonly": false,
+                                    "value": "1000"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "1b63d927-8e54-e9e8-2ed4-f2b712b3d622",
+                                    "label": "Unltd",
+                                    "name": "1b63d927-8e54-e9e8-2ed4-f2b712b3d622",
+                                    "readonly": false,
+                                    "value": "Unltd"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "7a07d70d-f58c-3abd-a1ab-3262812e7a05",
+                                    "label": "500",
+                                    "name": "7a07d70d-f58c-3abd-a1ab-3262812e7a05",
+                                    "readonly": false,
+                                    "value": "500"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "af36c2f3-7f41-3214-1b8d-9022828e6eac",
+                                    "label": "None",
+                                    "name": "af36c2f3-7f41-3214-1b8d-9022828e6eac",
+                                    "readonly": false,
+                                    "value": "None"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "ef55e21c-1e3d-df62-cd6c-8af8e046d52c",
+                                    "label": "200",
+                                    "name": "ef55e21c-1e3d-df62-cd6c-8af8e046d52c",
+                                    "readonly": false,
+                                    "value": "200"
+                                }
+                            ]
                         },
                         {
                             "attributeId": "a2E8G000000DENRUA4",
@@ -52,7 +104,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "OffNet(min)",
                             "messages": [
@@ -61,7 +112,58 @@
                             "readonly": false,
                             "required": false,
                             "userValues": null,
-                            "values": null
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "08e6482e-58f8-cbd3-3489-4e55c757ffd3",
+                                    "label": "1000",
+                                    "name": "08e6482e-58f8-cbd3-3489-4e55c757ffd3",
+                                    "readonly": false,
+                                    "value": "1000"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "1b63d927-8e54-e9e8-2ed4-f2b712b3d622",
+                                    "label": "Unltd",
+                                    "name": "1b63d927-8e54-e9e8-2ed4-f2b712b3d622",
+                                    "readonly": false,
+                                    "value": "Unltd"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "7a07d70d-f58c-3abd-a1ab-3262812e7a05",
+                                    "label": "500",
+                                    "name": "7a07d70d-f58c-3abd-a1ab-3262812e7a05",
+                                    "readonly": false,
+                                    "value": "500"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "af36c2f3-7f41-3214-1b8d-9022828e6eac",
+                                    "label": "None",
+                                    "name": "af36c2f3-7f41-3214-1b8d-9022828e6eac",
+                                    "readonly": false,
+                                    "value": "None"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "ef55e21c-1e3d-df62-cd6c-8af8e046d52c",
+                                    "label": "200",
+                                    "name": "ef55e21c-1e3d-df62-cd6c-8af8e046d52c",
+                                    "readonly": false,
+                                    "value": "200"
+                                }
+                            ]
                         }
                     ],
                     "totalSize": 2
@@ -105,6 +207,7 @@
     },
     "%vlocity_namespace%__ObjectTypeName__c": "Mobile Product Spec Type",
     "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PriceListEntry__c": "Voice-Add-Ons_PriceListEntries.json",
     "%vlocity_namespace%__ProductChildItem__c": "Voice-Add-Ons_ProductChildItems.json",
     "%vlocity_namespace%__ProductSpecId__c": "",
     "%vlocity_namespace%__ProductTemplateProductId__c": "",
@@ -123,8 +226,8 @@
     "%vlocity_namespace%__VersionEndDateTime__c": "",
     "%vlocity_namespace%__VersionLabel__c": "",
     "%vlocity_namespace%__VersionStartDateTime__c": "",
-    "CanUseQuantitySchedule": false,
-    "CanUseRevenueSchedule": false,
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
     "Description": "",
     "DisplayUrl": "",
     "ExternalDataSourceId": "",
@@ -150,6 +253,39 @@
     },
     "RevenueInstallmentPeriod": "",
     "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": 0,
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "Voice Add-Ons",
+            "Price_Book_Entry_Ext_Id__c": "",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "4cf06290-2a2c-d9cc-bc7c-3682a3ecba61",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "4cf06290-2a2c-d9cc-bc7c-3682a3ecba61",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/4cf06290-2a2c-d9cc-bc7c-3682a3ecba61",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "C-VoiceAddOns",
+            "UnitPrice": 0,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/4cf06290-2a2c-d9cc-bc7c-3682a3ecba61"
+        }
+    ],
     "StockKeepingUnit": "",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "Product2",
