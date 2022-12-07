@@ -1,0 +1,62 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Muffin - Zero Transfat",
+        "Price_Book_Entry_Ext_Id__c": "CPB-009",
+        "Pricebook2.Name": "ADD Pricebook",
+        "Pricebook2Id": {
+            "Name": "ADD Pricebook",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/ADD Pricebook",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "c9f52a00-7863-3de0-eef3-1e311c39bb90",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "c9f52a00-7863-3de0-eef3-1e311c39bb90",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/c9f52a00-7863-3de0-eef3-1e311c39bb90",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 11.28,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/ADD Pricebook/Product2/c9f52a00-7863-3de0-eef3-1e311c39bb90"
+    },
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Muffin - Zero Transfat",
+        "Price_Book_Entry_Ext_Id__c": "SPB-009",
+        "Pricebook2.Name": "Standard Price Book",
+        "Pricebook2Id": {
+            "Name": "Standard Price Book",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "c9f52a00-7863-3de0-eef3-1e311c39bb90",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "c9f52a00-7863-3de0-eef3-1e311c39bb90",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/c9f52a00-7863-3de0-eef3-1e311c39bb90",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 11.28,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/c9f52a00-7863-3de0-eef3-1e311c39bb90"
+    }
+]

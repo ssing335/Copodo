@@ -1,0 +1,62 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Rum - Cream - Amarula",
+        "Price_Book_Entry_Ext_Id__c": "CPB-005",
+        "Pricebook2.Name": "ADD Pricebook",
+        "Pricebook2Id": {
+            "Name": "ADD Pricebook",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/ADD Pricebook",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "6a4bfbeb-4e17-5d52-f9a1-8285f507fee0",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "6a4bfbeb-4e17-5d52-f9a1-8285f507fee0",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/6a4bfbeb-4e17-5d52-f9a1-8285f507fee0",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 117,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/ADD Pricebook/Product2/6a4bfbeb-4e17-5d52-f9a1-8285f507fee0"
+    },
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Rum - Cream - Amarula",
+        "Price_Book_Entry_Ext_Id__c": "SPB-005",
+        "Pricebook2.Name": "Standard Price Book",
+        "Pricebook2Id": {
+            "Name": "Standard Price Book",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "6a4bfbeb-4e17-5d52-f9a1-8285f507fee0",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "6a4bfbeb-4e17-5d52-f9a1-8285f507fee0",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/6a4bfbeb-4e17-5d52-f9a1-8285f507fee0",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 117,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/6a4bfbeb-4e17-5d52-f9a1-8285f507fee0"
+    }
+]

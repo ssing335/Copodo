@@ -1,0 +1,38 @@
+{
+    "%vlocity_namespace%__Author__c": "copado",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "id": 2,
+                "name": "recordId",
+                "val": "001f000001icfuFAAQ"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "FetchAssetDetails",
+            "inputMap": {
+                "AccountId": "{recordId}"
+            },
+            "resultVar": ""
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "Assets.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "Assets/copado/3/1636972198749",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "AssetView/copado/7/1630648132029",
+    "%vlocity_namespace%__SampleData__c": "[{\"AssetServiceLocation\":\"Apple Inc.\",\"AssetId\":\"02if000000ISofTAAT\",\"AssetAccountId\":\"001f000001icfuFAAQ\",\"AssetCreatedDate\":\"2021-09-27T09:15:18.000Z\",\"AssetRecurringCharge\":100,\"AssetServiceAccountId\":\"001f000001icfuFAAQ\",\"AssetRootItemId\":\"1e09913b-b107-5f32-8846-417c4448309c\",\"AssetOneTimeCharge\":1300,\"AssetName\":\"Fiber Internet Access\"},{\"AssetServiceLocation\":\"Apple Inc.\",\"AssetId\":\"02if000000ISoKzAAL\",\"AssetAccountId\":\"001f000001icfuFAAQ\",\"AssetCreatedDate\":\"2021-09-21T08:07:39.000Z\",\"AssetRecurringCharge\":100,\"AssetServiceAccountId\":\"001f000001icfuFAAQ\",\"AssetRootItemId\":\"a78e347e-3f74-59ac-8371-0a06f41aabd8\",\"AssetOneTimeCharge\":1350,\"AssetName\":\"Fiber Internet Access\"},{\"AssetServiceLocation\":\"SpaceX Co.\",\"AssetId\":\"02if000000ISbWuAAL\",\"AssetAccountId\":\"001f000001icfuFAAQ\",\"AssetCreatedDate\":\"2021-09-01T05:08:23.000Z\",\"AssetRecurringCharge\":100,\"AssetServiceAccountId\":\"001f000001hdCUsAAM\",\"AssetRootItemId\":\"0bb1b3a3-c9f2-a5ab-1891-2fba87b8853c\",\"AssetOneTimeCharge\":1350,\"AssetName\":\"Fiber Internet Access\"},{\"AssetServiceLocation\":\"SpaceX Co.\",\"AssetId\":\"02if000000ISb50AAD\",\"AssetAccountId\":\"001f000001icfuFAAQ\",\"AssetCreatedDate\":\"2021-08-25T10:55:35.000Z\",\"AssetRecurringCharge\":45,\"AssetServiceAccountId\":\"001f000001hdCUsAAM\",\"AssetRootItemId\":\"5e7581e1-e483-2a91-36a3-891e994a401a\",\"AssetOneTimeCharge\":1350,\"AssetName\":\"Fiber Internet Access\"}]",
+    "%vlocity_namespace%__Styles__c": "",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 3,
+    "Name": "Assets",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/Assets"
+}

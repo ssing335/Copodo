@@ -1,0 +1,240 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "ATT_OFFNET": null,
+        "ATT_ONNET": null
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "7f0bea1d-620d-8a10-aebc-7094b2ab5b4e",
+                "Name": "Mobile Service",
+                "displaySequence": 20,
+                "id": "a2D8G0000000b7vUAA",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a2E8G000000AchGUAS",
+                            "cloneable": true,
+                            "code": "ATT_ONNET",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 50,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "OnNet(min)",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "af36c2f3-7f41-3214-1b8d-9022828e6eac",
+                                    "label": "None",
+                                    "readonly": false,
+                                    "value": "None"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "1b63d927-8e54-e9e8-2ed4-f2b712b3d622",
+                                    "label": "Unltd",
+                                    "readonly": false,
+                                    "value": "Unltd"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "ef55e21c-1e3d-df62-cd6c-8af8e046d52c",
+                                    "label": "200",
+                                    "readonly": false,
+                                    "value": "200"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "7a07d70d-f58c-3abd-a1ab-3262812e7a05",
+                                    "label": "500",
+                                    "readonly": false,
+                                    "value": "500"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "08e6482e-58f8-cbd3-3489-4e55c757ffd3",
+                                    "label": "1000",
+                                    "readonly": false,
+                                    "value": "1000"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000AchLUAS",
+                            "cloneable": true,
+                            "code": "ATT_OFFNET",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 60,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "OffNet(min)",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "af36c2f3-7f41-3214-1b8d-9022828e6eac",
+                                    "label": "None",
+                                    "readonly": false,
+                                    "value": "None"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "1b63d927-8e54-e9e8-2ed4-f2b712b3d622",
+                                    "label": "Unltd",
+                                    "readonly": false,
+                                    "value": "Unltd"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "ef55e21c-1e3d-df62-cd6c-8af8e046d52c",
+                                    "label": "200",
+                                    "readonly": false,
+                                    "value": "200"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "7a07d70d-f58c-3abd-a1ab-3262812e7a05",
+                                    "label": "500",
+                                    "readonly": false,
+                                    "value": "500"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "08e6482e-58f8-cbd3-3489-4e55c757ffd3",
+                                    "label": "1000",
+                                    "readonly": false,
+                                    "value": "1000"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 2
+                }
+            }
+        ],
+        "totalSize": 1
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2022-10-03",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2022-10-03T07:00:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "de9c684a-37a0-e395-cef9-2bb70b8dc6cd",
+    "%vlocity_namespace%__GlobalKey__c": "9c7622a8-afce-8bf3-01b0-4026b27e5a8a",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": false,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__MainFeatureQuantityUom__c": "",
+    "%vlocity_namespace%__MainFeatureQuantity__c": "",
+    "%vlocity_namespace%__MainFeatureTermInDays__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectFieldAttribute__c": "Voice-Add-On-CFS_ObjectFieldAttributes.json",
+    "%vlocity_namespace%__ObjectTypeId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "78a59b-02f23e-fe1628-66f7b5-396d135ae",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/78a59b-02f23e-fe1628-66f7b5-396d135ae",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+    },
+    "%vlocity_namespace%__ObjectTypeName__c": "Voice Add-On CFS Spec",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__ProductChildItem__c": "Voice-Add-On-CFS_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "2022-10-03T07:00:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "Service",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "",
+    "%vlocity_namespace%__SubType__c": "None",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "None",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "Access_Type__c": "",
+    "CanUseQuantitySchedule": false,
+    "CanUseRevenueSchedule": false,
+    "Description": "Technical Product for Voice Add On",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "Voice Add-On CFS",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "ProductCode": "C-VADDON-CFS",
+    "Product_Ext_Id__c": "",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/9c7622a8-afce-8bf3-01b0-4026b27e5a8a"
+}

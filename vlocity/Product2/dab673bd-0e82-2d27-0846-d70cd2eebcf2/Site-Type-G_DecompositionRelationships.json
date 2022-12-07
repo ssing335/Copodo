@@ -1,0 +1,33 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "d7078341-f636-54b8-b93f-ffa9b53217cd",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/d7078341-f636-54b8-b93f-ffa9b53217cd",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "",
+        "%vlocity_namespace%__MappingsData__c": "[{\"source_attr_name\":\"# of cloud Applications\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"# of cloud Applications\",\"destination_attr_code\":\"ATT_# of cloud Applications\",\"source_attr_code\":\"ATT_# of cloud Applications\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"# of on-site Applications\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"# of on-site Applications\",\"destination_attr_code\":\"ATT_# of on-site Applications\",\"source_attr_code\":\"ATT_# of on-site Applications\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"Deployment Schema\",\"transform_mappings\":[],\"mapping_type\":\"list\",\"destination_attr_name\":\"Deployment Schema\",\"destination_attr_code\":\"Att_Deployment Schema\",\"source_attr_code\":\"Att_Deployment Schema\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"Maintenance Model\",\"transform_mappings\":[],\"mapping_type\":\"list\",\"destination_attr_name\":\"Maintenance Model\",\"destination_attr_code\":\"Att_Maintenance Model\",\"source_attr_code\":\"Att_Maintenance Model\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"Range of # of final users\",\"transform_mappings\":[],\"mapping_type\":\"list\",\"destination_attr_name\":\"Range of # of final users\",\"destination_attr_code\":\"ATT_Range of # of final users\",\"source_attr_code\":\"ATT_Range of # of final users\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"Maximum throughput\",\"transform_mappings\":[],\"mapping_type\":\"list\",\"destination_attr_name\":\"Maximum throughput\",\"destination_attr_code\":\"Att_Maximum throughput\",\"source_attr_code\":\"Att_Maximum throughput\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"NoOfSite\",\"transform_mappings\":[],\"mapping_type\":\"list\",\"destination_attr_name\":\"NoOfSite\",\"destination_attr_code\":\"ATT_NoOfSite\",\"source_attr_code\":\"ATT_NoOfSite\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"Type\",\"transform_mappings\":[],\"mapping_type\":\"list\",\"destination_attr_name\":\"Type\",\"destination_attr_code\":\"ATT-Type\",\"source_attr_code\":\"ATT-Type\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"Visibility\",\"transform_mappings\":[],\"mapping_type\":\"list\",\"destination_attr_name\":\"Visibility\",\"destination_attr_code\":\"ATT-Visibility\",\"source_attr_code\":\"ATT-Visibility\",\"source_type\":\"Attribute\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "dab673bd-0e82-2d27-0846-d70cd2eebcf2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/dab673bd-0e82-2d27-0846-d70cd2eebcf2",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "dab673bd-0e82-2d27-0846-d70cd2eebcf2",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "Site Type G CFS to Site Type G CFS Spec",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/Site Type G CFS to Site Type G CFS Spec/Product2/dab673bd-0e82-2d27-0846-d70cd2eebcf2"
+    }
+]

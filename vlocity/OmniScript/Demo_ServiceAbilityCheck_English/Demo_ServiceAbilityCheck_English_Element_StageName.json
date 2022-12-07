@@ -1,0 +1,110 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "serviceCheck",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Demo/ServiceAbilityCheck/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "serviceCheck",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Demo/ServiceAbilityCheck/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "OpportunityDetails1",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Demo/ServiceAbilityCheck/English/OpportunityDetails1",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "OpportunityDetails1",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": "Prospecting",
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Stage",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "autoAdv": null,
+                "name": "Prospecting",
+                "value": "Prospecting"
+            },
+            {
+                "autoAdv": null,
+                "name": "Qualification",
+                "value": "Qualification"
+            },
+            {
+                "autoAdv": null,
+                "name": "Needs Analysis",
+                "value": "Needs Analysis"
+            },
+            {
+                "autoAdv": null,
+                "name": "Value Proposition",
+                "value": "Value Proposition"
+            },
+            {
+                "autoAdv": null,
+                "name": "Id. Decision Makers",
+                "value": "Id. Decision Makers"
+            },
+            {
+                "autoAdv": null,
+                "name": "Perception Analysis",
+                "value": "Perception Analysis"
+            },
+            {
+                "autoAdv": null,
+                "name": "Proposal/Price Quote",
+                "value": "Proposal/Price Quote"
+            },
+            {
+                "autoAdv": null,
+                "name": "Negotiation/Review",
+                "value": "Negotiation/Review"
+            },
+            {
+                "autoAdv": null,
+                "name": "Closed Won",
+                "value": "Closed Won"
+            },
+            {
+                "autoAdv": null,
+                "name": "Closed Lost",
+                "value": "Closed Lost"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null,
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Select",
+    "Name": "StageName",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Demo/ServiceAbilityCheck/English/StageName"
+}

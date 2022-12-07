@@ -1,0 +1,140 @@
+[
+    {
+        "%vlocity_namespace%__AddDate__c": "",
+        "%vlocity_namespace%__AttributeAdjustmentComments__c": "",
+        "%vlocity_namespace%__AttributeAdjustmentUnits__c": "",
+        "%vlocity_namespace%__AttributeCategoryId__c": {
+            "%vlocity_namespace%__Code__c": "0084b5b3-bef9-6cf4-c79f-2187a0202e62",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__AttributeCategory__c/0084b5b3-bef9-6cf4-c79f-2187a0202e62",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeCategory__c"
+        },
+        "%vlocity_namespace%__AttributeDisplayNameOverride__c": "Market Segment",
+        "%vlocity_namespace%__AttributeDisplaySequence__c": "10",
+        "%vlocity_namespace%__AttributeId__c": {
+            "%vlocity_namespace%__Code__c": "ATT_MRKT_SGMNT",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__Attribute__c/ATT_MRKT_SGMNT",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Attribute__c"
+        },
+        "%vlocity_namespace%__AttributeId__r.%vlocity_namespace%__Code__c": "ATT_MRKT_SGMNT",
+        "%vlocity_namespace%__AttributeName__c": "Market Segment",
+        "%vlocity_namespace%__ConfigurationDetail__c": "",
+        "%vlocity_namespace%__ConfigurationStages__c": "",
+        "%vlocity_namespace%__CustomConfigUiTemplate__c": "",
+        "%vlocity_namespace%__Data__c": "",
+        "%vlocity_namespace%__DefaultPicklistEntryId__c": "",
+        "%vlocity_namespace%__DefaultPicklistValueId__c": "",
+        "%vlocity_namespace%__DisplaySequence__c": "null",
+        "%vlocity_namespace%__EndStory__c": "",
+        "%vlocity_namespace%__ExcludedPicklistEntryIds__c": "",
+        "%vlocity_namespace%__ExcludedPicklistValues__c": "",
+        "%vlocity_namespace%__FormatMask__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "d67c1c43-f6fb-7ba1-fe17-af19ec165fe9",
+        "%vlocity_namespace%__HasRule__c": false,
+        "%vlocity_namespace%__HelpText__c": "",
+        "%vlocity_namespace%__IsActiveAssignment__c": true,
+        "%vlocity_namespace%__IsConfigurable__c": true,
+        "%vlocity_namespace%__IsDynamic__c": false,
+        "%vlocity_namespace%__IsEncrypted__c": false,
+        "%vlocity_namespace%__IsHidden__c": false,
+        "%vlocity_namespace%__IsNotAssetizable__c": false,
+        "%vlocity_namespace%__IsNotTranslatable__c": false,
+        "%vlocity_namespace%__IsOverride__c": false,
+        "%vlocity_namespace%__IsQueryDriven__c": false,
+        "%vlocity_namespace%__IsReadOnly__c": false,
+        "%vlocity_namespace%__IsRequired__c": false,
+        "%vlocity_namespace%__LookupFilter__c": "",
+        "%vlocity_namespace%__LookupObjectId__c": "",
+        "%vlocity_namespace%__LookupObjectTypeId__c": "",
+        "%vlocity_namespace%__ObjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "52d4d633-85f8-243b-2d79-4ba774b4ef9b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/52d4d633-85f8-243b-2d79-4ba774b4ef9b",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__ObjectType__c": "Product2",
+        "%vlocity_namespace%__OverrideContext__c": "",
+        "%vlocity_namespace%__PicklistId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "3f5ec6cd-e0fc-9915-9d16-0e0b8458857b",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__Picklist__c/3f5ec6cd-e0fc-9915-9d16-0e0b8458857b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Picklist__c"
+        },
+        "%vlocity_namespace%__QueryCode__c": "",
+        "%vlocity_namespace%__QueryLabel__c": "",
+        "%vlocity_namespace%__RemoveDate__c": "",
+        "%vlocity_namespace%__RemovedFlag__c": false,
+        "%vlocity_namespace%__RuleData__c": "",
+        "%vlocity_namespace%__RuleMessage__c": "",
+        "%vlocity_namespace%__StartStory__c": "",
+        "%vlocity_namespace%__StyleClass__c": "",
+        "%vlocity_namespace%__UIDisplayType__c": "Dropdown",
+        "%vlocity_namespace%__ValidValuesData__c": [
+            {
+                "displayText": "Basic (81 100 users)",
+                "id": "78cba02b-6969-b325-2d23-e5fc94f1b390",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 10,
+                "value": "Basic (81 100 users)"
+            },
+            {
+                "displayText": "Mid Market Basic (101 300 users)",
+                "id": "37777661-8212-3fbf-13c0-b5ef4559ed7e",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 20,
+                "value": "Mid Market Basic (101 300 users)"
+            },
+            {
+                "displayText": "Mid Market Advanced (301 750 users)",
+                "id": "ec85f451-e0e2-54ed-91d7-f570f1b78b79",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 30,
+                "value": "Mid Market Advanced (301 750 users)"
+            },
+            {
+                "displayText": "Enterprise Basic (751 1000 users)",
+                "id": "ff41c289-00d5-4f17-7b10-6a9daa7041fe",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 40,
+                "value": "Enterprise Basic (751 1000 users)"
+            },
+            {
+                "displayText": "Enterprise Advanced (1001 2000 users)",
+                "id": "1be8d017-0ffd-e456-e557-53e6089acc40",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 50,
+                "value": "Enterprise Advanced (1001 2000 users)"
+            },
+            {
+                "displayText": "Premier Basic (2001 5000 users)",
+                "id": "1168f48a-6db4-324e-6b63-77c4f65f2ee5",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 60,
+                "value": "Premier Basic (2001 5000 users)"
+            },
+            {
+                "displayText": "Premier Advanced (9000 and up)",
+                "id": "4fbfa6d5-4a6f-bdfd-12d1-4e4d7f3229c9",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 70,
+                "value": "Premier Advanced (9000 and up)"
+            }
+        ],
+        "%vlocity_namespace%__ValueDataType__c": "Picklist",
+        "%vlocity_namespace%__ValueDecoder__c": "",
+        "%vlocity_namespace%__ValueDescription__c": "",
+        "%vlocity_namespace%__Value__c": "",
+        "Name": "TempAA-ATT_MRKT_SGMNT",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/d67c1c43-f6fb-7ba1-fe17-af19ec165fe9"
+    }
+]

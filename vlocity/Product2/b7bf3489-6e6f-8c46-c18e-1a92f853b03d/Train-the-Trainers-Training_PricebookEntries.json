@@ -1,0 +1,33 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": 0,
+        "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Train the Trainers Training",
+        "Price_Book_Entry_Ext_Id__c": "",
+        "Pricebook2.Name": "Standard Price Book",
+        "Pricebook2Id": {
+            "Name": "Standard Price Book",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "b7bf3489-6e6f-8c46-c18e-1a92f853b03d",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "b7bf3489-6e6f-8c46-c18e-1a92f853b03d",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/b7bf3489-6e6f-8c46-c18e-1a92f853b03d",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "ProductCode": "C-GGLTTT",
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/b7bf3489-6e6f-8c46-c18e-1a92f853b03d"
+    }
+]

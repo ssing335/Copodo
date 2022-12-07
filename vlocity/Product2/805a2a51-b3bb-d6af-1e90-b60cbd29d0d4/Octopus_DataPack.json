@@ -1,0 +1,859 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Octopus_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "ATT_BANDWIDTH": null,
+        "ATT_CB": false,
+        "ATT_CBUYOUT": false,
+        "ATT_ENUCOSTS": false,
+        "ATT_ERATE": false,
+        "ATT_FIADPP": false,
+        "ATT_FIAEDNYC": false,
+        "ATT_ICBAR": false,
+        "ATT_ICBSPARCAPPVL": false,
+        "ATT_INSTFEES": false,
+        "ATT_IPBLK": null,
+        "ATT_IPJFR": false,
+        "ATT_MGSPARC": false,
+        "ATT_NOSIPS": null,
+        "ATT_ONNETOFFNET": null,
+        "ATT_OOF": false,
+        "ATT_RT_BT": null,
+        "ATT_RT_CT": null,
+        "ATT_TERM": null,
+        "ATT_TIITRACKING": false,
+        "ATT_TYPORDER": null,
+        "ATT_TypeII": false,
+        "ATT_WINSTALL": false,
+        "ATT_WSIPFees": false,
+        "CURR_BGPFEES": null,
+        "CURR_CCFEES": null
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "eae0497b-bedb-16cc-e615-4cb0ef42ae9b",
+                "Name": "Internet Service",
+                "displaySequence": 1,
+                "id": "a2Df0000000T3D7EAK",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a2Ef0000001NZJBEA4",
+                            "cloneable": true,
+                            "code": "ATT_IPBLK",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "IP Block",
+                            "messages": [
+                            ],
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZJfEAO",
+                            "cloneable": true,
+                            "code": "ATT_WINSTALL",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Waive Installation",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZIhEAO",
+                            "cloneable": true,
+                            "code": "ATT_TERM",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Term",
+                            "messages": [
+                            ],
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZIIEA4",
+                            "cloneable": true,
+                            "code": "ATT_ERATE",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "E-Rate",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZK0EAO",
+                            "cloneable": true,
+                            "code": "ATT_ENUCOSTS",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 2,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Enterprise No Upfront Costs (Waive Install Fee)",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZJkEAO",
+                            "cloneable": true,
+                            "code": "ATT_INSTFEES",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 2,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Installtion Fees",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZJGEA4",
+                            "cloneable": true,
+                            "code": "ATT_NOSIPS",
+                            "disabled": false,
+                            "displaySequence": 2,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Number of Static IPs",
+                            "messages": [
+                            ],
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZK4EAO",
+                            "cloneable": true,
+                            "code": "ATT_FIADPP",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 3,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "FIA Discretionary Pricing Promo",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZK9EAO",
+                            "cloneable": true,
+                            "code": "ATT_CB",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 4,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Contract Buyout",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZJuEAO",
+                            "cloneable": true,
+                            "code": "CURR_CCFEES",
+                            "dataType": "currency",
+                            "disabled": false,
+                            "displaySequence": 4,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Contribution to Construction Fees",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZINEA4",
+                            "cloneable": true,
+                            "code": "ATT_OOF",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 4,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Out Of Footprint",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZImEAO",
+                            "cloneable": true,
+                            "code": "ATT_BANDWIDTH",
+                            "disabled": false,
+                            "displaySequence": 5,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Bandwidth",
+                            "messages": [
+                            ],
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZJLEA4",
+                            "cloneable": true,
+                            "code": "ATT_IPJFR",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 5,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "IP Justification Form is Required",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZKEEA4",
+                            "cloneable": true,
+                            "code": "ATT_FIAEDNYC",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 5,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "FIA Enterprise Discount NYC",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZISEA4",
+                            "cloneable": true,
+                            "code": "ATT_TypeII",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 5,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Type II",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZJQEA4",
+                            "cloneable": true,
+                            "code": "ATT_WSIPFees",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 6,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Waive Static IP Fee",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZKJEA4",
+                            "cloneable": true,
+                            "code": "ATT_CBUYOUT",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 6,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Contract Buyout $1500",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZIXEA4",
+                            "cloneable": true,
+                            "code": "ATT_MGSPARC",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 6,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Requires MultiGig SPARC",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZJVEA4",
+                            "cloneable": true,
+                            "code": "ATT_ICBAR",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 7,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "ICB Approval Required",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZIcEAO",
+                            "cloneable": true,
+                            "code": "ATT_TIITRACKING",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 7,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Type II Tracking",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZIrEAO",
+                            "cloneable": true,
+                            "code": "ATT_TYPORDER",
+                            "disabled": false,
+                            "displaySequence": 8,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Type of Order",
+                            "messages": [
+                            ],
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZJaEAO",
+                            "cloneable": true,
+                            "code": "ATT_ICBSPARCAPPVL",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 8,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "ICB and SPARC Approval required",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZJ1EAO",
+                            "cloneable": true,
+                            "code": "ATT_ONNETOFFNET",
+                            "disabled": false,
+                            "displaySequence": 9,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "On-Net/Off-Net",
+                            "messages": [
+                            ],
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZJpEAO",
+                            "cloneable": true,
+                            "code": "CURR_BGPFEES",
+                            "dataType": "currency",
+                            "disabled": false,
+                            "displaySequence": 16,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "BGP Configuration Fees",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 24
+                }
+            },
+            {
+                "Code__c": "80b2e8d8-cc72-5039-3b96-70e81e8b3efe",
+                "Name": "Wearables",
+                "displaySequence": 40,
+                "id": "a2Df0000000T1nZEAS",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a2Ef0000001MRXUEA4",
+                            "cloneable": true,
+                            "code": "ATT_RT_BT",
+                            "disabled": false,
+                            "displaySequence": 10,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Band Type",
+                            "messages": [
+                            ],
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001MRXZEA4",
+                            "cloneable": true,
+                            "code": "ATT_RT_CT",
+                            "disabled": false,
+                            "displaySequence": 20,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Connectivity",
+                            "messages": [
+                            ],
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 2
+                }
+            }
+        ],
+        "totalSize": 2
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2021-07-03",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2021-07-03T07:00:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "22e6f45e-ffd6-b674-ebdb-7be3df9f9b38",
+    "%vlocity_namespace%__GlobalKey__c": "805a2a51-b3bb-d6af-1e90-b60cbd29d0d4",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": false,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__MainFeatureQuantityUom__c": "",
+    "%vlocity_namespace%__MainFeatureQuantity__c": "",
+    "%vlocity_namespace%__MainFeatureTermInDays__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectTypeId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "0dcba5d42ab6de0806123ba60dbf5817",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/0dcba5d42ab6de0806123ba60dbf5817",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+    },
+    "%vlocity_namespace%__ObjectTypeName__c": "SmartPhone Product Spec",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__ProductChildItem__c": "Octopus_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__Scope__c": "",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "2021-07-03T07:00:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "Product",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "None",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "V1",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "Access_Type__c": "",
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
+    "Description": "",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "None",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "Octopus",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "PricebookEntry": "Octopus_PricebookEntries.json",
+    "ProductCode": "Sample",
+    "Product_Ext_Id__c": "298346487198583997",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": "",
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": "",
+            "%vlocity_namespace%__RecurringUOM__c": "",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "Octopus",
+            "Price_Book_Entry_Ext_Id__c": "SPB-011",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "805a2a51-b3bb-d6af-1e90-b60cbd29d0d4",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "805a2a51-b3bb-d6af-1e90-b60cbd29d0d4",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/805a2a51-b3bb-d6af-1e90-b60cbd29d0d4",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "Sample",
+            "UnitPrice": 122,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/805a2a51-b3bb-d6af-1e90-b60cbd29d0d4"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/805a2a51-b3bb-d6af-1e90-b60cbd29d0d4"
+}

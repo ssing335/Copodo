@@ -1,0 +1,276 @@
+{
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": "",
+        "value": {
+        }
+    },
+    "enableLwc": true,
+    "isFlex": true,
+    "lwc": {
+        "DeveloperName": "cfOpenCart",
+        "Id": "0Rb0m0000009AuICAU",
+        "ManageableState": "unmanaged",
+        "MasterLabel": "cfOpenCart",
+        "NamespacePrefix": "c"
+    },
+    "selectableMode": "Multi",
+    "states": [
+        {
+            "actions": [
+                "Launch Multi-Site Quote",
+                "Configure"
+            ],
+            "childCards": [
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "outputField",
+                            "elementLabel": "Text-0",
+                            "name": "Text",
+                            "property": {
+                                "card": "{card}",
+                                "mergeField": "%3Cdiv%3E%3Cspan%20style=%22font-size:%2014pt;%22%3EMulti%20Site%20Cart%3C/span%3E%3C/div%3E",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "5",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "background": {
+                                    "color": "",
+                                    "image": "",
+                                    "position": "",
+                                    "repeat": "",
+                                    "size": ""
+                                },
+                                "border": {
+                                    "color": "#cccccc",
+                                    "radius": "",
+                                    "style": "",
+                                    "type": [
+                                    ],
+                                    "width": ""
+                                },
+                                "class": " ",
+                                "container": {
+                                    "class": ""
+                                },
+                                "elementStyleProperties": {
+                                },
+                                "inlineStyle": "",
+                                "margin": [
+                                ],
+                                "padding": [
+                                ],
+                                "size": {
+                                    "default": "5",
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_5-of-12 ",
+                                "style": "      \n         ",
+                                "text": {
+                                    "align": "",
+                                    "color": ""
+                                }
+                            },
+                            "styleObjects": [
+                                {
+                                    "conditionString": "",
+                                    "conditions": "default",
+                                    "draggable": false,
+                                    "key": 0,
+                                    "label": "Default",
+                                    "name": "Default",
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "#cccccc",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": [
+                                            ],
+                                            "width": ""
+                                        },
+                                        "class": " ",
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "elementStyleProperties": {
+                                        },
+                                        "inlineStyle": "",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                        ],
+                                        "size": {
+                                            "default": "5",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_5-of-12 ",
+                                        "style": "      \n         ",
+                                        "text": {
+                                            "align": "",
+                                            "color": ""
+                                        }
+                                    }
+                                }
+                            ],
+                            "type": "text"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "action",
+                            "elementLabel": "Action-1",
+                            "name": "Action",
+                            "property": {
+                                "card": "{card}",
+                                "contextId": "Parent.oppId",
+                                "record": "{record}",
+                                "sObjectType": "",
+                                "stateAction": {
+                                    "displayName": "Launch Multi-Site OS",
+                                    "id": "flex-action-1637577060458",
+                                    "name": "Launch Multi-Site Quote",
+                                    "openUrlIn": "Current Window",
+                                    "type": "Vlocity Action",
+                                    "vlocityIcon": "icon-v-document1-line"
+                                },
+                                "stateObj": "{record}"
+                            },
+                            "size": {
+                                "default": 7,
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "size": {
+                                    "default": 7,
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_7-of-12"
+                            },
+                            "type": "element"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "outputField",
+                            "elementLabel": "Text-2",
+                            "name": "Text",
+                            "property": {
+                                "card": "{card}",
+                                "mergeField": "%3Cdiv%3E%3Cspan%20style=%22font-size:%2014pt;%22%3ESingle%20Site%20Cart%3C/span%3E%3C/div%3E",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "5",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "size": {
+                                    "default": "5",
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_5-of-12 "
+                            },
+                            "type": "text"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "action",
+                            "elementLabel": "Action-1-clone-0",
+                            "name": "Action",
+                            "property": {
+                                "card": "{card}",
+                                "contextId": "Parent.oppId",
+                                "record": "{record}",
+                                "stateAction": {
+                                    "displayName": "Configure",
+                                    "id": "flex-action-1637577062968",
+                                    "name": "Configure",
+                                    "openUrlIn": "Current Window",
+                                    "type": "Vlocity Action",
+                                    "vlocityIcon": "icon-v-document1-line"
+                                },
+                                "stateObj": "{record}"
+                            },
+                            "size": {
+                                "default": 7,
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "size": {
+                                    "default": 7,
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_7-of-12"
+                            },
+                            "type": "element"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Active",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "class": "slds-card slds-p-around_x-small slds-m-bottom_x-small",
+                "container": {
+                    "class": "slds-card"
+                },
+                "margin": [
+                    {
+                        "size": "none",
+                        "type": "around"
+                    }
+                ],
+                "padding": [
+                    {
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12"
+            }
+        }
+    ],
+    "theme": "slds",
+    "title": "OpenCart"
+}

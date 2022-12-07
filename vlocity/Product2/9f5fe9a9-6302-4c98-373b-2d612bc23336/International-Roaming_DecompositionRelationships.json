@@ -1,0 +1,33 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "e9dd3a47-fd1c-ec55-a76a-5d168eb8e0ed",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/e9dd3a47-fd1c-ec55-a76a-5d168eb8e0ed",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "",
+        "%vlocity_namespace%__MappingsData__c": "[{\"source_attr_name\":\"IDD Call rate(USD/min)\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"IDD Call rate(USD/min)\",\"destination_attr_code\":\"ATT_IDDCALLRATE\",\"source_attr_code\":\"ATT_IDDCALLRATE\",\"source_type\":\"Attribute\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "9f5fe9a9-6302-4c98-373b-2d612bc23336",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/9f5fe9a9-6302-4c98-373b-2d612bc23336",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "9f5fe9a9-6302-4c98-373b-2d612bc23336",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "International Roaming to IDD CFS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/International Roaming to IDD CFS/Product2/9f5fe9a9-6302-4c98-373b-2d612bc23336"
+    }
+]

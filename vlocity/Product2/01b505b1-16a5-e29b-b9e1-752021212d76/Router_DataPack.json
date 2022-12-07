@@ -1,0 +1,493 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Router_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "ATT-BundleOrNot": "NotInBundle",
+        "ATT-ModelRouter": "ISRK1K",
+        "ATT_CM": "60",
+        "ATT_Manufacturer": "CISCO",
+        "ATT_Serial Number": null,
+        "ATT_SiteType": null
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "d1cda5e1-554b-f0ea-882b-6be3c5f43d2f",
+                "Name": "SDWAN_Common_Att",
+                "displaySequence": 600,
+                "id": "a2D8G0000004de9UAA",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a2E8G000000DGiQUAW",
+                            "cloneable": true,
+                            "code": "ATT-BundleOrNot",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 10,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": true,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "BundleOrNot",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "ed649303-67b7-ca30-4f83-8c0b0fb1e7a3",
+                                    "label": "InBundle",
+                                    "readonly": false,
+                                    "value": "InBundle"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "53f9733e-5f7f-b340-56f6-552d62d294db",
+                                    "label": "NotInBundle",
+                                    "readonly": false,
+                                    "value": "NotInBundle"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000DFqHUAW",
+                            "cloneable": true,
+                            "code": "ATT_Serial Number",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 20,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Serial Number",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000DFqMUAW",
+                            "cloneable": true,
+                            "code": "ATT_Manufacturer",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 21,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Manufacturer",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000DH9RUAW",
+                            "cloneable": true,
+                            "code": "ATT_CM",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 100,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Contract Month",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": true,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "02936529-867c-8837-2f0f-261ed794fbab",
+                                    "label": "36",
+                                    "readonly": false,
+                                    "value": "36"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "c945168e-b4bc-0169-6700-19d524063074",
+                                    "label": "60",
+                                    "readonly": false,
+                                    "value": "60"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000DH9gUAG",
+                            "cloneable": true,
+                            "code": "ATT_SiteType",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 110,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Site Type",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "fc01ee0f-c34c-78a6-f020-4a43a34c39ff",
+                                    "label": "A",
+                                    "readonly": false,
+                                    "value": "A"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "35a01f62-037b-5947-1c9a-b5b8f4081512",
+                                    "label": "B",
+                                    "readonly": false,
+                                    "value": "B"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 3,
+                                    "id": "6c83e5ac-8313-fdc0-3251-58a1141ad43d",
+                                    "label": "C",
+                                    "readonly": false,
+                                    "value": "C"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 4,
+                                    "id": "c788d88a-e599-51cf-c8f3-905b7dbed5ca",
+                                    "label": "D",
+                                    "readonly": false,
+                                    "value": "D"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 5,
+                                    "id": "f5f1243f-a8fc-d0d3-7417-c62b0a559724",
+                                    "label": "E",
+                                    "readonly": false,
+                                    "value": "E"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 6,
+                                    "id": "5cf2572f-7135-7465-362a-35ee50ba9466",
+                                    "label": "F",
+                                    "readonly": false,
+                                    "value": "F"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 7,
+                                    "id": "0eccbd5d-b5da-68c1-7569-bd3fddc03a2e",
+                                    "label": "G",
+                                    "readonly": false,
+                                    "value": "G"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 8,
+                                    "id": "fb2934c8-39da-10b9-7b11-37dce47ad525",
+                                    "label": "H",
+                                    "readonly": false,
+                                    "value": "H"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 9,
+                                    "id": "a5dbe859-8f38-e871-657d-c911df5163d3",
+                                    "label": "I",
+                                    "readonly": false,
+                                    "value": "I"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "6de91479-119b-2311-5c68-801ccdc7cff2",
+                                    "label": "J",
+                                    "readonly": false,
+                                    "value": "J"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 11,
+                                    "id": "df284d79-1099-1088-a49d-927c0b8d9f4d",
+                                    "label": "K",
+                                    "readonly": false,
+                                    "value": "K"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 12,
+                                    "id": "c671d8b4-d52e-2495-537f-f87ece48bace",
+                                    "label": "L",
+                                    "readonly": false,
+                                    "value": "L"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 13,
+                                    "id": "7aece394-f5ad-717d-da99-27be54553144",
+                                    "label": "M",
+                                    "readonly": false,
+                                    "value": "M"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 14,
+                                    "id": "6615d042-4f02-3b7a-51f5-84cff8b088c4",
+                                    "label": "N",
+                                    "readonly": false,
+                                    "value": "N"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 15,
+                                    "id": "21930dde-b9b2-2ff8-0061-d3c6b753ae2d",
+                                    "label": "O",
+                                    "readonly": false,
+                                    "value": "O"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 5
+                }
+            },
+            {
+                "Code__c": "0d6e3b0e-1580-30d1-664b-aa1ba17ce14a",
+                "Name": "P_ROUTER",
+                "displaySequence": 603,
+                "id": "a2D8G0000004dePUAQ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a2E8G000000DFrUUAW",
+                            "cloneable": true,
+                            "code": "ATT-ModelRouter",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 10,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Model_Router",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "c2ed44c4-24b5-5c36-e815-9f08a85f5d9e",
+                                    "label": "ISRK1K",
+                                    "readonly": false,
+                                    "value": "ISRK1K"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "d18c2951-da9e-fdff-fa0e-82e4d4995f77",
+                                    "label": "ISRK4K",
+                                    "readonly": false,
+                                    "value": "ISRK4K"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "6eec8763-6c59-e7be-e666-a886e6e6e24c",
+                                    "label": "ASR1K",
+                                    "readonly": false,
+                                    "value": "ASR1K"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 1
+                }
+            }
+        ],
+        "totalSize": 2
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DecompositionRelationship__c": "Router_DecompositionRelationships.json",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2022-07-06",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2022-07-06T07:00:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "7ca19814-b678-b3e9-b7be-1dea2e93efa3",
+    "%vlocity_namespace%__GlobalKey__c": "01b505b1-16a5-e29b-b9e1-752021212d76",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__MainFeatureQuantityUom__c": "",
+    "%vlocity_namespace%__MainFeatureQuantity__c": "",
+    "%vlocity_namespace%__MainFeatureTermInDays__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectFieldAttribute__c": "Router_ObjectFieldAttributes.json",
+    "%vlocity_namespace%__ObjectTypeId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "a22caaa1e34d1c21f1c61eb31d29e4e7",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/a22caaa1e34d1c21f1c61eb31d29e4e7",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+    },
+    "%vlocity_namespace%__ObjectTypeName__c": "Base Offer Spec Type",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PriceListEntry__c": "Router_PriceListEntries.json",
+    "%vlocity_namespace%__ProductChildItem__c": "Router_ProductChildItems.json",
+    "%vlocity_namespace%__ProductConfigurationProcedure__c": "Router_ProductConfigurationProcedures.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "2022-07-06T07:00:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "Product",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "None",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "None",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "Access_Type__c": "",
+    "CanUseQuantitySchedule": false,
+    "CanUseRevenueSchedule": false,
+    "Description": "",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "Router",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "PricebookEntry": "Router_PricebookEntries.json",
+    "ProductCode": "C-ROUTER",
+    "Product_Ext_Id__c": "",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": 0,
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "Router",
+            "Price_Book_Entry_Ext_Id__c": "",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "01b505b1-16a5-e29b-b9e1-752021212d76",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "01b505b1-16a5-e29b-b9e1-752021212d76",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/01b505b1-16a5-e29b-b9e1-752021212d76",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "C-ROUTER",
+            "UnitPrice": 0,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/01b505b1-16a5-e29b-b9e1-752021212d76"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/01b505b1-16a5-e29b-b9e1-752021212d76"
+}

@@ -1,0 +1,305 @@
+<template>
+    <div id="cover" style="background: white;">
+
+        <lightning-tabset active-tab-value="Details">
+            <lightning-tab label="Details" value="Details">
+                <div>
+                    <lightning-button variant="base" label="CREATE CONTRACT IN BATCH" title="CREATE CONTRACT IN BATCH"
+                        onclick={buttonHandleClick} class="slds-m-left_x-small" style="font-weight: 700;">
+                    </lightning-button>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <lightning-button variant="base" label="CREATE FRAME AGREEMENT" title="CREATE FRAME AGREEMENT"
+                        onclick={buttonHandleClick} class="slds-m-left_x-small" style="font-weight: 700;">
+                    </lightning-button>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <lightning-button variant="base" label="CREATE QUOTE" title="CREATE QUOTE"
+                        onclick={buttonHandleClick} class="slds-m-left_x-small" style="font-weight: 700;">
+                    </lightning-button>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <lightning-button variant="base" label="UPDATE FRAME AGREEMENT" title="UPDATE FRAME AGREEMENT"
+                        onclick={buttonHandleClick} class="slds-m-left_x-small" style="font-weight: 700;">
+                    </lightning-button>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <lightning-button variant="base" label={buttonLabel} title="EDIT" onclick={editModeStatusToParent}
+                        class="slds-var-m-left_x-small" style="font-weight: 700;"></lightning-button>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <lightning-button variant="base" label="CONFIGURE" title="CONFIGURE" onclick={buttonHandleClick}
+                        class="slds-m-left_x-small" style="font-weight: 700;"></lightning-button>
+                </div>
+                <br>
+
+                <lightning-record-edit-form object-api-name={objectApiName} record-id={recordId} columns="4"
+                    onsubmit={handleSubmit}>
+                    <div class="slds-grid slds-wrap" style="margin-left: 20px;">
+                        <div class="slds-col slds-size_3-of-12">
+                            <lightning-input-field field-name={oppName} onchange={handleChange} name="nameChange">
+                            </lightning-input-field>
+
+                            <lightning-input-field field-name={oppName} onchange={handleChange} name="nameChange">
+                            </lightning-input-field>
+
+                            <lightning-input-field field-name={oppName} onchange={handleChange} name="nameChange">
+                            </lightning-input-field>
+
+                            <lightning-input-field field-name={oppName} onchange={handleChange} name="nameChange">
+                            </lightning-input-field>
+                        </div>
+                        <div class="slds-col slds-size_3-of-12">
+                            <lightning-input-field field-name={closeDate} onchange={handleChange}
+                                name="closeDateChange">
+                            </lightning-input-field>
+
+                            <lightning-input-field field-name={closeDate} onchange={handleChange}
+                                name="closeDateChange">
+                            </lightning-input-field>
+
+                            <lightning-input-field field-name={closeDate} onchange={handleChange}
+                                name="closeDateChange">
+                            </lightning-input-field>
+
+                            <lightning-input-field field-name={closeDate} onchange={handleChange}
+                                name="closeDateChange">
+                            </lightning-input-field>
+                        </div>
+                        <div class="slds-col slds-size_3-of-12">
+                            <lightning-input-field field-name={probability} onchange={handleChange}
+                                name="probabilityChange">
+                            </lightning-input-field>
+
+                            <lightning-input-field field-name={probability} onchange={handleChange}
+                                name="probabilityChange">
+                            </lightning-input-field>
+
+                            <lightning-input-field field-name={probability} onchange={handleChange}
+                                name="probabilityChange">
+                            </lightning-input-field>
+
+                            <lightning-input-field field-name={probability} onchange={handleChange}
+                                name="probabilityChange">
+                            </lightning-input-field>
+                        </div>
+                        <div class="slds-col slds-size_3-of-12">
+                            <lightning-input-field field-name={stage} onchange={handleChange} name="stageChange">
+                            </lightning-input-field>
+
+                            <lightning-input-field field-name={stage} onchange={handleChange} name="stageChange">
+                            </lightning-input-field>
+
+                            <lightning-input-field field-name={stage} onchange={handleChange} name="stageChange">
+                            </lightning-input-field>
+
+                            <lightning-input-field field-name={stage} onchange={handleChange} name="stageChange">
+                            </lightning-input-field>
+                        </div>
+                        <!-- <div class="slds-col slds-size_3-of-12">
+
+
+                            <lightning-input-field field-name={oppName} onchange={handleChange} name="nameChange">
+                            </lightning-input-field>
+
+                            <lightning-input-field field-name={primaryCampaignSource} onchange={handleChange}
+                                name="primaryCampaignSource">
+                            </lightning-input-field>
+
+                            <lightning-input-field field-name={probability} onchange={handleChange}
+                                name="probabilityChange">
+                            </lightning-input-field>
+
+                            <lightning-input-field field-name={accName} onchange={handleChange} name="accNameChange">
+                            </lightning-input-field>
+
+                        </div>
+                        <div class="slds-col slds-size_3-of-12">
+
+
+                            <lightning-input-field field-name={oppName} onchange={handleChange} name="nameChange">
+                            </lightning-input-field>
+
+                            <lightning-input-field field-name={primaryCampaignSource} onchange={handleChange}
+                                name="primaryCampaignSource">
+                            </lightning-input-field>
+
+                            <lightning-input-field field-name={probability} onchange={handleChange}
+                                name="probabilityChange">
+                            </lightning-input-field>
+
+                            <lightning-input-field field-name={accName} onchange={handleChange} name="accNameChange">
+                            </lightning-input-field>
+
+                        </div>
+                        <div class="slds-col slds-size_3-of-12">
+
+
+                            <lightning-input-field field-name={oppName} onchange={handleChange} name="nameChange">
+                            </lightning-input-field>
+
+                            <lightning-input-field field-name={primaryCampaignSource} onchange={handleChange}
+                                name="primaryCampaignSource">
+                            </lightning-input-field>
+
+                            <lightning-input-field field-name={probability} onchange={handleChange}
+                                name="probabilityChange">
+                            </lightning-input-field>
+
+                            <lightning-input-field field-name={accName} onchange={handleChange} name="accNameChange">
+                            </lightning-input-field>
+
+                        </div> -->
+                    </div>
+
+                </lightning-record-edit-form>
+                <!-- mode="edit" -->
+                <lightning-accordion allow-multiple-sections-open onsectiontoggle={handleSectionToggle}
+                    active-section-name={activeSections}>
+                    <lightning-accordion-section name="A" label="Additional Information">
+                        <lightning-record-edit-form object-api-name={objectApiName} record-id={recordId} columns="4"
+                            onsubmit={handleSubmit}>
+                            <!-- <div class="slds-grid slds-wrap">
+                                <div class="slds-col slds-size_3-of-12">
+                                    <lightning-input-field field-name={oppOwner} onchange={handleChange}
+                                        name="nameChange">
+                                    </lightning-input-field>
+                                    <lightning-input-field field-name={primaryCampaignSource} onchange={handleChange}
+                                        name="primaryCampaignSource">
+                                    </lightning-input-field>
+                                    <lightning-input-field field-name={probability} onchange={handleChange}
+                                        name="probabilityChange">
+                                    </lightning-input-field>
+                                    <lightning-input-field field-name={oppName} onchange={handleChange}
+                                        name="nameChange">
+                                    </lightning-input-field>
+
+                                    <lightning-input-field field-name={oppName} onchange={handleChange}
+                                        name="nameChange">
+                                    </lightning-input-field>
+                                </div>
+                                <div class="slds-col slds-size_3-of-12">
+                                    <lightning-input-field field-name={oppName} onchange={handleChange}
+                                        name="nameChange">
+                                    </lightning-input-field>
+                                    <lightning-input-field field-name={productionType} onchange={handleChange}
+                                        name="productionTypeChange">
+                                    </lightning-input-field>
+                                    <lightning-input-field field-name={closeDate} onchange={handleChange}
+                                        name="closeDateChange">
+                                    </lightning-input-field>
+                                    <lightning-input-field field-name={oppName} name="nameChange">
+                                    </lightning-input-field>
+                                </div>
+                                <div class="slds-col slds-size_3-of-12">
+                                    <lightning-input-field field-name={accName} onchange={handleChange}
+                                        name="accNameChange">
+                                    </lightning-input-field>
+                                    <lightning-input-field field-name={amount} onchange={handleChange}
+                                        name="amountChange">
+                                    </lightning-input-field>
+                                    <lightning-input-field field-name={oppName} onchange={handleChange}
+                                        name="nameChange">
+                                    </lightning-input-field>
+                                    <lightning-input-field field-name={oppName} onchange={handleChange}
+                                        name="nameChange">
+                                    </lightning-input-field>
+                                </div>
+                                <div class="slds-col slds-size_3-of-12">
+                                    <lightning-input-field field-name={accName} onchange={handleChange}
+                                        name="accNameChange">
+                                    </lightning-input-field>
+                                    <lightning-input-field field-name={amount} onchange={handleChange}
+                                        name="amountChange">
+                                    </lightning-input-field>
+                                    <lightning-input-field field-name={oppName} onchange={handleChange}
+                                        name="nameChange">
+                                    </lightning-input-field>
+                                    <lightning-input-field field-name={oppName} onchange={handleChange}
+                                        name="nameChange">
+                                    </lightning-input-field>
+                                </div>
+                            </div> -->
+
+                            <div class="slds-grid slds-wrap" style="margin-left: 20px;">
+                                <div class="slds-col slds-size_3-of-12">
+                                    <lightning-input-field field-name={oppName} onchange={handleChange} name="nameChange">
+                                    </lightning-input-field>
+        
+                                    <lightning-input-field field-name={oppName} onchange={handleChange} name="nameChange">
+                                    </lightning-input-field>
+        
+                                    <lightning-input-field field-name={oppName} onchange={handleChange} name="nameChange">
+                                    </lightning-input-field>
+        
+                                    <lightning-input-field field-name={oppName} onchange={handleChange} name="nameChange">
+                                    </lightning-input-field>
+                                </div>
+                                <div class="slds-col slds-size_3-of-12">
+                                    <lightning-input-field field-name={closeDate} onchange={handleChange}
+                                        name="closeDateChange">
+                                    </lightning-input-field>
+        
+                                    <lightning-input-field field-name={closeDate} onchange={handleChange}
+                                        name="closeDateChange">
+                                    </lightning-input-field>
+        
+                                    <lightning-input-field field-name={closeDate} onchange={handleChange}
+                                        name="closeDateChange">
+                                    </lightning-input-field>
+        
+                                    <lightning-input-field field-name={closeDate} onchange={handleChange}
+                                        name="closeDateChange">
+                                    </lightning-input-field>
+                                </div>
+                                <div class="slds-col slds-size_3-of-12">
+                                    <lightning-input-field field-name={probability} onchange={handleChange}
+                                        name="probabilityChange">
+                                    </lightning-input-field>
+        
+                                    <lightning-input-field field-name={probability} onchange={handleChange}
+                                        name="probabilityChange">
+                                    </lightning-input-field>
+        
+                                    <lightning-input-field field-name={probability} onchange={handleChange}
+                                        name="probabilityChange">
+                                    </lightning-input-field>
+        
+                                    <lightning-input-field field-name={probability} onchange={handleChange}
+                                        name="probabilityChange">
+                                    </lightning-input-field>
+                                </div>
+                                <div class="slds-col slds-size_3-of-12">
+                                    <lightning-input-field field-name={stage} onchange={handleChange} name="stageChange">
+                                    </lightning-input-field>
+        
+                                    <lightning-input-field field-name={stage} onchange={handleChange} name="stageChange">
+                                    </lightning-input-field>
+        
+                                    <lightning-input-field field-name={stage} onchange={handleChange} name="stageChange">
+                                    </lightning-input-field>
+        
+                                    <lightning-input-field field-name={stage} onchange={handleChange} name="stageChange">
+                                    </lightning-input-field>
+                                </div>
+                            </div>
+
+
+                        </lightning-record-edit-form>
+                    </lightning-accordion-section>
+                </lightning-accordion>
+
+            </lightning-tab>
+            <lightning-tab label="Activity" value="Activity">
+                Activity !
+            </lightning-tab>
+            <lightning-tab label="Chatter" value="Chatter">
+                Chatter !
+            </lightning-tab>
+            <lightning-tab label="Related" value="Related">
+                Related !
+            </lightning-tab>
+        </lightning-tabset>
+
+
+
+
+
+
+    </div>
+</template>

@@ -1,0 +1,33 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "70293f23-c90e-cc51-2fc2-c9175e05f7e1",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/70293f23-c90e-cc51-2fc2-c9175e05f7e1",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "",
+        "%vlocity_namespace%__MappingsData__c": "[{\"source_type\":\"Attribute\",\"source_attr_name\":\"Remarks\",\"source_attr_code\":\"ATT_RMKS\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Remarks\",\"destination_attr_code\":\"ATT_RMKS\"},{\"source_type\":\"Attribute\",\"source_attr_name\":\"Installment Duration\",\"source_attr_code\":\"ATT_INSTDUR\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Installment Duration\",\"destination_attr_code\":\"ATT_INSTDUR\"},{\"source_type\":\"Attribute\",\"source_attr_name\":\"Payment Method\",\"source_attr_code\":\"ATT_PAYMTHD\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Payment Method\",\"destination_attr_code\":\"ATT_PAYMTHD\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "4e02120e-a633-1bf9-7874-565fe947ebab",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/4e02120e-a633-1bf9-7874-565fe947ebab",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "4e02120e-a633-1bf9-7874-565fe947ebab",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "Special Build  to Special Build CFS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/Special Build  to Special Build CFS/Product2/4e02120e-a633-1bf9-7874-565fe947ebab"
+    }
+]

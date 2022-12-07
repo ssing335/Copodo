@@ -1,0 +1,33 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "6143ac4a-0a6c-ffc1-8ecd-b86709e57d9e",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/6143ac4a-0a6c-ffc1-8ecd-b86709e57d9e",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "e3b878c0-93ce-9a9f-2c42-61231b5171b9",
+        "%vlocity_namespace%__MappingsData__c": "[{\"source_attr_name\":\"Data Limit(GB)\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Data Limit(GB)\",\"destination_attr_code\":\"ATT_DATALIMIT\",\"source_attr_code\":\"ATT_DATALIMIT\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"Zero Rated Apps\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Zero Rated Apps\",\"destination_attr_code\":\"ATT_ZRORATAPPS\",\"source_attr_code\":\"ATT_ZRORATAPPS\",\"source_type\":\"Attribute\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "0358ca92-06fd-52f2-25d5-d993d989af09",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/0358ca92-06fd-52f2-25d5-d993d989af09",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "0358ca92-06fd-52f2-25d5-d993d989af09",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "Data Add-On Class  to  Data Add-On CFS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/Data Add-On Class  to  Data Add-On CFS/Product2/0358ca92-06fd-52f2-25d5-d993d989af09"
+    }
+]

@@ -1,0 +1,278 @@
+[
+    {
+        "%vlocity_namespace%__AddDate__c": "",
+        "%vlocity_namespace%__AttributeAdjustmentComments__c": "",
+        "%vlocity_namespace%__AttributeAdjustmentUnits__c": "",
+        "%vlocity_namespace%__AttributeCategoryId__c": {
+            "%vlocity_namespace%__Code__c": "7f0bea1d-620d-8a10-aebc-7094b2ab5b4e",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__AttributeCategory__c/7f0bea1d-620d-8a10-aebc-7094b2ab5b4e",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeCategory__c"
+        },
+        "%vlocity_namespace%__AttributeDisplayNameOverride__c": "Data Limit(GB)",
+        "%vlocity_namespace%__AttributeDisplaySequence__c": "10",
+        "%vlocity_namespace%__AttributeId__c": {
+            "%vlocity_namespace%__Code__c": "ATT_DATALIMIT",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__Attribute__c/ATT_DATALIMIT",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Attribute__c"
+        },
+        "%vlocity_namespace%__AttributeId__r.%vlocity_namespace%__Code__c": "ATT_DATALIMIT",
+        "%vlocity_namespace%__AttributeName__c": "Data Limit(GB)",
+        "%vlocity_namespace%__ConfigurationDetail__c": "",
+        "%vlocity_namespace%__ConfigurationStages__c": "",
+        "%vlocity_namespace%__CustomConfigUiTemplate__c": "",
+        "%vlocity_namespace%__Data__c": "",
+        "%vlocity_namespace%__DefaultPicklistEntryId__c": "",
+        "%vlocity_namespace%__DefaultPicklistValueId__c": "",
+        "%vlocity_namespace%__DisplaySequence__c": "null",
+        "%vlocity_namespace%__EndStory__c": "",
+        "%vlocity_namespace%__ExcludedPicklistEntryIds__c": "",
+        "%vlocity_namespace%__ExcludedPicklistValues__c": "",
+        "%vlocity_namespace%__FormatMask__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "d560b681-9c00-6710-621d-872c8c4c9679",
+        "%vlocity_namespace%__HasRule__c": false,
+        "%vlocity_namespace%__HelpText__c": "",
+        "%vlocity_namespace%__IsActiveAssignment__c": true,
+        "%vlocity_namespace%__IsConfigurable__c": true,
+        "%vlocity_namespace%__IsDynamic__c": false,
+        "%vlocity_namespace%__IsEncrypted__c": false,
+        "%vlocity_namespace%__IsHidden__c": false,
+        "%vlocity_namespace%__IsNotAssetizable__c": false,
+        "%vlocity_namespace%__IsNotTranslatable__c": false,
+        "%vlocity_namespace%__IsOverride__c": false,
+        "%vlocity_namespace%__IsQueryDriven__c": false,
+        "%vlocity_namespace%__IsReadOnly__c": false,
+        "%vlocity_namespace%__IsRequired__c": false,
+        "%vlocity_namespace%__LookupFilter__c": "",
+        "%vlocity_namespace%__LookupObjectId__c": "",
+        "%vlocity_namespace%__LookupObjectTypeId__c": "",
+        "%vlocity_namespace%__ObjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "0358ca92-06fd-52f2-25d5-d993d989af09",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/0358ca92-06fd-52f2-25d5-d993d989af09",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__ObjectType__c": "Product2",
+        "%vlocity_namespace%__OverrideContext__c": "",
+        "%vlocity_namespace%__PicklistId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "d74c0ba8-4caf-e76d-44ef-f62153cb8394",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__Picklist__c/d74c0ba8-4caf-e76d-44ef-f62153cb8394",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Picklist__c"
+        },
+        "%vlocity_namespace%__QueryCode__c": "",
+        "%vlocity_namespace%__QueryLabel__c": "",
+        "%vlocity_namespace%__RemoveDate__c": "",
+        "%vlocity_namespace%__RemovedFlag__c": false,
+        "%vlocity_namespace%__RuleData__c": "",
+        "%vlocity_namespace%__RuleMessage__c": "",
+        "%vlocity_namespace%__StartStory__c": "",
+        "%vlocity_namespace%__StyleClass__c": "",
+        "%vlocity_namespace%__UIDisplayType__c": "Dropdown",
+        "%vlocity_namespace%__ValidValuesData__c": [
+            {
+                "displayText": "Unltd",
+                "id": "5c215e53-2c42-c992-2dbd-f97be033f1fb",
+                "isDefault": true,
+                "isEditable": false,
+                "sequence": 10,
+                "value": "Unltd"
+            },
+            {
+                "displayText": "1GB",
+                "id": "38496aea-e145-5bcb-1e03-12eb12a64530",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 20,
+                "value": "1GB"
+            },
+            {
+                "displayText": "2GB",
+                "id": "ff0be36d-9dfc-67e1-11cd-f3bab6cf5f3a",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 30,
+                "value": "2GB"
+            },
+            {
+                "displayText": "5GB",
+                "id": "aefcc39f-ba77-76f8-89e1-18863124f20a",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 40,
+                "value": "5GB"
+            },
+            {
+                "displayText": "10GB",
+                "id": "0837fedc-d9bc-aab7-8f9c-b166452a1141",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 50,
+                "value": "10GB"
+            },
+            {
+                "displayText": "20GB",
+                "id": "7b348832-d070-4a26-d054-96b23217ac92",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 60,
+                "value": "20GB"
+            },
+            {
+                "displayText": "30GB",
+                "id": "cfde79ac-337b-4eb8-e2ef-b7c80f767c85",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 70,
+                "value": "30GB"
+            },
+            {
+                "displayText": "40GB",
+                "id": "e3126975-7399-3cda-3a4c-9d88eeae2a9f",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 80,
+                "value": "40GB"
+            },
+            {
+                "displayText": "100GB",
+                "id": "98525b39-e9ad-985f-a54b-e8f542cf2860",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 90,
+                "value": "100GB"
+            }
+        ],
+        "%vlocity_namespace%__ValueDataType__c": "Picklist",
+        "%vlocity_namespace%__ValueDecoder__c": "",
+        "%vlocity_namespace%__ValueDescription__c": "",
+        "%vlocity_namespace%__Value__c": "Unltd",
+        "Name": "TempAA-ATT_DATALIMIT",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/d560b681-9c00-6710-621d-872c8c4c9679"
+    },
+    {
+        "%vlocity_namespace%__AddDate__c": "",
+        "%vlocity_namespace%__AttributeAdjustmentComments__c": "",
+        "%vlocity_namespace%__AttributeAdjustmentUnits__c": "",
+        "%vlocity_namespace%__AttributeCategoryId__c": {
+            "%vlocity_namespace%__Code__c": "aadf6e5b-42ce-790d-3e4d-c355caa31b84",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__AttributeCategory__c/aadf6e5b-42ce-790d-3e4d-c355caa31b84",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeCategory__c"
+        },
+        "%vlocity_namespace%__AttributeDisplayNameOverride__c": "Zero Rated Apps",
+        "%vlocity_namespace%__AttributeDisplaySequence__c": "10",
+        "%vlocity_namespace%__AttributeId__c": {
+            "%vlocity_namespace%__Code__c": "ATT_ZRORATAPPS",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__Attribute__c/ATT_ZRORATAPPS",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Attribute__c"
+        },
+        "%vlocity_namespace%__AttributeId__r.%vlocity_namespace%__Code__c": "ATT_ZRORATAPPS",
+        "%vlocity_namespace%__AttributeName__c": "Zero Rated Apps",
+        "%vlocity_namespace%__ConfigurationDetail__c": "",
+        "%vlocity_namespace%__ConfigurationStages__c": "",
+        "%vlocity_namespace%__CustomConfigUiTemplate__c": "",
+        "%vlocity_namespace%__Data__c": "",
+        "%vlocity_namespace%__DefaultPicklistEntryId__c": "",
+        "%vlocity_namespace%__DefaultPicklistValueId__c": "",
+        "%vlocity_namespace%__DisplaySequence__c": "null",
+        "%vlocity_namespace%__EndStory__c": "",
+        "%vlocity_namespace%__ExcludedPicklistEntryIds__c": "",
+        "%vlocity_namespace%__ExcludedPicklistValues__c": "",
+        "%vlocity_namespace%__FormatMask__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "6fb7e1a8-123b-8511-4984-8c539c018a39",
+        "%vlocity_namespace%__HasRule__c": false,
+        "%vlocity_namespace%__HelpText__c": "",
+        "%vlocity_namespace%__IsActiveAssignment__c": true,
+        "%vlocity_namespace%__IsConfigurable__c": true,
+        "%vlocity_namespace%__IsDynamic__c": false,
+        "%vlocity_namespace%__IsEncrypted__c": false,
+        "%vlocity_namespace%__IsHidden__c": false,
+        "%vlocity_namespace%__IsNotAssetizable__c": false,
+        "%vlocity_namespace%__IsNotTranslatable__c": false,
+        "%vlocity_namespace%__IsOverride__c": false,
+        "%vlocity_namespace%__IsQueryDriven__c": false,
+        "%vlocity_namespace%__IsReadOnly__c": false,
+        "%vlocity_namespace%__IsRequired__c": false,
+        "%vlocity_namespace%__LookupFilter__c": "",
+        "%vlocity_namespace%__LookupObjectId__c": "",
+        "%vlocity_namespace%__LookupObjectTypeId__c": "",
+        "%vlocity_namespace%__ObjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "0358ca92-06fd-52f2-25d5-d993d989af09",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/0358ca92-06fd-52f2-25d5-d993d989af09",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__ObjectType__c": "Product2",
+        "%vlocity_namespace%__OverrideContext__c": "",
+        "%vlocity_namespace%__PicklistId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "a9e1705b-85cb-440a-2fde-ba03193e6ea1",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__Picklist__c/a9e1705b-85cb-440a-2fde-ba03193e6ea1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Picklist__c"
+        },
+        "%vlocity_namespace%__QueryCode__c": "",
+        "%vlocity_namespace%__QueryLabel__c": "",
+        "%vlocity_namespace%__RemoveDate__c": "",
+        "%vlocity_namespace%__RemovedFlag__c": false,
+        "%vlocity_namespace%__RuleData__c": "",
+        "%vlocity_namespace%__RuleMessage__c": "",
+        "%vlocity_namespace%__StartStory__c": "",
+        "%vlocity_namespace%__StyleClass__c": "",
+        "%vlocity_namespace%__UIDisplayType__c": "Dropdown",
+        "%vlocity_namespace%__ValidValuesData__c": [
+            {
+                "displayText": "Facebook",
+                "id": "f2ceca7e-683a-23f4-22ee-36159ab6691b",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 10,
+                "value": "Facebook"
+            },
+            {
+                "displayText": "WhatsApp",
+                "id": "b9e1999e-7ae5-dae7-735a-01ccb824d27f",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 20,
+                "value": "WhatsApp"
+            },
+            {
+                "displayText": "Google",
+                "id": "b1499ae3-3f9b-2150-5e57-c2256a8ea943",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 30,
+                "value": "Google"
+            },
+            {
+                "displayText": "Microsoft",
+                "id": "c3b7b934-f339-e4d4-e229-2500232c1956",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 40,
+                "value": "Microsoft"
+            },
+            {
+                "displayText": "Telegram",
+                "id": "f5e9647c-3ad4-83b5-a939-6555ea8fc11d",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 50,
+                "value": "Telegram"
+            }
+        ],
+        "%vlocity_namespace%__ValueDataType__c": "Multi Picklist",
+        "%vlocity_namespace%__ValueDecoder__c": "",
+        "%vlocity_namespace%__ValueDescription__c": "",
+        "%vlocity_namespace%__Value__c": "",
+        "Name": "TempAA-ATT_ZRORATAPPS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/6fb7e1a8-123b-8511-4984-8c539c018a39"
+    }
+]

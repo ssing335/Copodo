@@ -1,0 +1,50 @@
+<template>
+    <div class="slds-page-header" style="background: white;">
+        <div class="slds-page-header__row">
+            <div class="slds-page-header__col-title">
+                <div class="slds-media__body">
+                    <h1><span class="slds-page-header__title slds-truncate" title="New Broadband Connection">New
+                            Broadband Connection</span></h1>
+                </div>
+            </div>
+            <div style="cursor: pointer;">                
+                <lightning-icon icon-name="utility:cart" alternative-text="Account" title="Account"></lightning-icon>
+                <span style="margin-left:7px;">CART</span>                
+            </div>
+        </div>
+        <div>
+            <span class="slds-page-header__name-meta" style="border-right:2px solid black; margin-right:7px">Account
+                Name : White Noah</span>
+            <span class="slds-page-header__name-meta" style="border-right:2px solid black; margin-right:7px">Close Date
+                : 09/16/2021</span>
+            <span class="slds-page-header__name-meta" style="margin-right:7px">Opportunity Owner : Kaustav
+                Chowdhury</span>
+                <!-- <lightning-button-icon icon-name="utility:sync" alternative-text="sync" class="slds-p-around_xx-small"></lightning-button-icon> -->
+        </div>
+    </div>
+    <div class="slds-page-header" style="background: white;">
+        <lightning-progress-indicator current-step="4" type="base" has-error="false" variant="base">            
+            <lightning-progress-step label="Serviceability" value="1"></lightning-progress-step>           
+            <lightning-progress-step label="Qualification" value="2"></lightning-progress-step>
+            <lightning-progress-step label="Needs Analysis" value="3"></lightning-progress-step>
+            <lightning-progress-step class="charterErrorIcon" label="Value Proposition" value="4"></lightning-progress-step>
+            <lightning-progress-step label="Id Decision Maker" value="5"></lightning-progress-step>
+            <lightning-progress-step label="Perception Analysis" value="6"></lightning-progress-step>
+            <lightning-progress-step label="Price/Proposal Quote" value="7"></lightning-progress-step>
+            <lightning-progress-step label="Negotiation/Review" value="8"></lightning-progress-step>
+            <lightning-progress-step label="Closed" value="9"></lightning-progress-step>
+        </lightning-progress-indicator> 
+
+        <div style="margin-bottom: 10px; position:relative;">
+            <span data-id="span" style="position:absolute; left:5.9%;">Serviceability</span>
+            <span data-id="span" style="position:absolute; left:16.8%;">Qualification</span>
+            <span data-id="span" style="position:absolute; left:27.9%;">Needs Analysis</span>
+            <span data-id="span" style="position:absolute; left:39%;">Value Proposition</span>
+            <span data-id="span" style="position:absolute; left:50%;">Id Decision Maker</span>
+            <span data-id="span" style="position:absolute; left:60.5%;">Perception Analysis</span>
+            <span data-id="span" style="position:absolute; left:71.7%;">Price/Proposal Quote</span>
+            <span data-id="span" style="position:absolute; left:82.7%;">Negotiation Review</span>
+            <span data-id="span" style="position:absolute; left:93.5%;">Closed</span>
+        </div>
+    </div>
+</template>

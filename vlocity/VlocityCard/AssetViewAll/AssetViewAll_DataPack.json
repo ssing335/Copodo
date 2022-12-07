@@ -1,0 +1,38 @@
+{
+    "%vlocity_namespace%__Author__c": "copado",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "id": 2,
+                "name": "recordId",
+                "val": "001f000001hcKLNAA2"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "FetchAssetDetailsAllRecords",
+            "inputMap": {
+                "AccountId": "{recordId}"
+            },
+            "resultVar": ""
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "AssetViewAll.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "AssetViewAll/copado/2/1636972200201",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "Assets/copado/2/1631531801745",
+    "%vlocity_namespace%__SampleData__c": "[{\"AssetServiceLocation\":\"Tesla Motors, Inc.\",\"AssetServiceAccountId\":\"001f000001hcKLNAA2\",\"AssetId\":\"02if000000ISavEAAT\",\"AssetAccountId\":\"001f000001hcKLNAA2\",\"AssetRootItemId\":\"05c7206b-07ad-ee89-6724-f16ce53b362a\",\"AssetCreatedDate\":\"2021-08-20T11:44:22.000Z\",\"AssetRecurringCharge\":100,\"AssetOneTimeCharge\":1445,\"AssetName\":\"Fiber Internet Access\"},{\"AssetServiceLocation\":\"Tesla Motors, Inc.\",\"AssetServiceAccountId\":\"001f000001hcKLNAA2\",\"AssetId\":\"02if000000ISZ8jAAH\",\"AssetAccountId\":\"001f000001hcKLNAA2\",\"AssetRootItemId\":\"472c91d8-1b13-0c83-35d0-b30ad1c19919\",\"AssetCreatedDate\":\"2021-08-06T11:13:36.000Z\",\"AssetRecurringCharge\":100,\"AssetOneTimeCharge\":18445,\"AssetName\":\"Fiber Internet Access\"},{\"AssetServiceLocation\":\"Tesla Motors, Inc.\",\"AssetServiceAccountId\":\"001f000001hcKLNAA2\",\"AssetId\":\"02if000000ISZ8oAAH\",\"AssetAccountId\":\"001f000001hcKLNAA2\",\"AssetRootItemId\":\"e2209deb-fa19-5625-dabf-bb44d8d4da34\",\"AssetCreatedDate\":\"2021-08-06T11:13:36.000Z\",\"AssetRecurringCharge\":100,\"AssetOneTimeCharge\":1445,\"AssetName\":\"Fiber Internet Access\"},{\"AssetServiceLocation\":\"Tesla Motors, Inc.\",\"AssetServiceAccountId\":\"001f000001hcKLNAA2\",\"AssetId\":\"02if000000ISZ0QAAX\",\"AssetAccountId\":\"001f000001hcKLNAA2\",\"AssetRootItemId\":\"9bdd019b-210b-de4c-6574-cbae18cc0acb\",\"AssetCreatedDate\":\"2021-08-06T05:53:50.000Z\",\"AssetRecurringCharge\":200,\"AssetOneTimeCharge\":1595,\"AssetName\":\"Fiber Internet Access\"},{\"AssetServiceLocation\":\"Tesla Motors, Inc.\",\"AssetServiceAccountId\":\"001f000001hcKLNAA2\",\"AssetId\":\"02if000000ISYyyAAH\",\"AssetAccountId\":\"001f000001hcKLNAA2\",\"AssetRootItemId\":\"41b69a17-a412-ea42-c5d9-f1286eebcae2\",\"AssetCreatedDate\":\"2021-08-05T20:22:41.000Z\",\"AssetRecurringCharge\":100,\"AssetOneTimeCharge\":1445,\"AssetName\":\"Fiber Internet Access\"},{\"AssetServiceLocation\":\"Tesla Motors, Inc.\",\"AssetServiceAccountId\":\"001f000001hcKLNAA2\",\"AssetId\":\"02if000000ISYtsAAH\",\"AssetAccountId\":\"001f000001hcKLNAA2\",\"AssetRootItemId\":\"9f5a1909-e024-0b35-c87f-f4abc974e64f\",\"AssetCreatedDate\":\"2021-08-05T08:29:37.000Z\",\"AssetRecurringCharge\":100,\"AssetOneTimeCharge\":1445,\"AssetName\":\"Fiber Internet Access\"},{\"AssetServiceLocation\":\"Tesla Motors, Inc.\",\"AssetServiceAccountId\":\"001f000001hcKLNAA2\",\"AssetId\":\"02if000000ISUFqAAP\",\"AssetAccountId\":\"001f000001hcKLNAA2\",\"AssetRootItemId\":\"d4315315-7048-cb83-8ce5-e2fcf9d229e3\",\"AssetCreatedDate\":\"2021-07-07T12:08:27.000Z\",\"AssetRecurringCharge\":50,\"AssetOneTimeCharge\":0,\"AssetName\":\"DSL Service\"},{\"AssetServiceLocation\":\"Tesla Motors, Inc.\",\"AssetServiceAccountId\":\"001f000001hcKLNAA2\",\"AssetId\":\"02if000000ISUFbAAP\",\"AssetAccountId\":\"001f000001hcKLNAA2\",\"AssetRootItemId\":\"d96a5761-95a6-3037-36f6-90b6ebd06db6\",\"AssetCreatedDate\":\"2021-07-07T11:28:39.000Z\",\"AssetRecurringCharge\":50,\"AssetOneTimeCharge\":0,\"AssetName\":\"DSL Service\"},{\"AssetServiceLocation\":\"Tesla Motors, Inc.\",\"AssetServiceAccountId\":\"001f000001hcKLNAA2\",\"AssetId\":\"02if000000ISUE8AAP\",\"AssetAccountId\":\"001f000001hcKLNAA2\",\"AssetRootItemId\":\"3c0c290c-31bc-ae21-fefa-4a5969177b8e\",\"AssetCreatedDate\":\"2021-07-07T06:24:52.000Z\",\"AssetRecurringCharge\":50,\"AssetOneTimeCharge\":0,\"AssetName\":\"DSL Service\"},{\"AssetServiceLocation\":\"Tesla Motors, Inc.\",\"AssetServiceAccountId\":\"001f000001hcKLNAA2\",\"AssetId\":\"02if000000ISU85AAH\",\"AssetAccountId\":\"001f000001hcKLNAA2\",\"AssetRootItemId\":\"f99835a2-6517-44a5-8fa0-36655d9002c7\",\"AssetCreatedDate\":\"2021-07-06T13:12:31.000Z\",\"AssetRecurringCharge\":50,\"AssetOneTimeCharge\":0,\"AssetName\":\"DSL Service\"},{\"AssetServiceLocation\":\"Tesla Motors, Inc.\",\"AssetServiceAccountId\":\"001f000001hcKLNAA2\",\"AssetId\":\"02if000000ISU5pAAH\",\"AssetAccountId\":\"001f000001hcKLNAA2\",\"AssetRootItemId\":\"5d94f0b0-b277-2bfc-e628-bacd459068d0\",\"AssetCreatedDate\":\"2021-07-06T07:04:47.000Z\",\"AssetRecurringCharge\":50,\"AssetOneTimeCharge\":0,\"AssetName\":\"DSL Service\"},{\"AssetServiceLocation\":\"Tesla Motors, Inc.\",\"AssetServiceAccountId\":\"001f000001hcKLNAA2\",\"AssetId\":\"02if000000ISU51AAH\",\"AssetAccountId\":\"001f000001hcKLNAA2\",\"AssetRootItemId\":\"035829e9-ea34-13b6-1e76-7a423a22adc3\",\"AssetCreatedDate\":\"2021-07-05T18:22:00.000Z\",\"AssetRecurringCharge\":50,\"AssetOneTimeCharge\":0,\"AssetName\":\"DSL Service\"},{\"AssetServiceLocation\":\"Tesla Motors, Inc.\",\"AssetServiceAccountId\":\"001f000001hcKLNAA2\",\"AssetId\":\"02if000000ISU4mAAH\",\"AssetAccountId\":\"001f000001hcKLNAA2\",\"AssetRootItemId\":\"eb1951af-53f7-67ff-6c0e-b9428f8c1aa5\",\"AssetCreatedDate\":\"2021-07-05T14:52:33.000Z\",\"AssetRecurringCharge\":50,\"AssetOneTimeCharge\":0,\"AssetName\":\"DSL Service\"},{\"AssetServiceLocation\":\"Tesla Motors, Inc.\",\"AssetServiceAccountId\":\"001f000001hcKLNAA2\",\"AssetId\":\"02if000000ISU4hAAH\",\"AssetAccountId\":\"001f000001hcKLNAA2\",\"AssetRootItemId\":\"06da9436-d070-3a59-3c14-746c543e714e\",\"AssetCreatedDate\":\"2021-07-05T14:26:39.000Z\",\"AssetRecurringCharge\":50,\"AssetOneTimeCharge\":0,\"AssetName\":\"DSL Service\"},{\"AssetServiceLocation\":\"Tesla Motors, Inc.\",\"AssetServiceAccountId\":\"001f000001hcKLNAA2\",\"AssetId\":\"02if000000ISU3AAAX\",\"AssetAccountId\":\"001f000001hcKLNAA2\",\"AssetRootItemId\":\"180174ed-67e9-021e-d0da-2e5067125b6d\",\"AssetCreatedDate\":\"2021-07-05T07:54:31.000Z\",\"AssetRecurringCharge\":50,\"AssetOneTimeCharge\":0,\"AssetName\":\"DSL Service\"}]",
+    "%vlocity_namespace%__Styles__c": "",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 2,
+    "Name": "AssetViewAll",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/AssetViewAll"
+}

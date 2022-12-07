@@ -1,0 +1,56 @@
+{
+    "%vlocity_namespace%__AppliesToAllItems__c": false,
+    "%vlocity_namespace%__BenefitTimePlanId__c": "",
+    "%vlocity_namespace%__BenefitTimePolicyId__c": "",
+    "%vlocity_namespace%__CannotBeCombined__c": false,
+    "%vlocity_namespace%__Code__c": "VPL-GOOGLEPROMO",
+    "%vlocity_namespace%__CpqEngineHints__c": "",
+    "%vlocity_namespace%__Description__c": "$20 for Google Workspace Business Offer",
+    "%vlocity_namespace%__DiscountType__c": "",
+    "%vlocity_namespace%__DurationTimePlanId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "d807baae-b210-277b-a7fd-5189337f48a4",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__TimePlan__c/d807baae-b210-277b-a7fd-5189337f48a4",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__TimePlan__c"
+    },
+    "%vlocity_namespace%__DurationTimePolicyId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "76e02648-50b3-a35e-2efb-330f7f6f4469",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__TimePolicy__c/76e02648-50b3-a35e-2efb-330f7f6f4469",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__TimePolicy__c"
+    },
+    "%vlocity_namespace%__DurationUnitOfMeasure__c": "Month",
+    "%vlocity_namespace%__Duration__c": "",
+    "%vlocity_namespace%__EffectiveEndDate__c": "",
+    "%vlocity_namespace%__EffectiveStartDate__c": "2022-06-11T18:30:00.000Z",
+    "%vlocity_namespace%__EnableAutoAddProducts__c": false,
+    "%vlocity_namespace%__EnableAutoApplyPromotion__c": true,
+    "%vlocity_namespace%__FollowOnPromotionId__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "7ebd327b-78ca-5359-e570-318c41824ea4",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsLimitedQuantity__c": true,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__PriceListEntry__c": "Google-Promotion_PriceListEntries.json",
+    "%vlocity_namespace%__PriceListId__c": {
+        "%vlocity_namespace%__Code__c": "PL_B2B",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__PriceList__c/PL_B2B",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__PriceList__c"
+    },
+    "%vlocity_namespace%__PromotionItem__c": "Google-Promotion_PromotionItems.json",
+    "%vlocity_namespace%__Quantity__c": "",
+    "%vlocity_namespace%__RankOrder__c": "",
+    "%vlocity_namespace%__RedeemableCode__c": "",
+    "%vlocity_namespace%__ServiceContinuation__c": "Manual Opt-Out",
+    "Name": "Google Promotion",
+    "RecordTypeId": {
+        "DeveloperName": "Promotion",
+        "SobjectType": "%vlocity_namespace%__Promotion__c",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/%vlocity_namespace%__Promotion__c/Promotion",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Promotion__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Promotion__c/7ebd327b-78ca-5359-e570-318c41824ea4"
+}

@@ -1,0 +1,33 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": 0,
+        "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "International Roaming",
+        "Price_Book_Entry_Ext_Id__c": "",
+        "Pricebook2.Name": "Standard Price Book",
+        "Pricebook2Id": {
+            "Name": "Standard Price Book",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "9f5fe9a9-6302-4c98-373b-2d612bc23336",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "9f5fe9a9-6302-4c98-373b-2d612bc23336",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/9f5fe9a9-6302-4c98-373b-2d612bc23336",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "ProductCode": "C-INTLROAM",
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/9f5fe9a9-6302-4c98-373b-2d612bc23336"
+    }
+]

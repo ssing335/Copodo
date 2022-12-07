@@ -1,0 +1,38 @@
+{
+    "%vlocity_namespace%__Author__c": "copado",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "id": 1,
+                "name": "recordId",
+                "val": "001f000001hdCUsAAM"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "FetchOpportunityDetailsAllRecords",
+            "inputMap": {
+                "AccountId": "{recordId}"
+            },
+            "resultVar": ""
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "OppurtunityViewAll.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "OppurtunityViewAll/copado/2/1636973910817",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "OppurtunityViewAll2/copado/1/1631560298890",
+    "%vlocity_namespace%__SampleData__c": "[{\"OpportunityProbability\":75,\"OpportunityDaysToClosing\":-8,\"OpportunityId\":\"006f000000QM73hAAD\",\"OpportunityCreatedDate\":\"2021-08-06T08:42:29.000Z\",\"OpportunityCloseDate\":\"2021-09-06\",\"OpportunityStatus\":\"Proposal/Price Quote\",\"OpportunityName\":\"SpaceX Fiber Request\"},{\"OpportunityProbability\":90,\"OpportunityDaysToClosing\":-8,\"OpportunityId\":\"006f000000QM767AAD\",\"OpportunityCreatedDate\":\"2021-08-06T09:14:44.000Z\",\"OpportunityCloseDate\":\"2021-09-06\",\"OpportunityStatus\":\"Negotiation/Review\",\"OpportunityName\":\"Internet Access Required\"},{\"OpportunityProbability\":99,\"OpportunityDaysToClosing\":-7,\"OpportunityId\":\"006f000000QMoXOAA1\",\"OpportunityCreatedDate\":\"2021-09-07T12:01:48.000Z\",\"OpportunityCloseDate\":\"2021-09-07\",\"OpportunityStatus\":\"Won\",\"OpportunityName\":\"Line Item test\"},{\"OpportunityProbability\":10,\"OpportunityDaysToClosing\":-7,\"OpportunityId\":\"006f000000QMwq9AAD\",\"OpportunityCreatedDate\":\"2021-09-13T10:31:21.000Z\",\"OpportunityCloseDate\":\"2021-09-07\",\"OpportunityStatus\":\"Prospecting\",\"OpportunityName\":\"newkcop1\"},{\"OpportunityProbability\":75,\"OpportunityDaysToClosing\":-7,\"OpportunityId\":\"006f000000QMoplAAD\",\"OpportunityCreatedDate\":\"2021-09-07T16:15:22.000Z\",\"OpportunityCloseDate\":\"2021-09-07\",\"OpportunityStatus\":\"Proposal/Price Quote\",\"OpportunityName\":\"SpaceX Co. 2021-09-07 00:00:00\"},{\"OpportunityProbability\":10,\"OpportunityDaysToClosing\":2,\"OpportunityId\":\"006f000000QMMitAAH\",\"OpportunityCreatedDate\":\"2021-08-16T09:31:16.000Z\",\"OpportunityCloseDate\":\"2021-09-16\",\"OpportunityStatus\":\"Qualification\",\"OpportunityName\":\"Fiber Connect+ Request\"},{\"OpportunityProbability\":10,\"OpportunityDaysToClosing\":15,\"OpportunityId\":\"006f000000QMwoDAAT\",\"OpportunityCreatedDate\":\"2021-09-13T10:02:04.000Z\",\"OpportunityCloseDate\":\"2021-09-29\",\"OpportunityStatus\":\"Prospecting\",\"OpportunityName\":\"Cart Test Opp\"},{\"OpportunityProbability\":10,\"OpportunityDaysToClosing\":16,\"OpportunityId\":\"006f000000QMnv9AAD\",\"OpportunityCreatedDate\":\"2021-09-07T07:17:36.000Z\",\"OpportunityCloseDate\":\"2021-09-30\",\"OpportunityStatus\":\"Prospecting\",\"OpportunityName\":\"SpaceX Internet Needs\"},{\"OpportunityProbability\":90,\"OpportunityDaysToClosing\":16,\"OpportunityId\":\"006f000000QMooYAAT\",\"OpportunityCreatedDate\":\"2021-09-07T15:39:55.000Z\",\"OpportunityCloseDate\":\"2021-09-30\",\"OpportunityStatus\":\"Negotiation/Review\",\"OpportunityName\":\"Fiber Internet\"},{\"OpportunityProbability\":10,\"OpportunityDaysToClosing\":24,\"OpportunityId\":\"006f000000QMx59AAD\",\"OpportunityCreatedDate\":\"2021-09-13T11:43:48.000Z\",\"OpportunityCloseDate\":\"2021-10-08\",\"OpportunityStatus\":\"Prospecting\",\"OpportunityName\":\"Launch FIA\"},{\"OpportunityProbability\":10,\"OpportunityDaysToClosing\":79,\"OpportunityId\":\"006f000000QMwomAAD\",\"OpportunityCreatedDate\":\"2021-09-13T10:11:07.000Z\",\"OpportunityCloseDate\":\"2021-12-02\",\"OpportunityStatus\":\"Prospecting\",\"OpportunityName\":\"wsd\"}]",
+    "%vlocity_namespace%__Styles__c": "",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 2,
+    "Name": "OppurtunityViewAll",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/OppurtunityViewAll"
+}

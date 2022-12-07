@@ -1,0 +1,39 @@
+{
+    "%vlocity_namespace%__Author__c": "copado",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "id": 2,
+                "name": "Parent.oppId",
+                "val": "006f000000QcKASAA3"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "FetchQuoteDetails",
+            "dsDelay": 0,
+            "inputMap": {
+                "oppId": "{Parent.oppId}"
+            },
+            "resultVar": ""
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "Quotes.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "Quotes/copado/1/1636993189114",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__SampleData__c": "[{\"QuoteId\":\"0Q0f0000000NHbACAW\",\"QuoteLineItemCount\":4,\"QuoteRecordType\":\"Default Record Type\",\"QuoteName\":\"New Test\",\"QuoteNumber\":\"00000301\"},{\"QuoteId\":\"0Q0f0000000NY2NCAW\",\"QuoteLineItemCount\":1,\"QuoteRecordType\":\"Default Record Type\",\"QuoteName\":\"New Test\",\"QuoteNumber\":\"00000348\"},{\"QuoteId\":\"0Q0f0000000NTVvCAO\",\"QuoteServiceAccount\":\"Amazon.com, Inc.\",\"QuoteLineItemCount\":0,\"QuoteRecordType\":\"Master Quote\",\"QuoteName\":\"NEW MS Order 1\",\"QuoteNumber\":\"00000320\"},{\"QuoteId\":\"0Q0f0000000NXheCAG\",\"QuoteLineItemCount\":1,\"QuoteRecordType\":\"Default Record Type\",\"QuoteName\":\"New Test\",\"QuoteNumber\":\"00000347\"},{\"QuoteId\":\"0Q0f0000000NTWUCA4\",\"QuoteServiceAccount\":\"Amazon Service Account 4\",\"QuoteLineItemCount\":1,\"QuoteRecordType\":\"Sub Quote\",\"QuoteName\":\"Quote_Amazon Service Account 4\",\"QuoteNumber\":\"00000326\"},{\"QuoteId\":\"0Q0f0000000NTWACA4\",\"QuoteServiceAccount\":\"Amazon.com, Inc.\",\"QuoteLineItemCount\":1,\"QuoteRecordType\":\"Group Cart\",\"QuoteName\":\"Group B\",\"QuoteNumber\":\"00000322\"},{\"QuoteId\":\"0Q0f0000000NTXhCAO\",\"QuoteLineItemCount\":5,\"QuoteRecordType\":\"Default Record Type\",\"QuoteName\":\"New Test\",\"QuoteNumber\":\"00000332\"},{\"QuoteId\":\"0Q0f0000000NTWPCA4\",\"QuoteServiceAccount\":\"Amazon Service Account 1\",\"QuoteLineItemCount\":1,\"QuoteRecordType\":\"Sub Quote\",\"QuoteName\":\"Quote_Amazon Service Account 1\",\"QuoteNumber\":\"00000323\"},{\"QuoteId\":\"0Q0f0000000NTWQCA4\",\"QuoteServiceAccount\":\"Amazon Service Account 2\",\"QuoteLineItemCount\":1,\"QuoteRecordType\":\"Sub Quote\",\"QuoteName\":\"Quote_Amazon Service Account 2\",\"QuoteNumber\":\"00000324\"},{\"QuoteId\":\"0Q0f0000000NTWRCA4\",\"QuoteServiceAccount\":\"Amazon Service Account 3\",\"QuoteLineItemCount\":1,\"QuoteRecordType\":\"Sub Quote\",\"QuoteName\":\"Quote_Amazon Service Account 3\",\"QuoteNumber\":\"00000325\"},{\"QuoteId\":\"0Q0f0000000NTW5CAO\",\"QuoteServiceAccount\":\"Amazon.com, Inc.\",\"QuoteLineItemCount\":1,\"QuoteRecordType\":\"Group Cart\",\"QuoteName\":\"Group A\",\"QuoteNumber\":\"00000321\"},{\"QuoteId\":\"0Q0f0000000NTXSCA4\",\"QuoteLineItemCount\":1,\"QuoteRecordType\":\"Default Record Type\",\"QuoteName\":\"New Test\",\"QuoteNumber\":\"00000330\"},{\"QuoteId\":\"0Q0f0000000NTWVCA4\",\"QuoteServiceAccount\":\"Amazon Service Account 5\",\"QuoteLineItemCount\":1,\"QuoteRecordType\":\"Sub Quote\",\"QuoteName\":\"Quote_Amazon Service Account 5\",\"QuoteNumber\":\"00000327\"},{\"QuoteId\":\"0Q0f0000000NTWWCA4\",\"QuoteServiceAccount\":\"Amazon Service Account 6\",\"QuoteLineItemCount\":1,\"QuoteRecordType\":\"Sub Quote\",\"QuoteName\":\"Quote_Amazon Service Account 6\",\"QuoteNumber\":\"00000328\"},{\"QuoteId\":\"0Q0f0000000NTXXCA4\",\"QuoteLineItemCount\":4,\"QuoteRecordType\":\"Default Record Type\",\"QuoteName\":\"New Test\",\"QuoteNumber\":\"00000331\"},{\"QuoteId\":\"0Q0f0000000NTXNCA4\",\"QuoteLineItemCount\":1,\"QuoteRecordType\":\"Default Record Type\",\"QuoteName\":\"New Test\",\"QuoteNumber\":\"00000329\"},{\"QuoteId\":\"0Q0f0000000NXgqCAG\",\"QuoteLineItemCount\":1,\"QuoteRecordType\":\"Default Record Type\",\"QuoteName\":\"New Test\",\"QuoteNumber\":\"00000346\"}]",
+    "%vlocity_namespace%__Styles__c": "",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "Quotes",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/Quotes"
+}

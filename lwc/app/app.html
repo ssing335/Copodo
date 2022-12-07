@@ -1,0 +1,11 @@
+<template>
+    
+    <template if:true={finalDecision}>
+        <c-opportunity-header record-id={recordId} object-api-name={objectApiName}></c-opportunity-header>
+        <c-record-page record-id={recordId} object-api-name={objectApiName} onpass={editModeToggle}></c-record-page>
+    </template>
+    <template if:false={finalDecision}>
+        <c-opportunity-header record-id={recordId} object-api-name={objectApiName}></c-opportunity-header>
+        <c-view-record record-id={recordId} object-api-name={objectApiName} onpass={editModeToggle}></c-view-record>
+    </template>
+</template>

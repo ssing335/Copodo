@@ -1,0 +1,589 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Mobile-Service_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "ATT_DATAACCESS": "Enabled",
+        "ATT_DATALIMIT": "40GB",
+        "ATT_OFFNET": null,
+        "ATT_ONNET": null,
+        "ATT_SMSACCESS": "Disabled",
+        "ATT_SMSCR": "Unltd",
+        "ATT_VOACCESS": "Disabled"
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "7f0bea1d-620d-8a10-aebc-7094b2ab5b4e",
+                "Name": "Mobile Service",
+                "displaySequence": 20,
+                "id": "a2D8G0000000b7vUAA",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a2E8G000000Ac2dUAC",
+                            "cloneable": true,
+                            "code": "ATT_DATALIMIT",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 10,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Data Limit(GB)",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "5c215e53-2c42-c992-2dbd-f97be033f1fb",
+                                    "label": "Unltd",
+                                    "readonly": false,
+                                    "value": "Unltd"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "38496aea-e145-5bcb-1e03-12eb12a64530",
+                                    "label": "1GB",
+                                    "readonly": false,
+                                    "value": "1GB"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "ff0be36d-9dfc-67e1-11cd-f3bab6cf5f3a",
+                                    "label": "2GB",
+                                    "readonly": false,
+                                    "value": "2GB"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "aefcc39f-ba77-76f8-89e1-18863124f20a",
+                                    "label": "5GB",
+                                    "readonly": false,
+                                    "value": "5GB"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "0837fedc-d9bc-aab7-8f9c-b166452a1141",
+                                    "label": "10GB",
+                                    "readonly": false,
+                                    "value": "10GB"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 60,
+                                    "id": "7b348832-d070-4a26-d054-96b23217ac92",
+                                    "label": "20GB",
+                                    "readonly": false,
+                                    "value": "20GB"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 70,
+                                    "id": "cfde79ac-337b-4eb8-e2ef-b7c80f767c85",
+                                    "label": "30GB",
+                                    "readonly": false,
+                                    "value": "30GB"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 80,
+                                    "id": "e3126975-7399-3cda-3a4c-9d88eeae2a9f",
+                                    "label": "40GB",
+                                    "readonly": false,
+                                    "value": "40GB"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 90,
+                                    "id": "98525b39-e9ad-985f-a54b-e8f542cf2860",
+                                    "label": "100GB",
+                                    "readonly": false,
+                                    "value": "100GB"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000Ach1UAC",
+                            "cloneable": true,
+                            "code": "ATT_VOACCESS",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 20,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Voice Access",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "e5f1ed69-7509-f56f-ee66-e7ce668fcc8f",
+                                    "label": "Enabled",
+                                    "readonly": false,
+                                    "value": "Enabled"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "2c3c6706-c5b4-fa45-23b4-16074e67b946",
+                                    "label": "Disabled",
+                                    "readonly": false,
+                                    "value": "Disabled"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "697c78e5-e3b9-34ec-c7d6-4fe6693bf5c7",
+                                    "label": "Incoming Only",
+                                    "readonly": false,
+                                    "value": "Incoming Only"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "f6212e05-da75-4ba1-c22a-8e2ad20b98d3",
+                                    "label": "Outgoing Only",
+                                    "readonly": false,
+                                    "value": "Outgoing Only"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000Ach6UAC",
+                            "cloneable": true,
+                            "code": "ATT_SMSACCESS",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 30,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "SMS Access",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "e5f1ed69-7509-f56f-ee66-e7ce668fcc8f",
+                                    "label": "Enabled",
+                                    "readonly": false,
+                                    "value": "Enabled"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "2c3c6706-c5b4-fa45-23b4-16074e67b946",
+                                    "label": "Disabled",
+                                    "readonly": false,
+                                    "value": "Disabled"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "697c78e5-e3b9-34ec-c7d6-4fe6693bf5c7",
+                                    "label": "Incoming Only",
+                                    "readonly": false,
+                                    "value": "Incoming Only"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "f6212e05-da75-4ba1-c22a-8e2ad20b98d3",
+                                    "label": "Outgoing Only",
+                                    "readonly": false,
+                                    "value": "Outgoing Only"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000AchBUAS",
+                            "cloneable": true,
+                            "code": "ATT_DATAACCESS",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 40,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Data Access",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "8c485204-2752-bb4b-4b79-74b02e767ef2",
+                                    "label": "Enabled",
+                                    "readonly": false,
+                                    "value": "Enabled"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "0a207f25-3ddb-9087-f585-1411df97ee67",
+                                    "label": "Disabled",
+                                    "readonly": false,
+                                    "value": "Disabled"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000AchGUAS",
+                            "cloneable": true,
+                            "code": "ATT_ONNET",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 50,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "OnNet(min)",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "af36c2f3-7f41-3214-1b8d-9022828e6eac",
+                                    "label": "None",
+                                    "readonly": false,
+                                    "value": "None"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "1b63d927-8e54-e9e8-2ed4-f2b712b3d622",
+                                    "label": "Unltd",
+                                    "readonly": false,
+                                    "value": "Unltd"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "ef55e21c-1e3d-df62-cd6c-8af8e046d52c",
+                                    "label": "200",
+                                    "readonly": false,
+                                    "value": "200"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "7a07d70d-f58c-3abd-a1ab-3262812e7a05",
+                                    "label": "500",
+                                    "readonly": false,
+                                    "value": "500"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "08e6482e-58f8-cbd3-3489-4e55c757ffd3",
+                                    "label": "1000",
+                                    "readonly": false,
+                                    "value": "1000"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000AchLUAS",
+                            "cloneable": true,
+                            "code": "ATT_OFFNET",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 60,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "OffNet(min)",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "af36c2f3-7f41-3214-1b8d-9022828e6eac",
+                                    "label": "None",
+                                    "readonly": false,
+                                    "value": "None"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "1b63d927-8e54-e9e8-2ed4-f2b712b3d622",
+                                    "label": "Unltd",
+                                    "readonly": false,
+                                    "value": "Unltd"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "ef55e21c-1e3d-df62-cd6c-8af8e046d52c",
+                                    "label": "200",
+                                    "readonly": false,
+                                    "value": "200"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "7a07d70d-f58c-3abd-a1ab-3262812e7a05",
+                                    "label": "500",
+                                    "readonly": false,
+                                    "value": "500"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "08e6482e-58f8-cbd3-3489-4e55c757ffd3",
+                                    "label": "1000",
+                                    "readonly": false,
+                                    "value": "1000"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000AchQUAS",
+                            "cloneable": true,
+                            "code": "ATT_SMSCR",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 70,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "SMS Credits",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": true,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "07010d37-e5c1-6ab2-4495-7c6c612b7a08",
+                                    "label": "Unltd",
+                                    "readonly": false,
+                                    "value": "Unltd"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "f1b9a7f9-e4af-4f09-204a-fe2450bace95",
+                                    "label": "100",
+                                    "readonly": false,
+                                    "value": "100"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "43600dc0-71f1-673a-95a3-fc6b0c32490f",
+                                    "label": "200",
+                                    "readonly": false,
+                                    "value": "200"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "3b61051a-2d44-cd81-13ac-517909ee3517",
+                                    "label": "500",
+                                    "readonly": false,
+                                    "value": "500"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "0eb0a09f-8e68-0c19-9d8b-0c5e969403ee",
+                                    "label": "1000",
+                                    "readonly": false,
+                                    "value": "1000"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 7
+                }
+            }
+        ],
+        "totalSize": 1
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DecompositionRelationship__c": "Mobile-Service_DecompositionRelationships.json",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2022-05-22",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2022-05-22T07:00:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "3802b293-4071-9602-774d-b52be55606c2",
+    "%vlocity_namespace%__GlobalKey__c": "4f6238ed-899b-06a8-0be7-d994451a6551",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__MainFeatureQuantityUom__c": "",
+    "%vlocity_namespace%__MainFeatureQuantity__c": "",
+    "%vlocity_namespace%__MainFeatureTermInDays__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectFieldAttribute__c": "Mobile-Service_ObjectFieldAttributes.json",
+    "%vlocity_namespace%__ObjectTypeId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "5ecab3d8f89565001bc8d1ce43e9e5a8",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/5ecab3d8f89565001bc8d1ce43e9e5a8",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+    },
+    "%vlocity_namespace%__ObjectTypeName__c": "Mobile Product Spec Type",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PriceListEntry__c": "Mobile-Service_PriceListEntries.json",
+    "%vlocity_namespace%__ProductChildItem__c": "Mobile-Service_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "2022-05-22T07:00:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "Product",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "None",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "None",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "Access_Type__c": "",
+    "CanUseQuantitySchedule": false,
+    "CanUseRevenueSchedule": false,
+    "Description": "",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "Mobile Service",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "PricebookEntry": "Mobile-Service_PricebookEntries.json",
+    "ProductCode": "C-MOBSERV",
+    "Product_Ext_Id__c": "",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": 0,
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "Mobile Service",
+            "Price_Book_Entry_Ext_Id__c": "",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "4f6238ed-899b-06a8-0be7-d994451a6551",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "4f6238ed-899b-06a8-0be7-d994451a6551",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/4f6238ed-899b-06a8-0be7-d994451a6551",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "C-MOBSERV",
+            "UnitPrice": 0,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/4f6238ed-899b-06a8-0be7-d994451a6551"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/4f6238ed-899b-06a8-0be7-d994451a6551"
+}

@@ -1,0 +1,33 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "372c835f-b366-897f-d20c-2af16c2140bb",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/372c835f-b366-897f-d20c-2af16c2140bb",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "",
+        "%vlocity_namespace%__MappingsData__c": "[{\"transform_mappings\":[],\"source_type\":\"Attribute\",\"source_attr_name\":\"Back Up\",\"source_attr_code\":\"ATT-BackUp\",\"mapping_type\":\"list\",\"destination_attr_name\":\"Back Up\",\"destination_attr_code\":\"ATT-BackUp\"},{\"transform_mappings\":[],\"source_type\":\"Attribute\",\"source_attr_name\":\"Technology\",\"source_attr_code\":\"ATT-Technology\",\"mapping_type\":\"list\",\"destination_attr_name\":\"Technology\",\"destination_attr_code\":\"ATT-Technology\"},{\"transform_mappings\":[],\"source_type\":\"Attribute\",\"source_attr_name\":\"Feasibility Result\",\"source_attr_code\":\"ATT-FeasibilityResult\",\"mapping_type\":\"list\",\"destination_attr_name\":\"Feasibility Result\",\"destination_attr_code\":\"ATT-FeasibilityResult\"},{\"transform_mappings\":[],\"source_type\":\"Attribute\",\"source_attr_name\":\"BundleOrNot\",\"source_attr_code\":\"ATT-BundleOrNot\",\"mapping_type\":\"list\",\"destination_attr_name\":\"BundleOrNot\",\"destination_attr_code\":\"ATT-BundleOrNot\"},{\"transform_mappings\":[],\"source_type\":\"Attribute\",\"source_attr_name\":\"Bandwidth1\",\"source_attr_code\":\"Bandwidth1_SDWAN\",\"mapping_type\":\"list\",\"destination_attr_name\":\"Bandwidth1\",\"destination_attr_code\":\"Bandwidth1_SDWAN\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "99ad6b3f-37f4-35be-6cf4-b76528fb4f01",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/99ad6b3f-37f4-35be-6cf4-b76528fb4f01",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "99ad6b3f-37f4-35be-6cf4-b76528fb4f01",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "ACCESS 1 CFS to ACCESS 1 CFS SPEC",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/ACCESS 1 CFS to ACCESS 1 CFS SPEC/Product2/99ad6b3f-37f4-35be-6cf4-b76528fb4f01"
+    }
+]

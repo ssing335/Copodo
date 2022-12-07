@@ -1,0 +1,524 @@
+{
+    "@type": "ServiceOrder",
+    "Id": "9bbe3436-1b8d-57b4-ac2c-78ed9d95128f",
+    "category": "Mobile Postpaid",
+    "description": "Service order for Mobile Postpaid 100 Offer",
+    "externalId": "SFDC-VPOD2",
+    "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/8018G0000007fy4QAA",
+    "orderId": "8018G0000007fy4QAA",
+    "orderRelationship": {
+        "relationshipType": "Work_Order_Id"
+    },
+    "priority": "1",
+    "relatedParty": {
+        "characteristic": {
+            "name": "Contact_No:",
+            "value": "234567890-"
+        },
+        "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/0038G00000Tn6PMQAZ",
+        "id": "0038G00000Tn6PMQAZ",
+        "name": "Nikhil rty",
+        "role": "Associate Agent"
+    },
+    "retransmissionFlag": false,
+    "serviceOrderItem": [
+        {
+            "@type": "serviceOrderItem",
+            "action": "Add",
+            "id": "27c2990c-b7b0-396d-5228-818aef7c2275",
+            "service": [
+                {
+                    "feature": {
+                        "id": "a408G000000IAliQAG"
+                    },
+                    "frlid": "a408G000000IAliQAG",
+                    "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAliQAG",
+                    "name": "01t8G0000015VveQAE",
+                    "place": {
+                        "@schemaLocation": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/0018G00000NUN75QAH",
+                        "geographicAddress": {
+                            "country": "India",
+                            "postcode": "400708",
+                            "stateOrProvince": "MH"
+                        },
+                        "id": "0018G00000NUN75QAH",
+                        "name": "Capgemini Account"
+                    },
+                    "relatedParty": {
+                        "characteristic": {
+                            "value": "234567890-"
+                        },
+                        "id": "0038G00000Tn6PMQAZ",
+                        "name": "Nikhil rty",
+                        "role": "Associate Agent"
+                    },
+                    "serviceRelationship": {
+                        "service": {
+                            "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAliQAG"
+                        }
+                    },
+                    "supportingResource": {
+                        "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAliQAG",
+                        "id": "a408G000000IAliQAG"
+                    },
+                    "supportingService": {
+                        "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAliQAG",
+                        "id": "a408G000000IAliQAG"
+                    }
+                },
+                {
+                    "feature": {
+                        "id": "a408G000000IAljQAG"
+                    },
+                    "frlid": "a408G000000IAljQAG",
+                    "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAljQAG",
+                    "name": "01t8G0000015W13QAE",
+                    "place": {
+                        "@schemaLocation": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/0018G00000NUN75QAH",
+                        "geographicAddress": {
+                            "country": "India",
+                            "postcode": "400708",
+                            "stateOrProvince": "MH"
+                        },
+                        "id": "0018G00000NUN75QAH",
+                        "name": "Capgemini Account"
+                    },
+                    "relatedParty": {
+                        "characteristic": {
+                            "value": "234567890-"
+                        },
+                        "id": "0038G00000Tn6PMQAZ",
+                        "name": "Nikhil rty",
+                        "role": "Associate Agent"
+                    },
+                    "serviceRelationship": {
+                        "service": {
+                            "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAljQAG"
+                        }
+                    },
+                    "supportingResource": {
+                        "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAljQAG",
+                        "id": "a408G000000IAljQAG"
+                    },
+                    "supportingService": {
+                        "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAljQAG",
+                        "id": "a408G000000IAljQAG"
+                    }
+                },
+                {
+                    "feature": {
+                        "id": "a408G000000IAlkQAG"
+                    },
+                    "frlid": "a408G000000IAlkQAG",
+                    "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAlkQAG",
+                    "name": "01t8G0000015WDXQA2",
+                    "place": {
+                        "@schemaLocation": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/0018G00000NUN75QAH",
+                        "geographicAddress": {
+                            "country": "India",
+                            "postcode": "400708",
+                            "stateOrProvince": "MH"
+                        },
+                        "id": "0018G00000NUN75QAH",
+                        "name": "Capgemini Account"
+                    },
+                    "relatedParty": {
+                        "characteristic": {
+                            "value": "234567890-"
+                        },
+                        "id": "0038G00000Tn6PMQAZ",
+                        "name": "Nikhil rty",
+                        "role": "Associate Agent"
+                    },
+                    "serviceRelationship": {
+                        "service": {
+                            "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAlkQAG"
+                        }
+                    },
+                    "supportingResource": {
+                        "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAlkQAG",
+                        "id": "a408G000000IAlkQAG"
+                    },
+                    "supportingService": {
+                        "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAlkQAG",
+                        "id": "a408G000000IAlkQAG"
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "serviceOrderItem",
+            "action": "Add",
+            "id": "fab184ce-6d1f-d915-4c73-1f107802bebc",
+            "service": [
+                {
+                    "feature": {
+                        "id": "a408G000000IAliQAG"
+                    },
+                    "frlid": "a408G000000IAliQAG",
+                    "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAliQAG",
+                    "name": "01t8G0000015VveQAE",
+                    "place": {
+                        "@schemaLocation": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/0018G00000NUN75QAH",
+                        "geographicAddress": {
+                            "country": "India",
+                            "postcode": "400708",
+                            "stateOrProvince": "MH"
+                        },
+                        "id": "0018G00000NUN75QAH",
+                        "name": "Capgemini Account"
+                    },
+                    "relatedParty": {
+                        "characteristic": {
+                            "value": "234567890-"
+                        },
+                        "id": "0038G00000Tn6PMQAZ",
+                        "name": "Nikhil rty",
+                        "role": "Associate Agent"
+                    },
+                    "serviceRelationship": {
+                        "service": {
+                            "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAliQAG"
+                        }
+                    },
+                    "supportingResource": {
+                        "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAliQAG",
+                        "id": "a408G000000IAliQAG"
+                    },
+                    "supportingService": {
+                        "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAliQAG",
+                        "id": "a408G000000IAliQAG"
+                    }
+                },
+                {
+                    "feature": {
+                        "id": "a408G000000IAljQAG"
+                    },
+                    "frlid": "a408G000000IAljQAG",
+                    "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAljQAG",
+                    "name": "01t8G0000015W13QAE",
+                    "place": {
+                        "@schemaLocation": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/0018G00000NUN75QAH",
+                        "geographicAddress": {
+                            "country": "India",
+                            "postcode": "400708",
+                            "stateOrProvince": "MH"
+                        },
+                        "id": "0018G00000NUN75QAH",
+                        "name": "Capgemini Account"
+                    },
+                    "relatedParty": {
+                        "characteristic": {
+                            "value": "234567890-"
+                        },
+                        "id": "0038G00000Tn6PMQAZ",
+                        "name": "Nikhil rty",
+                        "role": "Associate Agent"
+                    },
+                    "serviceRelationship": {
+                        "service": {
+                            "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAljQAG"
+                        }
+                    },
+                    "supportingResource": {
+                        "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAljQAG",
+                        "id": "a408G000000IAljQAG"
+                    },
+                    "supportingService": {
+                        "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAljQAG",
+                        "id": "a408G000000IAljQAG"
+                    }
+                },
+                {
+                    "feature": {
+                        "id": "a408G000000IAlkQAG"
+                    },
+                    "frlid": "a408G000000IAlkQAG",
+                    "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAlkQAG",
+                    "name": "01t8G0000015WDXQA2",
+                    "place": {
+                        "@schemaLocation": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/0018G00000NUN75QAH",
+                        "geographicAddress": {
+                            "country": "India",
+                            "postcode": "400708",
+                            "stateOrProvince": "MH"
+                        },
+                        "id": "0018G00000NUN75QAH",
+                        "name": "Capgemini Account"
+                    },
+                    "relatedParty": {
+                        "characteristic": {
+                            "value": "234567890-"
+                        },
+                        "id": "0038G00000Tn6PMQAZ",
+                        "name": "Nikhil rty",
+                        "role": "Associate Agent"
+                    },
+                    "serviceRelationship": {
+                        "service": {
+                            "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAlkQAG"
+                        }
+                    },
+                    "supportingResource": {
+                        "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAlkQAG",
+                        "id": "a408G000000IAlkQAG"
+                    },
+                    "supportingService": {
+                        "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAlkQAG",
+                        "id": "a408G000000IAlkQAG"
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "serviceOrderItem",
+            "action": "Add",
+            "id": "40bcc541-9eba-54e8-05b0-527f86794e13",
+            "service": [
+                {
+                    "feature": {
+                        "id": "a408G000000IAliQAG"
+                    },
+                    "frlid": "a408G000000IAliQAG",
+                    "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAliQAG",
+                    "name": "01t8G0000015VveQAE",
+                    "place": {
+                        "@schemaLocation": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/0018G00000NUN75QAH",
+                        "geographicAddress": {
+                            "country": "India",
+                            "postcode": "400708",
+                            "stateOrProvince": "MH"
+                        },
+                        "id": "0018G00000NUN75QAH",
+                        "name": "Capgemini Account"
+                    },
+                    "relatedParty": {
+                        "characteristic": {
+                            "value": "234567890-"
+                        },
+                        "id": "0038G00000Tn6PMQAZ",
+                        "name": "Nikhil rty",
+                        "role": "Associate Agent"
+                    },
+                    "serviceRelationship": {
+                        "service": {
+                            "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAliQAG"
+                        }
+                    },
+                    "supportingResource": {
+                        "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAliQAG",
+                        "id": "a408G000000IAliQAG"
+                    },
+                    "supportingService": {
+                        "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAliQAG",
+                        "id": "a408G000000IAliQAG"
+                    }
+                },
+                {
+                    "feature": {
+                        "id": "a408G000000IAljQAG"
+                    },
+                    "frlid": "a408G000000IAljQAG",
+                    "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAljQAG",
+                    "name": "01t8G0000015W13QAE",
+                    "place": {
+                        "@schemaLocation": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/0018G00000NUN75QAH",
+                        "geographicAddress": {
+                            "country": "India",
+                            "postcode": "400708",
+                            "stateOrProvince": "MH"
+                        },
+                        "id": "0018G00000NUN75QAH",
+                        "name": "Capgemini Account"
+                    },
+                    "relatedParty": {
+                        "characteristic": {
+                            "value": "234567890-"
+                        },
+                        "id": "0038G00000Tn6PMQAZ",
+                        "name": "Nikhil rty",
+                        "role": "Associate Agent"
+                    },
+                    "serviceRelationship": {
+                        "service": {
+                            "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAljQAG"
+                        }
+                    },
+                    "supportingResource": {
+                        "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAljQAG",
+                        "id": "a408G000000IAljQAG"
+                    },
+                    "supportingService": {
+                        "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAljQAG",
+                        "id": "a408G000000IAljQAG"
+                    }
+                },
+                {
+                    "feature": {
+                        "id": "a408G000000IAlkQAG"
+                    },
+                    "frlid": "a408G000000IAlkQAG",
+                    "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAlkQAG",
+                    "name": "01t8G0000015WDXQA2",
+                    "place": {
+                        "@schemaLocation": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/0018G00000NUN75QAH",
+                        "geographicAddress": {
+                            "country": "India",
+                            "postcode": "400708",
+                            "stateOrProvince": "MH"
+                        },
+                        "id": "0018G00000NUN75QAH",
+                        "name": "Capgemini Account"
+                    },
+                    "relatedParty": {
+                        "characteristic": {
+                            "value": "234567890-"
+                        },
+                        "id": "0038G00000Tn6PMQAZ",
+                        "name": "Nikhil rty",
+                        "role": "Associate Agent"
+                    },
+                    "serviceRelationship": {
+                        "service": {
+                            "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAlkQAG"
+                        }
+                    },
+                    "supportingResource": {
+                        "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAlkQAG",
+                        "id": "a408G000000IAlkQAG"
+                    },
+                    "supportingService": {
+                        "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAlkQAG",
+                        "id": "a408G000000IAlkQAG"
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "serviceOrderItem",
+            "action": "Add",
+            "id": "8bb3e66d-b65a-c8e1-6a25-339f1e436297",
+            "service": [
+                {
+                    "feature": {
+                        "id": "a408G000000IAliQAG"
+                    },
+                    "frlid": "a408G000000IAliQAG",
+                    "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAliQAG",
+                    "name": "01t8G0000015VveQAE",
+                    "place": {
+                        "@schemaLocation": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/0018G00000NUN75QAH",
+                        "geographicAddress": {
+                            "country": "India",
+                            "postcode": "400708",
+                            "stateOrProvince": "MH"
+                        },
+                        "id": "0018G00000NUN75QAH",
+                        "name": "Capgemini Account"
+                    },
+                    "relatedParty": {
+                        "characteristic": {
+                            "value": "234567890-"
+                        },
+                        "id": "0038G00000Tn6PMQAZ",
+                        "name": "Nikhil rty",
+                        "role": "Associate Agent"
+                    },
+                    "serviceRelationship": {
+                        "service": {
+                            "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAliQAG"
+                        }
+                    },
+                    "supportingResource": {
+                        "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAliQAG",
+                        "id": "a408G000000IAliQAG"
+                    },
+                    "supportingService": {
+                        "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAliQAG",
+                        "id": "a408G000000IAliQAG"
+                    }
+                },
+                {
+                    "feature": {
+                        "id": "a408G000000IAljQAG"
+                    },
+                    "frlid": "a408G000000IAljQAG",
+                    "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAljQAG",
+                    "name": "01t8G0000015W13QAE",
+                    "place": {
+                        "@schemaLocation": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/0018G00000NUN75QAH",
+                        "geographicAddress": {
+                            "country": "India",
+                            "postcode": "400708",
+                            "stateOrProvince": "MH"
+                        },
+                        "id": "0018G00000NUN75QAH",
+                        "name": "Capgemini Account"
+                    },
+                    "relatedParty": {
+                        "characteristic": {
+                            "value": "234567890-"
+                        },
+                        "id": "0038G00000Tn6PMQAZ",
+                        "name": "Nikhil rty",
+                        "role": "Associate Agent"
+                    },
+                    "serviceRelationship": {
+                        "service": {
+                            "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAljQAG"
+                        }
+                    },
+                    "supportingResource": {
+                        "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAljQAG",
+                        "id": "a408G000000IAljQAG"
+                    },
+                    "supportingService": {
+                        "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAljQAG",
+                        "id": "a408G000000IAljQAG"
+                    }
+                },
+                {
+                    "feature": {
+                        "id": "a408G000000IAlkQAG"
+                    },
+                    "frlid": "a408G000000IAlkQAG",
+                    "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAlkQAG",
+                    "name": "01t8G0000015WDXQA2",
+                    "place": {
+                        "@schemaLocation": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/0018G00000NUN75QAH",
+                        "geographicAddress": {
+                            "country": "India",
+                            "postcode": "400708",
+                            "stateOrProvince": "MH"
+                        },
+                        "id": "0018G00000NUN75QAH",
+                        "name": "Capgemini Account"
+                    },
+                    "relatedParty": {
+                        "characteristic": {
+                            "value": "234567890-"
+                        },
+                        "id": "0038G00000Tn6PMQAZ",
+                        "name": "Nikhil rty",
+                        "role": "Associate Agent"
+                    },
+                    "serviceRelationship": {
+                        "service": {
+                            "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAlkQAG"
+                        }
+                    },
+                    "supportingResource": {
+                        "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAlkQAG",
+                        "id": "a408G000000IAlkQAG"
+                    },
+                    "supportingService": {
+                        "href": "https://cgdevops--vpod2--vlocity-cmt.sandbox.vf.force.com/a408G000000IAlkQAG",
+                        "id": "a408G000000IAlkQAG"
+                    }
+                }
+            ]
+        }
+    ],
+    "startDate": "2022-10-26",
+    "success": "post successful"
+}

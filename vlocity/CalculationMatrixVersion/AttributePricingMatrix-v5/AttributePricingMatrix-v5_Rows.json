@@ -1,0 +1,620 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "41906e69-4156-c6dd-d647-7a8681a44dbb",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "4eeacc",
+            "dataType": "Text",
+            "displayOrder": 5,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0Sf200000NkElcEAF",
+            "listValues": null,
+            "name": "MRC"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "4de0684d-ec9a-b7e5-01c1-7d057338fa8d",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "bb4264",
+            "dataType": "Text",
+            "displayOrder": 1,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0Sf200000NkElYEAV",
+            "listValues": null,
+            "name": "Source Product Name"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "6d1f9f1b-93b1-ceb6-58f1-8f0a7b217ed0",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "d051b0",
+            "dataType": "Text",
+            "displayOrder": 3,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0Sf200000NkElaEAF",
+            "listValues": null,
+            "name": "Characteristic Name"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "dee2e6d4-d883-d630-33c2-be599097454d",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "d6d370",
+            "dataType": "Text",
+            "displayOrder": 4,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0Sf200000NkElbEAF",
+            "listValues": null,
+            "name": "Characteristic Value"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "7e4a2cf1-5610-8427-717f-c7523c8ac542",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "dca2fe",
+            "dataType": "Text",
+            "displayOrder": 6,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0Sf200000NkElXEAV",
+            "listValues": null,
+            "name": "NRC"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "912b8672-27d0-6e41-b573-1cf0a93ef41c",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "dff3cf",
+            "dataType": "Text",
+            "displayOrder": 2,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0Sf200000NkElZEAV",
+            "listValues": null,
+            "name": "Source Product Code"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "7ea2105c-3b1a-e7f3-3a9a-95961f050018",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Data Limit(GB)",
+            "Characteristic Value": "100GB",
+            "Source Product Code": "C-DataAddOns",
+            "Source Product Name": "Data Add-Ons"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "100",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "3477d667195ade387599ed2d3c97b780",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "e9089bd5-6e87-02e7-eed3-1b3b5093a758",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Data Limit(GB)",
+            "Characteristic Value": "10GB",
+            "Source Product Code": "C-DataAddOns",
+            "Source Product Name": "Data Add-Ons"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "10",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "22950bce2b6b1250b4d8a1ea20bf4430",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "a4f402c8-7b19-4c39-2c12-d40d256d3850",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Data Limit(GB)",
+            "Characteristic Value": "20GB",
+            "Source Product Code": "C-DataAddOns",
+            "Source Product Name": "Data Add-Ons"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "20",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "48e2a1c2c1751213fee7c0aad627aa8c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "c34cc9ac-c1fc-c0f7-9659-a980ab5cf4ce",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Data Limit(GB)",
+            "Characteristic Value": "30GB",
+            "Source Product Code": "C-DataAddOns",
+            "Source Product Name": "Data Add-Ons"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "30",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "925db8f3841d91c4e05e6e9a3c3df2e8",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "2d5ac391-599e-0227-9b94-040a35274ce6",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Data Limit(GB)",
+            "Characteristic Value": "40GB",
+            "Source Product Code": "C-DataAddOns",
+            "Source Product Name": "Data Add-Ons"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "40",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "77fa3cec6ee905c1bde528a8ff273c7c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "a3382ba6-12b4-6f08-a2a6-d0b54c8baa95",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Method;Capacity(GB)",
+            "Characteristic Value": "Lease to Own;128 GB",
+            "Source Product Code": "C-IPHN11",
+            "Source Product Name": "iPhone11"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "9.35",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "3e12ea63cf66c33a1e747c1ee98b8ed4",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "0f3848dc-f6a3-8138-20e7-859d118224d5",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Method;Capacity(GB)",
+            "Characteristic Value": "Lease to Own;128 GB",
+            "Source Product Code": "C-IPHNSE",
+            "Source Product Name": "iPhone SE"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "13.49",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "61c72bafef734e0652f253fc25e8cf01",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "ec63cede-3198-5ff5-3054-1339db93bacf",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Method;Capacity(GB)",
+            "Characteristic Value": "Lease to Own;256 GB",
+            "Source Product Code": "C-IPHNSE",
+            "Source Product Name": "iPhone SE"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "15.99",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "d5d944675dd4d2c21984ff4bb27d04f5",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "e92ef8b4-20f9-e578-b269-7aece6692b5f",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Method;Capacity(GB)",
+            "Characteristic Value": "Lease to Own;64 GB",
+            "Source Product Code": "C-IPHN11",
+            "Source Product Name": "iPhone11"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "7.99",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "c03a1cc8746402fd981e51077224f6c9",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "3529830c-1865-6d59-66d9-6bcd0a511fbb",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Method;Capacity(GB)",
+            "Characteristic Value": "Lease to Own;64 GB",
+            "Source Product Code": "C-IPHNSE",
+            "Source Product Name": "iPhone SE"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "11.99",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "58c267e6c3d85112a49b1e9a83b9b75f",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "92a449b3-641b-04f5-2186-6b57b2971580",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Method;Capacity(GB)",
+            "Characteristic Value": "Outright Purchase;128 GB",
+            "Source Product Code": "C-IPHN11",
+            "Source Product Name": "iPhone11"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "337.99"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "2b22e2414dcadcb6c45ca0397052aeee",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "fe5a4b18-24b4-7b26-0f7f-901c8803458f",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Method;Capacity(GB)",
+            "Characteristic Value": "Outright Purchase;128 GB",
+            "Source Product Code": "C-IPHNSE",
+            "Source Product Name": "iPhone SE"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "479.99"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "de0e9d7d7eea3ea8259ff6d0b0b9e590",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "7d1df23a-deb6-0bc6-96aa-c1ae29939904",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Method;Capacity(GB)",
+            "Characteristic Value": "Outright Purchase;256 GB",
+            "Source Product Code": "C-IPHNSE",
+            "Source Product Name": "iPhone SE"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "579.99"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "73f8b8d98ff6aeb86f6ed707bd6963ec",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "81ea5415-07a1-5659-1503-96a18b4a7b2a",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Method;Capacity(GB)",
+            "Characteristic Value": "Outright Purchase;64 GB",
+            "Source Product Code": "C-IPHN11",
+            "Source Product Name": "iPhone11"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "289.99"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "3b7076323757397e3ab47b330827017f",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "2197ee18-1f98-344b-d585-4d369a39f888",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Method;Capacity(GB)",
+            "Characteristic Value": "Outright Purchase;64 GB",
+            "Source Product Code": "C-IPHNSE",
+            "Source Product Name": "iPhone SE"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "429.99"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "ee1c43b0c571e7bbbaf65728f227c6d6",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "881f3536-6174-a768-5735-3d5d4df1b0ff",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Method;Capacity(GB)",
+            "Characteristic Value": "Straight Lease;128 GB",
+            "Source Product Code": "C-IPHN11",
+            "Source Product Name": "iPhone11"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "9.35",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "a959c3bcc6a9ebbe00f8a9a98a0eb75d",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "a128329d-56b1-01f1-870c-56e93fd0a1d5",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Method;Capacity(GB)",
+            "Characteristic Value": "Straight Lease;128 GB",
+            "Source Product Code": "C-IPHNSE",
+            "Source Product Name": "iPhone SE"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "13.49",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "1c6e0a324da6322a5bc063be226bf84a",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "1c53a91f-9621-2cc4-9155-ee0285922780",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Method;Capacity(GB)",
+            "Characteristic Value": "Straight Lease;256 GB",
+            "Source Product Code": "C-IPHNSE",
+            "Source Product Name": "iPhone SE"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "15.99",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "5ec265f379e23c12e648b8a520b82cfc",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "0793e2ac-103c-0f11-aca0-5b35d213b515",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Method;Capacity(GB)",
+            "Characteristic Value": "Straight Lease;64 GB",
+            "Source Product Code": "C-IPHN11",
+            "Source Product Name": "iPhone11"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "7.99",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "4ece24cbfb71c940bf13723f615d64c3",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 5,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/5/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "76e04ded-54ae-d76e-02c0-a62081c6fcb9",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Method;Capacity(GB)",
+            "Characteristic Value": "Straight Lease;64 GB",
+            "Source Product Code": "C-IPHNSE",
+            "Source Product Name": "iPhone SE"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "11.99",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "9e4a2755bc5190cc1f8c4f54808d5467",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    }
+]

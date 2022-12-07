@@ -1,0 +1,62 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "The Pop Shoppe - Black Cherry",
+        "Price_Book_Entry_Ext_Id__c": "CPB-007",
+        "Pricebook2.Name": "ADD Pricebook",
+        "Pricebook2Id": {
+            "Name": "ADD Pricebook",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/ADD Pricebook",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "34b3a3ff-072e-71ec-2d13-ce0a5ad5dfe3",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "34b3a3ff-072e-71ec-2d13-ce0a5ad5dfe3",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/34b3a3ff-072e-71ec-2d13-ce0a5ad5dfe3",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 13.5,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/ADD Pricebook/Product2/34b3a3ff-072e-71ec-2d13-ce0a5ad5dfe3"
+    },
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "The Pop Shoppe - Black Cherry",
+        "Price_Book_Entry_Ext_Id__c": "SPB-007",
+        "Pricebook2.Name": "Standard Price Book",
+        "Pricebook2Id": {
+            "Name": "Standard Price Book",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "34b3a3ff-072e-71ec-2d13-ce0a5ad5dfe3",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "34b3a3ff-072e-71ec-2d13-ce0a5ad5dfe3",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/34b3a3ff-072e-71ec-2d13-ce0a5ad5dfe3",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 13.5,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/34b3a3ff-072e-71ec-2d13-ce0a5ad5dfe3"
+    }
+]

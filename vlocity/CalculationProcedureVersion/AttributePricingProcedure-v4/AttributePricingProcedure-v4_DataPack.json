@@ -1,0 +1,32 @@
+{
+    "%vlocity_namespace%__ApplicableObject__c": "",
+    "%vlocity_namespace%__CalculationProcedureId__c": {
+        "Name": "AttributePricingProcedureSiteType",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/AttributePricingProcedureSiteType",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+    },
+    "%vlocity_namespace%__CalculationProcedureId__r.Name": "AttributePricingProcedureSiteType",
+    "%vlocity_namespace%__CalculationProcedureStep__c": "AttributePricingProcedure-v4_Steps.json",
+    "%vlocity_namespace%__CalculationProcedureVariable__c": "AttributePricingProcedure-v4_Variables.json",
+    "%vlocity_namespace%__Constants__c": [
+    ],
+    "%vlocity_namespace%__CurrentStatus__c": "Active",
+    "%vlocity_namespace%__EnableLooping__c": false,
+    "%vlocity_namespace%__EndDateTime__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "fb6ab6a6-7c8f-7d40-64e0-670ad6095efb",
+    "%vlocity_namespace%__InputBundleId__c": "",
+    "%vlocity_namespace%__LastSimulationInput__c": "{\"Characteristic Value\":\"Ethernet\",\"Characteristic Name\":\"Technology\",\"Source Product Name\":\"ACCESS 1\",\"Source Product Code\":\"C-ACCESS1\"}",
+    "%vlocity_namespace%__LoopingSpecification__c": "",
+    "%vlocity_namespace%__OutputBundleId__c": "",
+    "%vlocity_namespace%__PostProcessorClass__c": "",
+    "%vlocity_namespace%__PreProcessorClass__c": "",
+    "%vlocity_namespace%__Priority__c": 100,
+    "%vlocity_namespace%__StartDateTime__c": "2018-07-12T23:20:00.000Z",
+    "%vlocity_namespace%__Variables__c": "",
+    "%vlocity_namespace%__VersionNumber__c": 4,
+    "Name": "AttributePricingProcedure v4",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/4/%vlocity_namespace%__CalculationProcedure__c/AttributePricingProcedureSiteType"
+}

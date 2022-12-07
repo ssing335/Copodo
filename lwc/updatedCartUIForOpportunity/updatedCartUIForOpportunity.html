@@ -1,0 +1,324 @@
+<template>
+
+    <div class="slds-page-header mainCartPage">
+
+        <div class="slds-page-header__row">
+
+            <div class="slds-page-header__col-title">
+
+                <div class="slds-media__body">
+
+                    <h1><span class="slds-page-header__title slds-truncate" title={opportunityName}>{opportunityName}</span></h1>
+
+                </div>
+
+            </div>
+
+            <div class="viewRecordLink" onclick={handleNavigation}>
+
+                <img src={eyeIcon} width="15.3px" height="8.97px" alt="preview">
+
+                <span style="margin-left:7px; font-size: 11.5px;">VIEW RECORD</span>
+
+            </div>
+
+        </div>
+
+        <div>
+
+            <span class="slds-page-header__name-meta" style="border-right:2px solid black; margin-right:7px; font-size: 13px;">Account
+
+                Name : <b>{accountName}</b></span>
+
+            <span class="slds-page-header__name-meta" onclick={priceListOptions} style="cursor: pointer; font-size: 13px;">Price List
+
+                : <b>{initialPriceListValue}<img src={chevronDown} alt="chevrondown" width="7px" height="4px"
+                    style="margin-left: 7px;"></b></span>
+
+            <div if:true={priceListData} style="background: white; border-radius: 4px; width: 262px;
+
+                padding: 10px;
+
+                position: absolute;
+
+                left: 174px;
+
+                margin-top: 2px;
+
+                opacity: .9;
+
+                box-shadow: rgb(43 40 38 / 5%) 5px 10px 10px;
+
+                cursor: pointer;">
+
+                <ul>
+
+                    <li onclick={listSelection}><template if:true={b2cTick}><img src={checkMark} height="12px"
+                                width="12px" style="margin-right: 9px;"></template>Default RateCard</li>
+
+                    <li onclick={listSelection}><template if:true={xTick}><img src={checkMark} height="12px"
+                                width="12px" style="margin-right: 9px;"></template>Space X</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <aside
+        style="background: white; width: 22%; float: left; padding: 10px; border-top-left-radius: 4px; border-bottom-left-radius: 4px;">
+
+        <input type="text" class="chaterSearch" placeholder="Search Products" onchange={updateSearch}
+            value="Search Products"
+            style="width: 231px; border: 1px solid #BCBCBC; border-radius: 4px; padding: 4px; margin-left: 7px">
+
+        <div>
+
+            <div style="padding: 8px; color: #16325C;"><input type="radio" id="products" name="charterFilter"
+                    value="prod" onclick={connectionCheckFilter} checked={isCheckedProd}><span
+                    style="font-weight: bold; margin-left: 13px;">Products</span><span
+                    style="float: right; margin-right: 7px; font-weight: bold;">5434</span></div>
+
+            <div style="padding: 8px; color: #626469;"><input type="radio" id="promotions" name="charterFilter"
+                    value="promo" onclick={connectionCheckFilter} checked={isCheckedPromo}><span
+                    style="margin-left: 13px;">Promotions</span><span
+                    style="float: right; margin-right: 7px;">423</span></div>
+
+            <div style="padding: 8px; color: #626469;"><input type="radio" id="discounts" name="charterFilter"
+                    value="disc" onclick={connectionCheckFilter} checked={isCheckedDisc}><span
+                    style="margin-left: 13px;">Discounts</span><span style="float: right; margin-right: 7px;">762</span>
+            </div>
+
+            <div style="border-bottom: 1px solid #707070; opacity: 0.11; margin-top: 2px; color: #16325C"></div>
+
+        </div>
+
+        <div>
+
+            <div style="padding: 8px; color: #16325C;"><span class="searchPlaceholder"
+                    style="font-weight: bold;">Products</span><span
+                    style="float: right; margin-right: 7px; font-weight: bold;"><img src={filterIcon} alt="filter"
+                        width="15.13px" height="11.87px"></span></div>
+
+            <div if:true={prodMsg}>
+
+                <template for:each={filerDataDD} for:item="pdata" for:index="index">
+
+                    <div key={pdata.Id} style="padding: 8px; padding-bottom: 1px; color: #626469;" onclick={addDum} data-rowparam= {index}>
+
+                        <span style="cursor: pointer;" ><img src={plusIcon} alt="chevrondown"
+                                width="9.39px" height="9.39px"></span>
+                                <!-- onclick={addProducts} -->
+                        <span
+                            style="margin-left: 13px; font-weight: bold;">{pdata.vlocity_cmt__ProductId__r.Name}</span>
+
+                        <span style="float: right; margin-right: 7px; font-weight: bold;">$
+                            {pdata.vlocity_cmt__PricingElementAmount__c}</span>
+
+
+
+                        <!-- <div><span style="margin-left: 23px; font-size: 11px; color: #626469;">Recurring
+                                Price</span><span style="float: right; margin-right: 7px; font-size: 11px;">$ 0</span>
+                        </div> -->
+                        <div>
+                        <a href="#"
+                            style="text-decoration: none; margin-left: 23px; font-size: 11px; color: #16325C">More</a></div>
+
+                        <div style="border-bottom: 1px solid #707070; opacity: 0.11; margin-top: 8px; color: #16325C">
+                        </div>
+
+                    </div>
+
+                </template>
+
+            </div>
+
+            <div if:true={promoMsg} class="errMsgSpace">
+
+                <h3>No Promotions Available</h3>
+
+            </div>
+
+            <div if:true={discMsg} class="errMsgSpace">
+
+                <h3>No Discounts Available</h3>
+
+            </div>
+
+        </div>
+
+    </aside>
+
+    <div class="exampleHolder" style="width: 100%; text-align: center;" id="spinner-div">
+        <lightning-spinner if:false={loaded} alternative-text="Loading" ></lightning-spinner>
+    </div>
+
+    <table if:true={loaded} class={tableClass} style="border-collapse: separate; border-spacing: 0 1em; background: white; width: 78%; color: #626469;" >
+
+        <thead>
+
+            <tr>
+
+                <th style="padding: 10px;"></th>
+
+                <th style="padding: 10px;">Item Name</th>
+
+                <th style="padding: 10px;">Total Quantity</th>
+
+                <th style="padding: 10px;">Recurring Charge</th>
+
+                <th style="padding: 10px;">Recurring Total</th>
+
+                <th style="padding: 10px;">One Time Charge</th>
+
+                <th style="padding: 10px;">One Time Total</th>
+
+                <th style="padding: 10px;">Actions</th>
+
+                <th style="padding: 10px;"></th>
+
+                <th style="padding: 10px;"></th>
+
+            </tr>
+
+        </thead>
+        
+        <tbody >
+
+            <template for:each={tabData} for:item="td" for:index="index">   
+                <tr data-rowparam= {index} key={td.Id} style="background: white; box-shadow: 5px 10px 10px #2b28260d">
+
+                    <td  style="padding: 10px;" ><img src={editIcon} alt="edit" width="11.64px" onclick={editRow} data-rowparam= {index}
+                            height="11.59px" style="cursor: pointer;"></td>
+
+                    <td style="padding: 10px;" data-rowparam={index}>{td.ItemName}</td>
+
+                    <td style="padding: 10px;" data-rowparam={index}><input  readonly
+                            style="width: 78px; border-radius: 4px; border: 1px solid #BCBCBC; margin-left: 8px; text-align: right;"
+                            type="text" value={td.TotalQuantity}></td>
+
+                    <td style="padding: 10px;" data-rowparam={index}><input readonly
+                            style="width: 78px; border-radius: 4px; border: 1px solid #BCBCBC; margin-left: 27px; text-align: right;"
+                            type="text" value={td.RecurringCharge}></td>
+
+                    <td style="padding: 10px;" data-rowparam={index}><input readonly
+                            style="width: 78px; border-radius: 4px; border: 1px solid #BCBCBC; margin-left: 15px; text-align: right;"
+                            type="text" value={td.RecurringTotal}></td>
+
+                    <td style="padding: 10px;" data-rowparam={index}><input readonly
+                            style="width: 78px; border-radius: 4px; border: 1px solid #BCBCBC; margin-left: 27px; text-align: right;"
+                            type="text" value={td.OneTimeCharge}></td>
+
+                    <td style="padding: 10px;" data-rowparam={index}><input readonly
+                            style="width: 78px; border-radius: 4px; border: 1px solid #BCBCBC; margin-left: 14px; text-align: right;"
+                            type="text" value={td.OneTimeTotal}></td>
+
+                    <td style="padding: 10px;" data-rowparam={index}>{td.Actions}</td>
+
+                    
+
+                    <td style="padding: 10px;" data-rowparam={index}><img src={chevronDown} alt="chevrondown" width="7px" data-rowparam={index}
+                            height="4px"></td>
+                    <td style="padding: 10px; height:4px; cursor:pointer" data-rowparam={index}  onclick={openModal}><img src={binIcon} alt="binicon" width="7px" data-rowparam={index}
+                           ></td>    
+                </tr>
+<!-- <td style="padding: 10px;" data-id={indx}>{td.Promotions}</td> -->
+
+
+                 <!-- <tr if:true={canEditRow}  key={td.Id} style="background: white; box-shadow: 5px 10px 10px #2b28260d">
+
+                    <td style="padding: 10px;" data-id={indx}><img src={checkMark} alt="edit" width="11.64px" onclick={editRow}
+                            height="11.59px" style="cursor: pointer;"></td>
+
+                    <td style="padding: 10px;" data-id={indx}>{td.ItemName}</td>
+
+                    <td style="padding: 10px;" data-id={indx}><input 
+                            style="width: 78px; border-radius: 4px; border: 1px solid #BCBCBC; margin-left: 8px; text-align: right;"
+                            type="text" value={td.TotalQuantity}></td>
+
+                    <td style="padding: 10px;" data-id={indx}><input 
+                            style="width: 78px; border-radius: 4px; border: 1px solid #BCBCBC; margin-left: 27px; text-align: right;"
+                            type="text" value={td.RecurringCharge}></td>
+
+                    <td style="padding: 10px;" data-id={indx}><input 
+                            style="width: 78px; border-radius: 4px; border: 1px solid #BCBCBC; margin-left: 15px; text-align: right;"
+                            type="text" value={td.RecurringTotal}></td>
+
+                    <td style="padding: 10px;" data-id={indx}><input 
+                            style="width: 78px; border-radius: 4px; border: 1px solid #BCBCBC; margin-left: 27px; text-align: right;"
+                            type="text" value={td.OneTimeCharge}></td>
+
+                    <td style="padding: 10px;" data-id={indx}><input 
+                            style="width: 78px; border-radius: 4px; border: 1px solid #BCBCBC; margin-left: 14px; text-align: right;"
+                            type="text" value={td.OneTimeTotal}></td>
+
+                    <td style="padding: 10px;" data-id={indx}>{td.Actions}</td>
+
+                    
+
+                    <td style="padding: 10px;" data-id={indx}><img src={chevronDown} alt="chevrondown" width="7px" 
+                            height="4px"></td>
+
+                </tr> -->
+                <!-- <td style="padding: 10px;" data-id={indx}>{td.Promotions}</td> -->
+            </template>
+
+        </tbody>
+
+    </table>
+
+    <!-- <button onclick={addDum}>add</button>
+
+    <button onclick={delDum}>del</button> -->
+
+
+    <!-- <template> -->
+        <!-- lightning button for open modal window -->
+        <!-- <lightning-button variant="brand"
+           label="What is Modal/PopUp in LWC?"
+           title="What is Modal/PopUp in LWC?"
+           onclick={openModal}
+           class="slds-m-left_x-small">
+        </lightning-button> -->
+        <!--Use template if:true to display/hide popup based on isModalOpen value--> 
+        <template if:true={isModalOpen}>
+            <!-- Modal/Popup Box LWC starts here -->
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container">
+                    <!-- Modal/Popup Box LWC header here -->
+                    <header class="slds-modal__header">
+                        <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close" onclick={closeModal}>
+                            <lightning-icon icon-name="utility:close"
+                                alternative-text="close"
+                                variant="inverse"
+                                size="small" ></lightning-icon>
+                            <span class="slds-assistive-text">Close</span>
+                        </button>
+                        <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">Delete Action</h2>
+                    </header>
+                    <!-- Modal/Popup Box LWC body starts here -->
+                    <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                        <p><b>Do you want to remove this product?
+                        </b></p>
+                        <!-- <p><b>This paradigm is used in cases such as the creation or editing of a record, as well as various types of messaging and wizards.
+                        </b></p> -->
+                    </div>
+                    <!-- Modal/Popup Box LWC footer starts here -->
+                    <footer class="slds-modal__footer">
+                        <button class="slds-button slds-button_neutral" onclick={closeModal} title="Cancel">CANCEL</button>
+                        <button class="slds-button slds-button_destructive" onclick={delDum} title="Delete">Delete</button>
+                    </footer>
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+        </template>
+     <!-- </template> -->
+
+
+
+
+
+
+</template>

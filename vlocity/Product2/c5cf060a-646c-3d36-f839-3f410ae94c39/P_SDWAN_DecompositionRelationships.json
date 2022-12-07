@@ -1,0 +1,33 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5f5f2758-2695-7798-0820-b53c83eb2d95",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/5f5f2758-2695-7798-0820-b53c83eb2d95",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "",
+        "%vlocity_namespace%__MappingsData__c": "[{\"source_attr_name\":\"# of cloud Applications\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"# of cloud Applications\",\"destination_attr_code\":\"ATT_# of cloud Applications\",\"source_attr_code\":\"ATT_# of cloud Applications\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"# of on-site Applications\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"# of on-site Applications\",\"destination_attr_code\":\"ATT_# of on-site Applications\",\"source_attr_code\":\"ATT_# of on-site Applications\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"Deployment Schema\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Deployment Schema\",\"destination_attr_code\":\"Att_Deployment Schema\",\"source_attr_code\":\"Att_Deployment Schema\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"Maintenance Model\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Maintenance Model\",\"destination_attr_code\":\"Att_Maintenance Model\",\"source_attr_code\":\"Att_Maintenance Model\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"Max # of Remote Sites\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Max # of Remote Sites\",\"destination_attr_code\":\"Att_Max # of Remote Sites\",\"source_attr_code\":\"Att_Max # of Remote Sites\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"Maximum throughput\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Maximum throughput\",\"destination_attr_code\":\"Att_Maximum throughput\",\"source_attr_code\":\"Att_Maximum throughput\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"Range of # of final users\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Range of # of final users\",\"destination_attr_code\":\"ATT_Range of # of final users\",\"source_attr_code\":\"ATT_Range of # of final users\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"Security\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Security\",\"destination_attr_code\":\"ATT_Security\",\"source_attr_code\":\"ATT_Security\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"Sites Location\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Sites Location\",\"destination_attr_code\":\"Att_Sites Location\",\"source_attr_code\":\"Att_Sites Location\",\"source_type\":\"Attribute\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "c5cf060a-646c-3d36-f839-3f410ae94c39",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/c5cf060a-646c-3d36-f839-3f410ae94c39",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "c5cf060a-646c-3d36-f839-3f410ae94c39",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "P_SDWAN to P_SDWAN CFS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/P_SDWAN to P_SDWAN CFS/Product2/c5cf060a-646c-3d36-f839-3f410ae94c39"
+    }
+]

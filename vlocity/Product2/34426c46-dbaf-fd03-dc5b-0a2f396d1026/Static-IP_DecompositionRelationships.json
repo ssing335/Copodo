@@ -1,0 +1,33 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "39908361-917f-4545-1626-cbe5cc1a864e",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/39908361-917f-4545-1626-cbe5cc1a864e",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "",
+        "%vlocity_namespace%__MappingsData__c": "[{\"source_type\":\"Attribute\",\"source_attr_name\":\"IP TYPE\",\"source_attr_code\":\"ATT_TYPE\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"IP TYPE\",\"destination_attr_code\":\"ATT_TYPE\"},{\"source_type\":\"Attribute\",\"source_attr_name\":\"IP BLOCK\",\"source_attr_code\":\"ATT_BLOCK\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"IP BLOCK\",\"destination_attr_code\":\"ATT_BLOCK\"},{\"source_type\":\"Attribute\",\"source_attr_name\":\"Usable Static v4 addresses\",\"source_attr_code\":\"ATT_USV4ADD\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Usable Static v4 addresses\",\"destination_attr_code\":\"ATT_USV4ADD\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "34426c46-dbaf-fd03-dc5b-0a2f396d1026",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/34426c46-dbaf-fd03-dc5b-0a2f396d1026",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "34426c46-dbaf-fd03-dc5b-0a2f396d1026",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "Static to Static CFS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/Static to Static CFS/Product2/34426c46-dbaf-fd03-dc5b-0a2f396d1026"
+    }
+]

@@ -1,0 +1,96 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "VPL Manage Attributes 101-2",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPL 101-2/Manage Attributes/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "VPL Manage Attributes 101-2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPL 101-2/Manage Attributes/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "Picklist",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPL 101-2/Manage Attributes/English/Picklist",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "Picklist",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "vlcEditBlock.html",
+        "accessibleInFutureSteps": false,
+        "allowDelete": false,
+        "allowEdit": true,
+        "allowNew": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "deleteLabel": "",
+        "disOnTplt": false,
+        "editLabel": "Edit",
+        "elementName": "",
+        "hide": false,
+        "label": "Edit Picklist",
+        "newLabel": "",
+        "selectCheckBox": "",
+        "selectMode": "Single",
+        "selectSobject": "%vlocity_namespace%__Picklist__c",
+        "show": null,
+        "sobjectMapping": [
+            {
+                "duplicateKey": false,
+                "osElement": "PicklistId",
+                "sObjectField": "Id"
+            },
+            {
+                "duplicateKey": false,
+                "osElement": "PicklistName",
+                "sObjectField": "Name"
+            },
+            {
+                "duplicateKey": false,
+                "osElement": "IsActive",
+                "sObjectField": "%vlocity_namespace%__IsActive__c"
+            },
+            {
+                "duplicateKey": false,
+                "osElement": "PicklistCode",
+                "sObjectField": "%vlocity_namespace%__Code__c"
+            },
+            {
+                "duplicateKey": false,
+                "osElement": "PicklistDescription",
+                "sObjectField": "%vlocity_namespace%__Description__c"
+            },
+            {
+                "duplicateKey": false,
+                "osElement": "PicklistDataType",
+                "sObjectField": "%vlocity_namespace%__DataType__c"
+            },
+            {
+                "duplicateKey": false,
+                "osElement": "PicklistStartDate",
+                "sObjectField": "%vlocity_namespace%__EffectiveFromDate__c"
+            },
+            {
+                "duplicateKey": false,
+                "osElement": "PicklistEndDate",
+                "sObjectField": "%vlocity_namespace%__EffectiveUntilDate__c"
+            }
+        ],
+        "sumElement": "",
+        "svgIcon": "user",
+        "svgSprite": "utility",
+        "valueSvgMap": [
+        ]
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Edit Block",
+    "Name": "EditPicklist",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPL 101-2/Manage Attributes/English/EditPicklist"
+}

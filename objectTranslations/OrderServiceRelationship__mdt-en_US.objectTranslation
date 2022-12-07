@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OrderServiceRelationship</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OrderServiceRelationships</value>
+    </caseValues>
+    <fields>
+        <label><!-- DestinationProductCode --></label>
+        <name>DestinationProductCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- DestinationProductId --></label>
+        <name>DestinationProductId__c</name>
+    </fields>
+    <fields>
+        <label><!-- SourceProductCode --></label>
+        <name>SourceProductCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- relationshipType --></label>
+        <name>relationshipType__c</name>
+        <picklistValues>
+            <masterLabel>AttachesTo</masterLabel>
+            <translation><!-- AttachesTo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BundledBy</masterLabel>
+            <translation><!-- BundledBy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bundles</masterLabel>
+            <translation><!-- Bundles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ConnectsOn</masterLabel>
+            <translation><!-- ConnectsOn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DependsOn</masterLabel>
+            <translation><!-- DependsOn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enables</masterLabel>
+            <translation><!-- Enables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HostedOn</masterLabel>
+            <translation><!-- HostedOn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MigratesFrom</masterLabel>
+            <translation><!-- MigratesFrom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MigratesTo</masterLabel>
+            <translation><!-- MigratesTo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ReliesOn</masterLabel>
+            <translation><!-- ReliesOn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Root</masterLabel>
+            <translation><!-- Root --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RoutesTo</masterLabel>
+            <translation><!-- RoutesTo --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

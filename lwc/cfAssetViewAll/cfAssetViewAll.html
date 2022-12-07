@@ -1,0 +1,102 @@
+<template>
+            <div class="slds-grid slds-wrap slds-is-relative ">
+            <div if:false={cardLoaded} class="slds-is-absolute vloc-loader_override" style="height: 100%; width: 100%; min-height:50px; background: white; z-index: 99;">
+  <div>
+   <vlocity_cmt-spinner
+      variant="brand"
+      alternative-text="Loading content..."
+      size="medium"
+      theme="slds"
+      ></vlocity_cmt-spinner>
+  </div>
+</div>
+            <template if:false={hasPermission}>
+              You don't have required permissions to view this card.
+            </template>
+            <template if:true={hasPermission}>
+              <template if:true={hasRecords}>
+                        <template for:each={_records} for:item="record" for:index="rindex">
+                            <vlocity_cmt-flex-card-state if:true={record}  key={record._flex.uniqueKey} data-recordid={record.Id} record={record} data-statue="true"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12 "  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-card slds-border_bottom slds-p-around_x-small " style=" background-image:url(https://cgdevops--vdev1.lightning.force.com/lightning/r/ContentDocument/069f0000000xUWGAA2/view);    border-bottom: #EAEAEA 4px solid; 
+         ">
+          <div data-style-id="state0element0" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element0_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  data-conditions='\{"id":"state-condition-object","isParent":true,"group":[]}'  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0block_element0" class="" data-rindex={rindex} style=""><vlocity_cmt-action data-style-id="state0element0block_element0block_element0_child"  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1629293161302","type":"Custom","displayName":"{AssetName}","vlocityIcon":"","targetType":"Record","openUrlIn":"New Tab/Window","Record":{"targetName":"Asset","targetAction":"view","targetId":"{AssetId}"}}'  hide-action-icon="false"  display-as-button="false"  styles='\{"label":{"color":"#0155D0","fontSize":"16px"}}'  theme="slds" ></vlocity_cmt-action>
+      </div><div data-style-id="state0element0block_element0block_element1" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element0block_element1_child"     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cstrong%3EService%20Location:%3C/strong%3E%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element0block_element0block_element2" class="" data-rindex={rindex} style=""><vlocity_cmt-action data-style-id="state0element0block_element0block_element2_child"  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1631102932334","type":"Custom","displayName":"{AssetServiceLocation}","vlocityIcon":"","openUrlIn":"New Tab/Window","hasExtraParams":true,"targetType":"Record","Record":{"targetId":"{AssetServiceAccountId}","targetAction":"view","targetName":"Account"}}'  styles='\{"label":{"color":"#0155D0"}}'  theme="slds" ></vlocity_cmt-action>
+      </div><div data-style-id="state0element0block_element0block_element3" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element0block_element3_child"     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cstrong%3ECreated%20Date:%3C/strong%3E%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element0block_element0block_element4" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element0block_element4_child"     card={card}  record={record}  placeholder=""  type="date"  field-name="AssetCreatedDate"  format="D/M/YYYY"  use-absolute-date="false"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element0block_element0block_element5" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element0block_element5_child"     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cstrong%3ERecurring%20Charge:%3C/strong%3E%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element0block_element0block_element6" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element0block_element6_child"     card={card}  record={record}  placeholder=""  type="currency"  field-name="AssetRecurringCharge"  locale="en-US"  currency="USD"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element0block_element0block_element7" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element0block_element7_child"     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cstrong%3EOne%20Time%20Charge:%3C/strong%3E%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element0block_element0block_element8" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element0block_element8_child"     card={card}  record={record}  placeholder=""  type="currency"  field-name="AssetOneTimeCharge"  locale="en-US"  currency="USD"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element1" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element1_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element1block_element0" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-action data-style-id="state0element0block_element1block_element0_child"  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1631690477066","type":"Flyout","displayName":"Billing Information","vlocityIcon":"utility:moneybag","openUrlIn":"New Tab/Window","layoutType":"lightning","hasExtraParams":true,"flyoutType":"childCard","openFlyoutIn":"Modal","cardName":"BillingInfo","flyoutLwc":"BillingInfo","flyoutParams":{"AssetId":"{AssetId}"}}'  s-object-type="Order"  context-id="\{AssetAccountId}:all:{AssetId}"  data-conditions='\{"id":"state-condition-object","isParent":true,"group":[]}'  icon-color="#00629B"  icon-size="small"  icon-only="true"  theme="slds"><div slot="flyout">  <c-cf-billing-info data-style-id="state0element0block_element1block_element0_child"  parent-record={record}  records={_records}  parent-mergefields={card}  record-id={recordId}  parent-attribute='\{"AssetId":"{AssetId}"}'   ></c-cf-billing-info></div></vlocity_cmt-action>
+    </div><div data-style-id="state0element0block_element1block_element1" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-action data-style-id="state0element0block_element1block_element1_child"  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1631776098971","type":"Flyout","displayName":"Change Service","vlocityIcon":"action:quote","openUrlIn":"New Tab/Window","layoutType":"lightning","hasExtraParams":true,"flyoutType":"childCard","openFlyoutIn":"Modal","cardName":"CallChangeToQuote","flyoutLwc":"CallChangeToQuote","flyoutParams":{"parentId":"{AssetId}"},"cardNode":""}'  s-object-type="Order"  context-id="\{AssetAccountId}:all:{AssetId}"  data-conditions='\{"id":"state-condition-object","isParent":true,"group":[]}'  icon-color="#00629B"  icon-size="small"  icon-only="true"  theme="slds"><div slot="flyout">  <c-cf-call-change-to-quote data-style-id="state0element0block_element1block_element1_child"  parent-record={record}  records={_records}  parent-mergefields={card}  record-id={recordId}  parent-attribute='\{"parentId":"{AssetId}"}'   ></c-cf-call-change-to-quote></div></vlocity_cmt-action>
+    </div><div data-style-id="state0element0block_element1block_element2" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-action data-style-id="state0element0block_element1block_element2_child"  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1631690457562","type":"Flyout","displayName":"View All","vlocityIcon":"utility:preview","openUrlIn":"Current Window","flyoutType":"childCard","openFlyoutIn":"Modal","cardName":"SubAssets","flyoutLwc":"SubAssets","hasExtraParams":true,"flyoutParams":{"parentId":"{AssetRootItemId}"}}'  icon-color="#00629B"  icon-size="small"  data-conditions='\{"id":"state-condition-object","isParent":true,"group":[{"id":"state-new-condition-35","field":"AssetName","operator":"==","value":"Fiber Internet Access","type":"custom"},{"id":"state-new-condition-44","field":"AssetName","operator":"==","value":"Fiber Internet Connection","type":"custom","logicalOperator":"||"}]}'  icon-only="true"  theme="slds"><div slot="flyout">  <c-cf-sub-assets data-style-id="state0element0block_element1block_element2_child"  parent-record={record}  records={_records}  parent-mergefields={card}  record-id={recordId}  parent-attribute='\{"parentId":"{AssetRootItemId}"}'   ></c-cf-sub-assets></div></vlocity_cmt-action>
+    </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div>
+      </vlocity_cmt-flex-card-state>
+                        </template>
+                      </template>
+                      <template if:false={hasRecords}>
+                            <vlocity_cmt-flex-card-state  record={record} data-statue="false"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12 "  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-card slds-border_bottom slds-p-around_x-small " style=" background-image:url(https://cgdevops--vdev1.lightning.force.com/lightning/r/ContentDocument/069f0000000xUWGAA2/view);    border-bottom: #EAEAEA 4px solid; 
+         ">
+          <div data-style-id="state0element0" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element0_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  data-conditions='\{"id":"state-condition-object","isParent":true,"group":[]}'  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0block_element0" class="" data-rindex={rindex} style=""><vlocity_cmt-action data-style-id="state0element0block_element0block_element0_child"  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1629293161302","type":"Custom","displayName":"{AssetName}","vlocityIcon":"","targetType":"Record","openUrlIn":"New Tab/Window","Record":{"targetName":"Asset","targetAction":"view","targetId":"{AssetId}"}}'  hide-action-icon="false"  display-as-button="false"  styles='\{"label":{"color":"#0155D0","fontSize":"16px"}}'  theme="slds" ></vlocity_cmt-action>
+      </div><div data-style-id="state0element0block_element0block_element1" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element0block_element1_child"     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cstrong%3EService%20Location:%3C/strong%3E%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element0block_element0block_element2" class="" data-rindex={rindex} style=""><vlocity_cmt-action data-style-id="state0element0block_element0block_element2_child"  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1631102932334","type":"Custom","displayName":"{AssetServiceLocation}","vlocityIcon":"","openUrlIn":"New Tab/Window","hasExtraParams":true,"targetType":"Record","Record":{"targetId":"{AssetServiceAccountId}","targetAction":"view","targetName":"Account"}}'  styles='\{"label":{"color":"#0155D0"}}'  theme="slds" ></vlocity_cmt-action>
+      </div><div data-style-id="state0element0block_element0block_element3" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element0block_element3_child"     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cstrong%3ECreated%20Date:%3C/strong%3E%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element0block_element0block_element4" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element0block_element4_child"     card={card}  record={record}  placeholder=""  type="date"  field-name="AssetCreatedDate"  format="D/M/YYYY"  use-absolute-date="false"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element0block_element0block_element5" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element0block_element5_child"     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cstrong%3ERecurring%20Charge:%3C/strong%3E%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element0block_element0block_element6" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element0block_element6_child"     card={card}  record={record}  placeholder=""  type="currency"  field-name="AssetRecurringCharge"  locale="en-US"  currency="USD"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element0block_element0block_element7" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element0block_element7_child"     card={card}  record={record}  merge-field="%3Cdiv%3E%3Cstrong%3EOne%20Time%20Charge:%3C/strong%3E%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element0block_element0block_element8" class="" data-rindex={rindex} style=""><vlocity_cmt-output-field data-style-id="state0element0block_element0block_element8_child"     card={card}  record={record}  placeholder=""  type="currency"  field-name="AssetOneTimeCharge"  locale="en-US"  currency="USD"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div><div data-style-id="state0element0block_element1" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-block data-style-id="state0element0block_element1_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element1block_element0" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-action data-style-id="state0element0block_element1block_element0_child"  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1631690477066","type":"Flyout","displayName":"Billing Information","vlocityIcon":"utility:moneybag","openUrlIn":"New Tab/Window","layoutType":"lightning","hasExtraParams":true,"flyoutType":"childCard","openFlyoutIn":"Modal","cardName":"BillingInfo","flyoutLwc":"BillingInfo","flyoutParams":{"AssetId":"{AssetId}"}}'  s-object-type="Order"  context-id="\{AssetAccountId}:all:{AssetId}"  data-conditions='\{"id":"state-condition-object","isParent":true,"group":[]}'  icon-color="#00629B"  icon-size="small"  icon-only="true"  theme="slds"><div slot="flyout">  <c-cf-billing-info data-style-id="state0element0block_element1block_element0_child"  parent-record={record}  records={_records}  parent-mergefields={card}  record-id={recordId}  parent-attribute='\{"AssetId":"{AssetId}"}'   ></c-cf-billing-info></div></vlocity_cmt-action>
+    </div><div data-style-id="state0element0block_element1block_element1" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-action data-style-id="state0element0block_element1block_element1_child"  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1631776098971","type":"Flyout","displayName":"Change Service","vlocityIcon":"action:quote","openUrlIn":"New Tab/Window","layoutType":"lightning","hasExtraParams":true,"flyoutType":"childCard","openFlyoutIn":"Modal","cardName":"CallChangeToQuote","flyoutLwc":"CallChangeToQuote","flyoutParams":{"parentId":"{AssetId}"},"cardNode":""}'  s-object-type="Order"  context-id="\{AssetAccountId}:all:{AssetId}"  data-conditions='\{"id":"state-condition-object","isParent":true,"group":[]}'  icon-color="#00629B"  icon-size="small"  icon-only="true"  theme="slds"><div slot="flyout">  <c-cf-call-change-to-quote data-style-id="state0element0block_element1block_element1_child"  parent-record={record}  records={_records}  parent-mergefields={card}  record-id={recordId}  parent-attribute='\{"parentId":"{AssetId}"}'   ></c-cf-call-change-to-quote></div></vlocity_cmt-action>
+    </div><div data-style-id="state0element0block_element1block_element2" class="" data-rindex={rindex} style="">
+    <vlocity_cmt-action data-style-id="state0element0block_element1block_element2_child"  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1631690457562","type":"Flyout","displayName":"View All","vlocityIcon":"utility:preview","openUrlIn":"Current Window","flyoutType":"childCard","openFlyoutIn":"Modal","cardName":"SubAssets","flyoutLwc":"SubAssets","hasExtraParams":true,"flyoutParams":{"parentId":"{AssetRootItemId}"}}'  icon-color="#00629B"  icon-size="small"  data-conditions='\{"id":"state-condition-object","isParent":true,"group":[{"id":"state-new-condition-35","field":"AssetName","operator":"==","value":"Fiber Internet Access","type":"custom"},{"id":"state-new-condition-44","field":"AssetName","operator":"==","value":"Fiber Internet Connection","type":"custom","logicalOperator":"||"}]}'  icon-only="true"  theme="slds"><div slot="flyout">  <c-cf-sub-assets data-style-id="state0element0block_element1block_element2_child"  parent-record={record}  records={_records}  parent-mergefields={card}  record-id={recordId}  parent-attribute='\{"parentId":"{AssetRootItemId}"}'   ></c-cf-sub-assets></div></vlocity_cmt-action>
+    </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div>
+      </vlocity_cmt-flex-card-state>
+                      </template>
+            </template>
+            <template if:true={hasError}>
+            {error}
+            </template>
+            
+      <vlocity_cmt-action action-wrapperclass="slds-hide" re-render-flyout class="action-trigger slds-col" onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction}>
+      
+      </vlocity_cmt-action>
+  
+            <vlocity_cmt-action class="execute-action" re-render-flyout action-wrapperclass="slds-hide" onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction}>
+            
+            </vlocity_cmt-action>
+            </div>
+          </template>

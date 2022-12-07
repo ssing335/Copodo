@@ -1,0 +1,64 @@
+<template>
+
+
+    <div id="cover" style="background: white;">
+        <lightning-tabset active-tab-value="Details">
+            <lightning-tab label="Details" value="Details">
+                <div>
+                    <lightning-button variant="base" label="CREATE CONTRACT IN BATCH" title="CREATE CONTRACT IN BATCH"
+                        onclick={buttonHandleClickk} class="slds-m-left_x-small" style="font-weight: 700;">
+                    </lightning-button>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <lightning-button variant="base" label="CREATE FRAME AGREEMENT" title="CREATE FRAME AGREEMENT"
+                        onclick={buttonHandleClickk} class="slds-m-left_x-small" style="font-weight: 700;">
+                    </lightning-button>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <lightning-button variant="base" label="CREATE QUOTE" title="CREATE QUOTE"
+                        onclick={buttonHandleClickk} class="slds-m-left_x-small" style="font-weight: 700;">
+                    </lightning-button>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <lightning-button variant="base" label="UPDATE FRAME AGREEMENT" title="UPDATE FRAME AGREEMENT"
+                        onclick={buttonHandleClickk} class="slds-m-left_x-small" style="font-weight: 700;">
+                    </lightning-button>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <lightning-button variant="base" label={buttonLabel} title="EDIT" onclick={editModeStatusToParent}
+                        id = "edit-button" class="slds-var-m-left_x-small" style="font-weight: 700;"></lightning-button>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <lightning-button variant="base" label="CONFIGURE" title="CONFIGURE" onclick={buttonHandleClickk}
+                        class="slds-m-left_x-small" style="font-weight: 700;"></lightning-button>
+                </div>
+                <br>
+
+                <lightning-record-form object-api-name={objectApiName} record-id={recordId} columns="4" mode="readonly"
+                    forcepageblock forcerecordlayout onsubmit={handleSubmit} fields={fields}>
+                </lightning-record-form>
+
+                <lightning-accordion allow-multiple-sections-open onsectiontoggle={handleSectionToggle}
+                    active-section-name={activeSections}>
+                    <lightning-accordion-section name="A" label="Additional Information">
+                        <lightning-record-form object-api-name={objectApiName} record-id={recordId} columns="4"
+                            mode="readonly" fields={fields} onsubmit={handleSubmit}>
+
+
+                        </lightning-record-form>
+                    </lightning-accordion-section>
+                </lightning-accordion>
+
+            </lightning-tab>
+            <lightning-tab label="Activity" value="Activity">
+                Activity !
+            </lightning-tab>
+            <lightning-tab label="Chatter" value="Chatter">
+                Chatter !
+            </lightning-tab>
+            <lightning-tab label="Related" value="Related">
+                Related !
+            </lightning-tab>
+        </lightning-tabset>
+
+    </div>
+
+
+
+
+</template>

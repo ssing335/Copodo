@@ -1,0 +1,33 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "",
+        "%vlocity_namespace%__MappingsData__c": "[{\"source_type\":\"Attribute\",\"source_attr_name\":\"OffNet(min)\",\"source_attr_code\":\"ATT_OFFNET\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"OffNet(min)\",\"destination_attr_code\":\"ATT_OFFNET\"},{\"source_type\":\"Attribute\",\"source_attr_name\":\"OnNet(min)\",\"source_attr_code\":\"ATT_ONNET\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"OnNet(min)\",\"destination_attr_code\":\"ATT_ONNET\"},{\"transform_mappings\":[{\"source_value\":\"Enabled\",\"destination_value\":\"True\"},{\"source_value\":\"Disabled\",\"destination_value\":\"False\"},{\"source_value\":\"Incoming Only\",\"destination_value\":\"Incoming Only\"},{\"source_value\":\"Outgoing Only\",\"destination_value\":\"Outgoing Only\"}],\"source_type\":\"Attribute\",\"source_attr_name\":\"SMS Access\",\"source_attr_code\":\"ATT_SMSACCESS\",\"mapping_type\":\"list\",\"destination_attr_name\":\"SMS Access subscription flag\",\"destination_attr_code\":\"A-SMS-ACC-SUB-FLG\"},{\"transform_mappings\":[{\"source_value\":\"Enabled\",\"destination_value\":\"True\"},{\"source_value\":\"Disabled\",\"destination_value\":\"False\"}],\"source_type\":\"Attribute\",\"source_attr_name\":\"Data Access\",\"source_attr_code\":\"ATT_DATAACCESS\",\"mapping_type\":\"list\",\"destination_attr_name\":\"Data Access subscription flag\",\"destination_attr_code\":\"ATT_DATA_ACCESS\"},{\"transform_mappings\":[{\"source_value\":\"Outgoing Only\",\"destination_value\":\"Outgoing Only\"},{\"source_value\":\"Incoming Only\",\"destination_value\":\"Incoming Only\"},{\"source_value\":\"Enabled\",\"destination_value\":\"True\"},{\"source_value\":\"Disabled\",\"destination_value\":\"False\"}],\"source_type\":\"Attribute\",\"source_attr_name\":\"Voice Access\",\"source_attr_code\":\"ATT_VOACCESS\",\"mapping_type\":\"list\",\"destination_attr_name\":\"Voice Access subscription flag\",\"destination_attr_code\":\"ATT_VOICE_ACCESS\"},{\"source_type\":\"Attribute\",\"source_attr_name\":\"Data Limit(GB)\",\"source_attr_code\":\"ATT_DATALIMIT\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Data Limit(GB)\",\"destination_attr_code\":\"ATT_DATALIMIT\"},{\"source_type\":\"Attribute\",\"source_attr_name\":\"SMS Credits\",\"source_attr_code\":\"ATT_SMSCR\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"SMS Credits\",\"destination_attr_code\":\"ATT_SMSCR\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "4f6238ed-899b-06a8-0be7-d994451a6551",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/4f6238ed-899b-06a8-0be7-d994451a6551",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "4f6238ed-899b-06a8-0be7-d994451a6551",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "Mobile Service to Mobile Connectivity Service CFS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/Mobile Service to Mobile Connectivity Service CFS/Product2/4f6238ed-899b-06a8-0be7-d994451a6551"
+    }
+]

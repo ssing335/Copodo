@@ -1,0 +1,109 @@
+<template>
+
+    <div class="slds-page-header" style="background: white;">
+
+        <div class="slds-page-header__row">
+
+            <div class="slds-page-header__col-title">
+
+                <div class="slds-media__body">
+
+                    <h1><span class="slds-page-header__title slds-truncate" title={opportunityName}>{opportunityName}</span></h1>
+                    <!-- <h1><lightning-record-view-form record-id={recordId} object-api-name={objectNameApi}> -->
+                        <!-- <lightning-output-field field-name="Name"></lightning-output-field> -->
+                    <!-- </lightning-record-view-form></h1> -->
+                    
+                </div>
+
+            </div>
+
+            <div style="cursor: pointer;" onclick={handleNavigation}>                
+
+                <!-- <lightning-icon icon-name="utility:cart" alternative-text="Account" title="Account" style="width: 2px;height: 2px;"></lightning-icon> -->
+                <img src={cartIcon} style="width: 14px; height: 12px;">
+                <span style="margin-left:2px; font-size: 12px;">CART</span>                
+
+            </div>
+
+        </div>
+
+        <div id="header__info">
+
+            <span class="slds-page-header__name-meta" style="border-right:2px solid black; margin-right:7px; font-size: 13px;">Account
+
+                Name : <b>{accountName}</b></span>
+
+            <span class="slds-page-header__name-meta" style="border-right:2px solid black; margin-right:7px; font-size: 13px;">Close Date
+
+                : <b>{closeDate}</b></span>
+
+            <span class="slds-page-header__name-meta" style="margin-right:7px; font-size: 13px;">Opportunity Owner : <b>{ownerName}</b></span>                
+
+        </div>
+
+    </div>
+    
+    <div class="slds-page-header" style="background: white;font-size: 11px;">
+
+        <lightning-progress-indicator current-step={progress} type="base" has-error="false" variant="base" id="progress-indicator-custom">            
+
+            <lightning-progress-step label="Prospecting" value="1"></lightning-progress-step>           
+
+            <lightning-progress-step label="Qualification" value="2"></lightning-progress-step>
+
+            <lightning-progress-step label="Needs Analysis" value="3"></lightning-progress-step>
+
+            <lightning-progress-step label="Value Proposition" value="4" class="charterErrorIcon" id="charterErrorIcon"></lightning-progress-step>
+
+            <lightning-progress-step label="Id. Decision Maker" value="5"></lightning-progress-step>
+
+            <lightning-progress-step label="Perception Analysis" value="6"></lightning-progress-step>
+
+            <lightning-progress-step label="Proposal/Price Quote" value="7"></lightning-progress-step>
+
+            <lightning-progress-step label="Negotiation/Review" value="8"></lightning-progress-step>
+
+            <lightning-progress-step label="Closed Won" value="9"></lightning-progress-step>
+
+            <lightning-progress-step label="Closed Lost" value="10"></lightning-progress-step>
+
+            <lightning-progress-step label="Order in Progress" value="11"></lightning-progress-step>
+
+            <lightning-progress-step label="Won" value="12"></lightning-progress-step>
+
+        </lightning-progress-indicator> 
+
+ 
+
+        <div style="margin-bottom: 10px; position:relative; font-size: 12px;">
+
+            <span data-id="span" style="position:absolute; left:4.9%;">Prospecting</span>
+
+            <span data-id="span" style="position:absolute; left:11.8%;">Qualification</span>
+
+            <span data-id="span" style="position:absolute; left:19.8%;">Needs Analysis</span>
+
+            <span data-id="span" style="position:absolute; left:27%;">Value Proposition</span>
+
+            <span data-id="span" style="position:absolute; left:35%;">Id Decision Maker</span>
+
+            <span data-id="span" style="position:absolute; left:42.9%;">Perception Analysis</span>
+
+            <span data-id="span" style="position:absolute; left:51.3%;">Proposal/Price Quote</span>
+
+            <span data-id="span" style="position:absolute; left:60.5%;">Negotiation Review</span>
+
+            <span data-id="span" style="position:absolute; left:68.8%;">Closed Won</span>
+
+            <span data-id="span" style="position:absolute; left:76.5%;">Closed Lost</span>
+
+            <span data-id="span" style="position:absolute; left:83.5%;">Order in Progress</span>
+
+            <span data-id="span" style="position:absolute; left:93.0%;">Won</span>
+            
+
+        </div>
+
+    </div>
+
+</template>

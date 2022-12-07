@@ -1,0 +1,582 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Site-Type-M_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "ATT-BundleOrNot": "NotInBundle",
+        "ATT-Type": "Hub & Spoke",
+        "ATT-Visibility": "Child Business Accounts",
+        "ATT_# of cloud Applications": 3,
+        "ATT_# of on-site Applications": 4,
+        "ATT_NoOfSite": "1",
+        "ATT_Range of # of final users": "1000",
+        "Att_Deployment Schema": "Customer Managed",
+        "Att_Maintenance Model": "Advanced",
+        "Att_Maximum throughput": "600 Mbps"
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "d1cda5e1-554b-f0ea-882b-6be3c5f43d2f",
+                "Name": "SDWAN_Common_Att",
+                "displaySequence": 600,
+                "id": "a2D8G0000004de9UAA",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a2E8G000000DH9bUAG",
+                            "cloneable": true,
+                            "code": "ATT_NoOfSite",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "NoOfSite",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": true,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "d400265c-d2fa-0dc2-3828-afadd3280db1",
+                                    "label": "1",
+                                    "readonly": false,
+                                    "value": "1"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "4dfd5f46-bd87-81fb-c86b-133cbe0eea51",
+                                    "label": "2-4",
+                                    "readonly": false,
+                                    "value": "2-4"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 3,
+                                    "id": "9cc9a8a8-6867-22cb-3baf-b585dbe64bb6",
+                                    "label": "5+",
+                                    "readonly": false,
+                                    "value": "5+"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000DGiQUAW",
+                            "cloneable": true,
+                            "code": "ATT-BundleOrNot",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 10,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "BundleOrNot",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "ed649303-67b7-ca30-4f83-8c0b0fb1e7a3",
+                                    "label": "InBundle",
+                                    "readonly": false,
+                                    "value": "InBundle"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "53f9733e-5f7f-b340-56f6-552d62d294db",
+                                    "label": "NotInBundle",
+                                    "readonly": false,
+                                    "value": "NotInBundle"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000DFpOUAW",
+                            "cloneable": true,
+                            "code": "Att_Maximum throughput",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 11,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Maximum throughput",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "d969686d-be63-2e13-9762-c198c17ea468",
+                                    "label": "100 Mpbs",
+                                    "readonly": false,
+                                    "value": "100 Mpbs"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "b3e6b3d3-dfc9-967a-7444-5fa8410eab5d",
+                                    "label": "400 Mbps",
+                                    "readonly": false,
+                                    "value": "400 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "9d53a6e0-fb15-ed31-ff0c-6be6a3f08bdd",
+                                    "label": "600 Mbps",
+                                    "readonly": false,
+                                    "value": "600 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "ce26459e-5926-ade0-e822-b0620eacac7d",
+                                    "label": "1300 Mbps",
+                                    "readonly": false,
+                                    "value": "1300 Mbps"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000DFpYUAW",
+                            "cloneable": true,
+                            "code": "Att_Maintenance Model",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 13,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Maintenance Model",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "cb24e976-d9ea-29ed-dcf2-cc1c7c5f4f3f",
+                                    "label": "Advanced",
+                                    "readonly": false,
+                                    "value": "Advanced"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "39d8cca9-fc3d-2eec-a8b6-283916d9aa57",
+                                    "label": "Basic",
+                                    "readonly": false,
+                                    "value": "Basic"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000DFpnUAG",
+                            "cloneable": true,
+                            "code": "Att_Deployment Schema",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 16,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Deployment Schema",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "d4d80af5-9069-d898-ff29-e1fbc2adf06a",
+                                    "label": "Customer Managed",
+                                    "readonly": false,
+                                    "value": "Customer Managed"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "70e962c3-a2d3-97f1-dc99-589705676ff2",
+                                    "label": "O2 Managed",
+                                    "readonly": false,
+                                    "value": "O2 Managed"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "d8b1ae86-4a91-d2dd-b172-03e61c5e1092",
+                                    "label": "Hybrid",
+                                    "readonly": false,
+                                    "value": "Hybrid"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000DFpsUAG",
+                            "cloneable": true,
+                            "code": "ATT_# of on-site Applications",
+                            "dataType": "number",
+                            "disabled": false,
+                            "displaySequence": 17,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "# of on-site Applications",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000DFpxUAG",
+                            "cloneable": true,
+                            "code": "ATT_# of cloud Applications",
+                            "dataType": "number",
+                            "disabled": false,
+                            "displaySequence": 18,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "# of cloud Applications",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000DFq7UAG",
+                            "cloneable": true,
+                            "code": "ATT_Range of # of final users",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 19,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Range of # of final users",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "eebed835-cc40-2fef-05b3-c3620a41b947",
+                                    "label": "1000",
+                                    "readonly": false,
+                                    "value": "1000"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "b91b5908-39a4-6a5f-c80c-70af23d55462",
+                                    "label": "5000",
+                                    "readonly": false,
+                                    "value": "5000"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "3fa6419c-dc59-084f-f069-0d103533833a",
+                                    "label": "10000",
+                                    "readonly": false,
+                                    "value": "10000"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 8
+                }
+            },
+            {
+                "Code__c": "448033d7-8463-579b-1848-ea2bf10b38e3",
+                "Name": "P_SITE",
+                "displaySequence": 605,
+                "id": "a2D8G0000004deTUAQ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a2E8G000000DFr5UAG",
+                            "cloneable": true,
+                            "code": "ATT-Type",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 10,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Type",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "48c43a89-f5a5-19ba-1e4f-5653857e15ff",
+                                    "label": "Hub & Spoke",
+                                    "readonly": false,
+                                    "value": "Hub & Spoke"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "05d3b4bb-df9d-6384-a89e-000238f7778a",
+                                    "label": "Mesh",
+                                    "readonly": false,
+                                    "value": "Mesh"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000DFrAUAW",
+                            "cloneable": true,
+                            "code": "ATT-Visibility",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 20,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Visibility",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "c2086259-a38b-d934-e744-4771189b9604",
+                                    "label": "Child Business Accounts",
+                                    "readonly": false,
+                                    "value": "Child Business Accounts"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "e4a375f0-e048-488d-1473-2dd51e3d4919",
+                                    "label": "Service Accounts",
+                                    "readonly": false,
+                                    "value": "Service Accounts"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 2
+                }
+            }
+        ],
+        "totalSize": 2
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DecompositionRelationship__c": "Site-Type-M_DecompositionRelationships.json",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2022-07-11",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2022-07-11T07:00:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "52e04c39-2ed9-2d8b-e4e8-8ee431a2892d",
+    "%vlocity_namespace%__GlobalKey__c": "c5ebfe77-0775-7375-d4d9-986a5003569f",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__MainFeatureQuantityUom__c": "",
+    "%vlocity_namespace%__MainFeatureQuantity__c": "",
+    "%vlocity_namespace%__MainFeatureTermInDays__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectFieldAttribute__c": "Site-Type-M_ObjectFieldAttributes.json",
+    "%vlocity_namespace%__ObjectTypeId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "a22caaa1e34d1c21f1c61eb31d29e4e7",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/a22caaa1e34d1c21f1c61eb31d29e4e7",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+    },
+    "%vlocity_namespace%__ObjectTypeName__c": "Base Offer Spec Type",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PriceListEntry__c": "Site-Type-M_PriceListEntries.json",
+    "%vlocity_namespace%__ProductChildItem__c": "Site-Type-M_ProductChildItems.json",
+    "%vlocity_namespace%__ProductConfigurationProcedure__c": "Site-Type-M_ProductConfigurationProcedures.json",
+    "%vlocity_namespace%__ProductRelationship__c": "Site-Type-M_ProductRelationships.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "2022-07-11T07:00:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "Offer",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "None",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "None",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "Access_Type__c": "",
+    "CanUseQuantitySchedule": false,
+    "CanUseRevenueSchedule": false,
+    "Description": "",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "Site Type M",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "PricebookEntry": "Site-Type-M_PricebookEntries.json",
+    "ProductCode": "C-SiteTypeM",
+    "Product_Ext_Id__c": "",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": 0,
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "Site Type M",
+            "Price_Book_Entry_Ext_Id__c": "",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "c5ebfe77-0775-7375-d4d9-986a5003569f",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "c5ebfe77-0775-7375-d4d9-986a5003569f",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/c5ebfe77-0775-7375-d4d9-986a5003569f",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "C-SiteTypeM",
+            "UnitPrice": 0,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/c5ebfe77-0775-7375-d4d9-986a5003569f"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/c5ebfe77-0775-7375-d4d9-986a5003569f"
+}

@@ -1,0 +1,621 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "P_ANALYTICS_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "ATT-#ofmonths(history)": null,
+        "ATT-#ofnodes": 6,
+        "ATT-BundleOrNot": "NotInBundle",
+        "ATT-Monitoring(Valor)": 50,
+        "ATT-Monitoringsample(Unidad)": "seconds",
+        "ATT-NetworkKPIs": "availability per site",
+        "ATT-SecurityKPIs": "Application",
+        "ATT-TypeofKPIs": "Network",
+        "ATT-TypeofSolution": "Standard"
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "d1cda5e1-554b-f0ea-882b-6be3c5f43d2f",
+                "Name": "SDWAN_Common_Att",
+                "displaySequence": 600,
+                "id": "a2D8G0000004de9UAA",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a2E8G000000DGiQUAW",
+                            "cloneable": true,
+                            "code": "ATT-BundleOrNot",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 10,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "BundleOrNot",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "ed649303-67b7-ca30-4f83-8c0b0fb1e7a3",
+                                    "label": "InBundle",
+                                    "readonly": false,
+                                    "value": "InBundle"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "53f9733e-5f7f-b340-56f6-552d62d294db",
+                                    "label": "NotInBundle",
+                                    "readonly": false,
+                                    "value": "NotInBundle"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 1
+                }
+            },
+            {
+                "Code__c": "dea5d7d3-f28d-9135-2873-1d323ce1038d",
+                "Name": "P_ANALYTICS",
+                "displaySequence": 606,
+                "id": "a2D8G0000004deYUAQ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a2E8G000000DFqRUAW",
+                            "cloneable": true,
+                            "code": "ATT-TypeofKPIs",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 10,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Type of KPIs",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "f5f975b4-f519-55f3-9425-32bfba324895",
+                                    "label": "Network",
+                                    "readonly": false,
+                                    "value": "Network"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "bfcc1834-cea8-c329-e8e2-59ce123a9b61",
+                                    "label": "Security",
+                                    "readonly": false,
+                                    "value": "Security"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000DFqWUAW",
+                            "cloneable": true,
+                            "code": "ATT-NetworkKPIs",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 20,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Network KPIs",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "7a46e477-67c4-699c-d2a5-6bf5423c37b0",
+                                    "label": "availability per site",
+                                    "readonly": false,
+                                    "value": "availability per site"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "83d9b20e-9bf3-7e6c-74b6-1df7d3c1de9d",
+                                    "label": "bandwidth use per access",
+                                    "readonly": false,
+                                    "value": "bandwidth use per access"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "291748be-90c2-aa80-ee1d-a8b4172a68ae",
+                                    "label": "bandwidth use per application per site",
+                                    "readonly": false,
+                                    "value": "bandwidth use per application per site"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "1f19cddb-3cdf-2ad3-ca36-a429eb813def",
+                                    "label": "latency/loss per site",
+                                    "readonly": false,
+                                    "value": "latency/loss per site"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "be7819cc-d43f-e461-5553-ea614b8ec016",
+                                    "label": "QoS per access",
+                                    "readonly": false,
+                                    "value": "QoS per access"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 60,
+                                    "id": "6fdb94f4-59f6-b24f-cc1f-628cf5281dcc",
+                                    "label": "multisite connectivity",
+                                    "readonly": false,
+                                    "value": "multisite connectivity"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 70,
+                                    "id": "597088bf-724a-1c99-6d99-75fa995ee0f8",
+                                    "label": "bandwidth usage between sites",
+                                    "readonly": false,
+                                    "value": "bandwidth usage between sites"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 80,
+                                    "id": "9c276e7b-d5b6-d101-dc0f-2fc3fa16eff0",
+                                    "label": "SLAs between sites",
+                                    "readonly": false,
+                                    "value": "SLAs between sites"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 90,
+                                    "id": "7f4414ea-1b9b-1176-1383-fbb84c92404a",
+                                    "label": "NAT events",
+                                    "readonly": false,
+                                    "value": "NAT events"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 100,
+                                    "id": "588acf3b-4589-2510-6912-889e25821d04",
+                                    "label": "Pool usage",
+                                    "readonly": false,
+                                    "value": "Pool usage"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000DFqbUAG",
+                            "cloneable": true,
+                            "code": "ATT-SecurityKPIs",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 30,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Security KPIs",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "50d2d50d-7d29-9def-caa8-560c178d7493",
+                                    "label": "Firewall per tenant",
+                                    "readonly": false,
+                                    "value": "Firewall per tenant"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "c3df3b95-f0cb-9495-aa37-43dd52997a9c",
+                                    "label": "Application",
+                                    "readonly": false,
+                                    "value": "Application"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "92f054c9-d2d2-e9cf-205b-2f5808ab3ae9",
+                                    "label": "Web Traffic",
+                                    "readonly": false,
+                                    "value": "Web Traffic"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "8e0e1dfe-66fd-c87c-544d-cf958701be4a",
+                                    "label": "Threat profiles",
+                                    "readonly": false,
+                                    "value": "Threat profiles"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "7370c5e7-2e7b-08a4-b189-b4731448ff6a",
+                                    "label": "Forensics",
+                                    "readonly": false,
+                                    "value": "Forensics"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000DFqgUAG",
+                            "cloneable": true,
+                            "code": "ATT-Monitoringsample(Unidad)",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 40,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Monitoring sample freq (Unidad)",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "27fbc68f-3dc7-58c0-3010-c6bc5b6fdfc2",
+                                    "label": "seconds",
+                                    "readonly": false,
+                                    "value": "seconds"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "d1669f08-8912-e8e9-7ab5-d2c59d088052",
+                                    "label": "Minutes",
+                                    "readonly": false,
+                                    "value": "Minutes"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "b9232128-95dd-a38d-9a45-6deb1cb3ff30",
+                                    "label": "Hours",
+                                    "readonly": false,
+                                    "value": "Hours"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "a21e625a-502d-40f6-533b-d4042df52e5a",
+                                    "label": "conditional/Threshold",
+                                    "readonly": false,
+                                    "value": "conditional/Threshold"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000DFqlUAG",
+                            "cloneable": true,
+                            "code": "ATT-Monitoring(Valor)",
+                            "dataType": "number",
+                            "disabled": false,
+                            "displaySequence": 50,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Monitoring sample freq (Valor)",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000DFqqUAG",
+                            "cloneable": true,
+                            "code": "ATT-TypeofSolution",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 60,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Type of Solution",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "637a7bd3-1acd-e245-75d0-b261c54e03dc",
+                                    "label": "Basic",
+                                    "readonly": false,
+                                    "value": "Basic"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "afb46e07-c0c8-3d7d-0e0e-897d2dfef912",
+                                    "label": "Standard",
+                                    "readonly": false,
+                                    "value": "Standard"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "21d2da38-3fa8-1303-f102-db479ba956fa",
+                                    "label": "Advanced",
+                                    "readonly": false,
+                                    "value": "Advanced"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000DFqvUAG",
+                            "cloneable": true,
+                            "code": "ATT-#ofnodes",
+                            "dataType": "number",
+                            "disabled": false,
+                            "displaySequence": 70,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "# of nodes",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000DFr0UAG",
+                            "cloneable": true,
+                            "code": "ATT-#ofmonths(history)",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 80,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "# of months (history)",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "1311dd92-96a5-a726-ef31-a3231ddfd71d",
+                                    "label": "<6",
+                                    "readonly": false,
+                                    "value": "<6"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "ff53b9d6-deb3-3f17-b3a7-6b8d0b4f7ce3",
+                                    "label": "6 to 12",
+                                    "readonly": false,
+                                    "value": "6 to 12"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "7b79e700-b25c-3b19-3524-fcae9fc7f93c",
+                                    "label": ">12",
+                                    "readonly": false,
+                                    "value": ">12"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 8
+                }
+            }
+        ],
+        "totalSize": 2
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DecompositionRelationship__c": "P_ANALYTICS_DecompositionRelationships.json",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2022-07-13",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2022-07-13T07:00:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "29d22aea-739d-c110-65a1-2b06b72289ad",
+    "%vlocity_namespace%__GlobalKey__c": "e8e7e089-6c3f-3b62-f77a-6af8422c2f5f",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__MainFeatureQuantityUom__c": "",
+    "%vlocity_namespace%__MainFeatureQuantity__c": "",
+    "%vlocity_namespace%__MainFeatureTermInDays__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectFieldAttribute__c": "P_ANALYTICS_ObjectFieldAttributes.json",
+    "%vlocity_namespace%__ObjectTypeId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "a22caaa1e34d1c21f1c61eb31d29e4e7",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/a22caaa1e34d1c21f1c61eb31d29e4e7",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+    },
+    "%vlocity_namespace%__ObjectTypeName__c": "Base Offer Spec Type",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PriceListEntry__c": "P_ANALYTICS_PriceListEntries.json",
+    "%vlocity_namespace%__ProductChildItem__c": "P_ANALYTICS_ProductChildItems.json",
+    "%vlocity_namespace%__ProductConfigurationProcedure__c": "P_ANALYTICS_ProductConfigurationProcedures.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "2022-07-13T07:00:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "Product",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "None",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "None",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "Access_Type__c": "",
+    "CanUseQuantitySchedule": false,
+    "CanUseRevenueSchedule": false,
+    "Description": "",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "P_ANALYTICS",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "PricebookEntry": "P_ANALYTICS_PricebookEntries.json",
+    "ProductCode": "C-ANALYTICS",
+    "Product_Ext_Id__c": "",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": 0,
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "P_ANALYTICS",
+            "Price_Book_Entry_Ext_Id__c": "",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "e8e7e089-6c3f-3b62-f77a-6af8422c2f5f",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "e8e7e089-6c3f-3b62-f77a-6af8422c2f5f",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/e8e7e089-6c3f-3b62-f77a-6af8422c2f5f",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "C-ANALYTICS",
+            "UnitPrice": 0,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/e8e7e089-6c3f-3b62-f77a-6af8422c2f5f"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/e8e7e089-6c3f-3b62-f77a-6af8422c2f5f"
+}

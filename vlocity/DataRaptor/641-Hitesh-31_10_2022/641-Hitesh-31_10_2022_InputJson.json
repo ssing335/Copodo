@@ -1,0 +1,707 @@
+{
+    "@baseType": "CONNECT",
+    "@type": "ServiceOrder",
+    "category": "Mobile Postpaid",
+    "completionDate": "",
+    "description": "Service order for <Mobile Postpaid 100 Offer>",
+    "expectedCompletionDate": "2020-08-31T09:37:40.508Z",
+    "externalId": "SFDC-VPOD2",
+    "href": "http://serverlocation:port/serviceOrdering/v4/serviceOrder/<42>",
+    "id": "<42>",
+    "note": [
+        {
+            "author": "SFDC",
+            "date": "2020-08-27T09:37:40.508Z",
+            "id": "Note Title 1",
+            "text": "This is 1st test note"
+        },
+        {
+            "author": "SFDC",
+            "date": "2020-08-27T09:37:40.508Z",
+            "id": "Note Title 2",
+            "text": "This is 2nd test note"
+        }
+    ],
+    "orderDate": "2020-08-27T09:37:40.508Z",
+    "orderRelationship": [
+        {
+            "id": "444444",
+            "relationshipType": "Product_Order_Id"
+        },
+        {
+            "id": "555555",
+            "relationshipType": "Customer_Order_Id"
+        },
+        {
+            "id": "88888888",
+            "relationshipType": "Work_Order_Id"
+        }
+    ],
+    "priority": "1",
+    "relatedParty": [
+        {
+            "@referredType": "<Account Record Type>",
+            "characteristic": [
+                {
+                    "name": "Contact_No",
+                    "value": "1234567890"
+                }
+            ],
+            "href": "http://serverlocation:port/partyManagement/v4/party/<Business Account Number>",
+            "id": "<Business Account Number>",
+            "name": "<Account Name>",
+            "role": "Customer Account Number"
+        },
+        {
+            "@referredType": "Individual",
+            "characteristic": [
+                {
+                    "name": "Contact_No",
+                    "value": "1234567890"
+                }
+            ],
+            "href": "http://serverlocation:port/partyManagement/v4/party/<RP02>",
+            "id": "<RP01>",
+            "name": "Jean Pontus",
+            "role": "Project Manager"
+        },
+        {
+            "@referredType": "Individual",
+            "characteristic": [
+                {
+                    "name": "Contact_No",
+                    "value": "1234567890"
+                },
+                {
+                    "name": "Designation",
+                    "value": "Support Officer"
+                }
+            ],
+            "href": "http://serverlocation:port/partyManagement/v4/party/<RP02>",
+            "id": "RP03",
+            "name": "Jane Doe",
+            "role": "Technical Contact"
+        }
+    ],
+    "requestedCompletionDate": "2020-08-31T09:37:40.508Z",
+    "requestedStartDate": "2020-08-31T09:37:40.508Z",
+    "retransmissionFlag": false,
+    "retransmissionKey": "5555555555",
+    "serviceOrderItem": [
+        {
+            "@type": "ServiceOrderItem",
+            "action": "add",
+            "id": "UUID 1",
+            "service": {
+                "@baseType": "CFS",
+                "@type": "Service",
+                "feature": [
+                    {
+                        "@baseType": "CFS",
+                        "@type": "Feature",
+                        "featureCharacteritic": [
+                            {
+                                "name": "action",
+                                "value": "Add"
+                            },
+                            {
+                                "name": "supplemental_action",
+                                "value": ""
+                            }
+                        ],
+                        "id": "<Fulfilment Request Line Id>",
+                        "name": "Call Waiting CFS"
+                    },
+                    {
+                        "@baseType": "CFS",
+                        "@type": "Feature",
+                        "featureCharacteritic": [
+                            {
+                                "name": "action",
+                                "value": "Add"
+                            },
+                            {
+                                "name": "supplemental_action",
+                                "value": ""
+                            }
+                        ],
+                        "id": "<Fulfilment Request Line Id>",
+                        "name": "Call Forwarding CFS"
+                    },
+                    {
+                        "@baseType": "CFS",
+                        "@type": "Feature",
+                        "featureCharacteritic": [
+                            {
+                                "name": "action",
+                                "value": "Add"
+                            },
+                            {
+                                "name": "supplemental_action",
+                                "value": ""
+                            }
+                        ],
+                        "id": "<Fulfilment Request Line Id of USSD CFS>",
+                        "name": "USSD CFS"
+                    },
+                    {
+                        "@baseType": "CFS",
+                        "@type": "Feature",
+                        "featureCharacteritic": [
+                            {
+                                "name": "action",
+                                "value": "Add"
+                            },
+                            {
+                                "name": "supplemental_action",
+                                "value": ""
+                            },
+                            {
+                                "name": "IDD Calls subscription flag",
+                                "value": "TRUE"
+                            },
+                            {
+                                "name": "IDD SMS subsription flag",
+                                "value": "TRUE"
+                            }
+                        ],
+                        "id": "<Fulfilment Request Line Id of Call Barring CFS>",
+                        "name": "Call Barring CFS"
+                    }
+                ],
+                "href": "http://serverlocation:port/serviceInventoryManagement/v4/service/<Fulfilment Request Line Id>",
+                "id": "<Fulfilment Request Line Id>",
+                "name": "Mobile Connectivity Service CFS",
+                "place": [
+                    {
+                        "@type": "GeographicAddress",
+                        "code": "<Site Address Id>",
+                        "geographicAddress": {
+                            "city": "Bordeaux",
+                            "country": "France",
+                            "latitude": "90.123",
+                            "locality": "Bordeaux",
+                            "longitude": "160",
+                            "postcode": "33000",
+                            "stateOrProvince": "Gironde",
+                            "streetName": "Kieser",
+                            "streetNr": "48",
+                            "streetType": "rue"
+                        },
+                        "href": "https://serverlocation:port/geographicSiteManagement/v4/geographicSite/<Service Account Id>",
+                        "id": "<Service Account Id>",
+                        "name": "<Service Account Name>",
+                        "role": "Site Address"
+                    }
+                ],
+                "relatedParty": [
+                    {
+                        "@schemaLocation": "http://serverlocation:port/partyManagement/v4/party/<RP02>",
+                        "characteristic": [
+                            {
+                                "name": "Customer_Abbreviation",
+                                "value": "MRI01"
+                            }
+                        ],
+                        "id": "<RP02>",
+                        "name": "Starbuck",
+                        "role": "Customer"
+                    }
+                ],
+                "serviceCharacteristic": [
+                    {
+                        "name": "action",
+                        "value": "Add"
+                    },
+                    {
+                        "name": "supplemental_action",
+                        "value": ""
+                    },
+                    {
+                        "name": "Plan_Name",
+                        "value": "Mobile Postpaid 100 Offer"
+                    },
+                    {
+                        "name": "Service_Order_WorkFlow",
+                        "value": "New Provide Mobile Postpaid"
+                    },
+                    {
+                        "name": "MSISDN",
+                        "value": "<MSISDN Value>"
+                    },
+                    {
+                        "name": "IMSI",
+                        "value": "<IMSI Value>"
+                    },
+                    {
+                        "name": "Data Access subscription flag",
+                        "value": "TRUE"
+                    },
+                    {
+                        "name": "Data Limit",
+                        "value": "10 GB"
+                    },
+                    {
+                        "name": "Off Net mins",
+                        "value": "500"
+                    },
+                    {
+                        "name": "On Net mins",
+                        "value": "500"
+                    },
+                    {
+                        "name": "SMS Access subscription flag",
+                        "value": "TRUE"
+                    },
+                    {
+                        "name": "SMS Credits",
+                        "value": "500"
+                    },
+                    {
+                        "name": "Voice Access subscription flag",
+                        "value": "TRUE"
+                    }
+                ],
+                "serviceRelationship": [
+                    {
+                        "relationshipType": "root",
+                        "service": {
+                            "href": "https://serverlocation:port/serviceManagement/v4/service/<Fulfilment Request Line Id of Mobile Connectivity Service CFS>",
+                            "id": "<Fulfilment Request Line Id of Mobile Connectivity Service CFS>"
+                        }
+                    }
+                ],
+                "supportingResource": [
+                    {
+                        "@referredType": "",
+                        "href": "http://serverlocation:port/resourceOrderingManagement/resourceOrder/<id>",
+                        "id": ""
+                    }
+                ],
+                "supportingService": [
+                    {
+                        "@referredType": "",
+                        "href": "http://serverlocation:port/serviceActivationConfiguration/v4/service/<id>",
+                        "id": ""
+                    }
+                ]
+            }
+        },
+        {
+            "@type": "ServiceOrderItem",
+            "action": "add",
+            "id": "UUID 2",
+            "service": {
+                "@baseType": "CFS",
+                "@type": "Service",
+                "feature": [
+                    {
+                        "@type": "",
+                        "featureCharacteritic": [
+                            {
+                                "name": "",
+                                "value": ""
+                            }
+                        ],
+                        "id": "",
+                        "isEnabled": true,
+                        "name": "",
+                        "serviceType": ""
+                    }
+                ],
+                "href": "http://serverlocation:port/serviceInventoryManagement/v4/service/<Fulfilment Request Line Id>",
+                "id": "<Fulfilment Request Line Id>",
+                "name": "SIM CFS",
+                "place": [
+                    {
+                        "@schemaLocation": "https://serverlocation:port/geographicSiteManagement/v4/geographicSite/<Service Account Id>",
+                        "@type": "GeographicAddress",
+                        "code": "<Site Address Id>",
+                        "geographicAddress": {
+                            "city": "Bordeaux",
+                            "country": "France",
+                            "latitude": "90.123",
+                            "locality": "Bordeaux",
+                            "longitude": "160",
+                            "postcode": "33000",
+                            "stateOrProvince": "Gironde",
+                            "streetName": "Kieser",
+                            "streetNr": "48",
+                            "streetType": "rue"
+                        },
+                        "id": "<Service Account Id>",
+                        "name": "<Service Account Name>",
+                        "role": "Site Address"
+                    }
+                ],
+                "relatedParty": [
+                    {
+                        "@schemaLocation": "http://serverlocation:port/partyManagement/v4/party/<RP02>",
+                        "@type": "",
+                        "characteristic": [
+                            {
+                                "name": "Customer_Abbreviation",
+                                "value": "MRI01"
+                            }
+                        ],
+                        "id": "<RP02>",
+                        "name": "Starbuck",
+                        "role": "Customer"
+                    }
+                ],
+                "serviceCharacteristic": [
+                    {
+                        "name": "action",
+                        "value": "Add"
+                    },
+                    {
+                        "name": "supplemental_action",
+                        "value": ""
+                    },
+                    {
+                        "name": "MSISDN",
+                        "value": "<MSISDN Value>"
+                    },
+                    {
+                        "name": "IMSI",
+                        "value": "<IMSI Value>"
+                    },
+                    {
+                        "name": "ICCID",
+                        "value": "<ICCID Value>"
+                    },
+                    {
+                        "name": "SIM Type",
+                        "value": "Physical"
+                    }
+                ],
+                "serviceRelationship": [
+                    {
+                        "relationshipType": "dependsOn",
+                        "service": {
+                            "href": "https://serverlocation:port/serviceManagement/v4/service/<Fulfilment Request Line Id of Mobile Connectivity Service CFS>",
+                            "id": "<Fulfilment Request Line Id of Mobile Connectivity Service CFS>"
+                        }
+                    }
+                ],
+                "supportingResource": [
+                    {
+                        "@referredType": "",
+                        "href": "http://serverlocation:port/resourceOrderingManagement/resourceOrder/<id>",
+                        "id": ""
+                    }
+                ],
+                "supportingService": [
+                    {
+                        "@referredType": "",
+                        "href": "http://serverlocation:port/serviceActivationConfiguration/v4/service/<id>",
+                        "id": ""
+                    }
+                ]
+            }
+        },
+        {
+            "@type": "ServiceOrderItem",
+            "action": "add",
+            "id": "UUID 3",
+            "service": {
+                "@type": "Service",
+                "category": "CFS",
+                "feature": [
+                    {
+                        "@type": "",
+                        "featureCharacteritic": [
+                            {
+                                "name": "",
+                                "value": ""
+                            }
+                        ],
+                        "id": "",
+                        "name": "",
+                        "serviceType": ""
+                    }
+                ],
+                "id": "<Fulfilment Request Line Id>",
+                "name": "IDD CFS",
+                "place": [
+                    {
+                        "@schemaLocation": "https://serverlocation:port/geographicSiteManagement/v4/geographicSite/<Service Account Id>",
+                        "@type": "GeographicAddress",
+                        "code": "<Site Address Id>",
+                        "geographicAddress": {
+                            "city": "Bordeaux",
+                            "country": "France",
+                            "latitude": "90.123",
+                            "locality": "Bordeaux",
+                            "longitude": "160",
+                            "postcode": "33000",
+                            "stateOrProvince": "Gironde",
+                            "streetName": "Kieser",
+                            "streetNr": "48",
+                            "streetType": "rue"
+                        },
+                        "id": "<Service Account Id>",
+                        "name": "<Service Account Name>",
+                        "role": "Site Address"
+                    }
+                ],
+                "relatedParty": [
+                    {
+                        "@schemaLocation": "http://serverlocation:port/partyManagement/v4/party/<RP02>",
+                        "characteristic": [
+                            {
+                                "name": "Customer_Abbreviation",
+                                "value": "MRI01"
+                            }
+                        ],
+                        "id": "<RP02>",
+                        "name": "Starbuck",
+                        "role": "Customer"
+                    }
+                ],
+                "serviceCharacteristic": [
+                    {
+                        "name": "action",
+                        "value": "Add"
+                    },
+                    {
+                        "name": "supplemental_action",
+                        "value": ""
+                    },
+                    {
+                        "name": "IDD Calls subscription flag",
+                        "value": "TRUE"
+                    },
+                    {
+                        "name": "IDD SMS subsription flag",
+                        "value": "TRUE"
+                    }
+                ],
+                "serviceRelationship": [
+                    {
+                        "relationshipType": "dependsOn",
+                        "service": {
+                            "href": "https://serverlocation:port/serviceManagement/v4/service/<Fulfilment Request Line Id of Mobile Connectivity Service CFS>",
+                            "id": "<Fulfilment Request Line Id of Mobile Connectivity Service CFS>"
+                        }
+                    }
+                ],
+                "supportingResource": [
+                    {
+                        "@referredType": "",
+                        "href": "http://serverlocation:port/resourceOrderingManagement/resourceOrder/<id>",
+                        "id": ""
+                    }
+                ],
+                "supportingService": [
+                    {
+                        "@referredType": "",
+                        "href": "http://serverlocation:port/serviceActivationConfiguration/v4/service/<id>",
+                        "id": ""
+                    }
+                ]
+            }
+        },
+        {
+            "@type": "ServiceOrderItem",
+            "action": "add",
+            "id": "UUID 4",
+            "service": {
+                "@type": "Service",
+                "category": "CFS",
+                "feature": [
+                    {
+                        "@type": "",
+                        "featureCharacteritic": [
+                            {
+                                "name": "",
+                                "value": ""
+                            }
+                        ],
+                        "id": "",
+                        "name": "",
+                        "serviceType": ""
+                    }
+                ],
+                "id": "<Fulfilment Request Line Id>",
+                "name": "International Roaming CFS",
+                "place": [
+                    {
+                        "@schemaLocation": "https://serverlocation:port/geographicSiteManagement/v4/geographicSite/<Service Account Id>",
+                        "@type": "GeographicAddress",
+                        "code": "<Site Address Id>",
+                        "geographicAddress": {
+                            "city": "Bordeaux",
+                            "country": "France",
+                            "latitude": "90.123",
+                            "locality": "Bordeaux",
+                            "longitude": "160",
+                            "postcode": "33000",
+                            "stateOrProvince": "Gironde",
+                            "streetName": "Kieser",
+                            "streetNr": "48",
+                            "streetType": "rue"
+                        },
+                        "id": "<Service Account Id>",
+                        "name": "<Service Account Name>",
+                        "role": "Site Address"
+                    }
+                ],
+                "relatedParty": [
+                    {
+                        "@schemaLocation": "http://serverlocation:port/partyManagement/v4/party/<RP02>",
+                        "characteristic": [
+                            {
+                                "name": "Customer_Abbreviation",
+                                "value": "MRI01"
+                            }
+                        ],
+                        "id": "<RP02>",
+                        "name": "Starbuck",
+                        "role": "Customer"
+                    }
+                ],
+                "serviceCharacteristic": [
+                    {
+                        "name": "action",
+                        "value": "Add"
+                    },
+                    {
+                        "name": "supplemental_action",
+                        "value": ""
+                    },
+                    {
+                        "name": "IDD Calls subscription flag",
+                        "value": "TRUE"
+                    },
+                    {
+                        "name": "IDD SMS subsription flag",
+                        "value": "TRUE"
+                    }
+                ],
+                "serviceRelationship": [
+                    {
+                        "relationshipType": "dependsOn",
+                        "service": {
+                            "href": "https://serverlocation:port/serviceManagement/v4/service/<Fulfilment Request Line Id of Mobile Connectivity Service CFS>",
+                            "id": "<Fulfilment Request Line Id of Mobile Connectivity Service CFS>"
+                        }
+                    }
+                ],
+                "supportingResource": [
+                    {
+                        "@referredType": "",
+                        "href": "http://serverlocation:port/resourceOrderingManagement/resourceOrder/<id>",
+                        "id": ""
+                    }
+                ],
+                "supportingService": [
+                    {
+                        "@referredType": "",
+                        "href": "http://serverlocation:port/serviceActivationConfiguration/v4/service/<id>",
+                        "id": ""
+                    }
+                ]
+            }
+        },
+        {
+            "@type": "ServiceOrderItem",
+            "action": "add",
+            "id": "UUID 5",
+            "service": {
+                "@type": "Service",
+                "category": "CFS",
+                "feature": [
+                    {
+                        "@type": "",
+                        "featureCharacteritic": [
+                            {
+                                "name": "",
+                                "value": ""
+                            }
+                        ],
+                        "id": "",
+                        "name": "",
+                        "serviceType": ""
+                    }
+                ],
+                "id": "<Fulfilment Request Line Id>",
+                "name": "Conference Calling CFS",
+                "place": [
+                    {
+                        "@schemaLocation": "https://serverlocation:port/geographicSiteManagement/v4/geographicSite/<Service Account Id>",
+                        "@type": "GeographicAddress",
+                        "code": "<Site Address Id>",
+                        "geographicAddress": {
+                            "city": "Bordeaux",
+                            "country": "France",
+                            "latitude": "90.123",
+                            "locality": "Bordeaux",
+                            "longitude": "160",
+                            "postcode": "33000",
+                            "stateOrProvince": "Gironde",
+                            "streetName": "Kieser",
+                            "streetNr": "48",
+                            "streetType": "rue"
+                        },
+                        "id": "<Service Account Id>",
+                        "name": "<Service Account Name>",
+                        "role": "Site Address"
+                    }
+                ],
+                "relatedParty": [
+                    {
+                        "@schemaLocation": "http://serverlocation:port/partyManagement/v4/party/<RP02>",
+                        "characteristic": [
+                            {
+                                "name": "Customer_Abbreviation",
+                                "value": "MRI01"
+                            }
+                        ],
+                        "id": "<RP02>",
+                        "name": "Starbuck",
+                        "role": "Customer"
+                    }
+                ],
+                "serviceCharacteristic": [
+                    {
+                        "name": "action",
+                        "value": "Add"
+                    },
+                    {
+                        "name": "supplemental_action",
+                        "value": ""
+                    },
+                    {
+                        "name": "Call Forward When",
+                        "value": "Busy"
+                    }
+                ],
+                "serviceRelationship": [
+                    {
+                        "relationshipType": "dependsOn",
+                        "service": {
+                            "href": "https://serverlocation:port/serviceManagement/v4/service/<Fulfilment Request Line Id of Mobile Connectivity Service CFS>",
+                            "id": "<Fulfilment Request Line Id of Mobile Connectivity Service CFS>"
+                        }
+                    }
+                ],
+                "supportingResource": [
+                    {
+                        "@referredType": "",
+                        "href": "http://serverlocation:port/resourceOrderingManagement/resourceOrder/<id>",
+                        "id": ""
+                    }
+                ],
+                "supportingService": [
+                    {
+                        "@referredType": "",
+                        "href": "http://serverlocation:port/serviceActivationConfiguration/v4/service/<id>",
+                        "id": ""
+                    }
+                ]
+            }
+        }
+    ],
+    "startDate": "2020-08-31T09:37:40.508Z"
+}

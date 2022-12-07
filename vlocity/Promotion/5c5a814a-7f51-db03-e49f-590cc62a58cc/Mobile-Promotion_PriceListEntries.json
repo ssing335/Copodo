@@ -1,0 +1,66 @@
+[
+    {
+        "%vlocity_namespace%__BasePriceListId__c": "",
+        "%vlocity_namespace%__DisplayText__c": "$20 off Mobile Postpaid for 3 months with 2-years subscription.",
+        "%vlocity_namespace%__EffectiveFromDate__c": "2022-06-11T18:30:00.000Z",
+        "%vlocity_namespace%__EffectiveUntilDate__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "c2e48f88-b968-0efa-b282-5a09d982ec50",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__IsBasePrice__c": true,
+        "%vlocity_namespace%__IsOverride__c": false,
+        "%vlocity_namespace%__IsVirtualPrice__c": false,
+        "%vlocity_namespace%__OfferId__c": "",
+        "%vlocity_namespace%__PriceListId__c": {
+            "%vlocity_namespace%__Code__c": "PL_B2B",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__PriceList__c/PL_B2B",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__PriceList__c"
+        },
+        "%vlocity_namespace%__PriceListName__c": "B2B Price List",
+        "%vlocity_namespace%__PricingElementAmount__c": 0,
+        "%vlocity_namespace%__PricingElementGlobalKey__c": "3e161ef7-6cbc-e3b3-8d56-3bac1f43cbd8",
+        "%vlocity_namespace%__PricingElementId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "c73bd70e-6702-9d00-73bb-8ac6d42aae35",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__PricingElement__c/c73bd70e-6702-9d00-73bb-8ac6d42aae35",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__PricingElement__c"
+        },
+        "%vlocity_namespace%__PricingMatrixBindingData__c": "",
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "89e20002-fa5a-0b1f-69bd-1a6c5f6610ae",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/89e20002-fa5a-0b1f-69bd-1a6c5f6610ae",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__PromotionId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5c5a814a-7f51-db03-e49f-590cc62a58cc",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Promotion__c/5c5a814a-7f51-db03-e49f-590cc62a58cc",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Promotion__c"
+        },
+        "%vlocity_namespace%__PromotionItemId__c": {
+            "%vlocity_namespace%__ProductId__r.%vlocity_namespace%__GlobalKey__c": "89e20002-fa5a-0b1f-69bd-1a6c5f6610ae",
+            "%vlocity_namespace%__PromotionId__r.%vlocity_namespace%__GlobalKey__c": "5c5a814a-7f51-db03-e49f-590cc62a58cc",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__PromotionItem__c/%vlocity_namespace%__Promotion__c/5c5a814a-7f51-db03-e49f-590cc62a58cc/Product2/89e20002-fa5a-0b1f-69bd-1a6c5f6610ae",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__PromotionItem__c"
+        },
+        "%vlocity_namespace%__RulesDescription__c": "",
+        "%vlocity_namespace%__TimePlanId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "d807baae-b210-277b-a7fd-5189337f48a4",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__TimePlan__c/d807baae-b210-277b-a7fd-5189337f48a4",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__TimePlan__c"
+        },
+        "%vlocity_namespace%__TimePolicyId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "76e02648-50b3-a35e-2efb-330f7f6f4469",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__TimePolicy__c/76e02648-50b3-a35e-2efb-330f7f6f4469",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__TimePolicy__c"
+        },
+        "Name": "c2e48f88-b968-0efa-b282-5a09d982ec50",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__PriceListEntry__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__PriceListEntry__c/c2e48f88-b968-0efa-b282-5a09d982ec50"
+    }
+]

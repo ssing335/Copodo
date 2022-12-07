@@ -1,0 +1,71 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "serviceCheck",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Demo/ServiceAbilityCheck/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "AccountService": "NotOk"
+        },
+        "label": "SetValues4",
+        "message": {
+        },
+        "pubsub": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "<>",
+                                    "data": "95014",
+                                    "field": "Shipping-Postal-Code"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": "98109",
+                                    "field": "Shipping-Postal-Code"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": "90250",
+                                    "field": "Shipping-Postal-Code"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": "94304",
+                                    "field": "Shipping-Postal-Code"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "condition": "=",
+                        "data": "Address",
+                        "field": "Choose"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetValues4",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Demo/ServiceAbilityCheck/English/SetValues4"
+}

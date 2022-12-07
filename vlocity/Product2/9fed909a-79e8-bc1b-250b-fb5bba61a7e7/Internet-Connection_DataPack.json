@@ -1,0 +1,445 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Internet-Connection_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "ATT_BANDWIDTH": null,
+        "ATT_ERATE": false,
+        "ATT_MGSPARC": false,
+        "ATT_ONNETOFFNET": "On-Net",
+        "ATT_TERM": "12 Months",
+        "ATT_TYPORDER": "Retail"
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "eae0497b-bedb-16cc-e615-4cb0ef42ae9b",
+                "Name": "Internet Service",
+                "displaySequence": 1,
+                "id": "a2Df0000000T3D7EAK",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a2Ef0000001NZImEAO",
+                            "cloneable": true,
+                            "code": "ATT_BANDWIDTH",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Bandwidth",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": true,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "13ffd049-a40a-1661-95d3-fa8cde95cd0f",
+                                    "label": "100 Mbps",
+                                    "readonly": false,
+                                    "value": "100 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "04d8cd89-61b4-54e4-f6b8-cb30036ba979",
+                                    "label": "200 Mbps",
+                                    "readonly": false,
+                                    "value": "200 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "42cda7e2-b97d-536c-45d6-6d192e974d82",
+                                    "label": "500 Mbps",
+                                    "readonly": false,
+                                    "value": "500 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "ed4492be-e08f-5a3d-e590-506b755ffcd4",
+                                    "label": "800 Mbps",
+                                    "readonly": false,
+                                    "value": "800 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "93b767bd-abd1-070d-d56f-1960d895c25b",
+                                    "label": "1 Gbps",
+                                    "readonly": false,
+                                    "value": "1 Gbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 60,
+                                    "id": "d509cdae-d1a3-5320-7c63-f38c25e18efe",
+                                    "label": "2 Gbps",
+                                    "readonly": false,
+                                    "value": "2 Gbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 70,
+                                    "id": "0c7c8780-5c54-917b-dd75-63537967ad36",
+                                    "label": "5 Gbps",
+                                    "readonly": false,
+                                    "value": "5 Gbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 80,
+                                    "id": "825cfa58-6eab-40e3-df0d-12e3930eb6f2",
+                                    "label": "10 Gbps",
+                                    "readonly": false,
+                                    "value": "10 Gbps"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZIhEAO",
+                            "cloneable": true,
+                            "code": "ATT_TERM",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 2,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Term",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": true,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "16365ef6-c4b6-6c92-0310-ccbd2615b9cc",
+                                    "label": "12 Months",
+                                    "readonly": false,
+                                    "value": "12 Months"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "21fa5904-7d48-a907-e042-784798f0eca7",
+                                    "label": "24 Months",
+                                    "readonly": false,
+                                    "value": "24 Months"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "d5856b80-59a7-7476-4563-3d445cc37168",
+                                    "label": "36 Months",
+                                    "readonly": false,
+                                    "value": "36 Months"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "87076d0c-bc40-165d-bd1d-f6875d0bb81b",
+                                    "label": "48 Months",
+                                    "readonly": false,
+                                    "value": "48 Months"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "bb7f0cac-f8c8-01da-dbe0-2716dda7bf93",
+                                    "label": "60 Months",
+                                    "readonly": false,
+                                    "value": "60 Months"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 60,
+                                    "id": "6d7edc50-56e8-1f39-4d1e-21e641c1ed5c",
+                                    "label": "72 Months",
+                                    "readonly": false,
+                                    "value": "72 Months"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZIrEAO",
+                            "cloneable": true,
+                            "code": "ATT_TYPORDER",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 3,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Type of Order",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": true,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "displaySequence": 1,
+                                    "id": "5cb28e00-dbba-6336-2ef0-8a50fa4b6ae2",
+                                    "label": "Wholesale",
+                                    "readonly": true,
+                                    "value": "Wholesale"
+                                },
+                                {
+                                    "disabled": true,
+                                    "displaySequence": 2,
+                                    "id": "3bc1ebe6-eeec-c173-59e9-e189f59db50d",
+                                    "label": "Retail",
+                                    "readonly": true,
+                                    "value": "Retail"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZJ1EAO",
+                            "cloneable": true,
+                            "code": "ATT_ONNETOFFNET",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 4,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "On-Net/Off-Net",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "d19231b2-37cd-4596-013d-9fad6872273a",
+                                    "label": "On-Net",
+                                    "readonly": false,
+                                    "value": "On-Net"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "9a404a10-7e3e-5c9d-ebee-8fc0134bcfac",
+                                    "label": "Off-Net",
+                                    "readonly": false,
+                                    "value": "Off-Net"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZIIEA4",
+                            "cloneable": true,
+                            "code": "ATT_ERATE",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 5,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "E-Rate",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZIXEA4",
+                            "cloneable": true,
+                            "code": "ATT_MGSPARC",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 6,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Requires MultiGig SPARC",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 6
+                }
+            }
+        ],
+        "totalSize": 1
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2021-11-23",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2021-11-23T08:00:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "086c2a0d-582d-812f-ee3f-e266cb3cdf86",
+    "%vlocity_namespace%__GlobalKey__c": "9fed909a-79e8-bc1b-250b-fb5bba61a7e7",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": false,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__MainFeatureQuantityUom__c": "",
+    "%vlocity_namespace%__MainFeatureQuantity__c": "",
+    "%vlocity_namespace%__MainFeatureTermInDays__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectTypeId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "6f514d0226a2a6ae632f02add218d069",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/6f514d0226a2a6ae632f02add218d069",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+    },
+    "%vlocity_namespace%__ObjectTypeName__c": "Internet Connection Spec",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PriceListEntry__c": "Internet-Connection_PriceListEntries.json",
+    "%vlocity_namespace%__ProductChildItem__c": "Internet-Connection_ProductChildItems.json",
+    "%vlocity_namespace%__ProductConfigurationProcedure__c": "Internet-Connection_ProductConfigurationProcedures.json",
+    "%vlocity_namespace%__ProductRelationship__c": "Internet-Connection_ProductRelationships.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "2021-11-23T08:00:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "Simple",
+    "%vlocity_namespace%__SpecificationType__c": "Product",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "None",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "None",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "V1",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "Access_Type__c": "",
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
+    "Description": "",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "Internet Connection",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "PricebookEntry": "Internet-Connection_PricebookEntries.json",
+    "ProductCode": "Product_002",
+    "Product_Ext_Id__c": "",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": 0,
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "Internet Connection",
+            "Price_Book_Entry_Ext_Id__c": "",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "9fed909a-79e8-bc1b-250b-fb5bba61a7e7",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "9fed909a-79e8-bc1b-250b-fb5bba61a7e7",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/9fed909a-79e8-bc1b-250b-fb5bba61a7e7",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "Product_002",
+            "UnitPrice": 0,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/9fed909a-79e8-bc1b-250b-fb5bba61a7e7"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/9fed909a-79e8-bc1b-250b-fb5bba61a7e7"
+}
