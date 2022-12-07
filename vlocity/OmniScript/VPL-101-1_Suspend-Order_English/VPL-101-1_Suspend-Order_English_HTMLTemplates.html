@@ -1,0 +1,50 @@
+<style>
+.vlc-slds-remote-action__content p .slds-button:last-child{
+display:none;
+}
+</style>
+<script type="text/ng-template" id="vplAssetHierarchy.html">
+     <div class="custom-border--bottom slds-p-around--medium" ng-init="baseCtrl.$scope.assetScope = this">
+               
+               <div ng-repeat="asset in control.vlcSI[control.itemsKey][0].records">
+                     <div class="slds-grid">
+                             <div class="side-size--1-of-12 slds-p-horizontal--x-small">
+                                     <span class="np-list-inline"  ng-click="toggle = (asset.childAssets.records.length > 0 ? !toggle : toggle)" ng-show="!toggle" >
+                                             <slds-button-svg-icon  ng-style="{ opacity: asset.childAssets.records.length > 0 ? '1' : '0.4' }" sprite="'utility'" icon="'add'" no-hint="true" style="border-radius: 50%;border: 1px solid #4c749c; padding: 1px;"></slds-button-svg-icon>
+                                     </span>
+                                     <span ng-click="toggle = !toggle" ng-show="toggle">
+                                           <slds-button-svg-icon ng-if="asset.childAssets.records.length > 0" class="np-list-inline"  sprite="'utility'" icon="'dash'" no-hint="true" style="border-radius: 50%;border: 1px solid #4c749c; padding: 1px;"></slds-button-svg-icon>
+                                     </span>
+                             </div>
+                              
+                             <div class="slds-size--11-of-12 ">
+                                    <span style="font-weight:500;">{{asset.Name}}</span>
+                                    <div ng-repeat="childAsset in asset.childAssets.records" ng-show="toggle">
+                                          <div ng-include="'vplChildAssetHierarchy.html'" ng-init="childAsset = childAsset;"></div>
+                                     </div>
+                             </div>
+                     </div>
+             </div>
+     </div>
+</script>
+
+<script  type="text/ng-template" id="vplChildAssetHierarchy.html">
+     <div class="slds-grid">
+           <div class="side-size--1-of-12 slds-p-horizontal--x-small">
+                      <span class="np-list-inline"  ng-click="ctoggle = !ctoggle" ng-show="!ctoggle" >
+                                 <slds-button-svg-icon  sprite="'utility'" icon="'add'" no-hint="true" style="border-radius: 50%;border: 1px solid #4c749c; padding: 1px;"></slds-button-svg-icon>
+                       </span>
+                       <span ng-click="ctoggle = !ctoggle" ng-show="ctoggle">
+                             <slds-button-svg-icon ng-if="childAsset.childAssets.records.length > 0" class="np-list-inline" sprite="'utility'" icon="'dash'" no-hint="true" style="border-radius: 50%;border: 1px solid #4c749c; padding: 1px;"></slds-button-svg-icon>
+                        </span>
+           </div>
+           
+            <div class="slds-size--11-of-12 " >
+                     <span>{{childAsset.Name}}</span>
+
+                     <div ng-if="childAsset.childAssets.records" ng-show="ctoggle">
+                         <div ng-repeat="childAsset in childAsset.childAssets.records track by $index" ng-include="'vplChildAssetHierarchy.html'">
+                     </div>
+            </div>
+     </div>
+</script>

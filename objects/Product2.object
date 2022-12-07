@@ -361,6 +361,40 @@
         <label>VersionAwareCatalog FieldSet</label>
     </fieldSets>
     <fields>
+        <fullName>Access_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Access Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Mobile Postpaid</fullName>
+                    <default>false</default>
+                    <label>Mobile Postpaid</label>
+                </value>
+                <value>
+                    <fullName>DIA</fullName>
+                    <default>false</default>
+                    <label>DIA</label>
+                </value>
+                <value>
+                    <fullName>SDWAN</fullName>
+                    <default>false</default>
+                    <label>SDWAN</label>
+                </value>
+                <value>
+                    <fullName>Google Workspace</fullName>
+                    <default>false</default>
+                    <label>Google Workspace</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>CanUseQuantitySchedule</fullName>
         <trackHistory>false</trackHistory>
     </fields>
