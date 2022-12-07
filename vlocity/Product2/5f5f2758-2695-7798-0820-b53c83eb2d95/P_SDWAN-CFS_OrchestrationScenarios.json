@@ -1,0 +1,290 @@
+[
+    {
+        "%vlocity_namespace%__Action__c": "Add;Modify",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "3ffb5d-a0a076-69bca3-3106df-f97939d7d",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "641 Move Provisioning",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/641 Move Provisioning",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5f5f2758-2695-7798-0820-b53c83eb2d95",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/5f5f2758-2695-7798-0820-b53c83eb2d95",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "5f5f2758-2695-7798-0820-b53c83eb2d95",
+        "%vlocity_namespace%__SubAction__c": "Move-Add;Move-Disconnect",
+        "Name": "SDWAN",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/SDWAN/3ffb5d-a0a076-69bca3-3106df-f97939d7d/Product2/5f5f2758-2695-7798-0820-b53c83eb2d95"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add;Modify",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "9c79de-b2466a-f0f030-ea9b43-05e07570c",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Move Product Plan",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Move Product Plan",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5f5f2758-2695-7798-0820-b53c83eb2d95",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/5f5f2758-2695-7798-0820-b53c83eb2d95",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "5f5f2758-2695-7798-0820-b53c83eb2d95",
+        "%vlocity_namespace%__SubAction__c": "Move-Add;Move-Disconnect",
+        "Name": "SDWAN",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/SDWAN/9c79de-b2466a-f0f030-ea9b43-05e07570c/Product2/5f5f2758-2695-7798-0820-b53c83eb2d95"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add;Modify;NoChange",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "a6a717-750126-375fd0-dc2ab1-783259047",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "622 Shipping Plan",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/622 Shipping Plan",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5f5f2758-2695-7798-0820-b53c83eb2d95",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/5f5f2758-2695-7798-0820-b53c83eb2d95",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "5f5f2758-2695-7798-0820-b53c83eb2d95",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "SDWAN Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/SDWAN Scenario/a6a717-750126-375fd0-dc2ab1-783259047/Product2/5f5f2758-2695-7798-0820-b53c83eb2d95"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add;Modify;NoChange",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "b04585-edee31-27a374-ec09ab-6b8745e0a",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "641 Provisioning",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/641 Provisioning",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5f5f2758-2695-7798-0820-b53c83eb2d95",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/5f5f2758-2695-7798-0820-b53c83eb2d95",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "5f5f2758-2695-7798-0820-b53c83eb2d95",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "SDWAN Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/SDWAN Scenario/b04585-edee31-27a374-ec09ab-6b8745e0a/Product2/5f5f2758-2695-7798-0820-b53c83eb2d95"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add;Modify;NoChange",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "e455d2-b95bcc-dec365-cb7d89-0de0927b6",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Add Modify Product Plan",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Add Modify Product Plan",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5f5f2758-2695-7798-0820-b53c83eb2d95",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/5f5f2758-2695-7798-0820-b53c83eb2d95",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "5f5f2758-2695-7798-0820-b53c83eb2d95",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "SDWAN",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/SDWAN/e455d2-b95bcc-dec365-cb7d89-0de0927b6/Product2/5f5f2758-2695-7798-0820-b53c83eb2d95"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add;Modify;NoChange",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "fdbea6-1a8191-2f4c15-03c257-892fd4e80",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "622 Billing Plan",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/622 Billing Plan",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5f5f2758-2695-7798-0820-b53c83eb2d95",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/5f5f2758-2695-7798-0820-b53c83eb2d95",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "5f5f2758-2695-7798-0820-b53c83eb2d95",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "SDWAN Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/SDWAN Scenario/fdbea6-1a8191-2f4c15-03c257-892fd4e80/Product2/5f5f2758-2695-7798-0820-b53c83eb2d95"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Disconnect",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "60ac7c-174889-f06150-ed11c7-23d5606e7",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Disconnect Provisioning",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Disconnect Provisioning",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5f5f2758-2695-7798-0820-b53c83eb2d95",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/5f5f2758-2695-7798-0820-b53c83eb2d95",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "5f5f2758-2695-7798-0820-b53c83eb2d95",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "SDWAN Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/SDWAN Scenario/60ac7c-174889-f06150-ed11c7-23d5606e7/Product2/5f5f2758-2695-7798-0820-b53c83eb2d95"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Disconnect",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "7e1892-29fa9c-58bc06-ad034c-da5e89dc1",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Disconnect Billing",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Disconnect Billing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5f5f2758-2695-7798-0820-b53c83eb2d95",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/5f5f2758-2695-7798-0820-b53c83eb2d95",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "5f5f2758-2695-7798-0820-b53c83eb2d95",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "SDWAN Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/SDWAN Scenario/7e1892-29fa9c-58bc06-ad034c-da5e89dc1/Product2/5f5f2758-2695-7798-0820-b53c83eb2d95"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Disconnect",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "dd6722-d30a25-24b534-f0fb35-2d7927198",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Disconnect Product Plan",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Disconnect Product Plan",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5f5f2758-2695-7798-0820-b53c83eb2d95",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/5f5f2758-2695-7798-0820-b53c83eb2d95",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "5f5f2758-2695-7798-0820-b53c83eb2d95",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "SDWAD Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/SDWAD Scenario/dd6722-d30a25-24b534-f0fb35-2d7927198/Product2/5f5f2758-2695-7798-0820-b53c83eb2d95"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Suspend;Resume",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "50a3f5-827dc0-5f7981-0831d4-641d69da7",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Suspend-Resume Product Plan",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Suspend-Resume Product Plan",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5f5f2758-2695-7798-0820-b53c83eb2d95",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/5f5f2758-2695-7798-0820-b53c83eb2d95",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "5f5f2758-2695-7798-0820-b53c83eb2d95",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "SDWAN Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/SDWAN Scenario/50a3f5-827dc0-5f7981-0831d4-641d69da7/Product2/5f5f2758-2695-7798-0820-b53c83eb2d95"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Suspend;Resume",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "87875c-36f73f-fef093-f6bdc1-39552597f",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "SR Billing",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/SR Billing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5f5f2758-2695-7798-0820-b53c83eb2d95",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/5f5f2758-2695-7798-0820-b53c83eb2d95",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "5f5f2758-2695-7798-0820-b53c83eb2d95",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "P SDWAN Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/P SDWAN Scenario/87875c-36f73f-fef093-f6bdc1-39552597f/Product2/5f5f2758-2695-7798-0820-b53c83eb2d95"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Suspend;Resume",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "b71cee-083704-91b6fc-3a1ab3-5f44d484d",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "SR-Provisioning/Activation",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/SR-Provisioning/Activation",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5f5f2758-2695-7798-0820-b53c83eb2d95",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/5f5f2758-2695-7798-0820-b53c83eb2d95",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "5f5f2758-2695-7798-0820-b53c83eb2d95",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "P SDWAN Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/P SDWAN Scenario/b71cee-083704-91b6fc-3a1ab3-5f44d484d/Product2/5f5f2758-2695-7798-0820-b53c83eb2d95"
+    }
+]
