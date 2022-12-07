@@ -3,17 +3,17 @@
     "%vlocity_namespace%__ApprovedOn__c": "",
     "%vlocity_namespace%__AttributeAssignment__c": "Mobile-Postpaid-100-Offer_AttributeAssignments.json",
     "%vlocity_namespace%__AttributeDefaultValues__c": {
-        "ATT_CONTTERM": "36"
+        "ATT_DIACONTTERM": null
     },
     "%vlocity_namespace%__AttributeMetadata__c": {
         "messages": [
         ],
         "records": [
             {
-                "Code__c": "774f583e-5e40-a581-a7e6-54d78a2a8cc3",
-                "Name": "Mobile Postpapid Offer",
-                "displaySequence": 10,
-                "id": "a2D8G0000004cjJUAQ",
+                "Code__c": "f2c9e00a-655b-d9e0-57ce-36ee717b56e4",
+                "Name": "DIA Basic/Premium Offer",
+                "displaySequence": 490,
+                "id": "a2D8G000000CvJbUAK",
                 "messages": [
                 ],
                 "productAttributes": {
@@ -21,74 +21,65 @@
                     ],
                     "records": [
                         {
-                            "attributeId": "a2E8G000000DENOUA4",
+                            "attributeId": "a2E8G0000001dxMUAQ",
                             "cloneable": true,
-                            "code": "ATT_CONTTERM",
+                            "code": "ATT_DIACONTTERM",
                             "dataType": "text",
                             "disabled": false,
                             "displaySequence": 10,
-                            "filterable": false,
+                            "filterable": true,
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
+                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Contract Term(months)",
                             "messages": [
                             ],
                             "multiselect": false,
                             "readonly": false,
-                            "required": false,
+                            "required": true,
                             "userValues": null,
                             "values": [
                                 {
-                                    "defaultSelected": false,
                                     "disabled": false,
-                                    "displaySequence": 50,
-                                    "id": "1882ca5c-8c43-e572-179f-f3212e58d006",
-                                    "label": "CONT-60",
-                                    "name": "1882ca5c-8c43-e572-179f-f3212e58d006",
+                                    "displaySequence": 10,
+                                    "id": "d39dd733-34ea-a3a1-0a01-d2d7ca443c4f",
+                                    "label": "12",
                                     "readonly": false,
-                                    "value": "60"
+                                    "value": "12"
                                 },
                                 {
-                                    "defaultSelected": true,
-                                    "disabled": false,
-                                    "displaySequence": 30,
-                                    "id": "8dd3e81b-f7bd-557e-618b-df2dc534cc57",
-                                    "label": "CONT-36",
-                                    "name": "8dd3e81b-f7bd-557e-618b-df2dc534cc57",
-                                    "readonly": false,
-                                    "value": "36"
-                                },
-                                {
-                                    "defaultSelected": false,
-                                    "disabled": false,
-                                    "displaySequence": 40,
-                                    "id": "91069c62-61cc-c575-b3b0-d98f22e40069",
-                                    "label": "CONT-48",
-                                    "name": "91069c62-61cc-c575-b3b0-d98f22e40069",
-                                    "readonly": false,
-                                    "value": "48"
-                                },
-                                {
-                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 20,
                                     "id": "c7a22c7a-8540-e3cb-97af-f093bf8cecd0",
-                                    "label": "CONT-24",
-                                    "name": "c7a22c7a-8540-e3cb-97af-f093bf8cecd0",
+                                    "label": "24",
                                     "readonly": false,
                                     "value": "24"
                                 },
                                 {
-                                    "defaultSelected": false,
                                     "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "d39dd733-34ea-a3a1-0a01-d2d7ca443c4f",
-                                    "label": "CONT-12",
-                                    "name": "d39dd733-34ea-a3a1-0a01-d2d7ca443c4f",
+                                    "displaySequence": 30,
+                                    "id": "8dd3e81b-f7bd-557e-618b-df2dc534cc57",
+                                    "label": "36",
                                     "readonly": false,
-                                    "value": "12"
+                                    "value": "36"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "91069c62-61cc-c575-b3b0-d98f22e40069",
+                                    "label": "48",
+                                    "readonly": false,
+                                    "value": "48"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "1882ca5c-8c43-e572-179f-f3212e58d006",
+                                    "label": "60",
+                                    "readonly": false,
+                                    "value": "60"
                                 }
                             ]
                         }
@@ -122,11 +113,12 @@
     ],
     "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
     "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DecompositionRelationship__c": "Mobile-Postpaid-100-Offer_DecompositionRelationships.json",
     "%vlocity_namespace%__DefaultImageId__c": "",
     "%vlocity_namespace%__EffectiveDate__c": "2022-05-19",
     "%vlocity_namespace%__EndDate__c": "",
     "%vlocity_namespace%__EndOfLifeDate__c": "",
-    "%vlocity_namespace%__FulfilmentStartDate__c": "2022-05-19T18:30:00.000Z",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2022-05-19T07:00:00.000Z",
     "%vlocity_namespace%__GlobalGroupKey__c": "dffd7b4f-3d34-5c92-cead-ffbf23ff9d61",
     "%vlocity_namespace%__GlobalKey__c": "89e20002-fa5a-0b1f-69bd-1a6c5f6610ae",
     "%vlocity_namespace%__HeaderData__c": "",
@@ -151,6 +143,7 @@
         "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
     },
     "%vlocity_namespace%__ObjectTypeName__c": "Base Offer Spec Type",
+    "%vlocity_namespace%__OverrideDefinition__c": "Mobile-Postpaid-100-Offer_OverrideDefinitions.json",
     "%vlocity_namespace%__ParentClassId__c": "",
     "%vlocity_namespace%__PriceListEntry__c": "Mobile-Postpaid-100-Offer_PriceListEntries.json",
     "%vlocity_namespace%__ProductChildItem__c": "Mobile-Postpaid-100-Offer_ProductChildItems.json",
@@ -159,7 +152,7 @@
     "%vlocity_namespace%__ProductTemplateProductId__c": "",
     "%vlocity_namespace%__Scope__c": "Order Item",
     "%vlocity_namespace%__SellingEndDate__c": "",
-    "%vlocity_namespace%__SellingStartDate__c": "2022-05-19T18:30:00.000Z",
+    "%vlocity_namespace%__SellingStartDate__c": "2022-05-19T07:00:00.000Z",
     "%vlocity_namespace%__SpecificationSubType__c": "",
     "%vlocity_namespace%__SpecificationType__c": "Offer",
     "%vlocity_namespace%__StandardPremium__c": "",
@@ -172,8 +165,9 @@
     "%vlocity_namespace%__VersionEndDateTime__c": "",
     "%vlocity_namespace%__VersionLabel__c": "",
     "%vlocity_namespace%__VersionStartDateTime__c": "",
-    "CanUseQuantitySchedule": true,
-    "CanUseRevenueSchedule": true,
+    "Access_Type__c": "Mobile Postpaid",
+    "CanUseQuantitySchedule": false,
+    "CanUseRevenueSchedule": false,
     "Description": "",
     "DisplayUrl": "",
     "ExternalDataSourceId": "",
