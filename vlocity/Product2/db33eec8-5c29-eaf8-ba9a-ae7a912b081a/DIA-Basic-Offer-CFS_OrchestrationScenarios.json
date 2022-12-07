@@ -1,0 +1,266 @@
+[
+    {
+        "%vlocity_namespace%__Action__c": "Add;Modify",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "3d20ce-a2d2c0-523801-9435e5-db968a12b",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "641 Move Provisioning",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/641 Move Provisioning",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+        "%vlocity_namespace%__SubAction__c": "Move-Add;Move-Disconnect",
+        "Name": "DIA BASIC Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/DIA BASIC Scenario/3d20ce-a2d2c0-523801-9435e5-db968a12b/Product2/db33eec8-5c29-eaf8-ba9a-ae7a912b081a"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add;Modify",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "6c8046-f2da63-3bba9f-4739ec-1948d35f7",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Move Product Plan",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Move Product Plan",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+        "%vlocity_namespace%__SubAction__c": "Move-Add;Move-Disconnect",
+        "Name": "Dia Basic",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/Dia Basic/6c8046-f2da63-3bba9f-4739ec-1948d35f7/Product2/db33eec8-5c29-eaf8-ba9a-ae7a912b081a"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add;Modify;NoChange",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "2da5dd-5970fb-40aa13-9fbf04-8f2ca83b7",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Add Modify Product Plan",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Add Modify Product Plan",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "DIA Basic Offer Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/DIA Basic Offer Scenario/2da5dd-5970fb-40aa13-9fbf04-8f2ca83b7/Product2/db33eec8-5c29-eaf8-ba9a-ae7a912b081a"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add;Modify;NoChange",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "435909-d63eae-b6c318-5207f5-2fba46d67",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "622 Shipping Plan",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/622 Shipping Plan",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "DIA Basic Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/DIA Basic Scenario/435909-d63eae-b6c318-5207f5-2fba46d67/Product2/db33eec8-5c29-eaf8-ba9a-ae7a912b081a"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add;Modify;NoChange",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "6d88e5-1fad50-c463bb-f56284-242b7daf2",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "622 Billing Plan",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/622 Billing Plan",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "DIA Basic Offer Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/DIA Basic Offer Scenario/6d88e5-1fad50-c463bb-f56284-242b7daf2/Product2/db33eec8-5c29-eaf8-ba9a-ae7a912b081a"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add;Modify;NoChange",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "e7dee1-8d399f-cbd6a8-315fb5-9de2dcbba",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "641 Provisioning",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/641 Provisioning",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "dia basic scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/dia basic scenario/e7dee1-8d399f-cbd6a8-315fb5-9de2dcbba/Product2/db33eec8-5c29-eaf8-ba9a-ae7a912b081a"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Disconnect",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "4cfaed-d162da-6c96a8-186bba-39bc13f49",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Disconnect Product Plan",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Disconnect Product Plan",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "DIA Basic Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/DIA Basic Scenario/4cfaed-d162da-6c96a8-186bba-39bc13f49/Product2/db33eec8-5c29-eaf8-ba9a-ae7a912b081a"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Disconnect",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "dd5427-cd2d22-a2ab62-4be929-28493f0b4",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Disconnect Provisioning",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Disconnect Provisioning",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "DIA Basic Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/DIA Basic Scenario/dd5427-cd2d22-a2ab62-4be929-28493f0b4/Product2/db33eec8-5c29-eaf8-ba9a-ae7a912b081a"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Suspend;Resume",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "5e8dce-f60c45-0279cc-d8a240-ad8557426",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "SR Billing",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/SR Billing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "Dia Basic Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/Dia Basic Scenario/5e8dce-f60c45-0279cc-d8a240-ad8557426/Product2/db33eec8-5c29-eaf8-ba9a-ae7a912b081a"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Suspend;Resume",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "755967-19bc56-dfefa6-2044ae-df05ed39d",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Suspend-Resume Product Plan",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Suspend-Resume Product Plan",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "DIA Basic Offer Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/DIA Basic Offer Scenario/755967-19bc56-dfefa6-2044ae-df05ed39d/Product2/db33eec8-5c29-eaf8-ba9a-ae7a912b081a"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Suspend;Resume",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "a994e6-81c7da-dcd17c-3c4bcf-74890f238",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "SR-Provisioning/Activation",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/SR-Provisioning/Activation",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "db33eec8-5c29-eaf8-ba9a-ae7a912b081a",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "DIA Basic Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/DIA Basic Scenario/a994e6-81c7da-dcd17c-3c4bcf-74890f238/Product2/db33eec8-5c29-eaf8-ba9a-ae7a912b081a"
+    }
+]
