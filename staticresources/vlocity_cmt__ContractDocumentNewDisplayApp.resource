@@ -716,11 +716,11 @@ angular.module('contractDocumentNewDisplayApp').controller('contractDocumentNewD
             $scope.versions[0].reconciledVersion = false;
             $scope.uploadResponse.responseType = 'success';
             $scope.uploadResponse.importStatus = $scope.reconcileSuccessLabel + ' ' + $scope.uploadResponse.statusMessage +
-                ' <a href="' + $scope.sitePrefix + '/apex/' + $scope.nameSpacePrefix + 'ContractDocumentCreation?Id=' + $scope.versions[0].Id + '&preview=true&reconcile=true">View reconciliation details</a>.';
+                ' <a href="' + $scope.sitePrefix + '/apex/' + $scope.nameSpacePrefix + 'ContractDocumentCreation?Id=' + $scope.versions[0].Id + '&preview=true&reconcile=true">'+$scope.labels.CLMReconcileDocViewReconcileDetail+'</a>.';
             if ($scope.isInConsole) {
                 url = $scope.sitePrefix + '/apex/' + $scope.nameSpacePrefix + 'ContractDocumentCreation?Id=' + $scope.versions[0].Id + '&preview=true&reconcile=true';
                 $scope.uploadResponse.importStatus = $scope.reconcileSuccessLabel + ' ' + $scope.uploadResponse.statusMessage +
-                ' <a href="#" class="reconciliation-details-console">View reconciliation details</a>.';
+                ' <a href="#" class="reconciliation-details-console">'+$scope.labels.CLMReconcileDocViewReconcileDetail+'</a>.';
                 $timeout(function() {
                     console.log('setting event listener');
                     element = document.getElementsByClassName('reconciliation-details-console');

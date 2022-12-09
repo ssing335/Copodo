@@ -13639,6 +13639,7 @@ bpModule.directive('autoSaveforlaterMsg', function ($compile, $templateCache, bp
                             options.dateTimeFormat = element.propSetMap.dateTimeFormat;
                             options.timeFormat = element.propSetMap.timeFormat;
                             options.readOnly = element.propSetMap.readOnly;
+                            options.useAppearanceObject = element.propSetMap.useAppearanceObject;
 
                             try {
                                 var filledinForm = vlocityPdfWriter.fillPdfForm(pdfDocument, payload, options);

@@ -24,7 +24,7 @@ function mergeDocumentsWorking(arrayOfIds, pdfTronLicense, nextCount = 1, doc = 
 function mergeDocuments(arrayOfIds, pdfTronLicense, nextCount = 1, doc = null) {
   return new Promise(async function(resolve, reject) {
    if(!doc) {
-    getFileBlobById(pdfTronLicense, arrayOfIds[0]).then(function(result){
+    getFileBlobById(pdfTronLicense, arrayOfIds[arrayOfIds.length-1]).then(function(result){
       doc = result;
       return resolve(mergeNextDocument(pdfTronLicense, arrayOfIds,nextCount, doc));
     })
@@ -40,7 +40,7 @@ function mergeDocuments(arrayOfIds, pdfTronLicense, nextCount = 1, doc = null) {
 
 function mergeNextDocument(pdfTronLicense,arrayOfIds,nextCount, doc ) {
 return new Promise(async function(resolve, reject) {
-  getFileBlobById(pdfTronLicense, arrayOfIds[nextCount]).then(function(result){
+  getFileBlobById(pdfTronLicense, arrayOfIds[arrayOfIds.length-1-nextCount]).then(function(result){
     newDoc = result;
     var pages = [];
     for (var i = 0; i < newDoc.numPages; i++) {
@@ -69,7 +69,7 @@ function createDocument(pdfTronLicense, blob) {
           workerTransportPromise: CoreControls.initPDFWorkerTransports(backendType, {},lic),
           l: lic, extension: 'pdf'
       };
-      CoreControls.createDocument(url, options).then(function(doc){
+      CoreControls.createDocument(blob, options).then(function(doc){
         return resolve(doc);
       });
     });

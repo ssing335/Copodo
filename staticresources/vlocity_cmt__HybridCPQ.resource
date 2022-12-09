@@ -941,7 +941,7 @@ angular.module('hybridCPQ')
     var labelsArray = ['CPQCart','CPQDetails','CPQLoadMore','CPQPromotions', 'CPQDiscounts', 'CPQCartPricing','CPQCartIsEmpty','CPQCancel','CPQCancelPromotion',
                         'CPQCartMessages','CPQCartCustomViews','CPQCartTabTwoContent','CPQCartTabThreeContent','CPQDelete',
                         'CPQNoResultsFound','AllPromotions','ActivePromotions','ExpiredPromotions','CanceledPromotions','CPQAdvancedPricing','CPQBasic','CPQAdvancedPricingLoyalty',
-                        'CPQAdvancedPricingCostAndMargin', 'CPQUsagePricingCostMargin', 'CPQUsagePricing'];
+                        'CPQAdvancedPricingCostAndMargin', 'CPQUsagePricingCostMargin', 'CPQUsagePricing', 'CPQInsufficientPrivilegeToUser'];
 
     var toastLabelsArray =  ['CPQDeletingItem','CPQDeleteItem','CPQDeleteItemConfirmationMsg','CPQDeleteButtonLabel','CPQDeleteItemFailed',
             'CPQDeletedItem','CPQCanceledItem','CPQAdjustmentPercentage','CPQAdjustmentAmount','CPQAdjustmentOverride'];

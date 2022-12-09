@@ -128,7 +128,7 @@ var remoteActions = {
     getOrchestrationItem: "{!$RemoteAction.OrchestrationPlanControllerExtension.getOrchestrationItem}",
     isOffplatformMode: "{!$RemoteAction.XOMOffPlatformAccessConfigController.isOffplatformMode}",
     getOffplatformUrl: "{!$RemoteAction.XOMOffPlatformAccessConfigController.getOffplatformUrl}",
-    getOrchestrationPlanId: "{!$RemoteAction.OrchestrationPlanControllerExtension.getOrchestrationPlanId}"
+    getOrchestrationPlanDetails: "{!$RemoteAction.OrchestrationPlanControllerExtension.getOrchestrationPlanDetails}"
 };
 var module = angular.module('vloc.planView', 
     ['vlocity','CardFramework' , 'sldsangular', 'ngSanitize', 'forceng', 'tmh.dynamicLocale',
@@ -638,7 +638,7 @@ angular
                         break;
                     } else 
                     {
-                        window.open('/apex/XOMObjectParams#!/object/' + externalPlanId);
+                        window.open('/apex/' + $rootScope.nsPrefix + 'XOMObjectParams#!/object/' + externalPlanId);
                         break;
                     }
                 }
@@ -1251,7 +1251,7 @@ angular
             window.open('/' + recordId);
         } else 
         {
-            window.open('/apex/XOMObjectParams#!/object/' + recordId);
+            window.open('/apex/' + $rootScope.nsPrefix + 'XOMObjectParams#!/object/' + recordId);
         }
     }
     $scope.customPerformAction = function(action, params,recordId)
@@ -1262,7 +1262,7 @@ angular
            var url='/' + recordId;
         } else 
         {
-            var url='/apex/XOMObjectParams#!/object/' + recordId;
+            var url='/apex/' + $rootScope.nsPrefix + 'XOMObjectParams#!/object/' + recordId;
         }
         if (params) {
             var nsPrefix = $rootScope.nsPrefix;

@@ -10,4 +10,7 @@ global class OrchestrationEventHandler implements Database.AllowsCallouts, Syste
     global static void execute(String orchestrationItem) {
 
     }
+    global static String handleEvents(List<vlocity_cmt__OrchestrationEvent__e> events, Integer consumerIndex) {
+        return null;
+    }
 }

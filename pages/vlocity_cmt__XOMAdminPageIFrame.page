@@ -1,6 +1,6 @@
 <apex:page docType="html-5.0" controller="vlocity_cmt.XOMAdminPageController" applyHtmlTag="true" cache="false">
 
- <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lang="en">
     <head>
         <script type="text/javascript" src="{!URLFOR($Resource.JSZip)}" />
         <meta charset="utf-8" />
@@ -10,9 +10,11 @@
 
         <script>
         window.addEventListener("message", receiveMessage, false);
-        let namespacePrefix = '{!namespacePrefix}';
+        const namespacePrefix = '{!JSENCODE(namespacePrefix)}';
         
         function receiveMessage(event) {
+        try{
+            if(event && event.data){
             const eventData = JSON.parse(event.data);
             if(eventData.zipContent) {
                 let zip = new JSZip();
@@ -29,7 +31,7 @@
                 var base64Zip = zip.generate({type: 'base64'});
 
                 let params = new URLSearchParams(document.location.search);
-                let channelId = params.get("channelId");
+                let channelId = encodeURIComponent(params.get("channelId"));
                 
                 window.parent.postMessage(JSON.stringify({
                     name: 'updatedZipFile',
@@ -38,6 +40,8 @@
                     zip: base64Zip
                 }), document.referrer);
             }
+          }
+        }catch(error){}
         }
         </script>
     </head>

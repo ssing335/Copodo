@@ -12,21 +12,21 @@
             <meta name="description" content="Plan View" />
             <script>
 
-                var recordId = '{!$CurrentPage.parameters.Id}';
-                let nsp =  "{!nsp}";
-                let namespace = nsp ? nsp.slice(0, -2) : 'c';
+                const recordId = '{!$CurrentPage.parameters.Id}';
+                const nsp =  "{!JSENCODE(nsp)}";
+                const namespace = nsp ? nsp.slice(0, -2) : 'c';
     
                 $Lightning.use(namespace+":ltngOutVF", function() {
                 $Lightning.createComponent(
                     namespace + ":xomPlanView", {
                         recordId: recordId,
                         container: "Visualforce",
-                        namespace: "{!nsp}"
+                        namespace: nsp
                     },
                     "lightning",
                     function(cmp) {
                         console.log('recordId:', recordId);
-                        console.log('nsp:', '{!nsp}');
+                        console.log('nsp:', nsp);
                         console.log('namespace:', namespace);
                     });
                 });

@@ -133,8 +133,9 @@ require('./modules/ouihome/factory/BackcompatExport.js');
 require('./modules/ouihome/factory/BackcompatImport.js');
 require('./modules/ouihome/controller/OuiHomeSlds.js');
 require('./modules/ouihome/templates/templates.js');
+require('./modules/ouihome/directive/osWarning.js');
 
-},{"./modules/ouihome/config/config.js":2,"./modules/ouihome/controller/OuiHomeSlds.js":3,"./modules/ouihome/factory/BackcompatExport.js":4,"./modules/ouihome/factory/BackcompatImport.js":5,"./modules/ouihome/templates/templates.js":6,"./polyfills/Array.find.js":7,"./polyfills/Array.findIndex.js":8}],2:[function(require,module,exports){
+},{"./modules/ouihome/config/config.js":2,"./modules/ouihome/controller/OuiHomeSlds.js":3,"./modules/ouihome/directive/osWarning.js":4,"./modules/ouihome/factory/BackcompatExport.js":5,"./modules/ouihome/factory/BackcompatImport.js":6,"./modules/ouihome/templates/templates.js":7,"./polyfills/Array.find.js":8,"./polyfills/Array.findIndex.js":9}],2:[function(require,module,exports){
 angular.module('ouihome')
     .config(['remoteActionsProvider', 'fileNsPrefixDot', function(remoteActionsProvider, fileNsPrefixDot) {
         'use strict';
@@ -153,6 +154,13 @@ angular.module('ouihome')
                 config: {escape: false, buffer: true}
             },
             createScript: fileNsPrefixDot() + 'OmniScriptHomeController.createScript',
+            getOmniScriptsWarnings: {
+                action: fileNsPrefixDot() + "OmniScriptDesignerController.getOmniScriptsWarningsByJsonString",
+                config: {
+                    escape: false,
+                    buffer: false
+                }
+            },
         };
         remoteActionsProvider.setRemoteActions(remoteActions);
     }])
@@ -167,8 +175,8 @@ angular.module('ouihome')
 },{}],3:[function(require,module,exports){
 angular.module('ouihome')
     .controller('ouihome', ['$scope', '$rootScope', '$injector',
-        '$filter', 'backcompatExport', 'backcompatImport', '$modal', '$q', 'OmniScriptFieldMappingsNamespace',
-        function ($scope, $rootScope, $injector, $filter, backcompatExport, backcompatImport, $modal, $q, OmniScriptFieldMappingsNamespace) {
+        '$filter', 'backcompatExport', 'backcompatImport', '$modal', '$q', 'OmniScriptFieldMappingsNamespace', 'remoteActions',
+        function ($scope, $rootScope, $injector, $filter, backcompatExport, backcompatImport, $modal, $q, OmniScriptFieldMappingsNamespace, remoteActions) {
 
             'use strict';
             $scope.groupBy = function (script) {
@@ -180,11 +188,17 @@ angular.module('ouihome')
             };
 
             window.OmniInvalidConfigForFoundation = '';
-            $rootScope.vlocity.getCustomLabels('OmniInvalidConfigForFoundation')
+            window.OmniScriptWarningDialogHeaderMessage = '';
+            $rootScope.omniScriptIds = [];
+            $rootScope.omniScriptsWarnings = {};
+            $rootScope.omniScriptsWarningsRequest = {};
+            $rootScope.vlocity.getCustomLabels('OmniInvalidConfigForFoundation', 'OmniScriptWarningDialogHeaderMessage')
                 .then(result => {
                     window.OmniInvalidConfigForFoundation = result[0];
+                    window.OmniScriptWarningDialogHeaderMessage = result[1];
                 })
                 .catch(reason => { });
+
 
             $scope.backcompatImport = backcompatImport;
             $scope.searchColumns = [OmniScriptFieldMappingsNamespace.Type__c, OmniScriptFieldMappingsNamespace.SubType__c, 'Name'];
@@ -196,7 +210,18 @@ angular.module('ouihome')
                     getValue: function ($scope, row) {
                         var url;
                         if (row[OmniScriptFieldMappingsNamespace.IsLwcEnabled__c]) {
+                            if(row?.IsFileBased){
+                                if(!row.uniqueName) {
+                                    let type = row[OmniScriptFieldMappingsNamespace.Type__c];
+                                    let subType = row[OmniScriptFieldMappingsNamespace.SubType__c];
+                                    let lang = row[OmniScriptFieldMappingsNamespace.Language__c];
+                                    let version = row[OmniScriptFieldMappingsNamespace.Version__c];
+                                    row.uniqueName =   `${type}_${subType}_${lang}_${version}`;
+                                }
+                                url = window.omniLwcMetadataUrl + row.uniqueName;
+                            } else {
                             url = window.omniLwcNewUrl + row.Id;
+                            }
                         } else {
                             url = window.omniNewUrl + '?id=' + row.Id;
                         }
@@ -208,17 +233,43 @@ angular.module('ouihome')
                                 '<span title="' + _.escape(row.Name) + ' (Version ' + row[OmniScriptFieldMappingsNamespace.Version__c] + ')" class="slds-m-top_xxx-small">' +
                                 _.escape(row.Name) + ' (Version ' + row[OmniScriptFieldMappingsNamespace.Version__c] + ')</span><span>'
                         }
-
+                        if ($rootScope.omniScriptsWarnings && $rootScope.omniScriptsWarnings[row.Id]) {
+                            return '<span style="display:flex;" ><a title="' + _.escape(row.Name) + ' (Version ' + row[OmniScriptFieldMappingsNamespace.Version__c] + ')" href="' + url + '" ng-mouseup="$root.vlocityOpenUrl(\'' + url + '\', $event, false, null, true)">' +
+                            _.escape(row.Name) + ' (Version ' + row[OmniScriptFieldMappingsNamespace.Version__c] + ')</a><os-warning warning-label="' + window.OmniScriptWarningDialogHeaderMessage + '" warning-message="' + $rootScope.omniScriptsWarnings[row.Id] + '"></os-warning></span>';
+                        }
                         return '<a title="' + _.escape(row.Name) + ' (Version ' + row[OmniScriptFieldMappingsNamespace.Version__c] + ')" href="' + url + '" ng-mouseup="$root.vlocityOpenUrl(\'' + url + '\', $event, false, null, true)">' +
                         _.escape(row.Name) + ' (Version ' + row[OmniScriptFieldMappingsNamespace.Version__c] + ')</a>';
             },
                     getGroupValue: function ($scope, $group) {
                         var type = $group.data[0][OmniScriptFieldMappingsNamespace.Type__c],
-                            subType = $group.data[0][OmniScriptFieldMappingsNamespace.SubType__c];
+                            subType = $group.data[0][OmniScriptFieldMappingsNamespace.SubType__c],
+                            omniscriptWarningIds = [];
                         if (!type) {
                             return '<span>&nbsp;</span>';
                         }
-                        return '<span>' + _.escape(type + (subType ? '/' + subType : '')) + '</span>';
+                        _.forEach($group.data, function (row) {
+                            if (OmniScriptFieldMappingsNamespace && OmniScriptFieldMappingsNamespace.DesignerCustomizationType) {
+                                if (row[OmniScriptFieldMappingsNamespace.DesignerCustomizationType]) {
+                                    if (!$rootScope.omniScriptsWarningsRequest[row[OmniScriptFieldMappingsNamespace.DesignerCustomizationType]]) {
+                                        $rootScope.omniScriptsWarningsRequest[row[OmniScriptFieldMappingsNamespace.DesignerCustomizationType]] = [];
+                                    }
+                                    if ($rootScope.omniScriptsWarningsRequest[row[OmniScriptFieldMappingsNamespace.DesignerCustomizationType]] && $rootScope.omniScriptsWarningsRequest[row[OmniScriptFieldMappingsNamespace.DesignerCustomizationType]].indexOf(row.Id) === -1) {
+                                        $rootScope.omniScriptsWarningsRequest[row[OmniScriptFieldMappingsNamespace.DesignerCustomizationType]].push(row.Id);
+                                    }
+                                }
+                            }
+                            if ($rootScope.omniScriptIds.indexOf(row.Id) === -1) {
+                                $rootScope.omniScriptIds.push(row.Id);
+                            }
+                            if ($rootScope.omniScriptsWarnings && $rootScope.omniScriptsWarnings[row.Id]) {
+                                omniscriptWarningIds.push(row.Id);
+                            }
+                        });
+                        var groupExpanded = _.filter($scope.$$watchers, {exp: 'groupStatus[group.value]', last: true});
+                        if (omniscriptWarningIds.length && !groupExpanded.length) {
+                            return '<span style="display:flex;"><span class="slds-truncate">' + _.escape(type + (subType ? '/' + subType : '')) + '</span><os-warning hide-warning-dialog="true"></os-warning></span>';
+                        }
+                        return '<span style="display:flex;"><span class="slds-truncate">' + _.escape(type + (subType ? '/' + subType : '')) + '</span></span>';
                     },
                     dynamic: true,
                     sortable: false
@@ -248,10 +299,16 @@ angular.module('ouihome')
                     width: 140,
                     field: 'LastModifiedById',
                     getGroupValue: function ($scope, $group) {
-                        return _.escape($group.data[0].LastModifiedBy.Name);
+                        if ($group.data[0] && $group.data[0].LastModifiedBy) {
+                            return _.escape($group.data[0].LastModifiedBy.Name);
+                        }
+                        return null;
                     },
                     getValue: function ($scope, row) {
-                        return _.escape(row.LastModifiedBy.Name);
+                        if (row.LastModifiedBy) {
+                            return _.escape(row.LastModifiedBy.Name);
+                        }
+                        return null;
                     }
                 }, {
                     field: OmniScriptFieldMappingsNamespace.IsReusable__c,
@@ -364,6 +421,40 @@ angular.module('ouihome')
                     }
                 }
             ];
+
+            if (window.isFoundationPkg) {
+                $rootScope.vlocity.getCustomLabels('ODCFileBasedOmniscriptFieldLabel')
+                    .then(function (results) {
+                        $scope.defaultColumns.push(
+                            {
+                                resizable: false,
+                                width: 110,
+                                dynamic: true,
+                                title: results[0],
+                                getValue: function ($scope, row) {
+                                    if (row.IsFileBased) {
+                                        return '<span class="slds-icon_container" title="' + results[0] + '">' +
+                                            '<slds-svg-icon sprite="\'utility\'"' +
+                                            ' icon="\'success\'" size="\'x-small\'"  extra-classes=\"\'slds-icon-text-default\'\"></slds-svg-icon></span>';
+                                    }
+                                },
+                                getGroupValue: function ($scope, $group) {
+                                    var hasAnActiveEntry = false;
+                                    _.forEach($group.data, function (row) {
+                                        if (row.IsFileBased) {
+                                            hasAnActiveEntry = true;
+                                            return false;
+                                        }
+                                    });
+                                    if (hasAnActiveEntry) {
+                                        return '<span class="slds-icon_container" title="' + results[0] + '">' +
+                                            '<slds-svg-icon sprite="\'utility\'"' +
+                                            ' icon="\'success\'" size="\'x-small\'"  extra-classes=\"\'slds-icon-text-default\'\"></slds-svg-icon></span>';
+                                    }
+                                }
+                            });
+                    });
+            }
 
             function changeActivation(row, group, isActivate) {
 
@@ -629,9 +720,28 @@ angular.module('ouihome')
                 value: false
             }];
 
+            function getOmniScriptsWarnings() {
+                $q(function(resolve, reject) {
+                    remoteActions.getOmniScriptsWarnings(JSON.stringify($rootScope.omniScriptsWarningsRequest))
+                    .then(function (resp) {
+                        $rootScope.omniScriptsWarnings = resp;
+                        resolve(resp)
+                    })
+                    .catch(function(err) {
+                        reject(err);
+                    });
+                });
+            }
+
             $scope.newDesignerCustomizationButtons = [];
             if(window.isFoundationPkg){
                 $rootScope.vlocity.getCustomLabels('OmniAuraServerError').then(function (results) {
+                    if (OmniScriptFieldMappingsNamespace && OmniScriptFieldMappingsNamespace.DesignerCustomizationType && OmniScriptFieldMappingsNamespace.Type__c) {
+                        var osTypeFieldIndex = $scope.defaultColumns.findIndex((column => column.field === OmniScriptFieldMappingsNamespace.Type__c));
+                        if (osTypeFieldIndex !== -1) {
+                            $scope.defaultColumns[osTypeFieldIndex].additionalFields.push(OmniScriptFieldMappingsNamespace.DesignerCustomizationType);
+                        }
+                    }
                     window.omniDesignerCustomizationTypes.forEach(function (data) {
                         var button;
                         if(data){
@@ -646,9 +756,43 @@ angular.module('ouihome')
                         }
                     });
                 });
+
+                $scope.$watch(function() {
+                    return $rootScope.omniScriptsWarningsRequest;
+                  }, function() {
+                    getOmniScriptsWarnings();
+                }, true);
             }
         }]);
+
 },{}],4:[function(require,module,exports){
+(function(){
+    'use strict';
+    var dModule = angular.module('ouihome');
+    dModule.directive('osWarning', function(){
+        return {
+            restrict: 'E',
+            transclude: true,
+            templateUrl: 'osWarning.tpl.html',
+            scope: {
+                'warningMessage': '@',
+                'hideWarningDialog': '@',
+                'warningLabel': '@',
+            },
+            controller: function($scope) {
+                $scope.showWarningDialog = false;
+                $scope.handleShowWarningDialog = function() {
+                    $scope.showWarningDialog = true;
+                };
+                $scope.handleCloseWarningDialog = function() {
+                    $scope.showWarningDialog = false;
+                };
+            },
+          };
+    }); 
+}());
+
+},{}],5:[function(require,module,exports){
 angular.module('ouihome')
        .factory('backcompatExport', function(remoteActions, $localizable, OmniScriptFieldMappingsNamespace) {
            var $scope = {};
@@ -704,7 +848,7 @@ angular.module('ouihome')
            };
        });
 
-},{}],5:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 angular.module('ouihome')
        .factory('backcompatImport', function($localizable, remoteActions, $q) {
            var $scope = {};
@@ -839,10 +983,10 @@ angular.module('ouihome')
 
        });
 
-},{}],6:[function(require,module,exports){
-angular.module("ouihome").run(["$templateCache",function($templateCache){"use strict";$templateCache.put("alertModal.tpl.html",'<div class="modal vlocity" tabindex="-1" role="dialog" aria-hidden="true">\n  <div class="modal-dialog">\n    <div class="modal-content">\n      <div class="modal-header" ng-show="title">\n        <button type="button" class="close" aria-label="Close" ng-click="$hide()"><span aria-hidden="true">&times;</span></button>\n        <h4 class="modal-title" ng-bind="title"></h4>\n      </div>\n      <div class="modal-body">\n        <div class="content" ng-bind="content" ng-if="content">\n        </div>\n        <ul ng-if="errors">\n          <li ng-repeat="error in errors">\n            {{ error }}\n          </li>\n        </ul>\n      </div>\n      <div class="modal-footer">\n        <button type="button" class="btn btn-primary" ng-click="ok();$hide()">{{ ::\'OmniDesOk\' | localize }}</button>\n      </div>\n    </div>\n  </div>\n</div>'),$templateCache.put("confirmationModal.tpl.html",'<div class="modal vlocity" tabindex="-1" role="dialog" aria-hidden="true">\n  <div class="modal-dialog">\n    <div class="modal-content">\n      <div class="modal-header" ng-show="title">\n        <button type="button" class="close" aria-label="Close" ng-click="$hide()"><span aria-hidden="true">&times;</span></button>\n        <h4 class="modal-title" ng-bind="title"></h4>\n      </div>\n      <div class="modal-body">\n        <div class="content" ng-bind="content">\n        </div>\n      </div>\n      <div class="modal-footer">\n        <button type="button" class="btn btn-primary" ng-click="ok();$hide()">{{ ::\'OmniDesOk\' | localize }}</button>\n        <button type="button" class="btn btn-default" ng-click="$hide()">{{ ::\'OmniDesCancel\' | localize }}</button>\n      </div>\n    </div>\n  </div>\n</div>')}]);
-
 },{}],7:[function(require,module,exports){
+angular.module("ouihome").run(["$templateCache",function($templateCache){"use strict";$templateCache.put("osWarning.tpl.html",'<span>\n    <div style="margin-left: 5px;">\n        <slds-svg-icon sprite="\'utility\'" icon="\'warning\'" size="\'x-small\'"  extra-classes="\'slds-icon-text-warning\'" ng-click="handleShowWarningDialog()"></slds-svg-icon>\n    </div>\n    <div ng-if="!hideWarningDialog">\n      <div style="margin-top: 10px;margin-left: -12px;position: fixed;z-index: 10000;" ng-if="showWarningDialog">\n        <section class="slds-popover slds-popover_warning slds-nubbin_top-left" role="dialog">\n            <button class="slds-button slds-button_icon slds-button_icon-small slds-float_right slds-popover__close" ng-click="handleCloseWarningDialog()">\n              <slds-svg-icon sprite="\'utility\'" icon="\'close\'" size="\'x-small\'"\n                class="slds-icon slds-icon_x-small slds-icon-text-default"\n              ></slds-svg-icon>\n            </button>              \n            <header class="slds-popover__header">\n              <div class="slds-media slds-media_center slds-has-flexi-truncate">\n                <div class="slds-media__figure">\n                  <span class="slds-icon_container slds-icon-utility-warning">\n                    <slds-svg-icon sprite="\'utility\'" icon="\'warning\'" size="\'small\'"\n                        class="slds-icon slds-icon_x-small slds-icon-text-default"\n                    ></slds-svg-icon>\n                  </span>\n                </div>\n                <div class="slds-media__body">\n                  <h2 class="slds-truncate slds-text-heading_medium">{{warningLabel}}</h2>\n                </div>\n              </div>\n            </header>\n            <div class="slds-popover__body slds-popover__body_small slds-popover_warning__body">\n              <p class="slds-cell-wrap">{{warningMessage}}</p>\n            </div>\n        </section>\n    </div>\n    </div>\n</span>\n'),$templateCache.put("alertModal.tpl.html",'<div class="modal vlocity" tabindex="-1" role="dialog" aria-hidden="true">\n  <div class="modal-dialog">\n    <div class="modal-content">\n      <div class="modal-header" ng-show="title">\n        <button type="button" class="close" aria-label="Close" ng-click="$hide()"><span aria-hidden="true">&times;</span></button>\n        <h4 class="modal-title" ng-bind="title"></h4>\n      </div>\n      <div class="modal-body">\n        <div class="content" ng-bind="content" ng-if="content">\n        </div>\n        <ul ng-if="errors">\n          <li ng-repeat="error in errors">\n            {{ error }}\n          </li>\n        </ul>\n      </div>\n      <div class="modal-footer">\n        <button type="button" class="btn btn-primary" ng-click="ok();$hide()">{{ ::\'OmniDesOk\' | localize }}</button>\n      </div>\n    </div>\n  </div>\n</div>'),$templateCache.put("confirmationModal.tpl.html",'<div class="modal vlocity" tabindex="-1" role="dialog" aria-hidden="true">\n  <div class="modal-dialog">\n    <div class="modal-content">\n      <div class="modal-header" ng-show="title">\n        <button type="button" class="close" aria-label="Close" ng-click="$hide()"><span aria-hidden="true">&times;</span></button>\n        <h4 class="modal-title" ng-bind="title"></h4>\n      </div>\n      <div class="modal-body">\n        <div class="content" ng-bind="content">\n        </div>\n      </div>\n      <div class="modal-footer">\n        <button type="button" class="btn btn-primary" ng-click="ok();$hide()">{{ ::\'OmniDesOk\' | localize }}</button>\n        <button type="button" class="btn btn-default" ng-click="$hide()">{{ ::\'OmniDesCancel\' | localize }}</button>\n      </div>\n    </div>\n  </div>\n</div>')}]);
+
+},{}],8:[function(require,module,exports){
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find
 if (!Array.prototype.find) {
   Array.prototype.find = function(predicate) {
@@ -867,7 +1011,7 @@ if (!Array.prototype.find) {
     return undefined;
   };
 }
-},{}],8:[function(require,module,exports){
+},{}],9:[function(require,module,exports){
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex
 if (!Array.prototype.findIndex) {
   Array.prototype.findIndex = function(predicate) {

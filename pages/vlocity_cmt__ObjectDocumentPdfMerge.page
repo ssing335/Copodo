@@ -20,6 +20,7 @@
             <apex:includeScript value="{!URLFOR($Resource.vlocity_cmt__docxtemplater_bundle, '/vendor/jszip-utils.js')}"/>
             <apex:includeScript value="{!URLFOR($Resource.vlocity_cmt__docxtemplater_bundle, '/vendor/file-saver.min.js')}"/>
             <apex:includeScript value="{!URLFOR($Resource.vlocity_cmt__docxtemplater_bundle, '/build/docxtemplater.v3.5.0.min.js')}"/>
+            <apex:includeScript value="{!URLFOR($Resource.vlocity_cmt__docxtemplater_bundle, '/modules/docxtemplater-link-module.v0.2.3.min.js')}"/>
             <apex:includeScript value="{!$Resource.vlocity_cmt__SldsAngular}"/>
             <apex:includeScript value="{!$Resource.vlocity_cmt__ViaDirectives}"/>
             <apex:includeScript value="{!$Resource.vlocity_cmt__ObjectDocumentPdfMergeApp}"/>
@@ -30,7 +31,7 @@
 
             <!-- PDFTRON Libraries for salesforce side implementation-->
             <!-- <apex:includeScript value="{!URLFOR($Resource.cs_pdftron_lib, '/core/external/jquery-3.5.1.min.js')}"/> -->
-            <apex:includeScript value="{!URLFOR($Resource.vlocity_cmt__cs_pdftron_lib, '/core/CoreControls.js')}"/>
+            <apex:includeScript value="{!URLFOR($Resource.vlocity_cmt__cs_pdftron_lib, '/core/webviewer-core.min.js')}"/>
             <apex:includeScript value="{!URLFOR($Resource.vlocity_cmt__cs_pdftron_lib, '/webviewer.min.js')}"/>
         </head>
          <body>

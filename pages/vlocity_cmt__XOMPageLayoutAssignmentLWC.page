@@ -20,11 +20,11 @@
                 }
             </style>
             <script>
-            let namespacePrefix = '{!namespacePrefix}';
-            let namespacePrefixLWC = namespacePrefix.slice(0, -2);
-            let vlocAccessToken =  '{!vlocAccessToken}';
-            let isInsurance = '{!isInsurance}' == 'true'
-            let iframeUrl = '{!IframeUrl}';
+            const namespacePrefix = '{!JSENCODE(namespacePrefix)}';
+            const namespacePrefixLWC = namespacePrefix.slice(0, -2);
+            const vlocAccessToken =  '{!JSENCODE(vlocAccessToken)}';
+            const isInsurance = '{!isInsurance}' == 'true'
+            const iframeUrl = '{!JSENCODE(IframeUrl)}';
             
             $Lightning.use(namespacePrefixLWC+":ltngOutVF", function() {
             $Lightning.createComponent(

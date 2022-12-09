@@ -20,8 +20,17 @@ global class OrchestrationPlanControllerExtension {
         return null;
     }
     @AuraEnabled
+    global static vlocity_cmt.OrchestrationPlanControllerExtension.OrchestrationItemExternalDependencyItemResponse getOrchestrationItemExternalDependencies(Id orchestrationItemId, Id orderId, Integer offset) {
+        return null;
+    }
+    @AuraEnabled
     @RemoteAction
-    global static vlocity_cmt.OrchestrationPlanControllerExtension.OrchestrationPlanView getOrchestrationPlan(Id planId) {
+    global static vlocity_cmt.OrchestrationPlanControllerExtension.OrchestrationPlanView getOrchestrationPlan(Id contextId) {
+        return null;
+    }
+    @AuraEnabled
+    @RemoteAction
+    global static Map<String,String> getOrchestrationPlanDetails(String contextId) {
         return null;
     }
     @AuraEnabled
@@ -37,6 +46,15 @@ global class OrchestrationPlanControllerExtension {
     @AuraEnabled
     @RemoteAction
     global static Map<String,Object> getOrderDetails(Id orderId) {
+        return null;
+    }
+    @AuraEnabled
+    @RemoteAction
+    global static Boolean isOffPlatformOrder(Id orderId) {
+        return null;
+    }
+    @AuraEnabled
+    global static vlocity_cmt.OrchestrationPlanControllerExtension.OrchestrationItemExternalDependencyItemResponse searchOrchestrationItemExternalDependencies(Id orchestrationItemId, Id orderId, String searchKey, Integer offset) {
         return null;
     }
 global class CalendarInfo {
@@ -58,6 +76,24 @@ global class OrchestrationItemDepView {
         set;
     }
 }
+global class OrchestrationItemExternalDependencyItem {
+    @AuraEnabled
+    global Id extDependencyId;
+    @AuraEnabled
+    global String extDependencyName;
+    @AuraEnabled
+    global String extOrchestrationItemName;
+    @AuraEnabled
+    global String extOrchestrationPlanName;
+    @AuraEnabled
+    global String extOrderNumber;
+}
+global class OrchestrationItemExternalDependencyItemResponse {
+    @AuraEnabled
+    global List<vlocity_cmt.OrchestrationPlanControllerExtension.OrchestrationItemExternalDependencyItem> externalDependencyItemList;
+    @AuraEnabled
+    global Boolean hasMoreExtDependency;
+}
 global class OrchestrationItemView {
     @AuraEnabled
     global Id additionalId;
@@ -71,6 +107,8 @@ global class OrchestrationItemView {
     global List<Id> deps;
     @AuraEnabled
     global String dueDate;
+    @AuraEnabled
+    global Integer externalDepCount;
     @AuraEnabled
     global Boolean hasExternalDep;
     @AuraEnabled
@@ -99,6 +137,16 @@ global class OrchestrationPlanView {
     global vlocity_cmt.OrchestrationPlanControllerExtension.CalendarInfo calendarInfo;
     @AuraEnabled
     global List<vlocity_cmt.OrchestrationPlanControllerExtension.OrchestrationItemView> items;
+    @AuraEnabled
+    global Id orderId;
+    @AuraEnabled
+    global String orderName;
+    @AuraEnabled
+    global String orderNumber;
+    @AuraEnabled
+    global Id planId;
+    @AuraEnabled
+    global String planName;
     @AuraEnabled
     global Map<String,Object> planViewSettings;
     @AuraEnabled

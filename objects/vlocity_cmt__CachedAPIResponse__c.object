@@ -202,6 +202,20 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>vlocity_cmt__ConfigurationSnapshotId__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This represents the snapshot id of the Configuration Snapshot Object for which this cachedapiresponse record belongs.</description>
+        <externalId>false</externalId>
+        <label>ConfigurationSnapshotId</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>vlocity_cmt__EffectiveStartTime__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>

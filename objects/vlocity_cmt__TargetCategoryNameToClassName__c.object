@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>A record of this custom setting would help to map a category name with a category specific implementation of a selector class that prepares the payload of selections as part of the specific category</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>vlocity_cmt__SelectorClassName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name of the apex class that prepares the payload for a category specific targeting selections</description>
+        <externalId>false</externalId>
+        <label>SelectorClassName</label>
+        <length>40</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>TargetCategoryNameToClassName</label>
+    <visibility>Public</visibility>
+</CustomObject>

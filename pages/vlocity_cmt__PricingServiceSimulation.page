@@ -1,4 +1,4 @@
-<apex:page controller="vlocity_cmt.PricingServiceSimulationController" standardStylesheets="false" showHeader="true" sidebar="true">
+<apex:page standardController="vlocity_cmt__CalculationProcedureVersion__c" extensions="vlocity_cmt.PricingServiceSimulationController" standardStylesheets="false" showHeader="true" sidebar="true">
     <html xmlns:ng="http://angularjs.org" ng-app="pricingSimulationApp" lang="en">
         <head>
             <meta charset="utf-8"/>
@@ -118,10 +118,14 @@
                 $scope.variableDataTypeMap = $scope.input['variableDataTypeMap'];
                 $scope.currencySymbol = $scope.input['currencySymbol'];
 
-                $scope.effectiveDate = new Date($scope.input['effectiveStartDate'].replace(/-/g, '/'));
+                $scope.effectiveDate = {
+                    value: new Date($scope.input['effectiveStartDate'].replace(/-/g, '/'))
+                };
                 $scope.minDate = new Date($scope.input['effectiveStartDate'].replace(/-/g, '/'));
                 $scope.maxDate = $scope.input['effectiveEndDate'] ? new Date($scope.input['effectiveEndDate'].replace(/-/g, '/')) : '';
-                $scope.useDatesOnly = false;
+                $scope.useDatesOnly = {
+                    value: false
+                };
 
                 if ($scope.input['applicableType']!=null)
                 {
@@ -378,13 +382,13 @@
 
                 $scope.getSimulationRate = function()
                 {
-                    var effectiveDate = $scope.effectiveDate ? formatDate($scope.effectiveDate) : null;
+                    var effectiveDate = $scope.effectiveDate && $scope.effectiveDate.value ? formatDate($scope.effectiveDate.value) : null;
                     //Invoke the Pricing Service to calculate rates
                     $scope.configMap['configurationName']= $scope.name;
                     $scope.configMap['configurationVersionId']=$scope.configurationVersionId;
                     $scope.configMap['mode']='Simulate';
                     $scope.configMap['effectiveDate'] = effectiveDate;
-                    $scope.configMap['useDatesOnly'] = $scope.useDatesOnly;
+                    $scope.configMap['useDatesOnly'] = $scope.useDatesOnly.value;
                     $scope.simulationInputMap['config']=$scope.configMap;
                     $scope.simulationInputData={};
 
@@ -467,7 +471,9 @@
                 $scope.resetPageDetails = function() {
                     $scope.simulationInputMap = {};
                     $scope.configMap = {};
-                    $scope.selectedRecordId = "";
+                    $scope.selectedRecordId = {
+                        value: ""
+                    };
                     $scope.selectedApplicableType="";
                     $scope.showNoResult = false;
                     $scope.showVerboseResult = false;
@@ -524,7 +530,7 @@
                             </td>
                             <td>
                                 <input class="form-control"
-                                        ng-model="effectiveDate"
+                                        ng-model="effectiveDate.value"
                                         type="date"
                                         name="{!$Label.CPEffectiveDate}"
                                         ng-change="resetPageDetails()"
@@ -541,7 +547,7 @@
                             </td>
                             <td>
                                 <input class="form-control"
-                                    ng-model="useDatesOnly"
+                                    ng-model="useDatesOnly.value"
                                     type="checkbox"
                                     name="{!$Label.CPUseDatesOnly}"
                                     ng-change="resetPageDetails()"
@@ -556,10 +562,10 @@
                             </td>
                             <td>
                                 <input class="form-control"
-                                        ng-model="selectedRecordId"
+                                        ng-model="selectedRecordId.value"
                                         name="acctSelect" type="text"
                                         placeholder="{!$Label.CPEnterObjId}"
-                                        ng-change="recordPicked(selectedRecordId)"
+                                        ng-change="recordPicked(selectedRecordId.value)"
                                         />
                             </td>
                             <td></td>

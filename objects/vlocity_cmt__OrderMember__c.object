@@ -531,6 +531,20 @@
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
     </fields>
     <fields>
+        <fullName>vlocity_cmt__ParentOrderMemberId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The field is used to store the Parent Order Member.</description>
+        <externalId>false</externalId>
+        <label>Parent Order Member</label>
+        <referenceTo>vlocity_cmt__OrderMember__c</referenceTo>
+        <relationshipLabel>Order Members (Parent Order Member)</relationshipLabel>
+        <relationshipName>SubOrderMembers</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>vlocity_cmt__PostalCode__c</fullName>
         <deprecated>false</deprecated>
         <description>Postal code of the address for this member record</description>

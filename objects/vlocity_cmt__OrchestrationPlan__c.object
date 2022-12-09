@@ -268,7 +268,7 @@
         <masterLabel>View Order</masterLabel>
         <openType>onClickJavaScript</openType>
         <protected>false</protected>
-        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/19.0/connection.js&quot;)}
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/54.0/connection.js&quot;)}
 var orderId = &apos;{!vlocity_cmt__OrchestrationPlan__c.vlocity_cmt__OrderIdId__c}&apos;;
 if(orderId !== null &amp;&amp; orderId !== &apos;&apos;)
 {

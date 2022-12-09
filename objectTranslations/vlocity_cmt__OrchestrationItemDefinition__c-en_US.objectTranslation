@@ -71,6 +71,11 @@
         <name>vlocity_cmt__GlobalKey__c</name>
     </fields>
     <fields>
+        <help><!-- Specify the name of the Salesforce queue that the manual task is assigned to during orchestration. --></help>
+        <label><!-- Salesforce Queue Name --></label>
+        <name>vlocity_cmt__GroupDeveloperName__c</name>
+    </fields>
+    <fields>
         <label><!-- Point Of No Return --></label>
         <name>vlocity_cmt__IsPointOfNoReturn__c</name>
     </fields>
@@ -298,7 +303,7 @@
         <relationshipLabel><!-- Orchestration Item Definitions (Sub-plan Definition) --></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Dependency Plan Definition --></label>
+        <label><!-- System --></label>
         <name>vlocity_cmt__SystemId__c</name>
     </fields>
     <fields>

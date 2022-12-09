@@ -388,6 +388,20 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>vlocity_cmt__GroupDeveloperName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the Salesforce queue that Order Management assigns the manual task to during orchestration.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Specify the name of the Salesforce queue that the manual task is assigned to during orchestration.</inlineHelpText>
+        <label>Salesforce Queue Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>vlocity_cmt__IsPointOfNoReturn__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
@@ -502,17 +516,31 @@
         <fullName>vlocity_cmt__JeopardyStatus__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
-        <formula>IF((ISBLANK(vlocity_cmt__ExpectedCompletionDate__c) || ISNULL(vlocity_cmt__ExpectedCompletionDate__c)) || (ISBLANK(vlocity_cmt__DueDate__c) || ISNULL(vlocity_cmt__DueDate__c)), &apos;Green&apos;,
-            IF(vlocity_cmt__DueDate__c &gt;= vlocity_cmt__ExpectedCompletionDate__c, &apos;Red&apos;,
-            CASE(vlocity_cmt__JeopardySafetyIntervalUnit__c,
-            &apos;Seconds&apos;, IF(vlocity_cmt__DueDate__c + vlocity_cmt__JeopardySafetyInterval__c/(24*60*60) &lt;= vlocity_cmt__ExpectedCompletionDate__c, &apos;Green&apos;, &apos;Yellow&apos;),
-            &apos;Calendar Hours&apos;, IF(vlocity_cmt__DueDate__c + vlocity_cmt__JeopardySafetyInterval__c/24 &lt;= vlocity_cmt__ExpectedCompletionDate__c, &apos;Green&apos;, &apos;Yellow&apos;),
-            &apos;Calendar Days&apos;, IF(vlocity_cmt__DueDate__c + vlocity_cmt__JeopardySafetyInterval__c &lt;= vlocity_cmt__ExpectedCompletionDate__c, &apos;Green&apos;, &apos;Yellow&apos;),
-            /* TODO: Gap - business intervals doesn&apos;t support business calendar */
-            &apos;Business Hours&apos;, IF(vlocity_cmt__DueDate__c + vlocity_cmt__JeopardySafetyInterval__c/24 &lt;= vlocity_cmt__ExpectedCompletionDate__c, &apos;Green&apos;, &apos;Yellow&apos;),
-            &apos;Business Days&apos;, IF(vlocity_cmt__DueDate__c + vlocity_cmt__JeopardySafetyInterval__c &lt;= vlocity_cmt__ExpectedCompletionDate__c, &apos;Green&apos;, &apos;Yellow&apos;),
-            &apos;Green&apos;)
-            ))</formula>
+        <formula>IF( ISBLANK(vlocity_cmt__ExpectedCompletionDate__c) || ISNULL(vlocity_cmt__ExpectedCompletionDate__c) || ISBLANK(vlocity_cmt__DueDate__c) || ISNULL(vlocity_cmt__DueDate__c) || vlocity_cmt__ItemLength__c &lt;= 0,
+                    &apos;Green&apos;, IF( TEXT(vlocity_cmt__State__c) == &apos;READY&apos; || TEXT(vlocity_cmt__State__c) == &apos;RUNNING&apos; || TEXT(vlocity_cmt__State__c) == &apos;FAILED&apos; || TEXT(vlocity_cmt__State__c) == &apos;FATALLY FAILED&apos;
+                        || TEXT(vlocity_cmt__State__c) == &apos;FROZEN - RUNNING&apos; || TEXT(vlocity_cmt__State__c) == &apos;FROZEN - FAILED&apos; || TEXT(vlocity_cmt__State__c) == &apos;FROZEN - FATALLY FAILED&apos; || TEXT(vlocity_cmt__State__c) == &apos;FROZEN&apos;,
+                        IF(NOW() &gt;= vlocity_cmt__ExpectedCompletionDate__c, &apos;Red&apos;,IF(vlocity_cmt__JeopardySafetyInterval__c &lt;= 0,&apos;Green&apos;,
+                                    CASE(vlocity_cmt__JeopardySafetyIntervalUnit__c,
+                                        &apos;Seconds&apos;, IF(NOW() &lt;= vlocity_cmt__ExpectedCompletionDate__c - (vlocity_cmt__JeopardySafetyInterval__c/(24*60*60)), &apos;Green&apos;, &apos;Yellow&apos;),
+                                        &apos;Calendar Hours&apos;, IF(NOW() &lt;= vlocity_cmt__ExpectedCompletionDate__c - (vlocity_cmt__JeopardySafetyInterval__c/24), &apos;Green&apos;, &apos;Yellow&apos;),
+                                        &apos;Calendar Days&apos;, IF(NOW() &lt;= vlocity_cmt__ExpectedCompletionDate__c - vlocity_cmt__JeopardySafetyInterval__c, &apos;Green&apos;, &apos;Yellow&apos;),
+                                        &apos;Business Hours&apos;, IF(NOW() &lt;= vlocity_cmt__ExpectedCompletionDate__c - (vlocity_cmt__JeopardySafetyInterval__c/24), &apos;Green&apos;, &apos;Yellow&apos;),
+                                        &apos;Business Days&apos;, IF(NOW() &lt;= vlocity_cmt__ExpectedCompletionDate__c - vlocity_cmt__JeopardySafetyInterval__c, &apos;Green&apos;, &apos;Yellow&apos;),
+                                    &apos;Green&apos;)
+                                )
+                        ),
+                        IF(vlocity_cmt__DueDate__c &gt;= vlocity_cmt__ExpectedCompletionDate__c, &apos;Red&apos;, IF( vlocity_cmt__JeopardySafetyInterval__c &lt;= 0, &apos;Green&apos;,
+                                    CASE(vlocity_cmt__JeopardySafetyIntervalUnit__c,
+                                        &apos;Seconds&apos;, IF(vlocity_cmt__DueDate__c &lt;= vlocity_cmt__ExpectedCompletionDate__c - (vlocity_cmt__JeopardySafetyInterval__c/(24*60*60)), &apos;Green&apos;, &apos;Yellow&apos;),
+                                        &apos;Calendar Hours&apos;, IF(vlocity_cmt__DueDate__c &lt;= vlocity_cmt__ExpectedCompletionDate__c - (vlocity_cmt__JeopardySafetyInterval__c/24), &apos;Green&apos;, &apos;Yellow&apos;),
+                                        &apos;Calendar Days&apos;, IF(vlocity_cmt__DueDate__c &lt;= vlocity_cmt__ExpectedCompletionDate__c - vlocity_cmt__JeopardySafetyInterval__c, &apos;Green&apos;, &apos;Yellow&apos;),
+                                        &apos;Business Hours&apos;, IF(vlocity_cmt__DueDate__c &lt;= vlocity_cmt__ExpectedCompletionDate__c - (vlocity_cmt__JeopardySafetyInterval__c/24), &apos;Green&apos;, &apos;Yellow&apos;),
+                                        &apos;Business Days&apos;, IF(vlocity_cmt__DueDate__c &lt;= vlocity_cmt__ExpectedCompletionDate__c - vlocity_cmt__JeopardySafetyInterval__c, &apos;Green&apos;, &apos;Yellow&apos;),
+                                    &apos;Green&apos;)
+                                )
+                        )
+                )
+            )</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Jeopardy Status</label>
         <required>false</required>
@@ -1314,6 +1342,18 @@ HYPERLINK(&quot;/&quot; &amp; vlocity_cmt__OrderItemId__r.OrderId, vlocity_cmt__
         <masterLabel>Complete Item</masterLabel>
         <openType>sidebar</openType>
         <page>vlocity_cmt__XOMCompleteItem</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>vlocity_cmt__Execute</fullName>
+        <availability>online</availability>
+        <description>Executes Omniscript specified in Custom task execution URL.</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Execute</masterLabel>
+        <openType>sidebar</openType>
+        <page>vlocity_cmt__XOMOrchItemOmniExecute</page>
         <protected>false</protected>
     </webLinks>
     <webLinks>

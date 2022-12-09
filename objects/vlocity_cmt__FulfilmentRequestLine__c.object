@@ -186,6 +186,18 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>vlocity_cmt__AttributeSelectedValues__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is used when JSONAttribute V2 feature is turned on. It contains the attribute values of this line item encoded in a JSON format. Please refer to documentation for the format of the JSON.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is used when JSONAttribute V2 feature is turned on. It contains the attribute values of this line item encoded in a JSON format. Please refer to documentation for the format of the JSON.</inlineHelpText>
+        <label>Attribute Selected Values</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
         <fullName>vlocity_cmt__AttributesMarkupData__c</fullName>
         <deprecated>false</deprecated>
         <description>This is an auxiliary OM Standard field used in the runtime</description>
@@ -305,6 +317,17 @@
         <deprecated>false</deprecated>
         <externalId>false</externalId>
         <label>Changes Allowed</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__IsMigrated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field showing that a migration process is applied or not for a specific fulfilment request line.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field showing that a migration process is applied or not for a specific fulfilment request line.</inlineHelpText>
+        <label>Is Migrated</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>

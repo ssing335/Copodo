@@ -16,7 +16,7 @@
     </values>
     <values>
         <field>vlocity_cmt__Description__c</field>
-        <value xsi:type="xsd:string">This is used for mapping ProductOffering API with specific VIP</value>
+        <value xsi:type="xsd:string">This is used for configuring vip name for GET  product offering API</value>
     </values>
     <values>
         <field>vlocity_cmt__IsActive__c</field>

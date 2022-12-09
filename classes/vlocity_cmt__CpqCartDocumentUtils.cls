@@ -8,8 +8,12 @@ To enable code to compile, all methods return null.
 global class CpqCartDocumentUtils {
     global static Map<String,String> externalToInternalCartMapping;
     global static Map<String,String> externalToInternalItemMapping;
+    global static Map<String,String> externalToInternalQuoteAppliedPromoItemMapping;
+    global static Map<String,String> externalToInternalQuoteAppliedPromoMapping;
     global static Map<String,String> internalToExternalCartMapping;
     global static Map<String,String> internalToExternalItemMapping;
+    global static Map<String,String> internalToExternalQuoteAppliedPromoItemMapping;
+    global static Map<String,String> internalToExternalQuoteAppliedPromoMapping;
     global CpqCartDocumentUtils() {
 
     }

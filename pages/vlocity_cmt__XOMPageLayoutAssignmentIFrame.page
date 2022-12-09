@@ -15,7 +15,7 @@
 
             <script>
             window.addEventListener("message", receiveMessage, false);
-            let namespacePrefix = '{!namespacePrefix}';
+            const namespacePrefix = '{!JSENCODE(namespacePrefix)}';
             let isInsurance = '{!isInsurance}' == 'true';
             let packageRecordTypesAvailability = {
             'OrchestrationItemDefinition__c': [{

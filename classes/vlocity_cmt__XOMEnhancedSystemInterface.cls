@@ -9,13 +9,13 @@ global virtual class XOMEnhancedSystemInterface extends vlocity_cmt.DefaultSyste
     global XOMEnhancedSystemInterface() {
 
     }
-    global override void executeItem(String url, String path, vlocity_cmt__OrchestrationItem__c item) {
+    global override virtual void executeItem(String url, String path, vlocity_cmt__OrchestrationItem__c item) {
 
     }
-    global override String generatePayload(vlocity_cmt__OrchestrationItem__c item, vlocity_cmt.XOMOrderDomainObject orderObj) {
+    global override virtual String generatePayload(vlocity_cmt__OrchestrationItem__c item, vlocity_cmt.XOMOrderDomainObject orderObj) {
         return null;
     }
-    global override void processResponse(vlocity_cmt__OrchestrationItem__c item, String url, String path, vlocity_cmt.XOMOrderDomainObject orderObj, System.HttpResponse res) {
+    global override virtual void processResponse(vlocity_cmt__OrchestrationItem__c item, String url, String path, vlocity_cmt.XOMOrderDomainObject orderObj, System.HttpResponse res) {
 
     }
 global class XOMEnhancedSystemInterfaceUnrecoverableException extends Exception {

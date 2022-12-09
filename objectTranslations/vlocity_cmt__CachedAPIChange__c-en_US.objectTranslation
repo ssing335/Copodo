@@ -73,8 +73,16 @@
         <name>vlocity_cmt__ExpirationTime__c</name>
     </fields>
     <fields>
+        <label><!-- Is Processed By Platform Cache --></label>
+        <name>vlocity_cmt__IsProcessedByPC__c</name>
+    </fields>
+    <fields>
         <label><!-- Is Processed --></label>
         <name>vlocity_cmt__IsProcessed__c</name>
+    </fields>
+    <fields>
+        <label><!-- SObject Id --></label>
+        <name>vlocity_cmt__ObjectId__c</name>
     </fields>
     <fields>
         <label><!-- OfferId --></label>

@@ -4,7 +4,7 @@
     extensions="vlocity_cmt.OrchestrationPlanControllerExtension"
     cache="false">
 <apex:slds />
-    <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lang="en">
         <head>
             <meta charset="utf-8" />
             <meta name="generator" content="Plan View" />
@@ -12,21 +12,21 @@
             <meta name="description" content="Plan View" />
             <script>
 
-                var recordId = '{!JSENCODE($CurrentPage.parameters.Id)}';
-                let nsp =  "{!nsp}";
-                let namespace = nsp ? nsp.slice(0, -2) : 'c';
+                const recordId = '{!JSENCODE($CurrentPage.parameters.Id)}';
+                const nsp =  "{!JSENCODE(nsp)}";
+                const namespace = nsp ? nsp.slice(0, -2) : 'c';
     
                 $Lightning.use(namespace+":ltngOutVF", function() {
                 $Lightning.createComponent(
                     namespace + ":xomPlanView", {
                         recordId: recordId,
                         container: "Visualforce",
-                        namespace: "{!nsp}"
+                        namespace: nsp
                     },
                     "lightning",
                     function(cmp) {
                         console.log('recordId:', recordId);
-                        console.log('nsp:', '{!nsp}');
+                        console.log('nsp:', nsp);
                         console.log('namespace:', namespace);
                     });
                 });
@@ -34,7 +34,7 @@
         </head>
         <body>
             <apex:includeLightning />
-            <div id="lightning" />
+            <div id="lightning" role="main"/>
         </body>
     </html>
 </apex:page>

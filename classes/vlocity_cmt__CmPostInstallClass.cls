@@ -12,6 +12,9 @@ global class CmPostInstallClass implements System.InstallHandler {
     global static void asyncProcessCustomFontFiles(Set<String> fontNameSet) {
 
     }
+    global static Boolean checkCustomFieldMapEntry(String sourceSObjectType, String sourceFieldName, String destinationSObjectType, String destinationFieldName) {
+        return null;
+    }
     global static void cmRunDev2ProdInserts() {
 
     }
@@ -24,6 +27,9 @@ global class CmPostInstallClass implements System.InstallHandler {
     global static Boolean deleteCustomFontFiles(Set<String> fontNames) {
         return null;
     }
+    global static void mapFieldsForGeneralTerms() {
+
+    }
     global static void populateContractCustomSettings() {
 
     }
@@ -34,6 +40,9 @@ global class CmPostInstallClass implements System.InstallHandler {
 
     }
     global static void populateDocuSignCustomSettings() {
+
+    }
+    global static void postUpgrade() {
 
     }
     global static Boolean preparePdfFontLibrary(Boolean isCustomFonts, Set<String> fontNameSet) {

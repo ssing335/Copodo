@@ -1,15 +1,14 @@
-<apex:page showHeader="true" sidebar="true" controller="vlocity_cmt.XOMAdminPageController" extensions="vlocity_cmt.XOMSyncDeltaControllerExtension,vlocity_cmt.XOMDataPurgeController" title="{!$Label.vlocity_cmt__vlocityxomadministration}">
+<apex:page showHeader="true" sidebar="true" controller="vlocity_cmt.XOMAdminPageController" extensions="vlocity_cmt.XOMSyncDeltaControllerExtension,vlocity_cmt.XOMDataPurgeController" title="{!$Label.vlocity_cmt__VlocityXOMAdministration}">
 <apex:slds />    
-    <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lang="en">
         <head>
             <base href="/"/>
             <script type="text/javascript">
-            	let vlocAccessToken = '{!vlocAccessToken}';
-                let iframeUrl = '{!XOMAdminPageIFrameUrl}';
-            	let configLayoutsLWCUrl = '{!configLayoutsLWCUrl}';
-            	
-                let namespace =  "{!namespacePrefix}";
-                namespace = namespace.slice(0, -2);
+            	const vlocAccessToken = '{!JSENCODE(vlocAccessToken)}';
+                const iframeUrl = '{!JSENCODE(XOMAdminPageIFrameUrl)}';
+                const configLayoutsLWCUrl = '{!JSENCODE(configLayoutsLWCUrl)}';
+                const namespace =  "{!JSENCODE(namespacePrefix)}".slice(0, -2);
+
                 $Lightning.use(namespace+":ltngOutVF", function() {
                     $Lightning.createComponent(
                         namespace+":xomAdmin",{ 

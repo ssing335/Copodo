@@ -70,4 +70,8 @@ global class AssetConfigurationController {
     global static List<Object> getAssets(Id accId, String fieldSetName) {
         return null;
     }
+    @RemoteAction
+    global static System.PageReference getMACDFdoPage(String queryParams) {
+        return null;
+    }
 }

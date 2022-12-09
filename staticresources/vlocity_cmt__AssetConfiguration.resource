@@ -323,8 +323,12 @@ angular.module('assetConfiguration').controller('assetConfigurationController', 
                 {
                     $interval.cancel(consoleTimer);
                 }
-                var fdoURL = '/apex/'+$scope.nsPrefix+'MACDFdo?id='+$scope.getContextIds(items)+'#/OmniScriptType/MACD/OmniScriptSubType/FDO/OmniScriptLang/English/ContextId/'+$scope.getContextIds(items)+'/PrefillDataRaptorBundle//true';
-				sforce.console.openPrimaryTab(null, fdoURL, true, 'Future Dated Order',null, 'Future Dated Order');
+                var fdoURL = 'id='+$scope.getContextIds(items)+'#/OmniScriptType/MACD/OmniScriptSubType/FDO/OmniScriptLang/English/ContextId/'+$scope.getContextIds(items)+'/PrefillDataRaptorBundle//true';
+				assetConfigService.getMACDFdoPage(fdoURL).then(function(result) {
+					sforce.console.openPrimaryTab(null, result, true, 'Future Dated Order',null, 'Future Dated Order');
+				}, function(errorMessage) {
+					console.error(errorMessage);
+				});
             });
             retryCount = 0;
 
@@ -338,7 +342,12 @@ angular.module('assetConfiguration').controller('assetConfigurationController', 
                     return;
                 }
                 else if ( retryCount == TO_RETRIES ) {
-                    window.parent.location.href='/apex/'+$scope.nsPrefix+'MACDFdo?id='+$scope.getContextIds(items)+'#/OmniScriptType/MACD/OmniScriptSubType/FDO/OmniScriptLang/English/ContextId/'+$scope.getContextIds(items)+'/PrefillDataRaptorBundle//true';
+					var macdFdoPageQueryParams = 'id='+$scope.getContextIds(items)+'#/OmniScriptType/MACD/OmniScriptSubType/FDO/OmniScriptLang/English/ContextId/'+$scope.getContextIds(items)+'/PrefillDataRaptorBundle//true';
+					assetConfigService.getMACDFdoPage(macdFdoPageQueryParams).then(function(result) {
+						window.parent.location.href = result;
+					}, function(errorMessage) {
+						console.error(errorMessage);
+					});
                 }
             }, TIMER_UNIT);
 	};
@@ -694,6 +703,10 @@ function changeToQuoteFromAsset(accId, svcAssets, listType, callback) {
 	Visualforce.remoting.Manager.invokeAction(remoteAction.changeToQuoteFromAsset, accId, svcAssets, listType, callback, {escape: false});
 }
 
+function getMACDFdoPage(queryParams, callback) {
+	Visualforce.remoting.Manager.invokeAction(remoteAction.getMACDFdoPage, queryParams, callback, {escape: false});
+}
+
 angular.module('assetConfiguration').factory('assetConfigService', function($q, $rootScope, $modal) {
 	var factory = {};
 
@@ -737,6 +750,20 @@ angular.module('assetConfiguration').factory('assetConfigService', function($q, 
 				if (event.status) {
 					sresult = angular.fromJson(result);
 					deferred.resolve(sresult);
+				} else {
+					deferred.reject(event.message);
+				}
+			});
+		});
+		return deferred.promise;
+	};
+
+	factory.getMACDFdoPage = function(queryParams) {
+		var deferred = $q.defer();
+		getMACDFdoPage(queryParams, function(result, event) {
+			$rootScope.$apply(function() {
+				if (event.status) {
+					deferred.resolve(result);
 				} else {
 					deferred.reject(event.message);
 				}

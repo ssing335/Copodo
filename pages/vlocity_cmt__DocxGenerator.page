@@ -6,6 +6,7 @@
     <apex:includeScript value="{!URLFOR($Resource.vlocity_cmt__docxtemplater_bundle, '/vendor/jszip-utils.js')}"/>
     <apex:includeScript value="{!URLFOR($Resource.vlocity_cmt__docxtemplater_bundle, '/vendor/file-saver.min.js')}"/>
     <apex:includeScript value="{!URLFOR($Resource.vlocity_cmt__docxtemplater_bundle, '/build/docxtemplater.v3.5.0.min.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.vlocity_cmt__docxtemplater_bundle, '/modules/docxtemplater-link-module.v0.2.3.min.js')}"/>
     <apex:includeScript value="/soap/ajax/37.0/connection.js"/>
     <apex:stylesheet value="{!URLFOR($Resource.vlocity_cmt__vlocity_assets, '/css/vlocity.css')}"/>
     <script type="text/javascript">
@@ -83,6 +84,10 @@
                                         zip.file('word/_rels/document.xml.rels', result.contentDataMap.DocxRels, {});
                                     }
                                     doc = new Docxtemplater();
+                                    if(JSON.stringify(contractData).includes("HYP_")) {
+                                        var linkModule = new LinkModule();
+                                        doc.attachModule(linkModule);
+                                    }
                                     doc.loadZip(zip);
                                     $scope.startIndex = 0;
                                     $scope.wmlContents = '';

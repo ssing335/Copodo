@@ -60,7 +60,7 @@ var vlocityPdfWriter = (function () {
 	var ENDOBJ = new buffer.Buffer('endobj');
 	var ENDSTREAM = new buffer.Buffer('endstream');
                                                              
-	var FULL_CHAR_MAP = { 'A':'101', 'Æ':'306', 'Á':'301', 'Â':'302', 'Ä':'304', 'À':'300', 'Å':'305', 'Ã':'303', 'B':'102', 'C':'103', 'Ç':'307', 'D':'104', 'E':'105', 'É':'311', 'Ê':'312', 'Ë':'313', 'È':'310', 'Ð':'320', '€':'240', 'F':'106', 'G':'107', 'H':'110', 'I':'111', 'Í':'315', 'Î':'316', 'Ï':'317', 'Ì':'314', 'J':'112', 'K':'113', 'L':'114', 'Ł':'225', 'M':'115', 'N':'116', 'Ñ':'321', 'O':'117', 'OE':'226', 'Ó':'323', 'Ô':'324', 'Ö':'326', 'Ò':'322', 'Ø':'330', 'Õ':'325', 'P':'120', 'Q':'121', 'R':'122', 'S':'123', 'Š':'227', 'T':'124', 'Þ':'336', 'U':'125', 'Ú':'332', 'Û':'333', 'Ü':'334', 'Ù':'331', 'V':'126', 'W':'127', 'X':'130', 'Y':'131', 'Ý':'335', 'Ÿ':'230', 'Z':'132', 'Ž':'231', 'a':'141', 'á':'341', 'â':'342', '´':'264', 'ä':'344', 'æ':'346', 'à':'340', '&':'046', 'å':'345', '^':'136', '~':'176', '*':'052', '@':'100', 'ã':'343', 'b':'142', '\\':'134', '|':'174', '{':'173', '}':'175', '[':'133', ']':'135', '˘':'030', '¦':'246', '•':'200', 'c':'143', 'ˇ':'031', 'ç':'347', '¸':'270', '¢':'242', 'ˆ':'032', ':':'072', ',':'054', '©':'251', '¤':'244', 'd':'144', '†':'201', '‡':'202', '°':'260', '¨':'250', '÷':'367', '$':'044', '˙':'033', 'ı':'232', 'e':'145', 'é':'351', 'ê':'352', 'ë':'353', 'è':'350', '8':'070', '…':'203', '—':'204', '–':'205', '=':'075', 'ð':'360', '!':'041', '¡':'241', 'f':'146', 'fi':'223', '5':'065', 'fl':'224', 'ƒ':'206', '4':'064', '⁄':'207', 'g':'147', 'ß':'337', '`':'140', '>':'076', '«':'253', '»':'273', '‹':'210', '›':'211', 'h':'150', '˝':'034', '-':'055', 'i':'151', 'í':'355', 'î':'356', 'ï':'357', 'ì':'354', 'j':'152', 'k':'153', 'l':'154', '<':'74', '¬':'254', 'ł':'233', 'm':'155', '¯':'257', '−':'212', 'μ':'265', '×':'327', 'n':'156', '9':'071', 'ñ':'361', '#':'043', 'o':'157', 'ó':'363', 'ô':'364', 'ö':'366', 'oe':'234', '˛':'035', 'ò':'362', '1':'061', '½':'275', '¼':'274', '¹':'271', 'ª':'252', 'º':'272', 'ø':'370', 'õ':'365', 'p':'160', '¶':'266', '(':'050', ')':'051', '%':'045', '.':'056', '·':'267', '‰':'213', '+':'053', '±':'261', 'q':'161', '?':'077', '¿':'277', 'r':'162', '®':'256', '°':'036', 's':'163', 'š':'235', '§':'247', ';':'073', '7':'067', '6':'066', '/':'057', '':'040', '£':'243', 't':'164', 'þ':'376', '3':'063', '¾':'276', '³':'263', '˜':'037', '™':'222', '2':'062', '²':'262', 'u':'165', 'ú':'372', 'û':'373', 'ü':'374', 'ù':'371', '_':'137', 'v':'166', 'w':'167', 'x':'170', 'y':'171', 'ý':'375', 'ÿ':'377', '¥':'245', 'z':'172', 'ž':'236', '0':'060' };                                                                                                                                                                
+	var FULL_CHAR_MAP = { 'A':'101', 'Æ':'306', 'Á':'301', 'Â':'302', 'Ä':'304', 'À':'300', 'Å':'305', 'Ã':'303', 'B':'102', 'C':'103', 'Ç':'307', 'D':'104', 'E':'105', 'É':'311', 'Ê':'312', 'Ë':'313', 'È':'310', 'Ð':'320', '€':'240', 'F':'106', 'G':'107', 'H':'110', 'I':'111', 'Í':'315', 'Î':'316', 'Ï':'317', 'Ì':'314', 'J':'112', 'K':'113', 'L':'114', 'Ł':'225', 'M':'115', 'N':'116', 'Ñ':'321', 'O':'117', 'OE':'226', 'Ó':'323', 'Ô':'324', 'Ö':'326', 'Ò':'322', 'Ø':'330', 'Õ':'325', 'P':'120', 'Q':'121', 'R':'122', 'S':'123', 'Š':'227', 'T':'124', 'Þ':'336', 'U':'125', 'Ú':'332', 'Û':'333', 'Ü':'334', 'Ù':'331', 'V':'126', 'W':'127', 'X':'130', 'Y':'131', 'Ý':'335', 'Ÿ':'230', 'Z':'132', 'Ž':'231', 'a':'141', 'á':'341', 'â':'342', '´':'264', 'ä':'344', 'æ':'346', 'à':'340', '&':'046', 'å':'345', '^':'136', '~':'176', '*':'052', '@':'100', 'ã':'343', 'b':'142', '\\':'134', '|':'174', '{':'173', '}':'175', '[':'133', ']':'135', '˘':'030', '¦':'246', '•':'200', 'c':'143', 'ˇ':'031', 'ç':'347', '¸':'270', '¢':'242', 'ˆ':'032', ':':'072', ',':'054', '©':'251', '¤':'244', 'd':'144', '†':'201', '‡':'202', '°':'260', '¨':'250', '÷':'367', '$':'044', '˙':'033', 'ı':'232', 'e':'145', 'é':'351', 'ê':'352', 'ë':'353', 'è':'350', '8':'070', '…':'203', '—':'204', '–':'205', '=':'075', 'ð':'360', '!':'041', '¡':'241', 'f':'146', 'fi':'223', '5':'065', 'fl':'224', 'ƒ':'206', '4':'064', '⁄':'207', 'g':'147', 'ß':'337', '`':'140', '>':'076', '«':'253', '»':'273', '‹':'210', '›':'211', 'h':'150', '˝':'034', '-':'055', 'i':'151', 'í':'355', 'î':'356', 'ï':'357', 'ì':'354', 'j':'152', 'k':'153', 'l':'154', '<':'74', '¬':'254', 'ł':'233', 'm':'155', '¯':'257', '−':'212', 'μ':'265', '×':'327', 'n':'156', '9':'071', 'ñ':'361', '#':'043', 'o':'157', 'ó':'363', 'ô':'364', 'ö':'366', 'oe':'234', '˛':'035', 'ò':'362', '1':'061', '½':'275', '¼':'274', '¹':'271', 'ª':'252', 'º':'272', 'ø':'370', 'õ':'365', 'p':'160', '¶':'266', '(':'050', ')':'051', '%':'045', '.':'056', '·':'267', '‰':'213', '+':'053', '±':'261', 'q':'161', '?':'077', '¿':'277', 'r':'162', '®':'256', '°':'036', 's':'163', 'š':'235', '§':'247', ';':'073', '7':'067', '6':'066', '/':'057', '':'040', '£':'243', 't':'164', 'þ':'376', '3':'063', '¾':'276', '³':'263', '˜':'037', '™':'222', '2':'062', '²':'262', 'u':'165', 'ú':'372', 'û':'373', 'ü':'374', 'ù':'371', '_':'137', 'v':'166', 'w':'167', 'x':'170', 'y':'171', 'ý':'375', 'ÿ':'377', '¥':'245', 'z':'172', 'ž':'236', '0':'060','“':'215', '”':'216','‘':'217', '’':'220' };                                                                                                                                                                
 
 	// Utility Methods
 	function inflate(streamInfo)
@@ -481,14 +481,70 @@ var vlocityPdfWriter = (function () {
 	}
 
 	// Default Text Creation for a Field
-	function getDefaultFieldText(fontInfo, bbox, text)
+	function getDefaultFieldText(fontInfo, bbox, isMultiLine, text)
 	{
 		var bboxHeight = bbox[3]-bbox[1];
+		var bboxWidth = bbox[2]-bbox[0];
+		var fontInfoSplit = fontInfo.split(" ");
 
-		var heightOffset = bboxHeight * .25;
+		var fontSize = fontInfoSplit[1];
 
-		return "/Tx BMC \nBT\n" + fontInfo + "\n2 " + heightOffset + " Td\n(" + escapeTextForTextField(text) + ") Tj\nET\nEMC";
+		var fontSizeOffset = (parseInt(fontSize) + 1);
+
+		var maxLineLength = bboxWidth / (fontSizeOffset * .5);
+		fontSizeOffset *= -1;
+
+		var lines = [];
+		
+		if (isMultiLine) {
+			text = text.replace(/\r/g, "\n").replace(/\n/g, " \n ");
+			var words = text.split(" ");
+			var currentLine = "";
+			
+			for (var i = 0; i < words.length; i++) {
+				var currentWord = words[i];
+
+				if (currentWord != "") {
+					if (currentLine.length > 0 && (currentLine.length + currentWord.length > maxLineLength)) {
+						lines.push(currentLine);
+						currentLine = "";
+					} 
+
+					if (currentWord == "\n") {
+
+						if (currentLine != "") {
+							lines.push(currentLine);
+							currentLine = "";
+						}
+
+						// Only insert 1 newline in a row
+						if (lines[lines.length-1] == "") {
+							lines.push(" ");
+						} else {
+							lines.push("");
+						}
+					} else {
+						currentLine += currentWord + " ";
+					}		
+				}		
+			}
+
+			lines.push(currentLine);
+		} else {
+			lines.push(text);
+		}
+
+		var fillText = "/Tx BMC \nBT\n" + fontInfo + "\n1 0 0 1 1 "+ bboxHeight + " Tm";
+		
+		for (var i = 0; i < lines.length; i++) {
+			if (lines[i] != "") {
+				fillText += "\n0 " + fontSizeOffset + " Td\n(" + escapeTextForTextField(lines[i]) + ") Tj";
+			}
+		}
+
+		return fillText + "\nET\nEMC";
 	}
+
 
 	function TextObject(text)
 	{
@@ -876,7 +932,7 @@ var vlocityPdfWriter = (function () {
 				}
 				else
 				{
-					buffersToDeflateArray.push(this.stream[0]);
+					buffersToDeflateArray.push(new Uint8Array(this.stream[0]));
 				}
 
 				streamData = new buffer.Buffer(pako.deflate(new Uint8Array(buffer.Buffer.concat(buffersToDeflateArray))));
@@ -1401,10 +1457,10 @@ var vlocityPdfWriter = (function () {
 
 			var writeObjects = [];
 
-			// Create Copy of Stream Onbject for Field with new appearence object and new text in V
+			// Create Copy of Stream Onbject for Field with new appearance object and new text in V
 			var fieldObjectInStream = new PdfWriteStreamObject(fieldObject);
 			var newParent;
-			var appearenceObject;
+			var appearanceObject;
 
 			var currentFieldFlags = this.getPropertyFromObject(fieldObjectInStream, "Ff");
 			if (options != null && options.readOnly) 
@@ -1420,17 +1476,28 @@ var vlocityPdfWriter = (function () {
                 }
             }
 
-			
 			var fieldType = this.getPropertyFromObject(fieldObject, "FT");
-			var useAppearanceObject = fieldType == "Tx" && options.useAppearanceObject === true;
-
+			var useAppearanceObject = fieldType == "Tx" && !(options.useAppearanceObject === "ignore");
+	
 			if (fieldType == "Ch" || useAppearanceObject)
 			{
 				// Referenced by Form Field In Stream
-				appearenceObject = new PdfWriteObject(this.getNextObjectId());
+				appearanceObject = new PdfWriteObject(this.getNextObjectId());
 
 				// Create Text for Appearance Stream
 				var fontInfo = this.getPropertyFromObject(fieldObject, "DA");
+
+				if (!fontInfo) {
+					fontInfo = "/Helv 8 Tf 0 g";
+				}
+
+				var fontInfoSplit = fontInfo.split(" ");
+				var fontSize = fontInfoSplit[1];
+
+				if (!fontSize) {
+					fontInfoSplit[1] = 8;
+					fontInfo = fontInfoSplit.join(" ");
+				}
 
 				var appearanceParentId = this.getPropertyFromObject(fieldObject, "AP", "N");
 
@@ -1444,67 +1511,75 @@ var vlocityPdfWriter = (function () {
 
 				if (parentApp != null && parentApp.textObject != null)
 				{
-                    if (fillData)
-                    {
-                        text = parentApp.textObject.replaceText(fillData);
-                    } 
-                    else 
-                    {
-                        text = '';
-                    }
+					if (fillData)
+					{
+						text = parentApp.textObject.replaceText(fillData);
+					} 
+					else 
+					{
+						text = '';
+					}
 					
-					copyProperty(appearenceObject, parentApp, "Resources");
+					copyProperty(appearanceObject, parentApp, "Resources");
 				}
 				else
 				{
-                    if (fillData)
-                    {
-                        text = getDefaultFieldText(fontInfo, boundingBox, fillData);
-                    }
-                    else
-                    {
-                        text = '';
-                    }
+					var currentFieldFlags = this.getPropertyFromObject(fieldObject, "Ff");
+					var isMultiLine = false;
 
-	 				if (defaultResources != null)
-	 				{
-	 					appearenceObject.addProperty("Resources", defaultResources);
-	 				}
-	 				else if (fillData)
-	 				{
-	 					if ( fontInfo == null)
-	 					{
-	 						throw 'No Font Settings Found in PDF'; 
-	 					}
+					if (currentFieldFlags) {
+						currentFieldFlags = parseInt(currentFieldFlags);
+						// From PDF Spec - 4096 FeatureFlag -- Multiline
+						isMultiLine = (currentFieldFlags & (1 << 12)) != 0;
+					}
 
-		 				var fontName = fontInfo.slice(1, fontInfo.indexOf(" "));
+					var addedResources = false;
 
-		 				var fontReference = this.getFontFieldReference(fontName);
+					 if (fillData)
+					 {
+						 var fontName = fontInfo.slice(1, fontInfo.indexOf(" "));
 
-		 				if (fontReference != "")
-		 				{
-			 				var fontObject = {};
+						 var fontReference = this.getFontFieldReference(fontName);
 
-			 				fontObject[fontName] = fontReference;
-			 				appearenceObject.addProperty("Resources", { "Font": new PdfDictEntry("Font", fontObject) });
-		 				}
-	 				}
+						 if (fontReference)
+						 {
+							 var fontObject = {};
+
+							 fontObject[fontName] = fontReference;
+							 appearanceObject.addProperty("Resources", { "Font": new PdfDictEntry("Font", fontObject) });
+							addedResources = true;
+						 }
+					 }
+
+					if (!addedResources && defaultResources != null)
+					 {
+						 appearanceObject.addProperty("Resources", defaultResources);
+					 } 
+
+					if (fillData)
+					{
+						text = getDefaultFieldText(fontInfo, boundingBox, isMultiLine, fillData);
+					}
+					else
+					{
+						text = '';
+					}
 				}
 
-				appearenceObject.addToStream(new PdfWriteStreamBlob(text));
+				appearanceObject.addToStream(new PdfWriteStreamBlob(text));
 
-				// Add Relevant properties to Appearence Object
-				appearenceObject.addProperty("BBox", boundingBox);
-				appearenceObject.addProperty("Type", "XObject");
-				appearenceObject.addProperty("Subtype", "Form");
-				appearenceObject.addProperty("FormType", "1");
+				// Add Relevant properties to Appearance Object
+				appearanceObject.addProperty("BBox", boundingBox);
+				appearanceObject.addProperty("Type", "XObject");
+				appearanceObject.addProperty("Subtype", "Form");
+				appearanceObject.addProperty("FormType", "1");
 
-				writeObjects.push(appearenceObject);
+				writeObjects.push(appearanceObject);
 
-				fieldObjectInStream.addProperty("AP", { "N": appearenceObject.Id + " 0 R" });				
+				fieldObjectInStream.addProperty("AP", { "N": appearanceObject.Id + " 0 R" });	
 			}
             
-			//console.log(JSON.stringify(appearenceObject, null, 2));
+			//console.log(JSON.stringify(appearanceObject, null, 2));
 			if (fieldObject.getProperty("Parent") != null)
 			{
 				var parentObj = this.getObjectById(fieldObject.getProperty("Parent"));
@@ -1513,7 +1588,7 @@ var vlocityPdfWriter = (function () {
 
 				if (parentObj instanceof StreamObject && this.alreadyAddedParents.indexOf(parentObj.Id) == -1)
 				{
-					// Create Copy of Stream Onbject for Field with new appearence object and new text in V
+					// Create Copy of Stream Object for Field with new appearance object and new text in V
 					var newParentformXObject = new PdfWriteObject(this.getNextObjectId());
 					newParentformXObject.addProperty("Type","ObjStm");
 					newParentformXObject.addProperty("Filter", "FlateDecode");
@@ -1533,8 +1608,8 @@ var vlocityPdfWriter = (function () {
 				fieldObjectInStream.removeProperty("I");				
 			}
 
-            if (fillData)
-            {
+			if (fillData)
+			{
 				if (fieldObject.getProperty("T") == null && newParent != null)
 				{
 					if (fieldType == "Btn")
@@ -1571,8 +1646,8 @@ var vlocityPdfWriter = (function () {
 						fieldObjectInStream.addProperty("V", escapeTextForTextField(fillData));
 					}
 				}
-	        }
-        
+			}
+		
 			var formXObject = new PdfWriteObject(this.getNextObjectId());
 			formXObject.addProperty("Type","ObjStm");
 			formXObject.addProperty("Filter", "FlateDecode");

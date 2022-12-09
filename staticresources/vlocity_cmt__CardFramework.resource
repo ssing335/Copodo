@@ -936,7 +936,7 @@ angular.module('CardFramework', ['vlocity', 'vlocTemplates', 'mgcrea.ngStrap', '
             var result;
             try {
                 if (typeof arguments[0] === "undefined" || arguments[0] === null) return "";
-                if (arguments[0].trim() === "") return "";
+                if (typeof arguments[0] === 'string' && arguments[0].trim() === "") return "";
 
                 if (arguments[1] === 'currency' || arguments[1] === 'datetime' ||
                     arguments[1] === 'percentage' || arguments[1] === 'phone') {

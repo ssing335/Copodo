@@ -15,4 +15,7 @@ global class CpqCartDocument {
     global static vlocity_cmt.CpqCartDocument getInstance() {
         return null;
     }
+    global static vlocity_cmt.CpqCartDocument initializeCartFromString(String cartJson) {
+        return null;
+    }
 }

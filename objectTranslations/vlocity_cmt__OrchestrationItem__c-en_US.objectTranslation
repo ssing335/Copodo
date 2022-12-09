@@ -89,6 +89,11 @@
         <relationshipLabel><!-- Orchestration Items (deprecated) --></relationshipLabel>
     </fields>
     <fields>
+        <help><!-- Specify the name of the Salesforce queue that the manual task is assigned to during orchestration. --></help>
+        <label><!-- Salesforce Queue Name --></label>
+        <name>vlocity_cmt__GroupDeveloperName__c</name>
+    </fields>
+    <fields>
         <label><!-- Point Of No Return --></label>
         <name>vlocity_cmt__IsPointOfNoReturn__c</name>
     </fields>
@@ -479,6 +484,10 @@
     <webLinks>
         <label><!-- CompleteItem --></label>
         <name>vlocity_cmt__CompleteItem</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Execute --></label>
+        <name>vlocity_cmt__Execute</name>
     </webLinks>
     <webLinks>
         <label><!-- RetryItem --></label>

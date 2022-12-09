@@ -55,6 +55,11 @@ global class SimpleDecompositionController {
     }
     @AuraEnabled
     @RemoteAction
+    global static Map<String,Object> getQualifiedDecompositionRelationShips(List<String> ids) {
+        return null;
+    }
+    @AuraEnabled
+    @RemoteAction
     global static Id getSfIdByAssetReferenceKey(String assetReferenceId) {
         return null;
     }
@@ -78,6 +83,11 @@ global class SimpleDecompositionController {
     }
     @RemoteAction
     global static Boolean isOffPlatform() {
+        return null;
+    }
+    @AuraEnabled
+    @RemoteAction
+    global static Boolean isOffPlatformOrder(Id orderId) {
         return null;
     }
     @RemoteAction

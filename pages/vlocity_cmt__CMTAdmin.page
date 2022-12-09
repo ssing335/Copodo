@@ -1,4 +1,4 @@
-<apex:page controller="vlocity_cmt.CMTAdminController" showHeader="true" sidebar="true" standardStylesheets="false" docType="html-5.0" title="{!$Label.vlocity_cmt__vlocitycmtadministration}">
+<apex:page controller="vlocity_cmt.CMTAdminController" showHeader="true" sidebar="true" standardStylesheets="false" docType="html-5.0" title="{!$Label.vlocity_cmt__VlocityCMTAdministration}">
 	<html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ng="http://angularjs.org" ng-app="CMTAdmin">
 		<head>
 			<base href="/"/>
@@ -97,6 +97,10 @@
                     invokeMethod2: {
                         action: "{!$RemoteAction.CMTAdminController.invokeMethod2}",
                     	config: {escape: false}
+                    },
+                    productConsoleControllerInvokeMethod: {
+                        action: "{!$RemoteAction.CMTAdminController.productConsoleControllerInvokeMethod}",
+                        config: {escape: false}
                     }
                 };
                 //Config data from APEX
@@ -109,7 +113,7 @@
                 }
                 //labels
                 var labels = {
-                    CMTAdminHeaderLabel: "{!$Label.vlocity_cmt__vlocitycmtadministration}",
+                    CMTAdminHeaderLabel: "{!$Label.vlocity_cmt__VlocityCMTAdministration}",
                     CMTAdminHeaderDescLabel: "{!$Label.CMTAdminConfigurations}",
                     AccountHierarchyMaintenance:"{!$Label.AccountHierarchyMaintenance}",
                     JobRestoreAccountHierarchy: "{!$Label.JobRestoreAccountHierarchy}",
@@ -134,8 +138,10 @@
                     ValidateOrdersReset: "{!$Label.ResetXLIValidationDataDesc}",
                     ClearManagedPlatformCache: "{!$Label.ClearManagedPlatformCache}",
                     ClearManagedPlatformCacheDescription: "{!$Label.ClearManagedPlatformCacheDesc}",
-                    RefreshPricebook: "{!$Label.RefreshPricebook}",
-                    RefreshPricebookDescription: "{!$Label.RefreshPricebookDesc}",
+                    RefreshPricebook: "{!$Label.FullRefreshPlatformCache}",
+                    RefreshPricebookDescription: "{!$Label.FullRefreshPlatformCacheDesc}",
+                    IncrementalRefreshPlatformCache: "{!$Label.IncrementalRefreshPlatformCache}",
+                    IncrementalRefreshPlatformCacheDesc: "{!$Label.IncrementalRefreshPlatformCacheDesc}",
                     InstallDefaultLayouts: "{!$Label.InstallDefaultVlocityObjects}",
                     InstallDefaultLayoutsDesc:"{!$Label.InstallDefaultVlocityObjectsDesc}",
                     InstallProductReport: "{!$Label.InstallUPCProductDP}",
@@ -144,6 +150,8 @@
                     InstallDefaultPPDDesc:"{!$Label.InstallPricingPlanDataDesc}",
                     InstallExtendedPPD: "{!$Label.InstallExtendedPricingPlanData}",
                     InstallExtendedPPDDesc:"{!$Label.InstallExtendedPricingPlanDataDesc}",
+                    InstallDefaultCpqNextPPD: "{!$Label.InstallCpqNextPricingPlanData}",
+                    InstallDefaultCpqNextPPDDesc:"{!$Label.InstallCpqNextPricingPlanDataDesc}",
                     DeleteDefaultObjectLayouts: "{!$Label.DeleteDefaultObjectLayouts}",
                     DeleteLayoutsDesc: "{!$Label.DeleteLayoutsObjectClasses}",
                     CreateDefaultPVB: "{!$Label.CreateDefaultPricingVariables}",
@@ -222,6 +230,11 @@
                     LoadAPIMetadataCAJobDesc: "{!$Label.LoadAPIMetadataCAJobDesc}",
                     PopulateCacheCAJob: "{!$Label.PopulateCacheCAJob}",
                     PopulateCacheCAJobDesc: "{!$Label.PopulateCacheCAJobDesc}",
+                    CatalogProductDefinitionJobs: "{!$Label.CatalogProductDefinitionJobs}",
+                    GenerateCompiledData: "{!$Label.GenerateCompiledData}",
+                    GenerateCompiledDataDesc: "{!$Label.GenerateCompiledDataDesc}",
+                    GenerateCatalogProductDefinitions: "{!$Label.GenerateCatalogProductDefinitions}",
+                    GenerateCatalogProductDefinitionsDesc: "{!$Label.GenerateCatalogProductDefinitionsDesc}",
                     CMTOptionCacheableAPIJobsLabel: "{!$Label.CMTOptionCacheableAPIJobsLabel}",
                     CachePopulationJob: "{!$Label.CachePopulationJob}",
                     SelectAll: "{!$Label.SelectAll}",
@@ -305,7 +318,14 @@
                     PreImportValidateVersioningDateDesc: "{!$Label.PreImportValidateVersioningDateDesc}",
                     CMTOptionCPQNextJobsLabel: "{!$Label.CMTOptionCPQNextJobsLabel}",
                     GenerateValidationRulesCompiledData: "{!$Label.GenerateValidationRulesCompiledData}",
-                    GenerateValidationRulesCompiledDataDesc: "{!$Label.GenerateValidationRulesCompiledDataDesc}"
+                    GenerateValidationRulesCompiledDataDesc: "{!$Label.GenerateValidationRulesCompiledDataDesc}",
+                    GenerateCompileMatrixData:"{!$Label.GenerateCompileMatrixData}",
+                    GenerateCompileMatrixDataDesc:"{!$Label.GenerateCompileMatrixDataDesc}",
+                    SearchPriceListLabel:"{!$Label.SearchPriceList}",
+                    AvailableLabel:"{!$Label.DualListBoxAvailable}",
+                    SelectedLabel:"{!$Label.DualListBoxSelected}",
+                    MoveToSelectedLabel:"{!$Label.DualListBoxMoveToSelected}",
+                    MoveToAvailableLabel:"{!$Label.DualListBoxMoveToAvailable}",
                 }
                 var asyncApexJobFieldsLabels = {
                     status: "{!$ObjectType.AsyncApexJob.Fields.Status.Label}",

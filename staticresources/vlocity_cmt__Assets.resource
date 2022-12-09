@@ -727,7 +727,7 @@ angular.module('hybridCPQ')
 
         assetChangeToOrder : function(title, errorTitle, errorMsg) {
             var assetIdsSelected = this.getAssetIdsSelected();
-            var changeToOrderOSTargetUrl = '/apex/' + $rootScope.nsPrefix + 'MACDFdo?id=' + assetIdsSelected +
+            var changeToOrderOSTargetUrl = 'id=' + assetIdsSelected +
                     '#/OmniScriptType/MACD/OmniScriptSubType/FDO/OmniScriptLang/English/ContextId/' + assetIdsSelected +
                     '/PrefillDataRaptorBundle//true';
             if (this.selectedAssetIdsForModification.length === 0) {
@@ -740,7 +740,11 @@ angular.module('hybridCPQ')
                     show: CPQService.toastEnabled('error')
                 });
             } else {
-                launchUrl(changeToOrderOSTargetUrl,title);
+                Visualforce.remoting.Manager.invokeAction(getVFPageURL, 'MACDFdo', function(result, event) {
+                    if(event.status){
+                        launchUrl(result+'&'+changeToOrderOSTargetUrl,title);
+                    }
+                }, {escape: false});
              }
         },
 

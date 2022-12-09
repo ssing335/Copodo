@@ -2,9 +2,10 @@
     <apex:includeLightning />
     <div id="lwcXomOmplStatusMainId" />
     <script>
-        $Lightning.use("{!nameSpace}:ltngOutVF", function() {
+        const nsp = "{!JSENCODE(nameSpace)}";
+        $Lightning.use(nsp+":ltngOutVF", function() {
             $Lightning.createComponent(
-                "{!nameSpace}:xomOmplStatusMain",
+                nsp+":xomOmplStatusMain",
                 { },
                 "lwcXomOmplStatusMainId",
                 function(cmp) {

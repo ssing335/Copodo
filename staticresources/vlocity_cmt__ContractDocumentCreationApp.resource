@@ -213,6 +213,7 @@ angular.module('contractDocumentCreationApp').controller('contractDocumentCreati
     $scope.documentTemplateId;
 	$scope.preview = false;
 	$scope.sitePrefix = '';
+    $scope.useDocumentFont = false;
 
     $scope.pdfLoading = false;
     $scope.pdfSinglePageViewer = {};
@@ -336,6 +337,8 @@ angular.module('contractDocumentCreationApp').controller('contractDocumentCreati
     $scope.showDocumentView = false;
     $scope.docxSectionList =[];
     $scope.contentVersionMap = {};
+    $scope.startTime;
+    $scope.endTime;
 
     var templateTypeCodeMap = {
         'Vlocity Web Template': 'Web',
@@ -395,6 +398,10 @@ angular.module('contractDocumentCreationApp').controller('contractDocumentCreati
         }
 
         doc = new Docxtemplater();
+        if(JSON.stringify(contractData).includes("HYP_")) {
+            var linkModule = new LinkModule();
+            doc.attachModule(linkModule);
+        }
         doc.loadZip(zip);
         doc.setData(contractData);
         doc.render();
@@ -423,6 +430,20 @@ angular.module('contractDocumentCreationApp').controller('contractDocumentCreati
         }
         return bytes.buffer;
     }
+    $scope.startTimer = function() {
+        $scope.startTime = new Date();
+      };
+      
+    $scope.endTimer = function()  {
+        $scope.endTime = new Date();
+        var timeDiff = $scope.endTime - $scope.startTime; //in ms
+        // strip the ms
+        timeDiff /= 1000;
+      
+        // get seconds 
+        var seconds = Math.round(timeDiff);
+        return seconds;
+    }
 
     $scope.showSelectedView = function(showView) {
         $scope.showViewTrackSections = (showView === 'viewTrackSections') ? true :false;
@@ -442,14 +463,15 @@ angular.module('contractDocumentCreationApp').controller('contractDocumentCreati
                  $scope.showDownloadWord = result.ContractDocumentDownloadOption.search(/WORD/i) > -1;
                  $scope.showDownloadNone = result.ContractDocumentDownloadOption.search(/None/i) > -1;
                  $scope.isNewDocWithSectionsNeeded = result.CreateDocumentSectionsforDocxTemplates;
+                 $scope.useDocumentFont = result.DocumentGenerationFontSource.match(/DocumentFont/i) ? true : false;
           });
       }
 
         remoteActions.getContractSectionsForVersion($scope.parentId).then(function(result) {
             $scope.versionLoadedData = result;
             console.log('INIT data: ', result);
-
             if ($scope.versionLoadedData.documentVersionObj[$scope.nameSpacePrefix + 'DocumentTemplateId__c']) {
+                $scope.startTimer();
                 $scope.documentTemplateId = $scope.versionLoadedData.documentVersionObj[$scope.nameSpacePrefix + 'DocumentTemplateId__c'];
                 // There is an attached template
                 $scope.templateAttached = true;
@@ -559,7 +581,7 @@ angular.module('contractDocumentCreationApp').controller('contractDocumentCreati
                             console.log('## if')
                             $scope.isDocxDownloadReady = true;
                             if (!$scope.generatedPDFContentVersion.Id && $scope.autoAttachDoc == "false") {
-                                onsole.log('## generate pdf')
+                                console.log('## generate pdf')
                                 $scope.generatePDFDocument();
                             } else {
                                 console.log('## isPdfDownloadReady true')
@@ -641,6 +663,7 @@ angular.module('contractDocumentCreationApp').controller('contractDocumentCreati
                     remoteActions.getDocumentType($scope.sourceId).then(function(result){
                         console.log('### document settings: ', result);
                         $scope.isNewDocWithSectionsNeeded = result.CreateDocumentSectionsforDocxTemplates;
+                        $scope.useDocumentFont = result.useDocumentFont;
 
                         remoteActions.getAutoAttachTemplateDetails($scope.documentTemplateId).then(function(result){
                             $scope.initiateAutoDocGeneration(result);
@@ -1001,7 +1024,7 @@ angular.module('contractDocumentCreationApp').controller('contractDocumentCreati
                     $scope.showDownloadNone = result.ContractDocumentDownloadOption.search(/None/i) > -1;
             });
         }
-
+        $scope.startTimer();
         $scope.documentTemplateId = currentTemplate.templateId;
 
         if (currentTemplate.templateType === 'Vlocity Web Template') {
@@ -1044,7 +1067,7 @@ angular.module('contractDocumentCreationApp').controller('contractDocumentCreati
         $scope.getDocXTokenData(contextId, templateId).then(function() {
             // (2): get the attached document template file content
             $scope.getTemplateFileContent($scope.templateContentVersionId).then(function() {
-                // (3): generate a new contract document based on the template file content and the token data
+                // (3): generate a new contract document based on the template file content and the token data 
                 $scope.generateDocXFromTokenData($scope.templateContentVersion.VersionData, $scope.docXTokenData);
             }, function(error) {
                 console.error('error: ', error);
@@ -1056,7 +1079,7 @@ angular.module('contractDocumentCreationApp').controller('contractDocumentCreati
         });
     };
 
-
+    
     $scope.generatePDFDocument = function () {
         return new Promise(function(resolve, reject) {
             let pdfGenerationMethod = $scope.getResolvedPdfGenerationMethod();
@@ -1068,6 +1091,8 @@ angular.module('contractDocumentCreationApp').controller('contractDocumentCreati
                         'Title': response['Title'],
                         'VersionData': response['VersionData']
                     };
+                    var timeTaken = $scope.endTimer();
+                    console.log('Total time taken in seconds --- '+ timeTaken);
                 return $scope.linkContentVersionToContractVersion($scope.generatedPDFContentVersion.Id,'PDF',$scope.contractDocumentCollectionId);
             })
             .then(function() {
@@ -1394,11 +1419,50 @@ angular.module('contractDocumentCreationApp').controller('contractDocumentCreati
 
         $scope.$on('tokenDataFetchComplete', function () {
             // all token data has been retrieved; resolve the promise
+            $scope.docXTokenData = $scope.updateTokenDataFormat($scope.docXTokenData);
             deferred.resolve(true);
         });
 
         return deferred.promise;
     };
+
+    $scope.updateTokenDataFormat = function(tokenData) {
+        var resultArray = [];
+        var docXTokenDataStringify = JSON.stringify(tokenData);
+        if(!(docXTokenDataStringify.includes('IMG_') || docXTokenDataStringify.includes('HYP_'))) {
+            return tokenData;
+        }
+        for(var token in tokenData) {
+            //check if Image or hyperlink token value is of type array
+            if(token.startsWith('IMG_') || token.startsWith('HYP_')){
+                if(Array.isArray(tokenData[token])) {
+                    //transform the structure of the token Img_1: [...] => [{Img_1: ...}, {Img_1: ...}]
+                    var resArray = [];
+                    var i = 0;
+                    tokenData[token].forEach((val) => {
+                        //if result array is present use that as base
+                        var obj = i < resultArray.length ? resultArray[i] : {};
+                        obj[token] = val;
+                        resArray.push(obj);
+                        i++;
+                    })
+                    resultArray = resArray;
+                }
+            }
+            else if(Array.isArray(tokenData[token])){
+                //call recursively for array object
+                var repeatedContent = tokenData[token];
+                for (var i = 0; i < repeatedContent.length; i++) {
+                    repeatedContent[i] = $scope.updateTokenDataFormat(repeatedContent[i]);
+                }
+            }
+            else if(typeof tokenData[token] === 'object') {
+                //call recursively for nested object
+                tokenData[token] = $scope.updateTokenDataFormat(tokenData[token]);
+            }
+        }
+        return resultArray.length > 0 ? resultArray : tokenData;
+    }
 
     $scope.getTokenData = function(contextId, templateId, tokenDataQueryInfo) {
         var inputData = {
@@ -1499,29 +1563,29 @@ angular.module('contractDocumentCreationApp').controller('contractDocumentCreati
                 });
         });
     }
-
+    $scope.filterRichTextTokens = function(tokenList){
+        var collection= {}, index= 0, next, item;
+        for(item in tokenList){
+            if(tokenList.hasOwnProperty(item)){
+                next= tokenList[item];
+                if(typeof next== 'object' && next!= null){
+                    collection[item] = $scope.filterRichTextTokens(next);
+                }
+                else {
+                    if(item.startsWith('RTB_')){
+                        var richTextValue = '<span class="richTextClass">' +next+'</span>';
+                        var tokenValue = insertWrappers(richTextValue);
+                        collection[item] = tokenValue;
+                    }
+                }
+            }
+        }
+        return collection;
+    }
     $scope.generateDocViaClientSide = function(fileContentData, docXTokenData) {
         var deferred = $q.defer();
 
         var zip = new JSZip(fileContentData);
-        var doc = new Docxtemplater();
-        doc.setOptions({
-            delimiters: {
-                start: '{{',
-                end: '}}'
-            },
-            nullGetter: function(part) {
-                if (!part.module) {
-                    return "";
-                }
-                if (part.module === "rawxml") {
-                    return "";
-                }
-                return "";
-            }
-        });
-        doc.loadZip(zip);
-
         /* Update table of contents */
 
         //@TODO: Lots of workarounds or patchs done for updating table of contents; needs to be optimized before using
@@ -1543,15 +1607,170 @@ angular.module('contractDocumentCreationApp').controller('contractDocumentCreati
         documentXML = documentXML.replace(/<w:fldChar /g, '<w:fldChar w:dirty="true" ');
         zip.file("word/document.xml", documentXML);
 
-        /* End of table of contents changes */
+        $scope.modifiedFileContent = zip;
+        $scope.docXTokenData = docXTokenData;
+        $scope.modules = [];
+        var docXTokenDataStringify = JSON.stringify($scope.docXTokenData);
+        if(docXTokenDataStringify.includes("HYP_")) {
+            var linkModule = new LinkModule();
+            $scope.modules.push(linkModule);
+        }
 
-        // replace the tokens with real data in the document
-        doc.setData(docXTokenData);
+        var richTextTokenList = {};
+        if($scope.docXTokenData!= undefined && $scope.docXTokenData != null) {
+           richTextTokenList = $scope.filterRichTextTokens($scope.docXTokenData);
+        }
 
+        var promises = [];
+        // process richText tokens
+        if(Object.keys(richTextTokenList).length > 0) {
+            promises.push($scope.processRichTextTokens(richTextTokenList));
+        }
+
+        // process image tokens
+        if(docXTokenDataStringify.includes("IMG_")) {
+            promises.push(processImageTokenData(docXTokenData, remoteActions));
+        }
+
+        // process regular tokens after all promises have been full filled.
+        Promise.allSettled(promises).then(function(results) {
+            var errors = [];
+            if(results !== null && Array.isArray(results) && results.length > 0 ){
+                
+            
+                results.forEach(result => {
+                    if(result.status === 'fulfilled' && typeof result.value === 'object' && result.value.imageModule !== 'undefined'){
+                        $scope.modules.push(result.value.imageModule);
+                        if(result.value.errors && result.value.errors.length > 0)
+                        {
+                            result.value.errors.forEach(error => {
+                                if(error.showToUser)
+                                    errors.push(error);
+                                })
+                        }
+                        
+                     } else if(result.reason )
+                     {
+                        if(typeof result.reason === 'object' && result.reason.showToUser) {
+                            console.error(result.reason);
+                            errors.push(result.reason);
+                        } else
+                            console.error(result.reason);
+                     }
+
+                });
+            }
+            $scope.setDocxTextTokenContent().then(function(data){
+
+                //TODO: unifiedErrorMessage is for now, once I get the appropriate message from PM, unifiedErrorMessage will be replaced with that
+               var unifiedErrorMessage = '';
+
+                    if( errors.length > 0 ){
+                        errors.forEach(error => {
+                            if(error.message)
+                                unifiedErrorMessage =  unifiedErrorMessage.concat(error.message);
+                        })
+
+                   $scope.validationErrorHandler.throwError({message:unifiedErrorMessage});
+               }
+               deferred.resolve(data);
+           });
+        }) 
+
+        return deferred.promise;
+    };
+    
+    //process formatted tokens and to convert html content to WML.
+    $scope.processRichTextTokens = function(richTextTokenList) {
+        return new Promise(function(resolve, reject) {
+            var numberingXMLString = $scope.modifiedFileContent.files['word/numbering.xml'] !== undefined ? $scope.modifiedFileContent.files["word/numbering.xml"].asText() : '';
+            var contentTypesXML = $scope.modifiedFileContent.files['[Content_Types].xml'].asText();
+            var documentRelsXML = $scope.modifiedFileContent.files['word/_rels/document.xml.rels'].asText();
+            var documentXML = $scope.modifiedFileContent.files['word/document.xml'].asText();
+            remoteActions.convertRichTexValueToWml(JSON.stringify({'richTextTokenList':richTextTokenList, 'numbering':numberingXMLString, 'documentRelsXML':documentRelsXML})).then(function(result){            
+                $scope.docXTokenData = _.merge($scope.docXTokenData,result.richTextTokens);
+                $scope.modifiedFileContent = parseRichTextTokens($scope.modifiedFileContent, result)
+                resolve(true);
+            }, function(error) {
+
+                console.error(error)
+
+                if(error.message  && typeof error.message === 'string' && (error.message).search("Failed to parse XML due to:") !== -1)
+                {   
+                    let errorMessage = {
+                        message: error.message,
+                        showToUser:false
+                    }
+                    reject(errorMessage);
+                }
+                else
+                    reject({});
+                
+            });
+        });
+    }
+
+    $scope.setDocxTextTokenContent = function() {
+        return new Promise(function(resolve, reject) {
+            var zipconfig = {
+                tokenData: $scope.docXTokenData,
+                startTag: '{{',
+                endTag:'}}'
+            } 
+            $scope.renderZipFile(zipconfig,true, $scope.modules);
+
+            readUploadedFileDataAsDataUrl($scope.modifiedFileContent,$scope.docName).then(function(data) {
+                resolve(data);
+            });
+        });
+    }
+
+    //Method to replace Docx Tokens.
+    $scope.renderZipFile = function(zipconfig, setOptionsRequired, modules){
+        var doc = new Docxtemplater();
+        if(setOptionsRequired){
+            doc.setOptions({
+                delimiters: {
+                    start: zipconfig.startTag,
+                    end: zipconfig.endTag
+                },
+                nullGetter: function(part) {
+                    if (!part.module) {
+                        return "";
+                    }
+                    if (part.module === "rawxml") {
+                        return "";
+                    }
+                    return "";
+                },
+                overrideFont: $scope.useDocumentFont
+            });
+         } 
+        doc.loadZip($scope.modifiedFileContent);
+        doc.setData(zipconfig.tokenData);
+
+        if (modules != undefined && modules != null && modules.length > 0) {
+            modules.forEach(module => {
+                doc.attachModule(module);
+            })
+        }
+
+        console.log(doc);
         try {
             // render the document
             doc.render();
+            $scope.modifiedFileContent = doc.getZip();
+
         } catch (error) {
+            if (error.properties && error.properties.errors && error.properties.errors.length > 0) {
+                var errorDetails ='';
+                var templateErrors = error.properties.errors;
+                for (var i = 0; i < templateErrors.length; i++) {
+                    errorDetails +=  templateErrors[i].message + ':' + templateErrors[i].properties.explanation;
+                }
+                error.message =errorDetails;
+                $scope.validationErrorHandler.throwError(error);
+            }
             var e = {
                 message: error.message,
                 name: error.name,
@@ -1562,32 +1781,9 @@ angular.module('contractDocumentCreationApp').controller('contractDocumentCreati
             // The error thrown here contains additional information when logged with JSON.stringify (it contains a property object).
             throw error;
         }
+    }
 
-        var outputFileName = $scope.docName + '.docx';
-        var outputFileConfig = {
-            'type': 'blob',
-            'mimeType': 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
-            'compression': 'DEFLATE',
-            'compressionOptions': {
-                'level': 9
-            }
-        };
-        var outputContentBlob = doc.getZip().generate(outputFileConfig);
-
-        var dataReader = new FileReader();
-        dataReader.addEventListener('load', function() {
-            var outputContentBase64 = dataReader.result;
-            var base64Mark = 'base64,';
-            var dataStart = outputContentBase64.indexOf(base64Mark) + base64Mark.length;
-            outputContentBase64 = outputContentBase64.substring(dataStart);
-
-            deferred.resolve({'fileName': outputFileName, 'fileContent': outputContentBase64});
-        });
-        dataReader.readAsDataURL(outputContentBlob);
-
-        return deferred.promise;
-    };
-
+    
     /** 
      * 
      */
@@ -2185,6 +2381,10 @@ angular.module('contractDocumentCreationApp').controller('contractDocumentCreati
             }
 
             var doc = new Docxtemplater();
+            if(JSON.stringify(contentDataMap).includes("HYP_")) {
+                var linkModule = new LinkModule();
+                doc.attachModule(linkModule);
+            }
             doc.loadZip(zip);
             $scope.startIndex = 0;
             $scope.wmlContents = '';
@@ -2769,7 +2969,7 @@ angular.module('contractDocumentCreationApp').controller('contractDocumentCreati
                     remoteActions.downloadDocx(contractVersionId, getRelsFile(zip))
                         .then(function(result) {
                             if (result.errorString !== undefined) {
-                                console.log('### error: ', error);
+                                console.log('### error: ', result.errorString);
                                 alert(result.errorString);
                                 $scope.vlcLoading = false;
                             } else {
@@ -2847,7 +3047,7 @@ angular.module('contractDocumentCreationApp').directive('filePreviewPdfTron', ['
             };
             var wvElement = document.getElementById('viewer');
 
-            var  wv = new PDFTron.WebViewer({
+            WebViewer({
                 // get path from pdf config
                 path: scope.$parent.$parent.$parent.clientSidePdfGenerationConfig['cs_pdftron_lib'],
                 //List the elements that need to hide/disable.
@@ -2859,28 +3059,24 @@ angular.module('contractDocumentCreationApp').directive('filePreviewPdfTron', ['
                 custom: JSON.stringify(webViewerCustomOptions),
                 l: atob(scope.$parent.$parent.$parent.pdfIntegrationConfig),
                // config: scope.$parent.$parent.$parent.sitePrefix + '/resource/' + scope.$parent.$parent.$parent.nameSpacePrefix + 'cs_pdftron_config'
-            }, wvElement);
-            
-            
-            window.addEventListener('ready', function(event) {
-                console.log('document loaded', wv.getInstance());
-                var coreContrls = wv.iframe.contentWindow.CoreControls;
+            }, wvElement).then(function(instance) {
+                var coreContrls = instance.Core;
                 //Set WorkerPath before loading the document
                 setWorkerPath(coreContrls,scope.$parent.$parent.$parent.clientSidePdfGenerationConfig);
                 //Load document for previewer
-                var instance =wv.getInstance();
                 instance.disableDownload(); // disable download feature
                 instance.disablePrint(); // disable print feature
                 instance.disableTools(); //disable the tools that are used for editing the document.
-				instance.disableElements(['searchButton','toolbarGroup-View','toolbarGroup-Annotate','toolbarGroup-Shapes','toolbarGroup-Insert','toolbarGroup-Edit','toggleNotesButton']);
+                //instance.disableLanguage(); // disable language feature
+				instance.disableElements(['searchButton','toolbarGroup-View','toolbarGroup-Annotate','toolbarGroup-Shapes','toolbarGroup-Insert','toolbarGroup-Edit','toggleNotesButton','toolbarGroup-FillAndSign', 'toolbarGroup-Forms','languageButton']);
                 var versionData = scope.$parent.contentVersion.VersionData;
                 if(versionData) {
-                    wv.loadDocument(base64ToBlob(versionData),{ filename: 'myfile.docx' , officeOptions: { disableBrowserFontSubstitution: true } });
+                    instance.loadDocument(base64ToBlob(versionData),{ filename: 'myfile.docx' , officeOptions: { disableBrowserFontSubstitution: true } });
                 } else {
-                    getContentVersionData(scope.$parent.$parent.contentVersion.Id);
+                    getContentVersionData(instance, scope.$parent.$parent.contentVersion.Id);
                 }
-            });
-
+              });
+            
             //Method to set the CoreControls Worker Path
             function setWorkerPath(coreContrls, clientSidePdfGenerationConfig){
                 coreContrls.forceBackendType('ems');
@@ -2898,7 +3094,7 @@ angular.module('contractDocumentCreationApp').directive('filePreviewPdfTron', ['
             }
 
             //Method to query for content version when the Version Data is not available
-            function getContentVersionData(ContentVersionId) {
+            function getContentVersionData(instance, ContentVersionId) {
                 sforce.connection.sessionId = window.sessionId;
                 var queryString = 'Select Id, Title, FileType, VersionData FROM ContentVersion where Id  = \'' + ContentVersionId + '\'';
                 sforce.connection.query(queryString, {
@@ -2909,7 +3105,7 @@ angular.module('contractDocumentCreationApp').directive('filePreviewPdfTron', ['
                         'Title': result.records.Title,
                         'VersionData': base64ToBlob(result.records.VersionData)
                         }
-                        wv.loadDocument(templateContentVersion.VersionData,{ filename: 'myfile.docx' , officeOptions: { disableBrowserFontSubstitution: true } });
+                        instance.loadDocument(templateContentVersion.VersionData,{ filename: 'myfile.docx' , officeOptions: { disableBrowserFontSubstitution: true } });
                     },
                     onFailure: function(result) {
                         var errorMsg = result.faultstring;
@@ -3037,7 +3233,8 @@ angular.module('contractDocumentCreationApp').factory('ValidationErrorHandler', 
 
         // Error handling helper
         this.throwError = function(error) {
-            var statusCode;
+            var statusCode ='';
+            var type='';
             if (!error.message) {
                 error.message = 'No error message.';
             }
@@ -3045,17 +3242,15 @@ angular.module('contractDocumentCreationApp').factory('ValidationErrorHandler', 
                 statusCode = '(' + error.statusCode + '): ';
             }
             if (typeof error.type === 'string') {
-                error.type = error.type.capitalizeFirstLetter() + ' ';
+                type = error.type.capitalizeFirstLetter() + ' ';
             }
             if (error.message.indexOf('Logged in?') > -1) {
                 error.message = 'You have been logged out of Salesforce. Please back up any changes to your document and refresh your browser window to login again.';
-                error.type = '';
-                statusCode = '';
             }
             $sldsModal({
                 title: 'There Has Been An Error',
                 templateUrl: 'error-handler-modal.tpl.html',
-                content: error.type + statusCode + error.message,
+                content: type + statusCode + error.message,
                 html: true,
                 container: 'div.vlocity',
                 placement: 'center'

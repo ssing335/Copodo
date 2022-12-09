@@ -7553,6 +7553,18 @@
         <name>vlocity_cmt__AccountName</name>
     </customLabels>
     <customLabels>
+        <label><!-- Accounts mismatch of opportunity and assets --></label>
+        <name>vlocity_cmt__AccountOpportunityAssetException</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Accounts mismatch of opportunity and context --></label>
+        <name>vlocity_cmt__AccountOpportunityContextException</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Account is not associated with the opportunity --></label>
+        <name>vlocity_cmt__AccountOpportunityException</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Account Overview --></label>
         <name>vlocity_cmt__AccountOverview</name>
     </customLabels>
@@ -7679,6 +7691,10 @@
     <customLabels>
         <label><!-- Active (Provisioning Status) --></label>
         <name>vlocity_cmt__Active</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ActiveConfigurationSnapshotNotFound --></label>
+        <name>vlocity_cmt__ActiveConfigurationSnapshotNotFound</name>
     </customLabels>
     <customLabels>
         <label><!-- ActiveLayoutUpdateError --></label>
@@ -8097,6 +8113,10 @@
         <name>vlocity_cmt__Attribute</name>
     </customLabels>
     <customLabels>
+        <label><!-- Error Message when Attribute Count exceeds specified limit. --></label>
+        <name>vlocity_cmt__AttributeCountException</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Attribute Model Upgrade --></label>
         <name>vlocity_cmt__AttributeModelUpgrade</name>
     </customLabels>
@@ -8185,6 +8205,10 @@
         <name>vlocity_cmt__B2CCmexBulkUploadDocRefMsg</name>
     </customLabels>
     <customLabels>
+        <label><!-- Fetch usage for community vip --></label>
+        <name>vlocity_cmt__B2CCmexFetchUsageCommunityVip</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Manage Account label for self service portal --></label>
         <name>vlocity_cmt__B2CCmexManageAccountLabel</name>
     </customLabels>
@@ -8265,6 +8289,14 @@
         <name>vlocity_cmt__B2cCmexAddressLabel</name>
     </customLabels>
     <customLabels>
+        <label><!-- Address Line 1 label --></label>
+        <name>vlocity_cmt__B2cCmexAddressLineOne</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Address Line 2 label --></label>
+        <name>vlocity_cmt__B2cCmexAddressLineTwo</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Agree Block Device --></label>
         <name>vlocity_cmt__B2cCmexAgreeBlockDevice</name>
     </customLabels>
@@ -8277,6 +8309,10 @@
         <name>vlocity_cmt__B2cCmexAgreeSuspendSim</name>
     </customLabels>
     <customLabels>
+        <label><!-- By providing your email id above, you agree to be contacted whenever service is --></label>
+        <name>vlocity_cmt__B2cCmexAgreeToEmailLabel</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Agree unblock device --></label>
         <name>vlocity_cmt__B2cCmexAgreeUnblockDevice</name>
     </customLabels>
@@ -8285,32 +8321,84 @@
         <name>vlocity_cmt__B2cCmexAlternatePhoneLabel</name>
     </customLabels>
     <customLabels>
+        <label><!-- applied adjustments and discounts --></label>
+        <name>vlocity_cmt__B2cCmexAppliedDiscountsHeadOrderSummary</name>
+    </customLabels>
+    <customLabels>
         <label><!-- applied label --></label>
         <name>vlocity_cmt__B2cCmexAppliedLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- applied promotions --></label>
+        <name>vlocity_cmt__B2cCmexAppliedPromotionsOrderSummary</name>
     </customLabels>
     <customLabels>
         <label><!-- Apply vouher code text --></label>
         <name>vlocity_cmt__B2cCmexApplyCodeText</name>
     </customLabels>
     <customLabels>
+        <label><!-- available label --></label>
+        <name>vlocity_cmt__B2cCmexAvailableLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Back to Cart label --></label>
+        <name>vlocity_cmt__B2cCmexBackToCartLabel</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Back to home button label --></label>
         <name>vlocity_cmt__B2cCmexBackToHomeLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- back to home self service --></label>
+        <name>vlocity_cmt__B2cCmexBackToHomeSelfService</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- back to --></label>
+        <name>vlocity_cmt__B2cCmexBackToLabelSelfService</name>
     </customLabels>
     <customLabels>
         <label><!-- Back to Review label --></label>
         <name>vlocity_cmt__B2cCmexBackToReviewLabel</name>
     </customLabels>
     <customLabels>
+        <label><!-- back to services --></label>
+        <name>vlocity_cmt__B2cCmexBackToServicesSelfService</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Balance not available error message --></label>
         <name>vlocity_cmt__B2cCmexBalanceNotAvailable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Baisc Details label --></label>
+        <name>vlocity_cmt__B2cCmexBasicDetails</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Basic Profile --></label>
+        <name>vlocity_cmt__B2cCmexBasicProfile</name>
     </customLabels>
     <customLabels>
         <label><!-- Basket updated successfully label --></label>
         <name>vlocity_cmt__B2cCmexBasketUpdatedSuccessMessage</name>
     </customLabels>
     <customLabels>
+        <label><!-- BillDeliveryMethod --></label>
+        <name>vlocity_cmt__B2cCmexBillDeliveryMethod</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Billing Address label --></label>
         <name>vlocity_cmt__B2cCmexBillingAddressLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select billing cycle label --></label>
+        <name>vlocity_cmt__B2cCmexBillingCycleSelection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Billing Preference label --></label>
+        <name>vlocity_cmt__B2cCmexBillingPreference</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Billing Profile label --></label>
+        <name>vlocity_cmt__B2cCmexBillingProfile</name>
     </customLabels>
     <customLabels>
         <label><!-- Birthdate Error --></label>
@@ -8337,6 +8425,10 @@
         <name>vlocity_cmt__B2cCmexBulkUploadLabel</name>
     </customLabels>
     <customLabels>
+        <label><!-- Bundle Items label --></label>
+        <name>vlocity_cmt__B2cCmexBundleItemsLabel</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Buy add-ons label --></label>
         <name>vlocity_cmt__B2cCmexBuyAddonsLabel</name>
     </customLabels>
@@ -8349,8 +8441,20 @@
         <name>vlocity_cmt__B2cCmexBuynowLabel</name>
     </customLabels>
     <customLabels>
+        <label><!-- BypassServiceabilityWarning --></label>
+        <name>vlocity_cmt__B2cCmexBypassServiceabilityWarning</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Cant change email message --></label>
         <name>vlocity_cmt__B2cCmexCantChangeEmailMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Capture Details --></label>
+        <name>vlocity_cmt__B2cCmexCaptureDetailsLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- required information --></label>
+        <name>vlocity_cmt__B2cCmexCaptureDetailsMessage</name>
     </customLabels>
     <customLabels>
         <label><!-- cart page api name --></label>
@@ -8405,8 +8509,36 @@
         <name>vlocity_cmt__B2cCmexChangesSavedText</name>
     </customLabels>
     <customLabels>
+        <label><!-- check another address --></label>
+        <name>vlocity_cmt__B2cCmexCheckAnotherAddress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Check --></label>
+        <name>vlocity_cmt__B2cCmexCheckButtonLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- bypass serviceability --></label>
+        <name>vlocity_cmt__B2cCmexCheckBypassLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Check for Service --></label>
+        <name>vlocity_cmt__B2cCmexCheckForServiceLabel</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Check puk for sim unlock --></label>
         <name>vlocity_cmt__B2cCmexCheckPUKForSimUnlockMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Check Service Availability --></label>
+        <name>vlocity_cmt__B2cCmexCheckService</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Check Serviceability --></label>
+        <name>vlocity_cmt__B2cCmexCheckServiceabilityLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Check Serviceability --></label>
+        <name>vlocity_cmt__B2cCmexCheck_Serviceability</name>
     </customLabels>
     <customLabels>
         <label><!-- Checkout label --></label>
@@ -8641,6 +8773,10 @@
         <name>vlocity_cmt__B2cCmexConfirmationText</name>
     </customLabels>
     <customLabels>
+        <label><!-- congratulation Text --></label>
+        <name>vlocity_cmt__B2cCmexCongratsTextOrderSummary</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Contact Delivery Label --></label>
         <name>vlocity_cmt__B2cCmexContactDeliveryLabel</name>
     </customLabels>
@@ -8651,6 +8787,10 @@
     <customLabels>
         <label><!-- Continue shopping label --></label>
         <name>vlocity_cmt__B2cCmexContinueShopping</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- B2cCmexContractTermReaminingDays --></label>
+        <name>vlocity_cmt__B2cCmexContractTermReaminingDays</name>
     </customLabels>
     <customLabels>
         <label><!-- Country Label --></label>
@@ -8687,6 +8827,10 @@
     <customLabels>
         <label><!-- Label for days --></label>
         <name>vlocity_cmt__B2cCmexDaysLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delivery Method --></label>
+        <name>vlocity_cmt__B2cCmexDeliveryMethod</name>
     </customLabels>
     <customLabels>
         <label><!-- Labels for Details Section --></label>
@@ -8769,8 +8913,16 @@
         <name>vlocity_cmt__B2cCmexEditNameLabel</name>
     </customLabels>
     <customLabels>
+        <label><!-- B2cCmexEditOrderButtonLabel --></label>
+        <name>vlocity_cmt__B2cCmexEditOrderButtonLabel</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Email address label --></label>
         <name>vlocity_cmt__B2cCmexEmailAddressLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email bill label --></label>
+        <name>vlocity_cmt__B2cCmexEmailBill</name>
     </customLabels>
     <customLabels>
         <label><!-- Email address confirmatuion label --></label>
@@ -8791,6 +8943,10 @@
     <customLabels>
         <label><!-- Email not exist error --></label>
         <name>vlocity_cmt__B2cCmexEmailNotExist</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- notification received order summary --></label>
+        <name>vlocity_cmt__B2cCmexEmailNotificationMessgaeOrderSummary</name>
     </customLabels>
     <customLabels>
         <label><!-- Email to create account message --></label>
@@ -8823,6 +8979,10 @@
     <customLabels>
         <label><!-- ending on label --></label>
         <name>vlocity_cmt__B2cCmexEndingOnLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Enter your address to see if we offer services in your area --></label>
+        <name>vlocity_cmt__B2cCmexEnterAddressForServiceOfferLabel</name>
     </customLabels>
     <customLabels>
         <label><!-- Enter correct Birthdate message --></label>
@@ -8865,6 +9025,14 @@
         <name>vlocity_cmt__B2cCmexErrorText</name>
     </customLabels>
     <customLabels>
+        <label><!-- select existing address --></label>
+        <name>vlocity_cmt__B2cCmexExistingAddress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Existing billing profile label --></label>
+        <name>vlocity_cmt__B2cCmexExistingBillingProfileLabel</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Filter label --></label>
         <name>vlocity_cmt__B2cCmexFilterLabel</name>
     </customLabels>
@@ -8875,6 +9043,18 @@
     <customLabels>
         <label><!-- First name label --></label>
         <name>vlocity_cmt__B2cCmexFirstNameLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Good News! --></label>
+        <name>vlocity_cmt__B2cCmexGoodNewsLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Guided Selling --></label>
+        <name>vlocity_cmt__B2cCmexGuidedSelling</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Hey --></label>
+        <name>vlocity_cmt__B2cCmexHeyLabel</name>
     </customLabels>
     <customLabels>
         <label><!-- Integration Procedure for Community Wrapper --></label>
@@ -8899,6 +9079,10 @@
     <customLabels>
         <label><!-- Incorrect ICCID message --></label>
         <name>vlocity_cmt__B2cCmexIncorrectICCIDMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- installation address label --></label>
+        <name>vlocity_cmt__B2cCmexInstallAddressOrderSummary</name>
     </customLabels>
     <customLabels>
         <label><!-- Invalid email error message --></label>
@@ -8957,6 +9141,18 @@
         <name>vlocity_cmt__B2cCmexMailingAddressUpdate</name>
     </customLabels>
     <customLabels>
+        <label><!-- Manage Addresses --></label>
+        <name>vlocity_cmt__B2cCmexManageAddresses</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Manage Billing Profile --></label>
+        <name>vlocity_cmt__B2cCmexManageBillingProfile</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Manage Delivery Label --></label>
+        <name>vlocity_cmt__B2cCmexManageDeliveryLabel</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Manage Features field Label --></label>
         <name>vlocity_cmt__B2cCmexManageFeaturesLabel</name>
     </customLabels>
@@ -8965,12 +9161,24 @@
         <name>vlocity_cmt__B2cCmexManageLostStolenLabel</name>
     </customLabels>
     <customLabels>
+        <label><!-- Manage mobile label --></label>
+        <name>vlocity_cmt__B2cCmexManageMobileLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Manage Profile --></label>
+        <name>vlocity_cmt__B2cCmexManageProfile</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Text for Manage button --></label>
         <name>vlocity_cmt__B2cCmexManageText</name>
     </customLabels>
     <customLabels>
         <label><!-- Marketing label --></label>
         <name>vlocity_cmt__B2cCmexMarketingLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Marketing offer text --></label>
+        <name>vlocity_cmt__B2cCmexMarketingOfferLabel</name>
     </customLabels>
     <customLabels>
         <label><!-- Autogenerated OmniScript Label for sfi/CheckoutAndJoin --></label>
@@ -9001,6 +9209,18 @@
         <name>vlocity_cmt__B2cCmexNameUpdateMessage</name>
     </customLabels>
     <customLabels>
+        <label><!-- new address serviceability --></label>
+        <name>vlocity_cmt__B2cCmexNewAddress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New Billing Profile label --></label>
+        <name>vlocity_cmt__B2cCmexNewBillingProfileLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New Customer --></label>
+        <name>vlocity_cmt__B2cCmexNewCustomerLabel</name>
+    </customLabels>
+    <customLabels>
         <label><!-- New button label --></label>
         <name>vlocity_cmt__B2cCmexNewLabel</name>
     </customLabels>
@@ -9013,12 +9233,36 @@
         <name>vlocity_cmt__B2cCmexNextLabel</name>
     </customLabels>
     <customLabels>
+        <label><!-- no asset message --></label>
+        <name>vlocity_cmt__B2cCmexNoAssetMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- no disocunt --></label>
+        <name>vlocity_cmt__B2cCmexNoDiscountOrderSummary</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- no numbers --></label>
+        <name>vlocity_cmt__B2cCmexNoNumbers</name>
+    </customLabels>
+    <customLabels>
         <label><!-- No ongoing stories --></label>
         <name>vlocity_cmt__B2cCmexNoOngoingStories</name>
     </customLabels>
     <customLabels>
+        <label><!-- no order details found --></label>
+        <name>vlocity_cmt__B2cCmexNoOrderFoundLabel</name>
+    </customLabels>
+    <customLabels>
         <label><!-- No past stories --></label>
         <name>vlocity_cmt__B2cCmexNoPastStories</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- no promotion --></label>
+        <name>vlocity_cmt__B2cCmexNoPromoOrderSummary</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No service address found for this account. Please add a new adddress --></label>
+        <name>vlocity_cmt__B2cCmexNoServiceAddressMessage</name>
     </customLabels>
     <customLabels>
         <label><!-- No service error message --></label>
@@ -9035,6 +9279,14 @@
     <customLabels>
         <label><!-- Error text for no usage details --></label>
         <name>vlocity_cmt__B2cCmexNoUsageDetails</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Not finding what you were here for? --></label>
+        <name>vlocity_cmt__B2cCmexNotFindingServiceLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Notify me --></label>
+        <name>vlocity_cmt__B2cCmexNotifyMeLabel</name>
     </customLabels>
     <customLabels>
         <label><!-- Number change request label --></label>
@@ -9065,6 +9317,14 @@
         <name>vlocity_cmt__B2cCmexOngoingLabel</name>
     </customLabels>
     <customLabels>
+        <label><!-- B2cCmexOrAddNewShippingAddress --></label>
+        <name>vlocity_cmt__B2cCmexOrAddNewShippingAddress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- order details --></label>
+        <name>vlocity_cmt__B2cCmexOrderDetailsLabelOrderSummary</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Order Details text --></label>
         <name>vlocity_cmt__B2cCmexOrderDetailsText</name>
     </customLabels>
@@ -9081,8 +9341,16 @@
         <name>vlocity_cmt__B2cCmexOrderNumberText</name>
     </customLabels>
     <customLabels>
+        <label><!-- order id --></label>
+        <name>vlocity_cmt__B2cCmexOrderNumerOrderSummary</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Placed on text --></label>
         <name>vlocity_cmt__B2cCmexOrderPlacedOnText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- order placed text --></label>
+        <name>vlocity_cmt__B2cCmexOrderPlacedTextOrderSummary</name>
     </customLabels>
     <customLabels>
         <label><!-- Order successful label --></label>
@@ -9097,6 +9365,14 @@
         <name>vlocity_cmt__B2cCmexOverrideSuccess</name>
     </customLabels>
     <customLabels>
+        <label><!-- B2cCmexOverviewDataThresholdLabel --></label>
+        <name>vlocity_cmt__B2cCmexOverviewDataThresholdLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- B2cCmexOverviewDataUsedLabel --></label>
+        <name>vlocity_cmt__B2cCmexOverviewDataUsedLabel</name>
+    </customLabels>
+    <customLabels>
         <label><!-- PUK statement for Request SIM --></label>
         <name>vlocity_cmt__B2cCmexPUKStatement</name>
     </customLabels>
@@ -9105,8 +9381,16 @@
         <name>vlocity_cmt__B2cCmexPUKWarningText</name>
     </customLabels>
     <customLabels>
+        <label><!-- partially serviceable --></label>
+        <name>vlocity_cmt__B2cCmexPartiallyServiceable</name>
+    </customLabels>
+    <customLabels>
         <label><!-- past label --></label>
         <name>vlocity_cmt__B2cCmexPastLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- B2cCmexPayableAmountLabel --></label>
+        <name>vlocity_cmt__B2cCmexPayableAmountLabel</name>
     </customLabels>
     <customLabels>
         <label><!-- Agent payment success question --></label>
@@ -9117,8 +9401,28 @@
         <name>vlocity_cmt__B2cCmexPersonalDetailsLabel</name>
     </customLabels>
     <customLabels>
+        <label><!-- Phone guided selling capture --></label>
+        <name>vlocity_cmt__B2cCmexPhoneLabelCaptureDetails</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Phone number updated message --></label>
         <name>vlocity_cmt__B2cCmexPhoneNumberUpdateMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pick shipping address --></label>
+        <name>vlocity_cmt__B2cCmexPickShippingAddress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pickup Address --></label>
+        <name>vlocity_cmt__B2cCmexPickupAddressLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pickup Date label --></label>
+        <name>vlocity_cmt__B2cCmexPickupDateLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pickup Store Address --></label>
+        <name>vlocity_cmt__B2cCmexPickupStoreAddressLabel</name>
     </customLabels>
     <customLabels>
         <label><!-- Integration Procedure for Plan information --></label>
@@ -9129,12 +9433,36 @@
         <name>vlocity_cmt__B2cCmexPlanRestrictionsLabel</name>
     </customLabels>
     <customLabels>
+        <label><!-- Post email label --></label>
+        <name>vlocity_cmt__B2cCmexPostEmail</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Previous button or action label --></label>
         <name>vlocity_cmt__B2cCmexPreviousLabel</name>
     </customLabels>
     <customLabels>
+        <label><!-- previous number --></label>
+        <name>vlocity_cmt__B2cCmexPreviousNumberTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Proceed to pay label --></label>
+        <name>vlocity_cmt__B2cCmexProceedToPay</name>
+    </customLabels>
+    <customLabels>
         <label><!-- product added --></label>
         <name>vlocity_cmt__B2cCmexProductAdded</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product --></label>
+        <name>vlocity_cmt__B2cCmexProductLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- promo end date --></label>
+        <name>vlocity_cmt__B2cCmexPromoEndDateOrderSummary</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- promo start date --></label>
+        <name>vlocity_cmt__B2cCmexPromoStartDateOrderSummary</name>
     </customLabels>
     <customLabels>
         <label><!-- Promt to launch from console --></label>
@@ -9147,6 +9475,10 @@
     <customLabels>
         <label><!-- Puk 2 label --></label>
         <name>vlocity_cmt__B2cCmexPuk2Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Purchased label --></label>
+        <name>vlocity_cmt__B2cCmexPurchasedLabel</name>
     </customLabels>
     <customLabels>
         <label><!-- Quantity --></label>
@@ -9179,6 +9511,10 @@
     <customLabels>
         <label><!-- Request SIM unlock code label --></label>
         <name>vlocity_cmt__B2cCmexRequestSimUnlockCode</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Required field error --></label>
+        <name>vlocity_cmt__B2cCmexRequiredFieldError</name>
     </customLabels>
     <customLabels>
         <label><!-- Resume SIM error message --></label>
@@ -9225,12 +9561,28 @@
         <name>vlocity_cmt__B2cCmexSearchLabel</name>
     </customLabels>
     <customLabels>
+        <label><!-- See all services link on community home page --></label>
+        <name>vlocity_cmt__B2cCmexSeeAllLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- see details for order summary --></label>
+        <name>vlocity_cmt__B2cCmexSeeDetailsLabelOrderSummary</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select your preference --></label>
+        <name>vlocity_cmt__B2cCmexSelectBillingPreference</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Select catalog label --></label>
         <name>vlocity_cmt__B2cCmexSelectCatalog</name>
     </customLabels>
     <customLabels>
         <label><!-- Select mode bulk upload --></label>
         <name>vlocity_cmt__B2cCmexSelectModeBulkUpload</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select Pickup Store label --></label>
+        <name>vlocity_cmt__B2cCmexSelectPickupStore</name>
     </customLabels>
     <customLabels>
         <label><!-- Delivery description label --></label>
@@ -9241,8 +9593,24 @@
         <name>vlocity_cmt__B2cCmexSelectedShippingLabel</name>
     </customLabels>
     <customLabels>
+        <label><!-- Self Service Manage Features Link --></label>
+        <name>vlocity_cmt__B2cCmexSelfServiceManageFeaturesLink</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Self Service VoucherTop Up Link --></label>
+        <name>vlocity_cmt__B2cCmexSelfServiceVoucherTopUpLink</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- would you like to check your service availability? --></label>
+        <name>vlocity_cmt__B2cCmexServiceCheckConsent</name>
+    </customLabels>
+    <customLabels>
         <label><!-- label for service count --></label>
         <name>vlocity_cmt__B2cCmexServiceCount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- B2cCmexServiceDetails --></label>
+        <name>vlocity_cmt__B2cCmexServiceDetails</name>
     </customLabels>
     <customLabels>
         <label><!-- Error creating data message --></label>
@@ -9261,8 +9629,36 @@
         <name>vlocity_cmt__B2cCmexServiceNameLabel</name>
     </customLabels>
     <customLabels>
+        <label><!-- serviceability notification --></label>
+        <name>vlocity_cmt__B2cCmexServiceUpdateNotification</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- serviceability concent --></label>
+        <name>vlocity_cmt__B2cCmexServiceabilityConcent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Serviceability Result --></label>
+        <name>vlocity_cmt__B2cCmexServiceabilityResult</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- serviceable label --></label>
+        <name>vlocity_cmt__B2cCmexServiceableLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Please provide us with your desired service &amp; email address if you wish to stay --></label>
+        <name>vlocity_cmt__B2cCmexServicesEmailInputLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Looks like we’ve found some services available for you. --></label>
+        <name>vlocity_cmt__B2cCmexServicesFoundLabel</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Services Label --></label>
         <name>vlocity_cmt__B2cCmexServicesLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Oh No! We hate this too. --></label>
+        <name>vlocity_cmt__B2cCmexServicesNotFoundLabel</name>
     </customLabels>
     <customLabels>
         <label><!-- Shipping Address label --></label>
@@ -9293,8 +9689,24 @@
         <name>vlocity_cmt__B2cCmexSkipLabel</name>
     </customLabels>
     <customLabels>
+        <label><!-- Start Date label --></label>
+        <name>vlocity_cmt__B2cCmexStartDateLabel</name>
+    </customLabels>
+    <customLabels>
         <label><!-- State Label --></label>
         <name>vlocity_cmt__B2cCmexStateLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- stay updated label --></label>
+        <name>vlocity_cmt__B2cCmexStayUpdatedLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Street label --></label>
+        <name>vlocity_cmt__B2cCmexStreetLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Submit --></label>
+        <name>vlocity_cmt__B2cCmexSubmitButtonLabel</name>
     </customLabels>
     <customLabels>
         <label><!-- SubscriptionId info message --></label>
@@ -9333,8 +9745,16 @@
         <name>vlocity_cmt__B2cCmexSuspendedLabel</name>
     </customLabels>
     <customLabels>
+        <label><!-- B2cCmexTerm --></label>
+        <name>vlocity_cmt__B2cCmexTerm</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Label for Term --></label>
         <name>vlocity_cmt__B2cCmexTermLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Terms and Conditions --></label>
+        <name>vlocity_cmt__B2cCmexTermsAndConditions</name>
     </customLabels>
     <customLabels>
         <label><!-- Terms and conditions message --></label>
@@ -9373,6 +9793,10 @@
         <name>vlocity_cmt__B2cCmexTopupText</name>
     </customLabels>
     <customLabels>
+        <label><!-- total amount --></label>
+        <name>vlocity_cmt__B2cCmexTotalAmountLabel</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Label for basket total items --></label>
         <name>vlocity_cmt__B2cCmexTotalItemsLabel</name>
     </customLabels>
@@ -9389,6 +9813,10 @@
         <name>vlocity_cmt__B2cCmexTransactionIncompleteMessage</name>
     </customLabels>
     <customLabels>
+        <label><!-- unavailable --></label>
+        <name>vlocity_cmt__B2cCmexUnavailableLabel</name>
+    </customLabels>
+    <customLabels>
         <label><!-- UnblcokDeviceConfirm --></label>
         <name>vlocity_cmt__B2cCmexUnblcokDeviceConfirm</name>
     </customLabels>
@@ -9403,6 +9831,14 @@
     <customLabels>
         <label><!-- Unblock device prompt --></label>
         <name>vlocity_cmt__B2cCmexUnblockDevicePrompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Understand Terms Label --></label>
+        <name>vlocity_cmt__B2cCmexUnderstandTermsLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- not serviceable --></label>
+        <name>vlocity_cmt__B2cCmexUnserviceableLabel</name>
     </customLabels>
     <customLabels>
         <label><!-- Upload Speed label --></label>
@@ -9493,8 +9929,16 @@
         <name>vlocity_cmt__B2cCmexdueonLabel</name>
     </customLabels>
     <customLabels>
+        <label><!-- billing cycle --></label>
+        <name>vlocity_cmt__B2cCmexillingCycleOrderSummary</name>
+    </customLabels>
+    <customLabels>
         <label><!-- No offer error --></label>
         <name>vlocity_cmt__B2cCmexnoOfferError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- on --></label>
+        <name>vlocity_cmt__B2cCmexonLabel</name>
     </customLabels>
     <customLabels>
         <label><!-- Transaction fail due to payment failure --></label>
@@ -9555,6 +9999,10 @@
     <customLabels>
         <label><!-- Basket does not exist or is expired --></label>
         <name>vlocity_cmt__BasketIsExpired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Message when number of Baskets exceeds specified limit. --></label>
+        <name>vlocity_cmt__BasketLimitException</name>
     </customLabels>
     <customLabels>
         <label><!-- Error message when Basket Wrapper is null --></label>
@@ -9685,12 +10133,20 @@
         <name>vlocity_cmt__BundleContextError</name>
     </customLabels>
     <customLabels>
+        <label><!-- Error Message when Bundle Depth exceeds specified limit. --></label>
+        <name>vlocity_cmt__BundleDepthException</name>
+    </customLabels>
+    <customLabels>
         <label><!-- BundleDoesntExists --></label>
         <name>vlocity_cmt__BundleDoesntExists</name>
     </customLabels>
     <customLabels>
         <label><!-- BundleError --></label>
         <name>vlocity_cmt__BundleError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Message when Bundle Size exceeds specified limit. --></label>
+        <name>vlocity_cmt__BundleSizeException</name>
     </customLabels>
     <customLabels>
         <label><!-- Business (Account Type) --></label>
@@ -10675,6 +11131,10 @@
     <customLabels>
         <label><!-- CLMReconcileSectionsUpdated --></label>
         <name>vlocity_cmt__CLMReconcileSectionsUpdated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CLMRichTextPrefix --></label>
+        <name>vlocity_cmt__CLMRichTextPrefix</name>
     </customLabels>
     <customLabels>
         <label><!-- Search Template Name or Type --></label>
@@ -11677,6 +12137,10 @@
         <name>vlocity_cmt__CMEXAddAll</name>
     </customLabels>
     <customLabels>
+        <label><!-- Bulk Change Action Status: Add (All Caps) --></label>
+        <name>vlocity_cmt__CMEXAddCaps</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Failed to add Discount(s) --></label>
         <name>vlocity_cmt__CMEXAddDiscountFailed</name>
     </customLabels>
@@ -11825,6 +12289,10 @@
         <name>vlocity_cmt__CMEXAreYouSure</name>
     </customLabels>
     <customLabels>
+        <label><!-- CMEXAsset --></label>
+        <name>vlocity_cmt__CMEXAsset</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Cancel --></label>
         <name>vlocity_cmt__CMEXAssetToOrderOS</name>
     </customLabels>
@@ -11835,6 +12303,10 @@
     <customLabels>
         <label><!-- Assign Services --></label>
         <name>vlocity_cmt__CMEXAssignServices</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CMEXAttributes --></label>
+        <name>vlocity_cmt__CMEXAttributes</name>
     </customLabels>
     <customLabels>
         <label><!-- Available Discounts --></label>
@@ -11853,6 +12325,22 @@
         <name>vlocity_cmt__CMEXBasePrice</name>
     </customLabels>
     <customLabels>
+        <label><!-- MACD Bulk Add --></label>
+        <name>vlocity_cmt__CMEXBulkAdd</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MACD Bulk Delete --></label>
+        <name>vlocity_cmt__CMEXBulkDelete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MACD Bulk No Change --></label>
+        <name>vlocity_cmt__CMEXBulkNoChange</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MACD Bulk Update --></label>
+        <name>vlocity_cmt__CMEXBulkUpdate</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Bundle --></label>
         <name>vlocity_cmt__CMEXBundle</name>
     </customLabels>
@@ -11867,6 +12355,10 @@
     <customLabels>
         <label><!-- Cancel --></label>
         <name>vlocity_cmt__CMEXCancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CMEXCardinality --></label>
+        <name>vlocity_cmt__CMEXCardinality</name>
     </customLabels>
     <customLabels>
         <label><!-- Change To Order --></label>
@@ -11925,6 +12417,10 @@
         <name>vlocity_cmt__CMEXCreateANewGroup</name>
     </customLabels>
     <customLabels>
+        <label><!-- Create Group --></label>
+        <name>vlocity_cmt__CMEXCreateGroup</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Error creating group --></label>
         <name>vlocity_cmt__CMEXCreateGroupErrorMessage</name>
     </customLabels>
@@ -11973,6 +12469,10 @@
         <name>vlocity_cmt__CMEXDeleteAdjustmentFailed</name>
     </customLabels>
     <customLabels>
+        <label><!-- Bulk Change Action Status: Delete (All Caps) --></label>
+        <name>vlocity_cmt__CMEXDeleteCaps</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Failed to Delete Discount --></label>
         <name>vlocity_cmt__CMEXDeleteDiscountFailed</name>
     </customLabels>
@@ -12003,6 +12503,10 @@
     <customLabels>
         <label><!-- Deleting Discount --></label>
         <name>vlocity_cmt__CMEXDeletingDiscount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CMEXDelinkButtonText --></label>
+        <name>vlocity_cmt__CMEXDelinkButtonText</name>
     </customLabels>
     <customLabels>
         <label><!-- Detailed --></label>
@@ -12053,6 +12557,10 @@
         <name>vlocity_cmt__CMEXEdit</name>
     </customLabels>
     <customLabels>
+        <label><!-- CMEXEditProductRelationships --></label>
+        <name>vlocity_cmt__CMEXEditProductRelationships</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Email PDF --></label>
         <name>vlocity_cmt__CMEXEmailPdf</name>
     </customLabels>
@@ -12087,6 +12595,22 @@
     <customLabels>
         <label><!-- Expected Field --></label>
         <name>vlocity_cmt__CMEXExpectedField</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- and expected member count to --></label>
+        <name>vlocity_cmt__CMEXExpectedMemberCountChange</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Expected Member Count --></label>
+        <name>vlocity_cmt__CMEXExpectedMemberCountInput</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Expected Member Count cannot be 0 if no members are selected --></label>
+        <name>vlocity_cmt__CMEXExpectedMemberCountNonZero</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Actual Member Count can&apos;t exceed the Expected Member Count --></label>
+        <name>vlocity_cmt__CMEXExpectedMemberCountValidation</name>
     </customLabels>
     <customLabels>
         <label><!-- Failed to add --></label>
@@ -12185,6 +12709,10 @@
         <name>vlocity_cmt__CMEXGroupNameChanged</name>
     </customLabels>
     <customLabels>
+        <label><!-- Group Name --></label>
+        <name>vlocity_cmt__CMEXGroupNameColumn</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Group name already exists --></label>
         <name>vlocity_cmt__CMEXGroupNameExists</name>
     </customLabels>
@@ -12221,8 +12749,20 @@
         <name>vlocity_cmt__CMEXInsert</name>
     </customLabels>
     <customLabels>
+        <label><!-- Invalid Value for --></label>
+        <name>vlocity_cmt__CMEXInvalidValue</name>
+    </customLabels>
+    <customLabels>
         <label><!-- can not have less than --></label>
         <name>vlocity_cmt__CMEXLessThan</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Link Products --></label>
+        <name>vlocity_cmt__CMEXLinkProducts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CMEXLoadMore --></label>
+        <name>vlocity_cmt__CMEXLoadMore</name>
     </customLabels>
     <customLabels>
         <label><!-- Loading --></label>
@@ -12269,8 +12809,16 @@
         <name>vlocity_cmt__CMEXMemberUploaded</name>
     </customLabels>
     <customLabels>
+        <label><!-- CMEXMembers --></label>
+        <name>vlocity_cmt__CMEXMembers</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Microsoft Word --></label>
         <name>vlocity_cmt__CMEXMicrosoftWord</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Modifying attribute --></label>
+        <name>vlocity_cmt__CMEXModifyingAttributes</name>
     </customLabels>
     <customLabels>
         <label><!-- Monthly --></label>
@@ -12317,6 +12865,10 @@
         <name>vlocity_cmt__CMEXNoAssetsError</name>
     </customLabels>
     <customLabels>
+        <label><!-- Bulk Change Action Status: No Change (All Caps) --></label>
+        <name>vlocity_cmt__CMEXNoChangeCaps</name>
+    </customLabels>
+    <customLabels>
         <label><!-- No duplicates found in the file --></label>
         <name>vlocity_cmt__CMEXNoDuplicates</name>
     </customLabels>
@@ -12353,6 +12905,10 @@
         <name>vlocity_cmt__CMEXNoRecordsInGroup</name>
     </customLabels>
     <customLabels>
+        <label><!-- CMEXNoRelatedProductIsLinkedMsg --></label>
+        <name>vlocity_cmt__CMEXNoRelatedProductIsLinkedMsg</name>
+    </customLabels>
+    <customLabels>
         <label><!-- No Assets Error --></label>
         <name>vlocity_cmt__CMEXNoResults</name>
     </customLabels>
@@ -12369,12 +12925,36 @@
         <name>vlocity_cmt__CMEXNone</name>
     </customLabels>
     <customLabels>
+        <label><!-- Offer Assigned --></label>
+        <name>vlocity_cmt__CMEXOfferAssignedColumn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Offer Assigned --></label>
+        <name>vlocity_cmt__CMEXOfferAssignedGroupName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Offer Assigned - Member --></label>
+        <name>vlocity_cmt__CMEXOfferAssignedGrouping</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Offer Assigned - Groups --></label>
+        <name>vlocity_cmt__CMEXOfferAssignedGroupingForQG</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Offer Not Assigned --></label>
+        <name>vlocity_cmt__CMEXOfferNotAssignedGroupName</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Offer ends --></label>
         <name>vlocity_cmt__CMEXOfferPeriod</name>
     </customLabels>
     <customLabels>
         <label><!-- Offers --></label>
         <name>vlocity_cmt__CMEXOffers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message for hitting incorrect offset value --></label>
+        <name>vlocity_cmt__CMEXOffsetValueError</name>
     </customLabels>
     <customLabels>
         <label><!-- One Time --></label>
@@ -12413,8 +12993,16 @@
         <name>vlocity_cmt__CMEXOrdersSuccessfulLargeProducts</name>
     </customLabels>
     <customLabels>
+        <label><!-- CMEXOrigin --></label>
+        <name>vlocity_cmt__CMEXOrigin</name>
+    </customLabels>
+    <customLabels>
         <label><!-- PDF --></label>
         <name>vlocity_cmt__CMEXPDF</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message for hitting incorrect page size value --></label>
+        <name>vlocity_cmt__CMEXPageSizeError</name>
     </customLabels>
     <customLabels>
         <label><!-- Pending Activation --></label>
@@ -12473,6 +13061,10 @@
         <name>vlocity_cmt__CMEXProcessBackgroundRun</name>
     </customLabels>
     <customLabels>
+        <label><!-- Product --></label>
+        <name>vlocity_cmt__CMEXProduct</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Background Process to load products is under process. --></label>
         <name>vlocity_cmt__CMEXProductLoadInProgressMessage</name>
     </customLabels>
@@ -12483,6 +13075,14 @@
     <customLabels>
         <label><!-- Product Details loaded successfully --></label>
         <name>vlocity_cmt__CMEXProductLoaded</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CMEXProductRelationShipTitle --></label>
+        <name>vlocity_cmt__CMEXProductRelationShipTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product Status --></label>
+        <name>vlocity_cmt__CMEXProductStatus</name>
     </customLabels>
     <customLabels>
         <label><!-- Products --></label>
@@ -12537,12 +13137,20 @@
         <name>vlocity_cmt__CMEXProposal</name>
     </customLabels>
     <customLabels>
+        <label><!-- Quote Line Item Quantity error --></label>
+        <name>vlocity_cmt__CMEXQLIQuantityError</name>
+    </customLabels>
+    <customLabels>
         <label><!-- quantity --></label>
         <name>vlocity_cmt__CMEXQty</name>
     </customLabels>
     <customLabels>
         <label><!-- Quantity --></label>
         <name>vlocity_cmt__CMEXQuantity</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CMEXQuote --></label>
+        <name>vlocity_cmt__CMEXQuote</name>
     </customLabels>
     <customLabels>
         <label><!-- Quote Name --></label>
@@ -12559,6 +13167,14 @@
     <customLabels>
         <label><!-- Quote Total --></label>
         <name>vlocity_cmt__CMEXQuoteTotal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- This field value is too high --></label>
+        <name>vlocity_cmt__CMEXRangeOverflowMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- This field value is too low --></label>
+        <name>vlocity_cmt__CMEXRangeUnderflowMessage</name>
     </customLabels>
     <customLabels>
         <label><!-- record created --></label>
@@ -12589,6 +13205,34 @@
         <name>vlocity_cmt__CMEXRefreshingSummary</name>
     </customLabels>
     <customLabels>
+        <label><!-- CMEXRelatedProduct --></label>
+        <name>vlocity_cmt__CMEXRelatedProduct</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CMEXRelatedProductNameTitle --></label>
+        <name>vlocity_cmt__CMEXRelatedProductNameTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CMEXRelatedProductTitle --></label>
+        <name>vlocity_cmt__CMEXRelatedProductTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Related Products --></label>
+        <name>vlocity_cmt__CMEXRelatedProducts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CMEXRelationshipLinkedTitle --></label>
+        <name>vlocity_cmt__CMEXRelationshipLinkedTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CMEXRelationshipSequenceWithRelatedCount --></label>
+        <name>vlocity_cmt__CMEXRelationshipSequenceWithRelatedCount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product Relationships updated --></label>
+        <name>vlocity_cmt__CMEXRelationshipsUpdated</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Remove from Group --></label>
         <name>vlocity_cmt__CMEXRemoveFromGroup</name>
     </customLabels>
@@ -12603,6 +13247,18 @@
     <customLabels>
         <label><!-- Please fill the required details --></label>
         <name>vlocity_cmt__CMEXRequiredDetails</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CMEXRule --></label>
+        <name>vlocity_cmt__CMEXRule</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CMEXRuleNameTitle --></label>
+        <name>vlocity_cmt__CMEXRuleNameTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CMEXRules --></label>
+        <name>vlocity_cmt__CMEXRules</name>
     </customLabels>
     <customLabels>
         <label><!-- Save --></label>
@@ -12645,6 +13301,14 @@
         <name>vlocity_cmt__CMEXSelectTemplate</name>
     </customLabels>
     <customLabels>
+        <label><!-- CMEXSelected --></label>
+        <name>vlocity_cmt__CMEXSelected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Login Failed, Incorrect user name or password --></label>
+        <name>vlocity_cmt__CMEXSelfServiceLoginError</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Error on selecting no rows --></label>
         <name>vlocity_cmt__CMEXServiceQualificationError</name>
     </customLabels>
@@ -12675,6 +13339,10 @@
     <customLabels>
         <label><!-- Showing --></label>
         <name>vlocity_cmt__CMEXShowing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message for giving incorrect sort direction value --></label>
+        <name>vlocity_cmt__CMEXSortDirectionValueError</name>
     </customLabels>
     <customLabels>
         <label><!-- Steps --></label>
@@ -12725,8 +13393,20 @@
         <name>vlocity_cmt__CMEXTotalRecordsSelected</name>
     </customLabels>
     <customLabels>
+        <label><!-- Bulk Change Action Status: Update (All Caps) --></label>
+        <name>vlocity_cmt__CMEXUpdateCaps</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Update Failed. --></label>
         <name>vlocity_cmt__CMEXUpdateFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CMEXUpdateProductLinkFailMsg --></label>
+        <name>vlocity_cmt__CMEXUpdateProductLinkFailMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CMEXUpdateProductLinkSuccessMsg --></label>
+        <name>vlocity_cmt__CMEXUpdateProductLinkSuccessMsg</name>
     </customLabels>
     <customLabels>
         <label><!-- Updated --></label>
@@ -12779,6 +13459,10 @@
     <customLabels>
         <label><!-- View --></label>
         <name>vlocity_cmt__CMEXView</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- View By --></label>
+        <name>vlocity_cmt__CMEXViewBy</name>
     </customLabels>
     <customLabels>
         <label><!-- Word and PDF --></label>
@@ -12913,7 +13597,7 @@
         <name>vlocity_cmt__CMTOptionCPQMLSFieldLabel</name>
     </customLabels>
     <customLabels>
-        <label><!-- CPQNext Jobs --></label>
+        <label><!-- This job caches product definitions used by the Digital Commerce APIs --></label>
         <name>vlocity_cmt__CMTOptionCPQNextJobsLabel</name>
     </customLabels>
     <customLabels>
@@ -13137,6 +13821,10 @@
         <name>vlocity_cmt__CPQActive</name>
     </customLabels>
     <customLabels>
+        <label><!-- CPQ Add Async --></label>
+        <name>vlocity_cmt__CPQAddAsync</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Bulk Change Action Status: Add (All Caps) --></label>
         <name>vlocity_cmt__CPQAddCaps</name>
     </customLabels>
@@ -13341,8 +14029,40 @@
         <name>vlocity_cmt__CPQApply</name>
     </customLabels>
     <customLabels>
+        <label><!-- CPQ Apply async discount --></label>
+        <name>vlocity_cmt__CPQApplyAsyncDiscount</name>
+    </customLabels>
+    <customLabels>
         <label><!-- CPQApplyDiscount --></label>
         <name>vlocity_cmt__CPQApplyDiscount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CPQ action button text for Apply Discount Async --></label>
+        <name>vlocity_cmt__CPQApplyDiscountActionButtonAsync</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CPQ action button text for Apply Discount Sync --></label>
+        <name>vlocity_cmt__CPQApplyDiscountActionButtonSync</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CPQ Apply Discount Button --></label>
+        <name>vlocity_cmt__CPQApplyDiscountButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CPQ Description for Apply Discount Information Modal --></label>
+        <name>vlocity_cmt__CPQApplyDiscountInfoModalDesc1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CPQ Description for Apply Discount Information Modal --></label>
+        <name>vlocity_cmt__CPQApplyDiscountInfoModalDesc2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CPQ Description for Apply Discount Information Modal --></label>
+        <name>vlocity_cmt__CPQApplyDiscountInfoModalDesc3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CPQ Title for Apply Discount Information Modal --></label>
+        <name>vlocity_cmt__CPQApplyDiscountInfoModalTitle</name>
     </customLabels>
     <customLabels>
         <label><!-- CPQ Apply Discount To Items --></label>
@@ -13399,6 +14119,14 @@
     <customLabels>
         <label><!-- assets selected --></label>
         <name>vlocity_cmt__CPQAssetsSelected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CPQ Async Discount --></label>
+        <name>vlocity_cmt__CPQAsyncDiscount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CPQ Async Discount Popover --></label>
+        <name>vlocity_cmt__CPQAsyncDiscountPopover</name>
     </customLabels>
     <customLabels>
         <label><!-- Message for Completed processing of Bulk Async Jobs --></label>
@@ -13745,6 +14473,14 @@
         <name>vlocity_cmt__CPQCloseFilter</name>
     </customLabels>
     <customLabels>
+        <label><!-- Collapse --></label>
+        <name>vlocity_cmt__CPQCollapse</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Collapse Product Hierarchy --></label>
+        <name>vlocity_cmt__CPQCollapseHierarchy</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Replace Compare --></label>
         <name>vlocity_cmt__CPQCompare</name>
     </customLabels>
@@ -13795,6 +14531,10 @@
     <customLabels>
         <label><!-- CPQConfigureNewPlan --></label>
         <name>vlocity_cmt__CPQConfigureNewPlan</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CPQ Success toast message after product is configured and added to the cart --></label>
+        <name>vlocity_cmt__CPQConfigureSuccessToast</name>
     </customLabels>
     <customLabels>
         <label><!-- Cancel Order popup title --></label>
@@ -14205,6 +14945,14 @@
         <name>vlocity_cmt__CPQEffectiveUntil</name>
     </customLabels>
     <customLabels>
+        <label><!-- The cart is empty --></label>
+        <name>vlocity_cmt__CPQEmptyCartItem</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When you add products from the catalog, you&apos;ll find them here. --></label>
+        <name>vlocity_cmt__CPQEmptyCartItemStateText</name>
+    </customLabels>
+    <customLabels>
         <label><!-- CPQEmptyInvalidCartId --></label>
         <name>vlocity_cmt__CPQEmptyInvalidCartId</name>
     </customLabels>
@@ -14229,6 +14977,10 @@
         <name>vlocity_cmt__CPQErrors</name>
     </customLabels>
     <customLabels>
+        <label><!-- CPQExcludes (Product Relationship) --></label>
+        <name>vlocity_cmt__CPQExcludes</name>
+    </customLabels>
+    <customLabels>
         <label><!-- CPQExisting --></label>
         <name>vlocity_cmt__CPQExisting</name>
     </customLabels>
@@ -14239,6 +14991,10 @@
     <customLabels>
         <label><!-- Expand --></label>
         <name>vlocity_cmt__CPQExpand</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Expand Product Hierarchy --></label>
+        <name>vlocity_cmt__CPQExpandHierarchy</name>
     </customLabels>
     <customLabels>
         <label><!-- Expand item in the cart failed --></label>
@@ -14337,6 +15093,10 @@
         <name>vlocity_cmt__CPQInspect</name>
     </customLabels>
     <customLabels>
+        <label><!-- Insufficient access to CRUD operation on object --></label>
+        <name>vlocity_cmt__CPQInsufficientPrivilegeToUser</name>
+    </customLabels>
+    <customLabels>
         <label><!-- CPQInvalidCartID --></label>
         <name>vlocity_cmt__CPQInvalidCartID</name>
     </customLabels>
@@ -14363,6 +15123,10 @@
     <customLabels>
         <label><!-- CPQInvalidPriceList --></label>
         <name>vlocity_cmt__CPQInvalidPriceList</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message for invalid price list. --></label>
+        <name>vlocity_cmt__CPQInvalidPricelistToastMessage</name>
     </customLabels>
     <customLabels>
         <label><!-- CPQInvalidQLI --></label>
@@ -14477,6 +15241,22 @@
         <name>vlocity_cmt__CPQMinimumPCICardinality</name>
     </customLabels>
     <customLabels>
+        <label><!-- Missing Attributes --></label>
+        <name>vlocity_cmt__CPQMissingAttributes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Missing Attributes message description --></label>
+        <name>vlocity_cmt__CPQMissingAttributesInfoMessageOppty</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Missing Attributes message description --></label>
+        <name>vlocity_cmt__CPQMissingAttributesInfoMessageOrder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Missing Attributes message description --></label>
+        <name>vlocity_cmt__CPQMissingAttributesInfoMessageQuote</name>
+    </customLabels>
+    <customLabels>
         <label><!-- CPQModified --></label>
         <name>vlocity_cmt__CPQModified</name>
     </customLabels>
@@ -14505,6 +15285,14 @@
         <name>vlocity_cmt__CPQMultipleNodesDetected</name>
     </customLabels>
     <customLabels>
+        <label><!-- CPQ MultisiteGridCard No Result Label --></label>
+        <name>vlocity_cmt__CPQMultisiteGridCardNoResultLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CPQ MultisiteGridCard No Result Message Label --></label>
+        <name>vlocity_cmt__CPQMultisiteGridCardNoResultMessageLabel</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Must be greater than or equal to zero --></label>
         <name>vlocity_cmt__CPQMustBeGreaterThanOrEqualToZero</name>
     </customLabels>
@@ -14529,6 +15317,14 @@
         <name>vlocity_cmt__CPQNewCustomDiscount</name>
     </customLabels>
     <customLabels>
+        <label><!-- New Multi-Site Order --></label>
+        <name>vlocity_cmt__CPQNewMultisiteOrder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New Multi-Site Quote --></label>
+        <name>vlocity_cmt__CPQNewMultisiteQuote</name>
+    </customLabels>
+    <customLabels>
         <label><!-- CPQNext --></label>
         <name>vlocity_cmt__CPQNext</name>
     </customLabels>
@@ -14537,28 +15333,56 @@
         <name>vlocity_cmt__CPQNextBatchJobNotRun</name>
     </customLabels>
     <customLabels>
-        <label><!-- CPQ Next Feature Enabling Message --></label>
+        <label><!-- Standard Digital Commerce APIs Feature Enabling Message --></label>
         <name>vlocity_cmt__CPQNextFeatureEnablingMessage</name>
     </customLabels>
     <customLabels>
-        <label><!-- CPQ Next Feature label --></label>
+        <label><!-- Enable this setting to use Digital Commerce APIs (Configure and Basket) --></label>
         <name>vlocity_cmt__CPQNextFeatureLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CPQNextPricingPlanHasNoSteps --></label>
+        <name>vlocity_cmt__CPQNextPricingPlanHasNoSteps</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CPQPricingPlanSettingNotFound --></label>
+        <name>vlocity_cmt__CPQNextPricingPlanSettingNotFound</name>
     </customLabels>
     <customLabels>
         <label><!-- No button --></label>
         <name>vlocity_cmt__CPQNo</name>
     </customLabels>
     <customLabels>
+        <label><!-- You&apos;re missing out! --></label>
+        <name>vlocity_cmt__CPQNoAppliedDiscMissingOut</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When you add discounts, you&apos;ll find them here. --></label>
+        <name>vlocity_cmt__CPQNoAppliedDiscountText</name>
+    </customLabels>
+    <customLabels>
         <label><!-- No Applied Discounts --></label>
         <name>vlocity_cmt__CPQNoAppliedDiscounts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No applied discounts. --></label>
+        <name>vlocity_cmt__CPQNoAppliedDiscountsEmptyText</name>
     </customLabels>
     <customLabels>
         <label><!-- No Applied Discounts --></label>
         <name>vlocity_cmt__CPQNoAppliedDiscountsNew</name>
     </customLabels>
     <customLabels>
+        <label><!-- When you add promotions from the catalog, you&apos;ll find them here. --></label>
+        <name>vlocity_cmt__CPQNoAppliedPromotionText</name>
+    </customLabels>
+    <customLabels>
         <label><!-- No Applied Promotions --></label>
         <name>vlocity_cmt__CPQNoAppliedPromotions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No applied promotions. --></label>
+        <name>vlocity_cmt__CPQNoAppliedPromotionsEmptyText</name>
     </customLabels>
     <customLabels>
         <label><!-- No Asset Groups Found --></label>
@@ -14601,6 +15425,14 @@
         <name>vlocity_cmt__CPQNoFilterCategoryMessage</name>
     </customLabels>
     <customLabels>
+        <label><!-- CPQ Message when no items are found --></label>
+        <name>vlocity_cmt__CPQNoItemsFound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CPQ Message description when no items are found --></label>
+        <name>vlocity_cmt__CPQNoItemsFoundMessageDescription</name>
+    </customLabels>
+    <customLabels>
         <label><!-- CPQNoItemsToAdd --></label>
         <name>vlocity_cmt__CPQNoItemsToAdd</name>
     </customLabels>
@@ -14621,7 +15453,11 @@
         <name>vlocity_cmt__CPQNoPenaltiesMsg</name>
     </customLabels>
     <customLabels>
-        <label><!-- No Price List Selected --></label>
+        <label><!-- CPQ Message description when no price list is selected --></label>
+        <name>vlocity_cmt__CPQNoPriceListMessageDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Price List selected --></label>
         <name>vlocity_cmt__CPQNoPriceListSelected</name>
     </customLabels>
     <customLabels>
@@ -14635,6 +15471,10 @@
     <customLabels>
         <label><!-- CPQNoResultsFound --></label>
         <name>vlocity_cmt__CPQNoResultsFound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Results Found For --></label>
+        <name>vlocity_cmt__CPQNoResultsFoundFor</name>
     </customLabels>
     <customLabels>
         <label><!-- No valid price list entry found --></label>
@@ -14817,6 +15657,10 @@
         <name>vlocity_cmt__CPQPriceWaterfall</name>
     </customLabels>
     <customLabels>
+        <label><!-- Pricelist Updated Successfully --></label>
+        <name>vlocity_cmt__CPQPricelistUpdatedSuccessfully</name>
+    </customLabels>
+    <customLabels>
         <label><!-- CPQPricingPlanNotFoundError --></label>
         <name>vlocity_cmt__CPQPricingPlanNotFoundError</name>
     </customLabels>
@@ -14859,6 +15703,10 @@
     <customLabels>
         <label><!-- Products tab --></label>
         <name>vlocity_cmt__CPQProducts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Products in your cart --></label>
+        <name>vlocity_cmt__CPQProductsInCart</name>
     </customLabels>
     <customLabels>
         <label><!-- No products text --></label>
@@ -14969,6 +15817,10 @@
         <name>vlocity_cmt__CPQRecentSearches</name>
     </customLabels>
     <customLabels>
+        <label><!-- CPQRecommends (Product Relationship) --></label>
+        <name>vlocity_cmt__CPQRecommends</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Record Type Label for Master Quote and Order MultiSite --></label>
         <name>vlocity_cmt__CPQRecordType</name>
     </customLabels>
@@ -15039,6 +15891,10 @@
     <customLabels>
         <label><!-- Request Pending Approval --></label>
         <name>vlocity_cmt__CPQRequestPendingApproval</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CPQRequires (Product Relationship) --></label>
+        <name>vlocity_cmt__CPQRequires</name>
     </customLabels>
     <customLabels>
         <label><!-- Reset button --></label>
@@ -15857,6 +16713,18 @@
         <name>vlocity_cmt__CatalogCodeInputNotPresent</name>
     </customLabels>
     <customLabels>
+        <label><!-- Catalog not found. --></label>
+        <name>vlocity_cmt__CatalogNotFound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Offer not present in this catalog. --></label>
+        <name>vlocity_cmt__CatalogOfferMismatch</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Catalog Product Definition Jobs Label for Cpq --></label>
+        <name>vlocity_cmt__CatalogProductDefinitionJobs</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Category Used in Product --></label>
         <name>vlocity_cmt__CategoryUsedInProduct</name>
     </customLabels>
@@ -16049,6 +16917,10 @@
         <name>vlocity_cmt__CompanyAddress</name>
     </customLabels>
     <customLabels>
+        <label><!-- Compile Matrix Data Job Name --></label>
+        <name>vlocity_cmt__CompileMatrixDataJob</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Compiling LWC --></label>
         <name>vlocity_cmt__CompilingMessage</name>
     </customLabels>
@@ -16069,6 +16941,10 @@
         <name>vlocity_cmt__ConditionalStyleLabel</name>
     </customLabels>
     <customLabels>
+        <label><!-- Show field-OrchestrationItem option in source type --></label>
+        <name>vlocity_cmt__ConditionsMapperFieldOrchItem</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Conditions --></label>
         <name>vlocity_cmt__ConfigProceConditions</name>
     </customLabels>
@@ -16087,6 +16963,10 @@
     <customLabels>
         <label><!-- Configuration Setup --></label>
         <name>vlocity_cmt__ConfigurationSetup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Lock is engaged on ConfigurationSnapshot__c --></label>
+        <name>vlocity_cmt__ConfigurationSnapshotLockEngaged</name>
     </customLabels>
     <customLabels>
         <label><!-- Configurations --></label>
@@ -16183,6 +17063,10 @@
     <customLabels>
         <label><!-- Context ID --></label>
         <name>vlocity_cmt__ContextID</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Null Context Info passed to the service. --></label>
+        <name>vlocity_cmt__ContextInfoException</name>
     </customLabels>
     <customLabels>
         <label><!-- Context Parameter is not present in the input URL --></label>
@@ -16661,8 +17545,20 @@
         <name>vlocity_cmt__CustomSettingDescrControlProduct2FieldsDuringCreation</name>
     </customLabels>
     <customLabels>
+        <label><!-- CustomSettingDescrCpqCachePvtKey --></label>
+        <name>vlocity_cmt__CustomSettingDescrCpqCachePvtKey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- This pricing plan use the Digital Commerce APIs (Configure &amp; Basket) --></label>
+        <name>vlocity_cmt__CustomSettingDescrCpqNextPricingPlan</name>
+    </customLabels>
+    <customLabels>
         <label><!-- CustomSettingDescrCustomGroupContextItems --></label>
         <name>vlocity_cmt__CustomSettingDescrCustomGroupContextItems</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CustomSettingDescrCustomRuleMessageFieldName --></label>
+        <name>vlocity_cmt__CustomSettingDescrCustomRuleMessageFieldName</name>
     </customLabels>
     <customLabels>
         <label><!-- CustomSettingDescrDefaultAccountFieldset --></label>
@@ -16705,12 +17601,24 @@
         <name>vlocity_cmt__CustomSettingDescrDeltaValidate</name>
     </customLabels>
     <customLabels>
+        <label><!-- CustomSettingDescrFilterRuleWithEligAvail --></label>
+        <name>vlocity_cmt__CustomSettingDescrFilterRuleWithEligAvail</name>
+    </customLabels>
+    <customLabels>
         <label><!-- CustomSettingDescrFindReferencesRowCountLimit --></label>
         <name>vlocity_cmt__CustomSettingDescrFindReferencesRowCountLimit</name>
     </customLabels>
     <customLabels>
         <label><!-- CustomSettingDescrGetOffersCacheRecLimit --></label>
         <name>vlocity_cmt__CustomSettingDescrGetOffersCacheRecLimit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CustomSettingDescrGetOffersVerCacheRecLimit --></label>
+        <name>vlocity_cmt__CustomSettingDescrGetOffersVerCacheRecLimit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CustomSettingDescrGetRelOffersCacheRecComLimit --></label>
+        <name>vlocity_cmt__CustomSettingDescrGetRelOffersCacheRecComLimit</name>
     </customLabels>
     <customLabels>
         <label><!-- CustomSettingDescrGetRelOffersCacheRecLimit --></label>
@@ -16733,6 +17641,10 @@
         <name>vlocity_cmt__CustomSettingDescrLevelBasedPagination</name>
     </customLabels>
     <customLabels>
+        <label><!-- CustomSettingDescrMarginCalculationType --></label>
+        <name>vlocity_cmt__CustomSettingDescrMarginCalculationType</name>
+    </customLabels>
+    <customLabels>
         <label><!-- CustomSettingDescrMaxCombinationLimit --></label>
         <name>vlocity_cmt__CustomSettingDescrMaxCombinationLimit</name>
     </customLabels>
@@ -16743,6 +17655,14 @@
     <customLabels>
         <label><!-- CustomSettingDescrMaxGetRelOffersCacheRecLimit --></label>
         <name>vlocity_cmt__CustomSettingDescrMaxGetRelOffersCacheRecLimit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CustomSettingDescrMultiServiceMasterOrderRecordTypes --></label>
+        <name>vlocity_cmt__CustomSettingDescrMultiServiceMasterOrderRecordTypes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CustomSettingDescrMultiServiceMasterQuoteRecordTypes --></label>
+        <name>vlocity_cmt__CustomSettingDescrMultiServiceMasterQuoteRecordTypes</name>
     </customLabels>
     <customLabels>
         <label><!-- CustomSettingDescrNeedContextForAttribConfig --></label>
@@ -16765,12 +17685,28 @@
         <name>vlocity_cmt__CustomSettingDescrPriceBookRefreshBatchSize</name>
     </customLabels>
     <customLabels>
+        <label><!-- CustomSettingDescrPricingElementServiceLogging --></label>
+        <name>vlocity_cmt__CustomSettingDescrPricingElementServiceLogging</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CustomSettingDescrPricingPlanServiceLogging --></label>
+        <name>vlocity_cmt__CustomSettingDescrPricingPlanServiceLogging</name>
+    </customLabels>
+    <customLabels>
         <label><!-- CustomSettingAttributeCheckMode --></label>
         <name>vlocity_cmt__CustomSettingDescrProductConfigurationMode</name>
     </customLabels>
     <customLabels>
+        <label><!-- CustomSettingDescrRetainRecurringPriceDisconnectOrCancel --></label>
+        <name>vlocity_cmt__CustomSettingDescrRetainRecurringPriceDisconnectOrCancel</name>
+    </customLabels>
+    <customLabels>
         <label><!-- RollupActionCodeField --></label>
         <name>vlocity_cmt__CustomSettingDescrRollupActionCodeField</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CustomSettingDescrSaveProductAttribMetadataCache --></label>
+        <name>vlocity_cmt__CustomSettingDescrSaveProductAttribMetadataCache</name>
     </customLabels>
     <customLabels>
         <label><!-- CustomSettingDescrSaveProductAttributeMetadata --></label>
@@ -16789,6 +17725,10 @@
         <name>vlocity_cmt__CustomSettingDescrSingleFdoMode</name>
     </customLabels>
     <customLabels>
+        <label><!-- CustomSettingDescrSkinnyBasket --></label>
+        <name>vlocity_cmt__CustomSettingDescrSkinnyBasket</name>
+    </customLabels>
+    <customLabels>
         <label><!-- CustomSettingDescrStrictSplitModeEnabled --></label>
         <name>vlocity_cmt__CustomSettingDescrStrictSplitModeEnabled</name>
     </customLabels>
@@ -16799,6 +17739,10 @@
     <customLabels>
         <label><!-- CustomSettingDescrToggleNextMessageFlag --></label>
         <name>vlocity_cmt__CustomSettingDescrToggleNextMessageFlag</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CustomSettingDescrUseWeights --></label>
+        <name>vlocity_cmt__CustomSettingDescrUseWeights</name>
     </customLabels>
     <customLabels>
         <label><!-- CustomSettingDescrUsingPromotions --></label>
@@ -17265,6 +18209,10 @@
         <name>vlocity_cmt__DRErrorMessage</name>
     </customLabels>
     <customLabels>
+        <label><!-- DRHomeActive --></label>
+        <name>vlocity_cmt__DRHomeActive</name>
+    </customLabels>
+    <customLabels>
         <label><!-- DRHomeApexBatchJobs --></label>
         <name>vlocity_cmt__DRHomeApexBatchJobs</name>
     </customLabels>
@@ -17307,6 +18255,10 @@
     <customLabels>
         <label><!-- DRHomeQuickLinks --></label>
         <name>vlocity_cmt__DRHomeQuickLinks</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DRHomeStandard --></label>
+        <name>vlocity_cmt__DRHomeStandard</name>
     </customLabels>
     <customLabels>
         <label><!-- DRHomeSuccess --></label>
@@ -17921,6 +18873,10 @@
         <name>vlocity_cmt__DataPacksHomeTitle</name>
     </customLabels>
     <customLabels>
+        <label><!-- DataProfileRecordNotFound --></label>
+        <name>vlocity_cmt__DataProfileRecordNotFound</name>
+    </customLabels>
+    <customLabels>
         <label><!-- DataRaptorWorkbench --></label>
         <name>vlocity_cmt__DataRaptorWorkbench</name>
     </customLabels>
@@ -18485,6 +19441,22 @@
         <name>vlocity_cmt__DragAndDropDataPack</name>
     </customLabels>
     <customLabels>
+        <label><!-- Available --></label>
+        <name>vlocity_cmt__DualListBoxAvailable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Move selection to Available --></label>
+        <name>vlocity_cmt__DualListBoxMoveToAvailable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Move selection to Selected --></label>
+        <name>vlocity_cmt__DualListBoxMoveToSelected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Selected --></label>
+        <name>vlocity_cmt__DualListBoxSelected</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Duplicate --></label>
         <name>vlocity_cmt__Duplicate</name>
     </customLabels>
@@ -18829,6 +19801,10 @@
         <name>vlocity_cmt__EventType</name>
     </customLabels>
     <customLabels>
+        <label><!-- ExcludedCatalogProductDefinitionJobs --></label>
+        <name>vlocity_cmt__ExcludedCatalogProductDefinitionJobsDesc</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Excludes (Product Relationship) --></label>
         <name>vlocity_cmt__Excludes</name>
     </customLabels>
@@ -18839,6 +19815,14 @@
     <customLabels>
         <label><!-- Execute --></label>
         <name>vlocity_cmt__Execute</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ExecuteOmniErrorMsg --></label>
+        <name>vlocity_cmt__ExecuteOmniErrorMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product is deleted due to product deletion --></label>
+        <name>vlocity_cmt__ExistingProductDeletedReconciliation</name>
     </customLabels>
     <customLabels>
         <label><!-- Exit --></label>
@@ -18959,6 +19943,10 @@
     <customLabels>
         <label><!-- FailRule --></label>
         <name>vlocity_cmt__FailRule</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label used in Rules Log to display how many state transitions have failed. --></label>
+        <name>vlocity_cmt__FailedRuleCount</name>
     </customLabels>
     <customLabels>
         <label><!-- Failed to delete --></label>
@@ -19113,6 +20101,14 @@
         <name>vlocity_cmt__FlexcardActionElementLabel</name>
     </customLabels>
     <customLabels>
+        <label><!-- Flex Card Activated Label --></label>
+        <name>vlocity_cmt__FlexcardActivatedLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Flex Card Deactivated Label --></label>
+        <name>vlocity_cmt__FlexcardDeactivatedLabel</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Vlocity Action Name --></label>
         <name>vlocity_cmt__FlexcardStandardActionLabel</name>
     </customLabels>
@@ -19201,8 +20197,40 @@
         <name>vlocity_cmt__FulfilmentStatus</name>
     </customLabels>
     <customLabels>
+        <label><!-- Full Refresh Platform Cache --></label>
+        <name>vlocity_cmt__FullRefreshPlatformCache</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Full Refresh Platform Cache Description --></label>
+        <name>vlocity_cmt__FullRefreshPlatformCacheDesc</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Please make sure GET PRICES batch job has run --></label>
         <name>vlocity_cmt__GET_PRICE_BATCH_NOT_RUN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Generate Catalog Product Definition Label for Cpq --></label>
+        <name>vlocity_cmt__GenerateCatalogProductDefinitions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description of job that generates catalog product definitions for Cpq --></label>
+        <name>vlocity_cmt__GenerateCatalogProductDefinitionsDesc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Generate Compile Matrix Data --></label>
+        <name>vlocity_cmt__GenerateCompileMatrixData</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description for ABP Batch Job --></label>
+        <name>vlocity_cmt__GenerateCompileMatrixDataDesc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Generate Compiled Data Job Label for CpqNext --></label>
+        <name>vlocity_cmt__GenerateCompiledData</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description of job that generates compiled data for CpqNext --></label>
+        <name>vlocity_cmt__GenerateCompiledDataDesc</name>
     </customLabels>
     <customLabels>
         <label><!-- Generate Global Keys --></label>
@@ -19521,6 +20549,10 @@
         <name>vlocity_cmt__IgnoreCache</name>
     </customLabels>
     <customLabels>
+        <label><!-- Image Size exceeds the remote action retun limit --></label>
+        <name>vlocity_cmt__ImageSizeExceedsLimit</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Import --></label>
         <name>vlocity_cmt__Import</name>
     </customLabels>
@@ -19597,8 +20629,20 @@
         <name>vlocity_cmt__IncorrectItemForRegeneration</name>
     </customLabels>
     <customLabels>
+        <label><!-- Incorrect opportunityId passed in the input --></label>
+        <name>vlocity_cmt__IncorrectOpportunityException</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Incorrect rootItemId --></label>
         <name>vlocity_cmt__IncorrectRootItemId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Incremental Refresh Platform Cache --></label>
+        <name>vlocity_cmt__IncrementalRefreshPlatformCache</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Incremental Refresh Platform Cache Description --></label>
+        <name>vlocity_cmt__IncrementalRefreshPlatformCacheDesc</name>
     </customLabels>
     <customLabels>
         <label><!-- Autogenerated OmniScript Label for CPQ/BulkCreateQuote --></label>
@@ -19663,6 +20707,14 @@
     <customLabels>
         <label><!-- Install --></label>
         <name>vlocity_cmt__Install</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Install Default Standard Pricing Plan Data --></label>
+        <name>vlocity_cmt__InstallCpqNextPricingPlanData</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Install DataPack for default data of standard pricing plan and steps --></label>
+        <name>vlocity_cmt__InstallCpqNextPricingPlanDataDesc</name>
     </customLabels>
     <customLabels>
         <label><!-- InstallDataPack --></label>
@@ -19993,12 +21045,20 @@
         <name>vlocity_cmt__InternalErrorSupplementCreate</name>
     </customLabels>
     <customLabels>
+        <label><!-- Internal server error --></label>
+        <name>vlocity_cmt__InternalServerError</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Invalid Account Applied Promotion Items --></label>
         <name>vlocity_cmt__InvalidAccountAppliedPromotion</name>
     </customLabels>
     <customLabels>
         <label><!-- InvalidAccountId --></label>
         <name>vlocity_cmt__InvalidAccountId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- InvalidAccountOrAssetsNotFound --></label>
+        <name>vlocity_cmt__InvalidAccountOrAssetsNotFound</name>
     </customLabels>
     <customLabels>
         <label><!-- InvalidAdditionalObjectsFormat --></label>
@@ -20039,6 +21099,10 @@
     <customLabels>
         <label><!-- Both source and target should be sent --></label>
         <name>vlocity_cmt__InvalidComponentMappingUpdateMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Configuration Snapshot --></label>
+        <name>vlocity_cmt__InvalidConfigurationSnapshot</name>
     </customLabels>
     <customLabels>
         <label><!-- Invalid context entity value --></label>
@@ -20097,12 +21161,20 @@
         <name>vlocity_cmt__InvalidDomain</name>
     </customLabels>
     <customLabels>
+        <label><!-- Invalid image Ids. --></label>
+        <name>vlocity_cmt__InvalidImageIds</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Invalid Implementation Class --></label>
         <name>vlocity_cmt__InvalidImplClass</name>
     </customLabels>
     <customLabels>
         <label><!-- Invalid Input --></label>
         <name>vlocity_cmt__InvalidInput</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Job Execution --></label>
+        <name>vlocity_cmt__InvalidJobExecution</name>
     </customLabels>
     <customLabels>
         <label><!-- Invalid locale code. --></label>
@@ -20123,6 +21195,10 @@
     <customLabels>
         <label><!-- Invalid offer code. Please check the request url. --></label>
         <name>vlocity_cmt__InvalidOfferCode</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- One or more offer codes are invalid. --></label>
+        <name>vlocity_cmt__InvalidOfferCodes</name>
     </customLabels>
     <customLabels>
         <label><!-- Error message when offers in basket are invalid --></label>
@@ -20447,6 +21523,14 @@
     <customLabels>
         <label><!-- Line Items --></label>
         <name>vlocity_cmt__LineItems</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Message when Line Items Count exceeds specified limit. --></label>
+        <name>vlocity_cmt__LineItemsException</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Message when Line Items Count exceeds specified limit. --></label>
+        <name>vlocity_cmt__LineItemsWarning</name>
     </customLabels>
     <customLabels>
         <label><!-- LineKeyDoesntExist --></label>
@@ -21477,6 +22561,18 @@
         <name>vlocity_cmt__ManageOrgConnections</name>
     </customLabels>
     <customLabels>
+        <label><!-- Manual Queue Error messsage when its not synced --></label>
+        <name>vlocity_cmt__ManualQueueErrorMegNotFound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Manual Queue title for hybrid org ompl mode --></label>
+        <name>vlocity_cmt__ManualQueueOmplTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Manual Queue title --></label>
+        <name>vlocity_cmt__ManualQueueTitle</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Mar --></label>
         <name>vlocity_cmt__Mar</name>
     </customLabels>
@@ -22193,6 +23289,10 @@
         <name>vlocity_cmt__NonRecurringCost</name>
     </customLabels>
     <customLabels>
+        <label><!-- Versioning not enabled on the org. --></label>
+        <name>vlocity_cmt__NonVersioningOrg</name>
+    </customLabels>
+    <customLabels>
         <label><!-- None --></label>
         <name>vlocity_cmt__None</name>
     </customLabels>
@@ -22247,6 +23347,10 @@
     <customLabels>
         <label><!-- NowActivateMessage --></label>
         <name>vlocity_cmt__NowActivateMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Null Cart Json passed to the service. --></label>
+        <name>vlocity_cmt__NullCartJson</name>
     </customLabels>
     <customLabels>
         <label><!-- Nullify --></label>
@@ -23515,6 +24619,10 @@
     <customLabels>
         <label><!-- ODCFieldWidth --></label>
         <name>vlocity_cmt__ODCFieldWidth</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ODCFileBasedOmniscriptFieldLabel --></label>
+        <name>vlocity_cmt__ODCFileBasedOmniscriptFieldLabel</name>
     </customLabels>
     <customLabels>
         <label><!-- ODCFileLabel --></label>
@@ -25913,6 +27021,10 @@
         <name>vlocity_cmt__ODCSobjectMapping</name>
     </customLabels>
     <customLabels>
+        <label><!-- ODCStandardRuntimeFailedToDeploy --></label>
+        <name>vlocity_cmt__ODCStandardRuntimeFailedToDeploy</name>
+    </customLabels>
+    <customLabels>
         <label><!-- ODCStepChartLabel --></label>
         <name>vlocity_cmt__ODCStepChartLabel</name>
     </customLabels>
@@ -27137,6 +28249,10 @@
         <name>vlocity_cmt__OmniEditBlockDuplicateFound</name>
     </customLabels>
     <customLabels>
+        <label><!-- OmniEditBlockError --></label>
+        <name>vlocity_cmt__OmniEditBlockError</name>
+    </customLabels>
+    <customLabels>
         <label><!-- OmniEditBlockIconTextAdd --></label>
         <name>vlocity_cmt__OmniEditBlockIconTextAdd</name>
     </customLabels>
@@ -27175,6 +28291,10 @@
     <customLabels>
         <label><!-- OmniDesDocuTemplateErr --></label>
         <name>vlocity_cmt__OmniEditBlockMappingErr</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OmniEditBlockRowError --></label>
+        <name>vlocity_cmt__OmniEditBlockRowError</name>
     </customLabels>
     <customLabels>
         <label><!-- OmniEditBlockShowMoreLabel --></label>
@@ -27821,6 +28941,10 @@
         <name>vlocity_cmt__OmniScriptValidationError</name>
     </customLabels>
     <customLabels>
+        <label><!-- Message to be shown in the header of the popover on outdated omniscript popover --></label>
+        <name>vlocity_cmt__OmniScriptWarningDialogHeaderMessage</name>
+    </customLabels>
+    <customLabels>
         <label><!-- OmniScriptWebCalloutFailed --></label>
         <name>vlocity_cmt__OmniScriptWebCalloutFailed</name>
     </customLabels>
@@ -28203,6 +29327,10 @@
     <customLabels>
         <label><!-- Opportunity Id --></label>
         <name>vlocity_cmt__OpportunityId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OpportunityId is not present in the input --></label>
+        <name>vlocity_cmt__OpportunityInputNotPresent</name>
     </customLabels>
     <customLabels>
         <label><!-- Autogenerated OmniScript Label for CPQ/BulkCreateQuote --></label>
@@ -28947,6 +30075,10 @@
     <customLabels>
         <label><!-- Character limit for display name --></label>
         <name>vlocity_cmt__PCDisplayNameCharacterLimit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display Sequence --></label>
+        <name>vlocity_cmt__PCDisplaySequence</name>
     </customLabels>
     <customLabels>
         <label><!-- Display text used in pricing forms --></label>
@@ -30465,6 +31597,10 @@
         <name>vlocity_cmt__ProductAndPromotionCantExistTogether</name>
     </customLabels>
     <customLabels>
+        <label><!-- Product Attribute is reconciled when product definition is changed --></label>
+        <name>vlocity_cmt__ProductAttributeReconciliation</name>
+    </customLabels>
+    <customLabels>
         <label><!-- ProductAttributeRuleInvalidExpression --></label>
         <name>vlocity_cmt__ProductAttributeRuleInvalidExpression</name>
     </customLabels>
@@ -30497,6 +31633,18 @@
         <name>vlocity_cmt__ProductConsoleFeatureLabel</name>
     </customLabels>
     <customLabels>
+        <label><!-- Product fields is reconciled when product definition is changed --></label>
+        <name>vlocity_cmt__ProductDefinitionReconciliation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product is deleted due to change in hierarchy --></label>
+        <name>vlocity_cmt__ProductDeletedReconciliation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product effectivity is reconciled when product definition is changed --></label>
+        <name>vlocity_cmt__ProductEffectivityReconciliation</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Product Hierarchy Label --></label>
         <name>vlocity_cmt__ProductHierarchyLabel</name>
     </customLabels>
@@ -30511,6 +31659,10 @@
     <customLabels>
         <label><!-- Product Hierarchy Maintenance --></label>
         <name>vlocity_cmt__ProductHierarchyMaintenanceTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product is deleted due to product effectivity --></label>
+        <name>vlocity_cmt__ProductIneffectiveReconciliation</name>
     </customLabels>
     <customLabels>
         <label><!-- Product Name --></label>
@@ -30553,6 +31705,10 @@
         <name>vlocity_cmt__Profile</name>
     </customLabels>
     <customLabels>
+        <label><!-- Error Message when Effective Until Date of promotion is already passed. --></label>
+        <name>vlocity_cmt__PromoEffectiveDateException</name>
+    </customLabels>
+    <customLabels>
         <label><!-- PromoExistsOnTheLineItem --></label>
         <name>vlocity_cmt__PromoExistsOnTheLineItem</name>
     </customLabels>
@@ -30571,6 +31727,10 @@
     <customLabels>
         <label><!-- Promotion Item Action Disconnect --></label>
         <name>vlocity_cmt__PromotionItemActionDisconnect</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message for Error on Promotion Reconciliation --></label>
+        <name>vlocity_cmt__PromotionReconciliation</name>
     </customLabels>
     <customLabels>
         <label><!-- Prompt Product Selection --></label>
@@ -32109,7 +33269,7 @@
         <name>vlocity_cmt__RetryFailure</name>
     </customLabels>
     <customLabels>
-        <label><!-- Failed/fatally failed items picked for Retry. --></label>
+        <label><!-- Failed/fatally failed/Completed items picked for Retry. --></label>
         <name>vlocity_cmt__RetrySuccessfullyCompleted</name>
     </customLabels>
     <customLabels>
@@ -32313,6 +33473,10 @@
         <name>vlocity_cmt__SearchCardsPlaceholder</name>
     </customLabels>
     <customLabels>
+        <label><!-- Search Price List --></label>
+        <name>vlocity_cmt__SearchPriceList</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Search Results --></label>
         <name>vlocity_cmt__SearchResults</name>
     </customLabels>
@@ -32501,6 +33665,10 @@
         <name>vlocity_cmt__SelectionSingular</name>
     </customLabels>
     <customLabels>
+        <label><!-- Error Message when Selling End Date of product is already passed. --></label>
+        <name>vlocity_cmt__SellingEndDateException</name>
+    </customLabels>
+    <customLabels>
         <label><!-- SellingPeriodPromotionError --></label>
         <name>vlocity_cmt__SellingPeriodPromotionError</name>
     </customLabels>
@@ -32573,6 +33741,106 @@
         <name>vlocity_cmt__SfiEnergyAddServicePoint</name>
     </customLabels>
     <customLabels>
+        <label><!-- SfiEnergyCAMAdministartion --></label>
+        <name>vlocity_cmt__SfiEnergyCAMAdministartion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyCAMCacheJobs --></label>
+        <name>vlocity_cmt__SfiEnergyCAMCacheJobs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyCAMDeleteCachedRes --></label>
+        <name>vlocity_cmt__SfiEnergyCAMDeleteCachedRes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyCAMDeleteCachedResDesc --></label>
+        <name>vlocity_cmt__SfiEnergyCAMDeleteCachedResDesc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyCAMDeleteCachedResSuccessMsg --></label>
+        <name>vlocity_cmt__SfiEnergyCAMDeleteCachedResSuccessMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyCAMImageJobs --></label>
+        <name>vlocity_cmt__SfiEnergyCAMImageJobs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyCAMProductAttribJSONBatchJobName --></label>
+        <name>vlocity_cmt__SfiEnergyCAMProductAttribJSONBatchJobName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyCAMRecreateProductAttributes --></label>
+        <name>vlocity_cmt__SfiEnergyCAMRecreateProductAttributes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyCAMRecreateProductAttributesDesc1 --></label>
+        <name>vlocity_cmt__SfiEnergyCAMRecreateProductAttributesDesc1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyCAMRecreateProductAttributesDesc2 --></label>
+        <name>vlocity_cmt__SfiEnergyCAMRecreateProductAttributesDesc2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyCAMRecreateProductAttributesInfoMsg --></label>
+        <name>vlocity_cmt__SfiEnergyCAMRecreateProductAttributesInfoMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyCAMRecreateProductAttributesSuccessMsg --></label>
+        <name>vlocity_cmt__SfiEnergyCAMRecreateProductAttributesSuccessMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyCAMRegenCache --></label>
+        <name>vlocity_cmt__SfiEnergyCAMRegenCache</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyCAMRegenCacheCustomSettingName --></label>
+        <name>vlocity_cmt__SfiEnergyCAMRegenCacheCustomSettingName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyCAMRegenCacheDesc2 --></label>
+        <name>vlocity_cmt__SfiEnergyCAMRegenCacheDesc2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyCAMUpdateImages --></label>
+        <name>vlocity_cmt__SfiEnergyCAMUpdateImages</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyCAMUpdateImagesCustSettingName --></label>
+        <name>vlocity_cmt__SfiEnergyCAMUpdateImagesCustSettingName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyCAMUpdateImagesDesc1 --></label>
+        <name>vlocity_cmt__SfiEnergyCAMUpdateImagesDesc1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyCAMUpdateImagesDesc2 --></label>
+        <name>vlocity_cmt__SfiEnergyCAMUpdateImagesDesc2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyCAMUpdateImagesSuccessMsg --></label>
+        <name>vlocity_cmt__SfiEnergyCAMUpdateImagesSuccessMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyCAMVIPCache --></label>
+        <name>vlocity_cmt__SfiEnergyCAMVIPCache</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyCAMVIPCacheDesc1 --></label>
+        <name>vlocity_cmt__SfiEnergyCAMVIPCacheDesc1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyCAMVIPCacheDesc2 --></label>
+        <name>vlocity_cmt__SfiEnergyCAMVIPCacheDesc2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyCAMVIPCacheInfoMsg --></label>
+        <name>vlocity_cmt__SfiEnergyCAMVIPCacheInfoMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyCAMVIPCacheSuccessMsg --></label>
+        <name>vlocity_cmt__SfiEnergyCAMVIPCacheSuccessMsg</name>
+    </customLabels>
+    <customLabels>
         <label><!-- SfiEnergyCancel --></label>
         <name>vlocity_cmt__SfiEnergyCancel</name>
     </customLabels>
@@ -32585,6 +33853,42 @@
         <name>vlocity_cmt__SfiEnergyCold</name>
     </customLabels>
     <customLabels>
+        <label><!-- Successful verification message --></label>
+        <name>vlocity_cmt__SfiEnergyConsoleIDVCustomerVerified</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used in radio options to check if customer exists --></label>
+        <name>vlocity_cmt__SfiEnergyConsoleIDVExistingCustomer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message to be displayed when no records found --></label>
+        <name>vlocity_cmt__SfiEnergyConsoleIDVNoRecords</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Optional verification heading --></label>
+        <name>vlocity_cmt__SfiEnergyConsoleIDVOptionalVerifiersHeading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- User instruction for optional verifiers --></label>
+        <name>vlocity_cmt__SfiEnergyConsoleIDVOptionalVerifiersUserInstruction</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Heading for required verification --></label>
+        <name>vlocity_cmt__SfiEnergyConsoleIDVRequiredVerifiersHeading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- User instruction for required verifiers --></label>
+        <name>vlocity_cmt__SfiEnergyConsoleIDVRequiredVerifiersUserInstruction</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Secondary successful message --></label>
+        <name>vlocity_cmt__SfiEnergyConsoleIDVSecondaryMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message to be displayed when verification fails --></label>
+        <name>vlocity_cmt__SfiEnergyConsoleIDVVerificationFailedMessage</name>
+    </customLabels>
+    <customLabels>
         <label><!-- SfiEnergyContractedMonths --></label>
         <name>vlocity_cmt__SfiEnergyContractedMonths</name>
     </customLabels>
@@ -32593,8 +33897,44 @@
         <name>vlocity_cmt__SfiEnergyCorrectLabels</name>
     </customLabels>
     <customLabels>
+        <label><!-- SfiEnergyEUCAdministration --></label>
+        <name>vlocity_cmt__SfiEnergyEUCAdministration</name>
+    </customLabels>
+    <customLabels>
         <label><!-- SfiEnergyErrorOccurredMsg --></label>
         <name>vlocity_cmt__SfiEnergyErrorOccurredMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyGlobalBackToDashboard --></label>
+        <name>vlocity_cmt__SfiEnergyGlobalBackToDashboard</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyGlobalCancel --></label>
+        <name>vlocity_cmt__SfiEnergyGlobalCancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyGlobalHello --></label>
+        <name>vlocity_cmt__SfiEnergyGlobalHello</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyGlobalProvideUsername --></label>
+        <name>vlocity_cmt__SfiEnergyGlobalProvideUsername</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyGlobalResetPassword --></label>
+        <name>vlocity_cmt__SfiEnergyGlobalResetPassword</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyGlobalStart --></label>
+        <name>vlocity_cmt__SfiEnergyGlobalStart</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyGlobalSubmit --></label>
+        <name>vlocity_cmt__SfiEnergyGlobalSubmit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyGlobalUserName --></label>
+        <name>vlocity_cmt__SfiEnergyGlobalUserName</name>
     </customLabels>
     <customLabels>
         <label><!-- SfiEnergyGrandTotal --></label>
@@ -32645,12 +33985,24 @@
         <name>vlocity_cmt__SfiEnergyLeads</name>
     </customLabels>
     <customLabels>
+        <label><!-- SfiEnergyMissingRequestBodyError --></label>
+        <name>vlocity_cmt__SfiEnergyMissingRequestBodyError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyMissingRequestParamError --></label>
+        <name>vlocity_cmt__SfiEnergyMissingRequestParamError</name>
+    </customLabels>
+    <customLabels>
         <label><!-- SfiEnergyNALabel --></label>
         <name>vlocity_cmt__SfiEnergyNALabel</name>
     </customLabels>
     <customLabels>
         <label><!-- Negotiation --></label>
         <name>vlocity_cmt__SfiEnergyNegotiation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyNoAccessToServiceError --></label>
+        <name>vlocity_cmt__SfiEnergyNoAccessToServiceError</name>
     </customLabels>
     <customLabels>
         <label><!-- SfiEnergyNoDataMsg --></label>
@@ -32737,6 +34089,10 @@
         <name>vlocity_cmt__SfiEnergyQuotesName</name>
     </customLabels>
     <customLabels>
+        <label><!-- SfiEnergyReferToDoc --></label>
+        <name>vlocity_cmt__SfiEnergyReferToTroubleShootDoc</name>
+    </customLabels>
+    <customLabels>
         <label><!-- SfiEnergyRequiredFieldMissing --></label>
         <name>vlocity_cmt__SfiEnergyRequiredFieldMissing</name>
     </customLabels>
@@ -32755,6 +34111,290 @@
     <customLabels>
         <label><!-- SfiEnergySelectLinkedPremise --></label>
         <name>vlocity_cmt__SfiEnergySelectLinkedPremise</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceAbout --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceAbout</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceAddress --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceAddress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceAllNotifications --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceAllNotifications</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Amount --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceAmount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceApply --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceApply</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceApps --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceApps</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceBanner --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceBanner</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceBekkiDescription --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceBekkiDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceBekkyRights --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceBekkyRights</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceBekkyText --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceBekkyText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Bill URL --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceBillURL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Billing History --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceBillingHistory</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Billing Period --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceBillingPeriod</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceCanada --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceCanada</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceCompany --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceCompany</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Total Usage --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceConsumption</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Energy consumption warning message --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceConsumptionWarning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceContactSupport --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceContactSupport</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceDescription --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceDisputeABill --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceDisputeABill</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Due Date --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceDueDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceEVChargingStations --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceEVChargingStations</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceEVChargingStationsDescription --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceEVChargingStationsDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceEarlier --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceEarlier</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceFindADoctor --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceFindADoctor</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceFindOutMore --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceFindOutMore</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceGenericErrorTxt --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceGenericErrorTxt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceGoPaperless --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceGoPaperless</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceHelpCenter --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceHelpCenter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceHelpText --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceHelpText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceHongkong --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceHongkong</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceHowItWorks --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceHowItWorks</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceIndonesia --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceIndonesia</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceInsightText --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceInsightText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceInsightTextTwo --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceInsightTextTwo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceInsightTitleOne --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceInsightTitleOne</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceInsightTitleTwo --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceInsightTitleTwo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceInstructions --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceInstructions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceKnowHow --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceKnowHow</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Last 12 Months --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceLast12Months</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Last 24 Months --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceLast24Months</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Last 6 Months --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceLast6Months</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceMoveOut --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceMoveOut</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Moving --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceMoving</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Moving Description --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceMovingDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceName --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceNear --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceNear</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceNew --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceNew</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceNoOutageText --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceNoOutageText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Records To Display --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceNoRecordsMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceOutagePredicted --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceOutagePredicted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServicePaperlessBills --></label>
+        <name>vlocity_cmt__SfiEnergySelfServicePaperlessBills</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pay Now --></label>
+        <name>vlocity_cmt__SfiEnergySelfServicePay</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceQuickActions --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceQuickActions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceRaiseADispute --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceRaiseADispute</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceRaiseADisputeContactUs --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceRaiseADisputeContactUs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceRaiseADisputeSubmit --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceRaiseADisputeSubmit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceRegion --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceRegion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceRestoration --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceRestoration</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceSingapore --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceSingapore</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceSubject --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceSubject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceSubmitMeterRead --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceSubmitMeterRead</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceSwitchToPaperBill --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceSwitchToPaperBill</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceTestimonials --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceTestimonials</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Transfer Service Description --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceTransferService</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UoM --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceUoM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceUpdateAccount --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceUpdateAccount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceUserDetails --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceUserDetails</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceViewAllNotifications --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceViewAllNotifications</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- View Bill --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceViewBill</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergySelfServiceViewBillStatement --></label>
+        <name>vlocity_cmt__SfiEnergySelfServiceViewBillStatement</name>
     </customLabels>
     <customLabels>
         <label><!-- SfiEnergyServicePointAdded --></label>
@@ -32809,6 +34449,10 @@
         <name>vlocity_cmt__SfiEnergyServicePointMarketIdentifier</name>
     </customLabels>
     <customLabels>
+        <label><!-- SfiEnergyServicePointNotUploaded --></label>
+        <name>vlocity_cmt__SfiEnergyServicePointNotUploaded</name>
+    </customLabels>
+    <customLabels>
         <label><!-- SfiEnergyServicePointSuccessfullyUploadedCount --></label>
         <name>vlocity_cmt__SfiEnergyServicePointSuccessfullyUploadedCount</name>
     </customLabels>
@@ -32825,12 +34469,20 @@
         <name>vlocity_cmt__SfiEnergyServicePointUploadedSuccessMsg</name>
     </customLabels>
     <customLabels>
+        <label><!-- SfiEnergyUpdateAssetAPIFieldValidationError --></label>
+        <name>vlocity_cmt__SfiEnergyUpdateAssetAPIFieldValidationError</name>
+    </customLabels>
+    <customLabels>
         <label><!-- SfiEnergyUploadFailed --></label>
         <name>vlocity_cmt__SfiEnergyUploadFailed</name>
     </customLabels>
     <customLabels>
         <label><!-- SfiEnergyUploadProcessFailed --></label>
         <name>vlocity_cmt__SfiEnergyUploadProcessFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SfiEnergyVerifyCSV --></label>
+        <name>vlocity_cmt__SfiEnergyVerifyCSV</name>
     </customLabels>
     <customLabels>
         <label><!-- Warm --></label>
@@ -32871,6 +34523,14 @@
     <customLabels>
         <label><!-- Simulate --></label>
         <name>vlocity_cmt__Simulate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ActivePromotionMessage --></label>
+        <name>vlocity_cmt__SingleActivePromo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ActivePromotionMessage --></label>
+        <name>vlocity_cmt__SingleActivePromoMultiOccurence</name>
     </customLabels>
     <customLabels>
         <label><!-- Site --></label>
@@ -33039,6 +34699,10 @@
     <customLabels>
         <label><!-- StateModelMissingTypeOrValue --></label>
         <name>vlocity_cmt__StateModelMissingTypeOrValue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- StateRules --></label>
+        <name>vlocity_cmt__StateRules</name>
     </customLabels>
     <customLabels>
         <label><!-- StateTransitionChangeError --></label>
@@ -33393,6 +35057,114 @@
         <name>vlocity_cmt__TList</name>
     </customLabels>
     <customLabels>
+        <label><!-- TMFApiInsufficientPermissionError --></label>
+        <name>vlocity_cmt__TMFApiInsufficientPermissionError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Attribute category error when not configured in metadata --></label>
+        <name>vlocity_cmt__TMFAttributeCategoryConfigurationError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TMFCatalogExistsError --></label>
+        <name>vlocity_cmt__TMFCatalogExistsError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid date error --></label>
+        <name>vlocity_cmt__TMFCatalogInvalidDateError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid related party error --></label>
+        <name>vlocity_cmt__TMFCatalogInvalidRelatedPartyError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TMFCatalogInvalidRequestError --></label>
+        <name>vlocity_cmt__TMFCatalogInvalidRequestError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Multiple related party found error --></label>
+        <name>vlocity_cmt__TMFCatalogMultipleRelatedPartyFoundError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error for null value in Id attribute --></label>
+        <name>vlocity_cmt__TMFCatalogRelatedPartyIdError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Related party not found error --></label>
+        <name>vlocity_cmt__TMFCatalogRelatedPartyNotFoundError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Catalog Relationship Error --></label>
+        <name>vlocity_cmt__TMFCatalogRelationshipError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TMFCategoryAlreadyPresentError --></label>
+        <name>vlocity_cmt__TMFCategoryAlreadyPresentError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message while createing document --></label>
+        <name>vlocity_cmt__TMFDocumentCreationError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Duplicate catalog in request --></label>
+        <name>vlocity_cmt__TMFDuplicateCatalogError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TMFMandatoryFieldNameMissing --></label>
+        <name>vlocity_cmt__TMFMandatoryFieldNameMissing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Missing name from offering price payload --></label>
+        <name>vlocity_cmt__TMFMissingNameError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid or nonexistent catalog error --></label>
+        <name>vlocity_cmt__TMFNonExistentCatalogError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid or nonexistent parent product error --></label>
+        <name>vlocity_cmt__TMFNonExistentParentProductError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid or nonexistent product error --></label>
+        <name>vlocity_cmt__TMFNonExistentProductError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid or nonexistent product with Global Key error --></label>
+        <name>vlocity_cmt__TMFNonExistentProductWithGlobalKeyError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid or nonexistent related product error --></label>
+        <name>vlocity_cmt__TMFNonExistentRelatedProductError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Price list error when not configured in metadata --></label>
+        <name>vlocity_cmt__TMFPriceListConfigurationError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Price list error when not configured in metadata for offering price --></label>
+        <name>vlocity_cmt__TMFPriceListConfigurationErrorForOfferingPrice</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product Offering Price mandatory field error --></label>
+        <name>vlocity_cmt__TMFProductOfferingPriceMandatoryFieldError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Object type not found error --></label>
+        <name>vlocity_cmt__TMFProductSpecificationObjectTypeError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TMFRootCatalogMissing --></label>
+        <name>vlocity_cmt__TMFRootCatalogMissing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TMFSubcategoryMissing --></label>
+        <name>vlocity_cmt__TMFSubcategoryMissing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TMFSubcategoryNotCreated --></label>
+        <name>vlocity_cmt__TMFSubcategoryNotCreated</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Modify --></label>
         <name>vlocity_cmt__TModify</name>
     </customLabels>
@@ -33683,6 +35455,10 @@
     <customLabels>
         <label><!-- Unable to create Orders. --></label>
         <name>vlocity_cmt__UnableToCreateOrders</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unable to create Quote. --></label>
+        <name>vlocity_cmt__UnableToCreateQuote</name>
     </customLabels>
     <customLabels>
         <label><!-- Unable To Discard Label --></label>
@@ -34085,6 +35861,10 @@
         <name>vlocity_cmt__VFDeprecatedInOmniStudio</name>
     </customLabels>
     <customLabels>
+        <label><!-- We’re sorry, but the page you’re looking for no longer exists. --></label>
+        <name>vlocity_cmt__VFPageDepricatedText</name>
+    </customLabels>
+    <customLabels>
         <label><!-- VIACurrentValue --></label>
         <name>vlocity_cmt__VIACurrentValue</name>
     </customLabels>
@@ -34217,6 +35997,10 @@
         <name>vlocity_cmt__VersioningFeatureWarningMessage</name>
     </customLabels>
     <customLabels>
+        <label><!-- Versioning is enabled on the org. --></label>
+        <name>vlocity_cmt__VersioningOrg</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Upgrade Object Versions --></label>
         <name>vlocity_cmt__VersioningUpgradeJob</name>
     </customLabels>
@@ -34263,6 +36047,10 @@
     <customLabels>
         <label><!-- Virtual Object Config Invalid Input --></label>
         <name>vlocity_cmt__VirObjInvalidInput</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- A virtual price cannot be adjusted. --></label>
+        <name>vlocity_cmt__VirtualPleError</name>
     </customLabels>
     <customLabels>
         <label><!-- VisualForce Page --></label>
@@ -34677,6 +36465,18 @@
         <name>vlocity_cmt__XOMAbortFutureDatedJobMsg</name>
     </customLabels>
     <customLabels>
+        <label><!-- Add New Condition --></label>
+        <name>vlocity_cmt__XOMAddNewCondition</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add New Rule --></label>
+        <name>vlocity_cmt__XOMAddNewRule</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add New Transform/Mapping --></label>
+        <name>vlocity_cmt__XOMAddNewTransformMapping</name>
+    </customLabels>
+    <customLabels>
         <label><!-- XOMAdminPageErrorOccurred --></label>
         <name>vlocity_cmt__XOMAdminPageErrorOccurred</name>
     </customLabels>
@@ -34687,6 +36487,10 @@
     <customLabels>
         <label><!-- XOMAdminPageTitle --></label>
         <name>vlocity_cmt__XOMAdminPageTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Age Days --></label>
+        <name>vlocity_cmt__XOMAgeDays</name>
     </customLabels>
     <customLabels>
         <label><!-- All Items Selected --></label>
@@ -34703,6 +36507,10 @@
     <customLabels>
         <label><!-- XOMApplyRecordTypesDesc --></label>
         <name>vlocity_cmt__XOMApplyRecordTypesDesc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Approved --></label>
+        <name>vlocity_cmt__XOMApproved</name>
     </customLabels>
     <customLabels>
         <label><!-- Assign To Me --></label>
@@ -34741,6 +36549,58 @@
         <name>vlocity_cmt__XOMAttrType</name>
     </customLabels>
     <customLabels>
+        <label><!-- XOMAttrV2Migration --></label>
+        <name>vlocity_cmt__XOMAttrV2Migration</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOMAttrV2MigrationBatchSize --></label>
+        <name>vlocity_cmt__XOMAttrV2MigrationBatchSize</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOMAttrV2MigrationDesc --></label>
+        <name>vlocity_cmt__XOMAttrV2MigrationDesc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOMAttrV2MigrationHideConfig --></label>
+        <name>vlocity_cmt__XOMAttrV2MigrationHideConfig</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOMAttrV2MigrationEnterBatchSize --></label>
+        <name>vlocity_cmt__XOMAttrV2MigrationInputBatchSizePlaceholder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOMAttrV2MigrationProcessAborted --></label>
+        <name>vlocity_cmt__XOMAttrV2MigrationProcessAborted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOMAttrV2MigrationProcessCompleted --></label>
+        <name>vlocity_cmt__XOMAttrV2MigrationProcessCompleted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOMAttrV2MigrationProcessFailed --></label>
+        <name>vlocity_cmt__XOMAttrV2MigrationProcessFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOMAttrV2MigrationProcessStartFailed --></label>
+        <name>vlocity_cmt__XOMAttrV2MigrationProcessStartFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOMAttrV2MigrationProcessStarted --></label>
+        <name>vlocity_cmt__XOMAttrV2MigrationProcessStarted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOMAttrV2MigrationProcessing --></label>
+        <name>vlocity_cmt__XOMAttrV2MigrationProcessing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOMAttrV2MigrationSelectObject --></label>
+        <name>vlocity_cmt__XOMAttrV2MigrationSelectObject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOMAttrV2MigrationViewConfig --></label>
+        <name>vlocity_cmt__XOMAttrV2MigrationViewConfig</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Attribute Value --></label>
         <name>vlocity_cmt__XOMAttrValue</name>
     </customLabels>
@@ -34749,8 +36609,28 @@
         <name>vlocity_cmt__XOMAttribute</name>
     </customLabels>
     <customLabels>
+        <label><!-- Attribute Category --></label>
+        <name>vlocity_cmt__XOMAttributeCategory</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Attribute/Field/Value --></label>
+        <name>vlocity_cmt__XOMAttributeFieldValue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Attribute Name --></label>
+        <name>vlocity_cmt__XOMAttributeName</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Orchestration task type --></label>
         <name>vlocity_cmt__XOMAutoTask</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Back to admin page --></label>
+        <name>vlocity_cmt__XOMBacktodashboard</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Batch Size --></label>
+        <name>vlocity_cmt__XOMBatchSize</name>
     </customLabels>
     <customLabels>
         <label><!-- XOMCacheRefreshMessage --></label>
@@ -34758,7 +36638,15 @@
     </customLabels>
     <customLabels>
         <label><!-- Orchestration task type --></label>
+        <name>vlocity_cmt__XOMCallout</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Orchestration task type --></label>
         <name>vlocity_cmt__XOMCalloutTo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM Cancel --></label>
+        <name>vlocity_cmt__XOMCancel</name>
     </customLabels>
     <customLabels>
         <label><!-- Error occurred while trying to cancel Supplemental Order --></label>
@@ -34767,6 +36655,10 @@
     <customLabels>
         <label><!-- XOM Catalog Synchronisation Page --></label>
         <name>vlocity_cmt__XOMCatalogSynchronisation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM Change --></label>
+        <name>vlocity_cmt__XOMChange</name>
     </customLabels>
     <customLabels>
         <label><!-- Error occurred while checking status of Supplemental Order submission --></label>
@@ -34781,6 +36673,14 @@
         <name>vlocity_cmt__XOMClose</name>
     </customLabels>
     <customLabels>
+        <label><!-- XOM Common Name: --></label>
+        <name>vlocity_cmt__XOMCommonName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM Common Name Validation --></label>
+        <name>vlocity_cmt__XOMCommonNameValidation</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Compact Mode --></label>
         <name>vlocity_cmt__XOMCompactMode</name>
     </customLabels>
@@ -34791,6 +36691,98 @@
     <customLabels>
         <label><!-- [itemState] items cannot be completed --></label>
         <name>vlocity_cmt__XOMCompleteItemInvalidState</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Complete Item disabled: tooltip message --></label>
+        <name>vlocity_cmt__XOMCompleteMenuItemTooltipMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add root condition --></label>
+        <name>vlocity_cmt__XOMConditionBuilderAddRootCondition</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- This will wrap a parent condition around your current conditions data --></label>
+        <name>vlocity_cmt__XOMConditionBuilderAddRootConditionDesc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Attribute category: --></label>
+        <name>vlocity_cmt__XOMConditionBuilderAttributeCategory</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Attribute code: --></label>
+        <name>vlocity_cmt__XOMConditionBuilderAttributeCode</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Attribute name: --></label>
+        <name>vlocity_cmt__XOMConditionBuilderAttributeName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select a field/attribute for your condition&apos;s left hand side --></label>
+        <name>vlocity_cmt__XOMConditionBuilderConditionFieldLHS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select your condition&apos;s left hand side --></label>
+        <name>vlocity_cmt__XOMConditionBuilderConditionLHS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Condition type --></label>
+        <name>vlocity_cmt__XOMConditionBuilderConditionType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Criteria --></label>
+        <name>vlocity_cmt__XOMConditionBuilderCriteria</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete All --></label>
+        <name>vlocity_cmt__XOMConditionBuilderDeleteAll</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No products found --></label>
+        <name>vlocity_cmt__XOMConditionBuilderNoProductFound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- There are no products in that search criteria, please modify your search keyword --></label>
+        <name>vlocity_cmt__XOMConditionBuilderNoProductFoundCriteria</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select Object and Object field for the condition --></label>
+        <name>vlocity_cmt__XOMConditionBuilderObjectConditionDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- This field is required --></label>
+        <name>vlocity_cmt__XOMConditionBuilderObjectConditionRequiredDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save Conditions --></label>
+        <name>vlocity_cmt__XOMConditionBuilderSaveConditions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Please select a product first --></label>
+        <name>vlocity_cmt__XOMConditionBuilderSelectProduct</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Choose a product from the product section before you select an attribute --></label>
+        <name>vlocity_cmt__XOMConditionBuilderSelectProductAttr</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Please wait --></label>
+        <name>vlocity_cmt__XOMConditionBuilderWait</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Condition Name --></label>
+        <name>vlocity_cmt__XOMConditionName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Show attribute option in source type --></label>
+        <name>vlocity_cmt__XOMConditionsMapperAttribute</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Show field FRLine option in source type --></label>
+        <name>vlocity_cmt__XOMConditionsMapperFieldFRLine</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Show field Order Item option in source type --></label>
+        <name>vlocity_cmt__XOMConditionsMapperFieldOrderItem</name>
     </customLabels>
     <customLabels>
         <label><!-- XOMConfigureOMPlus --></label>
@@ -34805,12 +36797,28 @@
         <name>vlocity_cmt__XOMConfiguredOMPLDesc</name>
     </customLabels>
     <customLabels>
+        <label><!-- XOMConfiguredOMPLHybridDesc --></label>
+        <name>vlocity_cmt__XOMConfiguredOMPLHybridDesc</name>
+    </customLabels>
+    <customLabels>
         <label><!-- XOMConfiguredStdDesc --></label>
         <name>vlocity_cmt__XOMConfiguredStdDesc</name>
     </customLabels>
     <customLabels>
+        <label><!-- Contextual Menu Icon --></label>
+        <name>vlocity_cmt__XOMContextualMenuIcon</name>
+    </customLabels>
+    <customLabels>
         <label><!-- XOMCountingCatalogObjs --></label>
         <name>vlocity_cmt__XOMCountingCatalogObjs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM Country Code --></label>
+        <name>vlocity_cmt__XOMCountryCode</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM Country Validation --></label>
+        <name>vlocity_cmt__XOMCountryValidation</name>
     </customLabels>
     <customLabels>
         <label><!-- XOMCreateDRBundles --></label>
@@ -34819,6 +36827,18 @@
     <customLabels>
         <label><!-- XOMCreateDRBundlesDesc --></label>
         <name>vlocity_cmt__XOMCreateDRBundlesDesc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Master Key --></label>
+        <name>vlocity_cmt__XOMCustomerMasterKey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM Customer Master Key change error --></label>
+        <name>vlocity_cmt__XOMCustomerMasterKeyChangeError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM Customer Maskter Key Success --></label>
+        <name>vlocity_cmt__XOMCustomerMasterKeySuccess</name>
     </customLabels>
     <customLabels>
         <label><!-- XOMDPScheduleCSError --></label>
@@ -34831,6 +36851,26 @@
     <customLabels>
         <label><!-- XOMDRBundleCreated --></label>
         <name>vlocity_cmt__XOMDRBundleCreated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOMDRDefsLabel --></label>
+        <name>vlocity_cmt__XOMDRDefsLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM Data Encryption Key Change Error --></label>
+        <name>vlocity_cmt__XOMDataEncryptionKeyChangeError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM Data In Transit Key --></label>
+        <name>vlocity_cmt__XOMDataInTransitKey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM Data In TransitKey request error --></label>
+        <name>vlocity_cmt__XOMDataInTransitKeyRequestError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM Data In TransitKey request success --></label>
+        <name>vlocity_cmt__XOMDataInTransitKeyRequestSuccess</name>
     </customLabels>
     <customLabels>
         <label><!-- Asset/Inventory Item --></label>
@@ -34881,8 +36921,160 @@
         <name>vlocity_cmt__XOMDecomViewOriginalOrder</name>
     </customLabels>
     <customLabels>
+        <label><!-- Action label in decomposition --></label>
+        <name>vlocity_cmt__XOMDecompAction</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Characteristics label in decomposition --></label>
+        <name>vlocity_cmt__XOMDecompCharacteristics</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Empty Orders cannot be decomposed. --></label>
+        <name>vlocity_cmt__XOMDecompEmptyOrderError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Fulfilment Status label in decomposition --></label>
+        <name>vlocity_cmt__XOMDecompFulfilmentStatus</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Please note that Decomposition Matrix UI is deprecated. --></label>
         <name>vlocity_cmt__XOMDecompMatrixUIDeprecatedNote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Provisioning Status label in decomposition --></label>
+        <name>vlocity_cmt__XOMDecompProvisioningStatus</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Show Actions label in decomposition --></label>
+        <name>vlocity_cmt__XOMDecompShowActions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Show Empty Attributes label in decomposition --></label>
+        <name>vlocity_cmt__XOMDecompShowEmptyAttributes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Subaction label in decomposition --></label>
+        <name>vlocity_cmt__XOMDecompSubAction</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Supplemental Action label in decomposition --></label>
+        <name>vlocity_cmt__XOMDecompSupplementalAction</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Collapse --></label>
+        <name>vlocity_cmt__XOMDecompViewCollapse</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CompactView --></label>
+        <name>vlocity_cmt__XOMDecompViewCompactMode</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unable to display decomposition view --></label>
+        <name>vlocity_cmt__XOMDecompViewError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Expand --></label>
+        <name>vlocity_cmt__XOMDecompViewExpand</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- This attribute was updated during fulfilment --></label>
+        <name>vlocity_cmt__XOMDecompViewFRLAttributeUpdate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Fulfilment Request --></label>
+        <name>vlocity_cmt__XOMDecompViewFulfilmentRequest</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Fulfilment Requests --></label>
+        <name>vlocity_cmt__XOMDecompViewFulfilmentRequests</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- At Risk --></label>
+        <name>vlocity_cmt__XOMDecompViewJeopardyStatusAtRisk</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Critical --></label>
+        <name>vlocity_cmt__XOMDecompViewJeopardyStatusCritical</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Line Number --></label>
+        <name>vlocity_cmt__XOMDecompViewLineNumber</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Some items are still being loaded --></label>
+        <name>vlocity_cmt__XOMDecompViewLoadingLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Loading characteristics value for the orders below --></label>
+        <name>vlocity_cmt__XOMDecompViewLoadingText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order --></label>
+        <name>vlocity_cmt__XOMDecompViewOrder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Orders --></label>
+        <name>vlocity_cmt__XOMDecompViewOrders</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Print --></label>
+        <name>vlocity_cmt__XOMDecompViewPrint</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Settings --></label>
+        <name>vlocity_cmt__XOMDecompViewSettings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Show Actions in user preferences. --></label>
+        <name>vlocity_cmt__XOMDecompViewShowActions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Show all the options in user preferences. --></label>
+        <name>vlocity_cmt__XOMDecompViewShowAll</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Show Characteristics in user preferences. --></label>
+        <name>vlocity_cmt__XOMDecompViewShowCharacterstics</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Show Empty --></label>
+        <name>vlocity_cmt__XOMDecompViewShowEmpty</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Show Empty Characteristics in user preferences. --></label>
+        <name>vlocity_cmt__XOMDecompViewShowEmptyCharacterstics</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Show Fulfillment Status in user preferences. --></label>
+        <name>vlocity_cmt__XOMDecompViewShowFulfillmentStatus</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Show Inventory item in user preferences. --></label>
+        <name>vlocity_cmt__XOMDecompViewShowInvenctoryItem</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Show  line Item in user preferences. --></label>
+        <name>vlocity_cmt__XOMDecompViewShowLineItem</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Show product in user preferences. --></label>
+        <name>vlocity_cmt__XOMDecompViewShowProduct</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Show Provisioning Status in user preferences. --></label>
+        <name>vlocity_cmt__XOMDecompViewShowProvisioningStatus</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Show Supplemental Action in user preferences. --></label>
+        <name>vlocity_cmt__XOMDecompViewShowSupplimentalAction</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Status --></label>
+        <name>vlocity_cmt__XOMDecompViewStatus</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order Decomposition --></label>
+        <name>vlocity_cmt__XOMDecompViewTitle</name>
     </customLabels>
     <customLabels>
         <label><!-- Decompose Order button --></label>
@@ -34899,6 +37091,62 @@
     <customLabels>
         <label><!-- XOMDeleteSyncDeltaSuccessMsg --></label>
         <name>vlocity_cmt__XOMDeleteSyncDeltaSuccessMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancel and close --></label>
+        <name>vlocity_cmt__XOMDependencyModal_Cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Done button label --></label>
+        <name>vlocity_cmt__XOMDependencyModal_DoneButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Don’t give up yet! --></label>
+        <name>vlocity_cmt__XOMDependencyModal_DontGiveUpYet</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Load more button label --></label>
+        <name>vlocity_cmt__XOMDependencyModal_LoadMoreText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Load more external dependencies --></label>
+        <name>vlocity_cmt__XOMDependencyModal_LoadMoreTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Heading text of External Dependencies modal --></label>
+        <name>vlocity_cmt__XOMDependencyModal_ModalHeading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No search data --></label>
+        <name>vlocity_cmt__XOMDependencyModal_NoSearchData</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Orchestration Item --></label>
+        <name>vlocity_cmt__XOMDependencyModal_OrchestrationItem</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Orchestration Item Dependency --></label>
+        <name>vlocity_cmt__XOMDependencyModal_OrchestrationItemDependency</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Orchestration Plan --></label>
+        <name>vlocity_cmt__XOMDependencyModal_OrchestrationPlan</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order number --></label>
+        <name>vlocity_cmt__XOMDependencyModal_OrderNumber</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Search button label --></label>
+        <name>vlocity_cmt__XOMDependencyModal_SearchButtonLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- no matches in database --></label>
+        <name>vlocity_cmt__XOMDependencyModal_SearchErrorMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Search in Orchestration Item Dependencies --></label>
+        <name>vlocity_cmt__XOMDependencyModal_SearchPlaceholderText</name>
     </customLabels>
     <customLabels>
         <label><!-- XOM Deploying layouts and custom objects --></label>
@@ -34921,8 +37169,28 @@
         <name>vlocity_cmt__XOMDeploymentSuccess</name>
     </customLabels>
     <customLabels>
+        <label><!-- Destination Attribute --></label>
+        <name>vlocity_cmt__XOMDestinationAttribute</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Destination Value --></label>
+        <name>vlocity_cmt__XOMDestinationValue</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Due date of orchestration item --></label>
         <name>vlocity_cmt__XOMDue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM Email Address: --></label>
+        <name>vlocity_cmt__XOMEmailAddress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM Email Validation --></label>
+        <name>vlocity_cmt__XOMEmailValidation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Currently there are no mapping rules. --></label>
+        <name>vlocity_cmt__XOMEmptyMappingRulesMessage</name>
     </customLabels>
     <customLabels>
         <label><!-- XOMEnsureSlobalKeysMsg --></label>
@@ -34937,12 +37205,24 @@
         <name>vlocity_cmt__XOMErrorOnDeployment</name>
     </customLabels>
     <customLabels>
+        <label><!-- Error on loading --></label>
+        <name>vlocity_cmt__XOMErrorOnLoading</name>
+    </customLabels>
+    <customLabels>
         <label><!-- XOMErrorPurgeStatusRetrieval --></label>
         <name>vlocity_cmt__XOMErrorPurgeStatusRetrieval</name>
     </customLabels>
     <customLabels>
         <label><!-- External Dependencies --></label>
         <name>vlocity_cmt__XOMExternalDependencies</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- View External Dependency Items --></label>
+        <name>vlocity_cmt__XOMExternalDependency</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- External Dependent Items --></label>
+        <name>vlocity_cmt__XOMExternalDependentItems</name>
     </customLabels>
     <customLabels>
         <label><!-- Name --></label>
@@ -34971,6 +37251,14 @@
     <customLabels>
         <label><!-- XOMFetchScopeMsg --></label>
         <name>vlocity_cmt__XOMFetchScopeMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Filter --></label>
+        <name>vlocity_cmt__XOMFilter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Finished at --></label>
+        <name>vlocity_cmt__XOMFinishedAt</name>
     </customLabels>
     <customLabels>
         <label><!-- XOMFulfilmentRequest --></label>
@@ -35037,6 +37325,10 @@
         <name>vlocity_cmt__XOMInvalidItemType</name>
     </customLabels>
     <customLabels>
+        <label><!-- XOMInvalidMappingDataJSON --></label>
+        <name>vlocity_cmt__XOMInvalidMappingDataJSON</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Orchestration item tooltip text --></label>
         <name>vlocity_cmt__XOMIs</name>
     </customLabels>
@@ -35065,8 +37357,52 @@
         <name>vlocity_cmt__XOMJeopardyJobScheduledMsg</name>
     </customLabels>
     <customLabels>
+        <label><!-- Job Frequency Hours --></label>
+        <name>vlocity_cmt__XOMJobFrequencyHours</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Job Status --></label>
+        <name>vlocity_cmt__XOMJobStatus</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Last Job Status --></label>
+        <name>vlocity_cmt__XOMLastJobStatus</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Last Run Stats per Object Type --></label>
+        <name>vlocity_cmt__XOMLastRunStats</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Launch Omniscript --></label>
+        <name>vlocity_cmt__XOMLaunchOmniscript</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Launch Omniscript disabled: tooltip message --></label>
+        <name>vlocity_cmt__XOMLaunchOmniscriptMenuItemTooltipMessageOne</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Launch Omniscript disabled: tooltip message --></label>
+        <name>vlocity_cmt__XOMLaunchOmniscriptMenuItemTooltipMessageTwo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Omniscript message --></label>
+        <name>vlocity_cmt__XOMLaunchOmniscriptMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOMLinkIconLabel --></label>
+        <name>vlocity_cmt__XOMLinkIconLabel</name>
+    </customLabels>
+    <customLabels>
         <label><!-- XOM loading text --></label>
         <name>vlocity_cmt__XOMLoading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM Locality Name --></label>
+        <name>vlocity_cmt__XOMLocalityName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM Locality --></label>
+        <name>vlocity_cmt__XOMLocalityValidation</name>
     </customLabels>
     <customLabels>
         <label><!-- XOMLockOrchQueuesErrorMsg --></label>
@@ -35081,12 +37417,28 @@
         <name>vlocity_cmt__XOMManageEncryptionKeysDesc</name>
     </customLabels>
     <customLabels>
+        <label><!-- XOM Manage Encryption keys Sub Title --></label>
+        <name>vlocity_cmt__XOMManageEncryptionKeysSubTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM Encryption keys Title --></label>
+        <name>vlocity_cmt__XOMManageEncryptionKeysTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM Manage Encryption SFDC Message --></label>
+        <name>vlocity_cmt__XOMManageEncryptionSFDCMeg</name>
+    </customLabels>
+    <customLabels>
         <label><!-- XOMManageSecrets --></label>
         <name>vlocity_cmt__XOMManageSecrets</name>
     </customLabels>
     <customLabels>
         <label><!-- XOMManageSecretsDesc --></label>
         <name>vlocity_cmt__XOMManageSecretsDesc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Orchestration task type --></label>
+        <name>vlocity_cmt__XOMManualTask</name>
     </customLabels>
     <customLabels>
         <label><!-- XOMManualTaskExecutionOmniURL --></label>
@@ -35099,6 +37451,14 @@
     <customLabels>
         <label><!-- Orchestration task type --></label>
         <name>vlocity_cmt__XOMManualTaskIn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mapping Type --></label>
+        <name>vlocity_cmt__XOMMappingType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Maximum Process Run Time Mins --></label>
+        <name>vlocity_cmt__XOMMaxProcessRunTimeMins</name>
     </customLabels>
     <customLabels>
         <label><!-- Orchestration task type --></label>
@@ -35139,6 +37499,18 @@
     <customLabels>
         <label><!-- Modal Item Jeopardy Status --></label>
         <name>vlocity_cmt__XOMModalItemJeopardyStatus</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Modal Item Jeopardy Status At Risk --></label>
+        <name>vlocity_cmt__XOMModalItemJeopardyStatusAtRisk</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Modal Item Jeopardy Status Critical --></label>
+        <name>vlocity_cmt__XOMModalItemJeopardyStatusCritical</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Modal Item Jeopardy Status Normal --></label>
+        <name>vlocity_cmt__XOMModalItemJeopardyStatusNormal</name>
     </customLabels>
     <customLabels>
         <label><!-- Modal Item Length --></label>
@@ -35193,6 +37565,10 @@
         <name>vlocity_cmt__XOMModalTimeout</name>
     </customLabels>
     <customLabels>
+        <label><!-- Next Run at --></label>
+        <name>vlocity_cmt__XOMNextRunAt</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Unable to display Plan View --></label>
         <name>vlocity_cmt__XOMNoPlan</name>
     </customLabels>
@@ -35203,6 +37579,14 @@
     <customLabels>
         <label><!-- XOM No Results Found --></label>
         <name>vlocity_cmt__XOMNoResultsFound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Currently there are no transforms/mappings. --></label>
+        <name>vlocity_cmt__XOMNoTransformsMappingsMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Not Applicable --></label>
+        <name>vlocity_cmt__XOMNotApplicable</name>
     </customLabels>
     <customLabels>
         <label><!-- XOMNotConfigured --></label>
@@ -35225,8 +37609,16 @@
         <name>vlocity_cmt__XOMOMPlusEnvStatusDesc</name>
     </customLabels>
     <customLabels>
+        <label><!-- Objects Scope --></label>
+        <name>vlocity_cmt__XOMObjectsScope</name>
+    </customLabels>
+    <customLabels>
         <label><!-- XOMOpen --></label>
         <name>vlocity_cmt__XOMOpen</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Opens in a new Window --></label>
+        <name>vlocity_cmt__XOMOpenInANewWindowMessage</name>
     </customLabels>
     <customLabels>
         <label><!-- XOM single Option selected --></label>
@@ -35309,6 +37701,22 @@
         <name>vlocity_cmt__XOMOrchestrationModalTitle</name>
     </customLabels>
     <customLabels>
+        <label><!-- Order is already decomposed. --></label>
+        <name>vlocity_cmt__XOMOrderAlreadyDecomposedError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order is already placed into the queue for processing. --></label>
+        <name>vlocity_cmt__XOMOrderInProcess</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Fulfilment status has an invalid value. --></label>
+        <name>vlocity_cmt__XOMOrderInvalidFulfilmentError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order is null. --></label>
+        <name>vlocity_cmt__XOMOrderIsNullError</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Order is rejected --></label>
         <name>vlocity_cmt__XOMOrderIsRejected</name>
     </customLabels>
@@ -35343,6 +37751,46 @@
     <customLabels>
         <label><!-- Please wait while we process your order --></label>
         <name>vlocity_cmt__XOMOrderStillProcessing2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM Organization Unit Validation --></label>
+        <name>vlocity_cmt__XOMOrgUnitValidation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM Organization Validation --></label>
+        <name>vlocity_cmt__XOMOrgValidation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM Organization Name --></label>
+        <name>vlocity_cmt__XOMOrganizationName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM Organization Unit Name --></label>
+        <name>vlocity_cmt__XOMOrganizationUnitName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM PII change request submit --></label>
+        <name>vlocity_cmt__XOMPIIChangeRequestSubmit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM PII Encryption Key --></label>
+        <name>vlocity_cmt__XOMPIIEncryptionKey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM PII change request failed --></label>
+        <name>vlocity_cmt__XOMPIIKeyChangeRequestFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM PII change request in progress --></label>
+        <name>vlocity_cmt__XOMPIIKeyChangeRequestInProcess</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM PII change request Ready --></label>
+        <name>vlocity_cmt__XOMPIIKeyChangeRequestReady</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM PII change request success --></label>
+        <name>vlocity_cmt__XOMPIIKeyChangeRequestSuccess</name>
     </customLabels>
     <customLabels>
         <label><!-- XOM PageLayout Cancel Button --></label>
@@ -35385,16 +37833,56 @@
         <name>vlocity_cmt__XOMPrintPlan</name>
     </customLabels>
     <customLabels>
+        <label><!-- XOM Private Key and Certificate --></label>
+        <name>vlocity_cmt__XOMPrivateKeyAndCertificate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM Private key change request error --></label>
+        <name>vlocity_cmt__XOMPrivateKeyChangeRequestError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM Private key change request success --></label>
+        <name>vlocity_cmt__XOMPrivateKeyChangeRequestSuccess</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Process Status --></label>
+        <name>vlocity_cmt__XOMProcessStatus</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product Name --></label>
+        <name>vlocity_cmt__XOMProductName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product has no attributes defined --></label>
+        <name>vlocity_cmt__XOMProductNoAttribute</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Orchestration task type --></label>
         <name>vlocity_cmt__XOMPushEvent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOMQualifiedDRIconLabel --></label>
+        <name>vlocity_cmt__XOMQualifiedDRIconLabel</name>
     </customLabels>
     <customLabels>
         <label><!-- XOMQueueCountersSuccessMsg --></label>
         <name>vlocity_cmt__XOMQueueCountersSuccessMsg</name>
     </customLabels>
     <customLabels>
+        <label><!-- Records Deleted By Type --></label>
+        <name>vlocity_cmt__XOMRecordsDeletedByType</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Reload Plan --></label>
         <name>vlocity_cmt__XOMRedrawPlan</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Refresh --></label>
+        <name>vlocity_cmt__XOMRefresh</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Remove Activated Only --></label>
+        <name>vlocity_cmt__XOMRemoveActivatedOnly</name>
     </customLabels>
     <customLabels>
         <label><!-- RemoveAll --></label>
@@ -35403,6 +37891,14 @@
     <customLabels>
         <label><!-- Request --></label>
         <name>vlocity_cmt__XOMRequest</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM Request in progress --></label>
+        <name>vlocity_cmt__XOMRequestInProgress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- required --></label>
+        <name>vlocity_cmt__XOMRequired</name>
     </customLabels>
     <customLabels>
         <label><!-- XOM Getting required layouts --></label>
@@ -35429,12 +37925,20 @@
         <name>vlocity_cmt__XOMRetryJobStoppedMsg</name>
     </customLabels>
     <customLabels>
+        <label><!-- Retry Item disabled: tooltip message --></label>
+        <name>vlocity_cmt__XOMRetryMenuItemTooltipMessage</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Please wait as we attempt to try again --></label>
         <name>vlocity_cmt__XOMRetryingPleaseWait</name>
     </customLabels>
     <customLabels>
         <label><!-- Omniscript cannot be launched from {itemState} items --></label>
         <name>vlocity_cmt__XOMRunOmniScriptInvalid</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save All --></label>
+        <name>vlocity_cmt__XOMSaveAll</name>
     </customLabels>
     <customLabels>
         <label><!-- XOMSchedule --></label>
@@ -35465,6 +37969,14 @@
         <name>vlocity_cmt__XOMScheduleOrchestrationRecoveryDesc</name>
     </customLabels>
     <customLabels>
+        <label><!-- Search Attribute --></label>
+        <name>vlocity_cmt__XOMSearchAttribute</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Search Product --></label>
+        <name>vlocity_cmt__XOMSearchProduct</name>
+    </customLabels>
+    <customLabels>
         <label><!-- XOM Search String --></label>
         <name>vlocity_cmt__XOMSearchString</name>
     </customLabels>
@@ -35473,8 +37985,24 @@
         <name>vlocity_cmt__XOMSelectAll</name>
     </customLabels>
     <customLabels>
+        <label><!-- Select Condition Type --></label>
+        <name>vlocity_cmt__XOMSelectConditionType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select Field --></label>
+        <name>vlocity_cmt__XOMSelectField</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select Mapping Type --></label>
+        <name>vlocity_cmt__XOMSelectMappingType</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Select None --></label>
         <name>vlocity_cmt__XOMSelectNone</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select Operand --></label>
+        <name>vlocity_cmt__XOMSelectOperand</name>
     </customLabels>
     <customLabels>
         <label><!-- Select Queue --></label>
@@ -35485,6 +38013,10 @@
         <name>vlocity_cmt__XOMSelectQueueToAssign</name>
     </customLabels>
     <customLabels>
+        <label><!-- Select Source Type --></label>
+        <name>vlocity_cmt__XOMSelectSourceType</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Select User --></label>
         <name>vlocity_cmt__XOMSelectUser</name>
     </customLabels>
@@ -35493,8 +38025,20 @@
         <name>vlocity_cmt__XOMSelectUserToAssign</name>
     </customLabels>
     <customLabels>
+        <label><!-- Settings --></label>
+        <name>vlocity_cmt__XOMSettings</name>
+    </customLabels>
+    <customLabels>
         <label><!-- XOMShowStatus --></label>
         <name>vlocity_cmt__XOMShowStatus</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Source Type --></label>
+        <name>vlocity_cmt__XOMSourceType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Source Value --></label>
+        <name>vlocity_cmt__XOMSourceValue</name>
     </customLabels>
     <customLabels>
         <label><!-- Start date of orchestration item --></label>
@@ -35503,6 +38047,18 @@
     <customLabels>
         <label><!-- XOMStartSyncNotStarted --></label>
         <name>vlocity_cmt__XOMStartSyncNotStarted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Started at --></label>
+        <name>vlocity_cmt__XOMStartedAt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM State or Province Name --></label>
+        <name>vlocity_cmt__XOMStateOrProvinceName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM State Validation --></label>
+        <name>vlocity_cmt__XOMStateValidation</name>
     </customLabels>
     <customLabels>
         <label><!-- XOM status of request in progress --></label>
@@ -35531,6 +38087,10 @@
     <customLabels>
         <label><!-- Orchestration task type --></label>
         <name>vlocity_cmt__XOMSubPlan</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- XOM Submit --></label>
+        <name>vlocity_cmt__XOMSubmit</name>
     </customLabels>
     <customLabels>
         <label><!-- Success --></label>
@@ -35613,6 +38173,10 @@
         <name>vlocity_cmt__XOMUserItemsTitle</name>
     </customLabels>
     <customLabels>
+        <label><!-- View External Dependencies disabled: tooltip message --></label>
+        <name>vlocity_cmt__XOMViewExternalDependenciesMenuItemTooltipMessage</name>
+    </customLabels>
+    <customLabels>
         <label><!-- View Item --></label>
         <name>vlocity_cmt__XOMViewItem</name>
     </customLabels>
@@ -35631,6 +38195,10 @@
     <customLabels>
         <label><!-- Use Absolute Date --></label>
         <name>vlocity_cmt__absoluteDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Accordion Assistive Text --></label>
+        <name>vlocity_cmt__accordionAssistiveText</name>
     </customLabels>
     <customLabels>
         <label><!-- Action Debugger --></label>
@@ -35711,6 +38279,10 @@
     <customLabels>
         <label><!-- Card Designer Header --></label>
         <name>vlocity_cmt__cardDesignerHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- cardFileBasedField --></label>
+        <name>vlocity_cmt__cardFileBasedField</name>
     </customLabels>
     <customLabels>
         <label><!-- cardFilterError --></label>
@@ -36007,6 +38579,10 @@
     <customLabels>
         <label><!-- Sort by --></label>
         <name>vlocity_cmt__cmpSortBy</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sorted --></label>
+        <name>vlocity_cmt__cmpSorted</name>
     </customLabels>
     <customLabels>
         <label><!-- Step --></label>
@@ -37257,12 +39833,52 @@
         <name>vlocity_cmt__setup</name>
     </customLabels>
     <customLabels>
+        <label><!-- sfiEnergyConsoleActualConsumption --></label>
+        <name>vlocity_cmt__sfiEnergyConsoleActualConsumption</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergyConsoleAddress --></label>
+        <name>vlocity_cmt__sfiEnergyConsoleAddress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergyConsoleConsumptionMeasuringUnit --></label>
+        <name>vlocity_cmt__sfiEnergyConsoleConsumptionMeasuringUnit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergyConsoleCostMeasuringUnit --></label>
+        <name>vlocity_cmt__sfiEnergyConsoleCostMeasuringUnit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergyConsoleCustomDateInHours --></label>
+        <name>vlocity_cmt__sfiEnergyConsoleCustomDateInHours</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergyConsoleCustomDateInMinutes --></label>
+        <name>vlocity_cmt__sfiEnergyConsoleCustomDateInMinutes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergyConsoleDimension --></label>
+        <name>vlocity_cmt__sfiEnergyConsoleDimension</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergyConsoleElectricity --></label>
+        <name>vlocity_cmt__sfiEnergyConsoleElectricity</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergyConsoleEnergyUse --></label>
+        <name>vlocity_cmt__sfiEnergyConsoleEnergyUse</name>
+    </customLabels>
+    <customLabels>
         <label><!-- VEE 1004 - -  Error Message --></label>
         <name>vlocity_cmt__sfiEnergyConsoleErrorHeader</name>
     </customLabels>
     <customLabels>
         <label><!-- sfiEnergyConsoleErrorMessage --></label>
         <name>vlocity_cmt__sfiEnergyConsoleErrorMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergyConsoleEstimatedCost --></label>
+        <name>vlocity_cmt__sfiEnergyConsoleEstimatedCost</name>
     </customLabels>
     <customLabels>
         <label><!-- sfiEnergyConsoleFSAt --></label>
@@ -37361,8 +39977,384 @@
         <name>vlocity_cmt__sfiEnergyConsoleFSSelectedTimeSlot</name>
     </customLabels>
     <customLabels>
+        <label><!-- sfiEnergyConsoleFrequency --></label>
+        <name>vlocity_cmt__sfiEnergyConsoleFrequency</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergyConsoleGas --></label>
+        <name>vlocity_cmt__sfiEnergyConsoleGas</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergyConsoleLast12Months --></label>
+        <name>vlocity_cmt__sfiEnergyConsoleLast12Months</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergyConsoleLast5years --></label>
+        <name>vlocity_cmt__sfiEnergyConsoleLast5years</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergyConsoleLastMonth --></label>
+        <name>vlocity_cmt__sfiEnergyConsoleLastMonth</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergyConsoleLastYear --></label>
+        <name>vlocity_cmt__sfiEnergyConsoleLastYear</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergyConsolePlan --></label>
+        <name>vlocity_cmt__sfiEnergyConsolePlan</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergyConsoleSelectDate --></label>
+        <name>vlocity_cmt__sfiEnergyConsoleSelectDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergyConsoleServicePointsNoRecordsMsg --></label>
+        <name>vlocity_cmt__sfiEnergyConsoleServicePointsNoRecordsMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergyConsoleThisMonth --></label>
+        <name>vlocity_cmt__sfiEnergyConsoleThisMonth</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergyConsoleThisYear --></label>
+        <name>vlocity_cmt__sfiEnergyConsoleThisYear</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergyConsoleTodayInHours --></label>
+        <name>vlocity_cmt__sfiEnergyConsoleTodayInHours</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergyConsoleTodayInMinutes --></label>
+        <name>vlocity_cmt__sfiEnergyConsoleTodayInMinutes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergyConsoleTodayYesterdayInMinutes --></label>
+        <name>vlocity_cmt__sfiEnergyConsoleTodayYesterdayInMinutes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergyGlobalComma --></label>
+        <name>vlocity_cmt__sfiEnergyGlobalComma</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergyGlobalContactUSEmail --></label>
+        <name>vlocity_cmt__sfiEnergyGlobalContactUSEmail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergyGlobalContactUSPhone --></label>
+        <name>vlocity_cmt__sfiEnergyGlobalContactUSPhone</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergyGlobalContactUs --></label>
+        <name>vlocity_cmt__sfiEnergyGlobalContactUs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergyGlobalExclamation --></label>
+        <name>vlocity_cmt__sfiEnergyGlobalExclamation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergyGlobalGreetings --></label>
+        <name>vlocity_cmt__sfiEnergyGlobalGreetings</name>
+    </customLabels>
+    <customLabels>
         <label><!-- sfiEnergyRecommended --></label>
         <name>vlocity_cmt__sfiEnergyRecommended</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceAccountNumber --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceAccountNumber</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceAccountNumberReqMsg --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceAccountNumberReqMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceAddresses --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceAddresses</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceBillingAccount --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceBillingAccount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceCancel --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceCancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceChangeMyPassword --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceChangeMyPassword</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceChangePassword --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceChangePassword</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceChangePasswordEmptyFields --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceChangePasswordEmptyFields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceChangePasswordErrorMessage --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceChangePasswordErrorMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceChangePasswordMatchingError --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceChangePasswordMatchingError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceCity --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceCity</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceClear --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceClear</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceClose --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceClose</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceCntToSignIn --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceCntToSignIn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceConfirmPassword --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceConfirmPassword</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceCountry --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceCountry</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceCurrentPassword --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceCurrentPassword</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceDueOn --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceDueOn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceEmail --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceEmail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceEmailPatternMissMatchMsg --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceEmailPatternMissMatchMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceEmailReqMsg --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceEmailReqMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceEnableAutoPay --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceEnableAutoPay</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceFirstName --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceFirstName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceFirstNameReqMsg --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceFirstNameReqMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Forgot password title --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceForgotPassword</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceForgotPasswordErrorMessage --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceForgotPasswordErrorMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceHaveAccountTxt --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceHaveAccountTxt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceLastName --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceLastName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceLastNameReqMsg --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceLastNameReqMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Login failed message --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceLoginFailMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceLogoAltText --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceLogoAltText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceLogout --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceLogout</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceMobile --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceMobile</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceMyBill --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceMyBill</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceMyProfile --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceMyProfile</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceNewPassword --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceNewPassword</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceNotificationPreference --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceNotificationPreference</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceOverview --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceOverview</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServicePasswordChangedSuccessMessage --></label>
+        <name>vlocity_cmt__sfiEnergySelfServicePasswordChangedSuccessMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServicePayBill --></label>
+        <name>vlocity_cmt__sfiEnergySelfServicePayBill</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServicePaymentRecords --></label>
+        <name>vlocity_cmt__sfiEnergySelfServicePaymentRecords</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServicePlanDetails --></label>
+        <name>vlocity_cmt__sfiEnergySelfServicePlanDetails</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServicePostalCode --></label>
+        <name>vlocity_cmt__sfiEnergySelfServicePostalCode</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceProfilePicture --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceProfilePicture</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceSSN --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceSSN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceSSNPatternMissMatchMsg --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceSSNPatternMissMatchMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceSSNReqMsg --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceSSNReqMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceSave --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceSave</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceSelectOptionTxt --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceSelectOptionTxt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceSignIn --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceSignIn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceSignInErrorMessage --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceSignInErrorMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Password Label --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceSignInPassword</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Username Label --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceSignInUsername</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceSignUp --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceSignUp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceSignUpErrorMsg --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceSignUpErrorMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceSignUpFieldsReqMsg --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceSignUpFieldsReqMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceSignUpGenericErrorMsg --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceSignUpGenericErrorMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceSignUpSuccessAltText --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceSignUpSuccessAltText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceSingnUpSuccessMsg --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceSingnUpSuccessMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceState --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceState</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceStreet --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceStreet</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceTermsAndConditions --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceTermsAndConditions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceTermsAndConditionsAgree --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceTermsAndConditionsAgree</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceTermsAndConditionsReqMsg --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceTermsAndConditionsReqMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceUpdate --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceUpdate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceUpdateSuccessMsg --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceUpdateSuccessMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceUsage --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceUsage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceUsageAndPlan --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceUsageAndPlan</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceUserName --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceUserName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceUserNameErrorMsg --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceUserNameErrorMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceUserNamePatternMissMatchMsg --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceUserNamePatternMissMatchMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceUserNameReqMsg --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceUserNameReqMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- sfiEnergySelfServiceUsernameTxt --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceUsernameTxt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Username password required error --></label>
+        <name>vlocity_cmt__sfiEnergySelfServiceUsrNamePwdReq</name>
     </customLabels>
     <customLabels>
         <label><!-- sfiEnergyTimeZone --></label>
@@ -37697,6 +40689,10 @@
         <name>vlocity_cmt__upcChargeDetails</name>
     </customLabels>
     <customLabels>
+        <label><!-- Are you sure you want to delete this Item? --></label>
+        <name>vlocity_cmt__upcChargeElementDeleteConfirmationPrompt</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Charge Type --></label>
         <name>vlocity_cmt__upcChargeType</name>
     </customLabels>
@@ -37897,6 +40893,10 @@
         <name>vlocity_cmt__upcDelete</name>
     </customLabels>
     <customLabels>
+        <label><!-- Delete charge measurement tab label --></label>
+        <name>vlocity_cmt__upcDeleteChargeMeasurement</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Context Rule Delete Success Message --></label>
         <name>vlocity_cmt__upcDeleteContextRuleSuccess</name>
     </customLabels>
@@ -38033,7 +41033,7 @@
         <name>vlocity_cmt__upcEditPrice</name>
     </customLabels>
     <customLabels>
-        <label><!-- New Price Adjustment --></label>
+        <label><!-- Edit Price Adjustment --></label>
         <name>vlocity_cmt__upcEditPriceAdjustment</name>
     </customLabels>
     <customLabels>
@@ -38161,12 +41161,20 @@
         <name>vlocity_cmt__upcExclude</name>
     </customLabels>
     <customLabels>
+        <label><!-- Label for excluded value --></label>
+        <name>vlocity_cmt__upcExcludedValues</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Expand All --></label>
         <name>vlocity_cmt__upcExpandAll</name>
     </customLabels>
     <customLabels>
         <label><!-- Expression --></label>
         <name>vlocity_cmt__upcExpression</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Expression Evaluation --></label>
+        <name>vlocity_cmt__upcExpressionEvaluation</name>
     </customLabels>
     <customLabels>
         <label><!-- Failure Message --></label>
@@ -39483,6 +42491,10 @@
     <customLabels>
         <label><!-- Update Data Source --></label>
         <name>vlocity_cmt__updateDatasourceLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Action Datasource In Metadata --></label>
+        <name>vlocity_cmt__updateMetadata</name>
     </customLabels>
     <customLabels>
         <label><!-- Update OmniScript --></label>

@@ -14,4 +14,7 @@ global class APICMContextCombinationsV3 {
     global static void getContextCombinations() {
 
     }
+    global static void getVersionedContextCombinations() {
+
+    }
 }

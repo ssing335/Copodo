@@ -168,6 +168,11 @@
         <relationshipLabel><!-- Order Members --></relationshipLabel>
     </fields>
     <fields>
+        <label><!-- Parent Order Member --></label>
+        <name>vlocity_cmt__ParentOrderMemberId__c</name>
+        <relationshipLabel><!-- Order Members (Parent Order Member) --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- Postal Code --></label>
         <name>vlocity_cmt__PostalCode__c</name>
     </fields>

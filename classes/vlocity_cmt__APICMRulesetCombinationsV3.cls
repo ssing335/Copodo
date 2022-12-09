@@ -14,4 +14,8 @@ global class APICMRulesetCombinationsV3 {
     global static void getRuleSetCombinations() {
 
     }
+    @HttpPost
+    global static void setRuleSetCombinations() {
+
+    }
 }

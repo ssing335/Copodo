@@ -14,7 +14,7 @@
                                                                     && inputMap.generatedContentVersion.VersionData!= undefined){
                             var blob = b64toBlob(inputMap.generatedContentVersion.VersionData, 'application/vnd.openxmlformats-officedocument.wordprocessingml.document');
                             console.log("blob=", blob);
-                            convertOfficeToPDF(URL.createObjectURL(blob), inputMap.docName + '.pdf', l, inputMap.isDownload, inputMap.fileExtension).then(function(res){
+                            convertOfficeToPDF(blob, inputMap.docName + '.pdf', l, inputMap.isDownload, inputMap.fileExtension).then(function(res){
                                 resolve(res);
                             });
 
@@ -24,7 +24,7 @@
                             getTemplateFileContent(inputMap.generatedContentVersion.Id).then(function(templateContentVersion){
                             var blob = b64toBlob(templateContentVersion.Base64VersionData, 'application/vnd.openxmlformats-officedocument.wordprocessingml.document');
                             console.log("blob=", blob);
-                            convertOfficeToPDF(URL.createObjectURL(blob), inputMap.docName + '.pdf', l, inputMap.isDownload, inputMap.fileExtension).then(function(res){
+                            convertOfficeToPDF(blob, inputMap.docName + '.pdf', l, inputMap.isDownload, inputMap.fileExtension).then(function(res){
                             resolve(res);
                            });
                         });
@@ -52,29 +52,34 @@
             return new Promise(function (resolve, reject){ 
 
                 try {
-                 var promise = PDFNet.Convert.office2PDFBuffer(url, { l: l, extension: fileExtension, officeOptions: { disableBrowserFontSubstitution: true } });
+                    var promise = CoreControls.createDocument(url, { l: l, extension: fileExtension, officeOptions: { disableBrowserFontSubstitution: true } });
 
-                 promise.then(function(buffer) {
-                      console.log('buffer=', buffer);
-                      if(isDownload)
-                      {
-                          saveBufferAsPDFDoc(buffer, outputName);
-                          resolve();
-                      }
-                      else{
-                         var base64PDFContent = getBase64(buffer, name, 'application/pdf');
-                         resolve(base64PDFContent);
-
-                      }
-                    })
-                    .catch( function(error) {
-                        console.log('error=', error);
-                        reject(error);
-                    })
-                    .finally( function() {
-
-                         console.log('finally');
-                    });
+                    promise.then(function(buffer) {
+                        console.log('buffer=', buffer);
+                        var options = {
+                            downloadType: 'pdf'
+                        }
+                        if(isDownload)
+                        {
+                            saveBufferAsPDFDoc(buffer, outputName);
+                            resolve();
+                        }
+                        else{
+                            // call file data API to get raw PDF data
+                            buffer.getFileData(options).then((data) => {
+                                var base64PDFContent = getBase64(data, outputName, 'application/pdf');
+                                resolve(base64PDFContent);
+                            })
+                            .catch( function(error) {
+                                console.log('error=', error);
+                                reject(error);
+                            })
+                            .finally( function() {
+            
+                                console.log('finally');
+                            });
+                        }   
+                    }); 
                 } catch (error) {
                     console.log('error=', error);
                 }

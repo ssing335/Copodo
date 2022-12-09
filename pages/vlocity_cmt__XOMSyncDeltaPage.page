@@ -10,16 +10,16 @@
             <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes" />
             <meta name="description" content="Catalog Synchronization" />
             <script>
-                let nsp =  "{!nsp}";
-                let namespace = nsp ? nsp.slice(0, -2) : 'c';
+                const nsp =  "{!JSENCODE(nsp)}";
+                const namespace = nsp ? nsp.slice(0, -2) : 'c';
     
                 $Lightning.use(namespace+":ltngOutVF", function() {
                 $Lightning.createComponent(
                     namespace+":xomCatalogSync",
-                    { container:"Visualforce", namespace:"{!nsp}" },
+                    { container:"Visualforce", namespace:nsp },
                     "lightning",
                     function(cmp) {
-                        console.log('nsp:', '{!nsp}');
+                        console.log('nsp:', nsp);
                         console.log('namespace:', namespace);
                         console.log('component created:', cmp);
                     });

@@ -722,6 +722,20 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>vlocity_cmt__ParentQuoteMemberId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The field is used to store the Parent Quote Member.</description>
+        <externalId>false</externalId>
+        <label>Parent Quote Member</label>
+        <referenceTo>vlocity_cmt__QuoteMember__c</referenceTo>
+        <relationshipLabel>Quote Members (Parent Quote Member)</relationshipLabel>
+        <relationshipName>SubQuoteMembers</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>vlocity_cmt__PostalCode__c</fullName>
         <deprecated>false</deprecated>
         <description>Postal code of the address</description>

@@ -8,7 +8,7 @@
         }
         else
         {
-            alert('{!$Label.vlocity_cmt__unabletocancellabel}');
+            alert('{!$Label.vlocity_cmt__UnableToCancelLabel}');
             window.location.href = '/{!JSENCODE(Order.Id)}';
         }
     </script>

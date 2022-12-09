@@ -330,6 +330,19 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>vlocity_cmt__GroupDeveloperName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the Salesforce queue that Order Management assigns the manual task to during orchestration.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Specify the name of the Salesforce queue that the manual task is assigned to during orchestration.</inlineHelpText>
+        <label>Salesforce Queue Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>vlocity_cmt__IsPointOfNoReturn__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
@@ -827,7 +840,7 @@
         <deprecated>false</deprecated>
         <externalId>false</externalId>
         <formula>vlocity_cmt__SystemInterfaceId__r.vlocity_cmt__SystemId__c</formula>
-        <label>Dependency Plan Definition</label>
+        <label>System</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>

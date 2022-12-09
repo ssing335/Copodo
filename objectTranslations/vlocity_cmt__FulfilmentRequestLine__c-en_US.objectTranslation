@@ -17,6 +17,11 @@
         </picklistValues>
     </fields>
     <fields>
+        <help><!-- This field is used when JSONAttribute V2 feature is turned on. It contains the attribute values of this line item encoded in a JSON format. Please refer to documentation for the format of the JSON. --></help>
+        <label><!-- Attribute Selected Values --></label>
+        <name>vlocity_cmt__AttributeSelectedValues__c</name>
+    </fields>
+    <fields>
         <label><!-- Attributes Markup Data --></label>
         <name>vlocity_cmt__AttributesMarkupData__c</name>
     </fields>
@@ -70,6 +75,11 @@
     <fields>
         <label><!-- Changes Allowed --></label>
         <name>vlocity_cmt__IsChangesAllowed__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field showing that a migration process is applied or not for a specific fulfilment request line. --></help>
+        <label><!-- Is Migrated --></label>
+        <name>vlocity_cmt__IsMigrated__c</name>
     </fields>
     <fields>
         <label><!-- Is Orchestration Items In Final State --></label>

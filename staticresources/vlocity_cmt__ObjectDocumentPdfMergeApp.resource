@@ -299,7 +299,7 @@ angular.module('ObjectDocumentPdfMergeApp').directive('filePreviewPdfTron', ['$t
                 'clientSidePdfGenerationConfig':scope.$parent.$parent.clientSidePdfGenerationConfig
             };
             var wvElement = document.getElementById('viewer');
-            var  wv = new PDFTron.WebViewer({
+            WebViewer({
                 // get path from pdf config 
                 path: scope.$parent.$parent.clientSidePdfGenerationConfig['cs_pdftron_lib'],
                 //List the elements that need to hide/disable.
@@ -311,21 +311,17 @@ angular.module('ObjectDocumentPdfMergeApp').directive('filePreviewPdfTron', ['$t
                 custom: JSON.stringify(webViewerCustomOptions),
                 l: atob(scope.$parent.$parent.pdfIntegrationConfig),
                // config:'/resource/' + scope.$parent.$parent.nameSpacePrefix + 'cs_pdftron_config'
-            }, wvElement);
-           
-            window.addEventListener('ready', function(event) {
-                console.log('document ready to load', wv.getInstance());
+            }, wvElement).then(function(instance) {
                 //Set WorkerPath before loading the document
-                var coreContrls = wv.iframe.contentWindow.CoreControls;
+                var coreContrls = instance.Core;
                 setWorkerPath(coreContrls,scope.$parent.$parent.clientSidePdfGenerationConfig);
                 //Load document for previewer
-                var instance =wv.getInstance();
                 instance.disableDownload(); // disable download feature
                 instance.disablePrint(); // disable print feature
                 instance.disableTools(); //disable the tools that are used for editing the document.
-				instance.disableElements(['searchButton','toolbarGroup-View','toolbarGroup-Annotate','toolbarGroup-Shapes','toolbarGroup-Insert','toolbarGroup-Edit','toggleNotesButton']);
-                wv.loadDocument(base64ToBlob(scope.$parent.$parent.generatedPDFContentVersion.VersionData), { officeOptions: { disableBrowserFontSubstitution: true } });
-            });
+                instance.disableElements(['searchButton','toolbarGroup-View','toolbarGroup-Annotate','toolbarGroup-Shapes','toolbarGroup-Insert','toolbarGroup-Edit','toggleNotesButton','toolbarGroup-FillAndSign', 'toolbarGroup-Forms','languageButton']);
+                instance.loadDocument(base64ToBlob(scope.$parent.$parent.generatedPDFContentVersion.VersionData), { officeOptions: { disableBrowserFontSubstitution: true } });
+            })
 
             //Method to set the CoreControls Worker Path
             function setWorkerPath(coreContrls, clientSidePdfGenerationConfig){

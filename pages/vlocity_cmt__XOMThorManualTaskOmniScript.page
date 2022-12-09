@@ -52,7 +52,7 @@
                     sfdcVars.urlParams = {"useCache":"false","uiServicesUrl":uiServicesUrl,
                     "contextObjectId":contextId, "taskId":taskId};
                     
-                    //sfdcVars.urlParams = {"useCache":"false","uiServicesUrl":'{!uiServicesUrl}'};
+                    // sfdcVars.urlParams = {"useCache":"false","uiServicesUrl":'{!JSENCODE(uiServicesUrl)}'};
                     $scope.resolveByManualQueueGlobalKey = function()
                       { 
                         var globalKey = $('#customAttrElement').attr('customAttrMQueueGlobalKey');
@@ -135,12 +135,12 @@
 
                 app.run(["$sce","$rootScope","force", function($sce, $rootScope, force){
                     force.init({
-                        accessToken: '{!currentUserSessionId}',
+                        accessToken: '{!JSENCODE(currentUserSessionId)}',
                         useProxy: false
                     });
 
                     $rootScope.forcetkClient = new forcetk.Client();
-                    $rootScope.forcetkClient.setSessionToken('{!currentUserSessionId}');
+                    $rootScope.forcetkClient.setSessionToken('{!JSENCODE(currentUserSessionId)}');
 
                 }]);
                 app.directive('btn', function () {

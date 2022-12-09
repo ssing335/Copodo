@@ -1,4 +1,5 @@
 <apex:page showHeader="true" sidebar="true" standardController="User">
-    <c:XOMQueueItemsComponent displayedFields="state__c, timestampReady__c, account__c, orderFulfilmentRequest__c, manualQueueId__c"
-        userId="{!$CurrentPage.parameters.id}" />
+    <c:XOMIllustration title="{!$Label.vlocity_cmt__VFPageDepricatedText}"
+            showReturn="false">
+    </c:XOMIllustration>
 </apex:page>

@@ -569,6 +569,10 @@ angular.module('contractDocumentEditSectionsApp').controller('contractDocumentEd
             zip.file('word/_rels/document.xml.rels', result.contractData.DocxRels, {});
         }
         doc = new Docxtemplater();
+        if(JSON.stringify(contractData).includes("HYP_")) {
+            var linkModule = new LinkModule();
+            doc.attachModule(linkModule);
+        }
         doc.loadZip(zip);
         doc.setData(contractData);
         doc.render();

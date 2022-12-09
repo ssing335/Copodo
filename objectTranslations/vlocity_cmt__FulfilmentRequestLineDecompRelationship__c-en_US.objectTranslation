@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
+        <help><!-- JSON code containing the decomposition relationship metadata for this fulfillment request line. --></help>
+        <label><!-- Decomposition Relationship Metadata --></label>
+        <name>vlocity_cmt__DecompositionRelationshipMetadata__c</name>
+    </fields>
+    <fields>
         <help><!-- DestinationFulfilmentRequestLineId --></help>
         <label><!-- Destination Fulfilment Request Line --></label>
         <name>vlocity_cmt__DestinationFulfilmentRequestLineId__c</name>

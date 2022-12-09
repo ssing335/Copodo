@@ -19,12 +19,13 @@
             <apex:includeScript value="{!URLFOR($Resource.vlocity_cmt__docxtemplater_bundle, '/vendor/jszip-utils.js')}"/>
             <apex:includeScript value="{!URLFOR($Resource.vlocity_cmt__docxtemplater_bundle, '/vendor/file-saver.min.js')}"/>
             <apex:includeScript value="{!URLFOR($Resource.vlocity_cmt__docxtemplater_bundle, '/build/docxtemplater.v3.5.0.min.js')}"/>
+            <apex:includeScript value="{!URLFOR($Resource.vlocity_cmt__docxtemplater_bundle, '/modules/docxtemplater-link-module.v0.2.3.min.js')}"/>
             <apex:includeScript value="{!$Resource.vlocity_cmt__ViaDirectives}"/>
             <apex:includeScript value="{!$Resource.vlocity_cmt__SldsAngular}"/>
             <apex:includeScript value="{!$Resource.vlocity_cmt__ContractDocumentSectionViewApp}"/>
             <apex:includeScript value="{!$Resource.vlocity_cmt__DocXContentTypes}"/>
             <!-- PDFTRON Libraries for salesforce side implementation-->
-            <apex:includeScript value="{!URLFOR($Resource.vlocity_cmt__cs_pdftron_lib, '/core/CoreControls.js')}"/>
+            <apex:includeScript value="{!URLFOR($Resource.vlocity_cmt__cs_pdftron_lib, '/core/webviewer-core.min.js')}"/>
             <apex:includeScript value="{!URLFOR($Resource.vlocity_cmt__docxtemplater_bundle, '/domPurify/domPurify.min.js')}"/>
             <apex:includeScript value="{!$Resource.vlocity_cmt__cs_pdftron_documentgeneration}"/>
         </head>

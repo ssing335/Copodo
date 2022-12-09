@@ -14,4 +14,8 @@ global class APICMCatalogProfileV3 {
     global static void getCatalogProfile() {
 
     }
+    @HttpPost
+    global static void getVerCatalogProfile() {
+
+    }
 }

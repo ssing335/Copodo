@@ -14,4 +14,8 @@ global class APICMContextDimensionsV3 {
     global static void getContextDimensions() {
 
     }
+    @HttpPost
+    global static void setContextDimensions() {
+
+    }
 }

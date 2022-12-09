@@ -1,5 +1,5 @@
 {
-    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__Description__c": "Enables pricing plan logging for debugging. Logging can consume high amounts of CPU. To prevent a heap size error, always disable this option for production environments.",
     "%vlocity_namespace%__SetupValue__c": "True",
     "Name": "PricingPlanServiceLogging",
     "VlocityDataPackType": "SObject",

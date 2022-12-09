@@ -678,7 +678,9 @@ angular.module('epcadmin')
                 $scope.elementObj = facetData.elementObj;
                 $scope.fieldObjectName = facetData.objectName;
                 $scope.objectLayoutId = facetData.objectLayoutId;
-                $scope.objectFacetId = facetData.objectFacetId;
+                if (facetData.elementObj) {
+                    $scope.objectFacetId = facetData.elementObj[$scope.nsp + 'ObjectFacetId__c'];
+                }
                 $scope.objectSectionId = facetData.objectSectionId;
                 $scope.objectLayoutFields = facetData.objectLayoutFields;
                 directiveHTML = '<vloc-layout-element item="elementObj" layout-id="objectLayoutId" ' +
@@ -1170,7 +1172,7 @@ angular.module('epcadmin')
                 $scope.elementObj = facetData.elementObj;
                 $scope.objectName = facetData.objectName;
                 $scope.objectLayoutId = facetData.objectLayoutId;
-                $scope.objectFacetId = facetData.objectFacetId;
+                $scope.objectFacetId = facetData.elementObj[$scope.nsp + 'ObjectFacetId__c'];
                 $scope.objectSectionId = facetData.objectSectionId;
                 $scope.objectLayoutFields = facetData.objectLayoutFields;
                 var directiveHTML = '<vloc-layout-element item="elementObj" layout-id="objectLayoutId" ' +
@@ -1507,7 +1509,9 @@ angular.module('epcadmin')
                 $scope.elementObj = facetData.elementObj;
                 $scope.objectName = facetData.objectName;
                 $scope.objectLayoutId = facetData.objectLayoutId;
-                $scope.objectFacetId = facetData.objectFacetId;
+                if (facetData.elementObj) {
+                    $scope.objectFacetId = facetData.elementObj[$scope.nsp + 'ObjectFacetId__c'];
+                }
                 $scope.objectSectionId = facetData.objectSectionId;
                 $scope.objectLayoutFields = facetData.objectLayoutFields;
                 var directiveHTML = '<vloc-layout-element item="elementObj" layout-id="objectLayoutId" ' +

@@ -82,6 +82,11 @@ global class OmniScriptDesignerController {
     global static Map<String,Map<String,Object>> GetFieldsForObject(String interfaceObjectName) {
         return null;
     }
+    @AuraEnabled
+    @RemoteAction
+    global static List<SObject> GetIPElements(String procedureId) {
+        return null;
+    }
     @RemoteAction
     global static List<String> GetMatrixHeaders(String matrixName) {
         return null;
@@ -210,11 +215,19 @@ global class OmniScriptDesignerController {
         return null;
     }
     @AuraEnabled
+    global static Object createNewVersionOfOS(String omniScriptId) {
+        return null;
+    }
+    @AuraEnabled
     global static Map<String,List<SObject>> deleteElement2(String omniscriptId, String elementName) {
         return null;
     }
     @AuraEnabled
     global static Map<String,List<vlocity_cmt__Element__c>> deleteElement(String omniscriptId, String elementName) {
+        return null;
+    }
+    @AuraEnabled
+    global static List<Object> getCoreFlexCards() {
         return null;
     }
     @AuraEnabled
@@ -227,7 +240,15 @@ global class OmniScriptDesignerController {
         return null;
     }
     @AuraEnabled
+    global static List<Map<String,Object>> getDynamicElements() {
+        return null;
+    }
+    @AuraEnabled
     global static Map<String,Object> getElementTypes() {
+        return null;
+    }
+    @AuraEnabled
+    global static List<Object> getIntegrationProcedures() {
         return null;
     }
     @RemoteAction
@@ -242,6 +263,11 @@ global class OmniScriptDesignerController {
     @AuraEnabled
     @RemoteAction
     global static List<SObject> getMatchingDRBundles2(String name, List<String> types) {
+        return null;
+    }
+    @AuraEnabled
+    @RemoteAction
+    global static List<Object> getMatchingDRBundles3(String name, List<String> types) {
         return null;
     }
     @AuraEnabled
@@ -262,7 +288,24 @@ global class OmniScriptDesignerController {
         return null;
     }
     @AuraEnabled
+    global static String getOmniLWCCompilerUrl() {
+        return null;
+    }
+    @AuraEnabled
     global static Map<String,Object> getOmniProcessElementDesignerCustomization(String designerCustomizationType, List<String> elementIds) {
+        return null;
+    }
+    @AuraEnabled
+    global static Map<String,Object> getOmniScriptElementsWarning(String designerCustomizationType, String omniScriptId) {
+        return null;
+    }
+    @AuraEnabled
+    @RemoteAction
+    global static Map<String,Object> getOmniScriptsWarningsByJsonString(String designerCustomizationTypeAndOmniScriptsListMap) {
+        return null;
+    }
+    @AuraEnabled
+    global static Map<String,Object> getOmniScriptsWarnings(Map<String,Object> designerCustomizationTypeAndOmniScriptsListMap) {
         return null;
     }
     @AuraEnabled

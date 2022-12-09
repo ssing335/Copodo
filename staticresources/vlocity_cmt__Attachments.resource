@@ -160,6 +160,16 @@ angular.module('attachments')
 			});
 		};
 
+		window.addEventListener('storage', function(e) {
+			if (e.key === "refreshAttachments" && e.newValue === "true") {
+				$scope.isLoading = true;
+				$scope.getAttachments();
+        		sforce.console.getFocusedSubtabId(result => {
+          			sforce.console.closeTab(result.id);
+        		});
+        		window.localStorage.setItem("refreshAttachments",null);
+			}
+		});
 		// get the list of attachments
 		$scope.getAttachments();
 	}

@@ -36,12 +36,12 @@
             hideLogoutButton: true,
 	        defaultTabId: "4412964684870411904", // Params tab
 	        hideInactiveTabsForObjectTypes: [], // Object Type Ids to display default tab only
-            namespace: '{!nsPrefix}',
+            namespace: '{!JSENCODE(nsPrefix)}',
             userLocal: '{!JSENCODE(userLocal)}'
         })
         .value('errorMessageTranslations',
         {
-            translations:'{!errorMessageTranslations}'
+            translations:'{!JSENCODE(errorMessageTranslations)}'
         });
     </script>
 </apex:page>

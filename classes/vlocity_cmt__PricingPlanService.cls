@@ -24,6 +24,9 @@ global class PricingPlanService implements vlocity_cmt.GlobalInterfaces.PricingI
     global Boolean invokeMethod(String methodName, Map<String,Object> input, Map<String,Object> output, Map<String,Object> options) {
         return null;
     }
+    global static Boolean isDigitalCommerceFlow() {
+        return null;
+    }
     global static Object putInPricingContext(String key, Object value) {
         return null;
     }

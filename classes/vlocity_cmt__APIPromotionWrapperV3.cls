@@ -14,4 +14,8 @@ global class APIPromotionWrapperV3 {
     global static void getPromotionWrapper() {
 
     }
+    @HttpPost
+    global static void getVersionedPromotionWrapper() {
+
+    }
 }

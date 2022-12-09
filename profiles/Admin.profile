@@ -3791,6 +3791,22 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__APICMProductVersionInfoV3</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__APICMProductVersionInfoV3Test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__APICMPromoVersionInfoV3</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__APICMPromoVersionInfoV3Test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__APICMRulesetCombinationsV3</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -3799,11 +3815,43 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__APICMTimeSliceInfoV3</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__APICMTimeSliceInfoV3Test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__APICMTimeSliceListV3</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__APICMTimeSliceListV3Test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__APICMValidationAndDefaults</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__APICMValidationAndDefaultsTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__APICMVerHierarchyV3Test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__APICMVerOffersTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__APICMVersionInfoListV3</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__APICMVersionInfoListV3Test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -4199,6 +4247,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__APIRegenerateDeriveVersioningV3Test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__APIRegenerateGetAffectedResponseV3</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -4220,6 +4272,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__APIRegenerateInvalidateResponseV3Test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__APIRegenerateVerAffectedCacheV3Test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -4435,6 +4491,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__AdSalesTargetingCloner</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__AdSalesTargetingClonerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__AddContractTermsForContractId</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -4496,6 +4560,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__AdvProdSearchControllerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__AffectedCacheInputModel</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -4763,6 +4831,18 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__AttributeMatrixInfoCacheBatchJob</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__AttributeMatrixInfoCacheBatchJobTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__AttributeMatrixInfoCacheService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__AttributeMetadataService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -4923,6 +5003,18 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__B2BCmexAssetController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__B2BCmexAssetControllerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__B2BCmexAssetService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__B2BCmexCartEnrichBatchProcessor</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -4931,11 +5023,19 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__B2BCmexConstants</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__B2BCmexDeletePromoFromEC</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__B2BCmexDeletePromoFromECTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__B2BCmexException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -4971,6 +5071,22 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__B2BCmexQuoteMemberController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__B2BCmexSiteAuthController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__B2BCmexSiteAuthControllerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__B2BCmexSiteAuthService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__B2BCmexSubOrderHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -4980,6 +5096,34 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__B2BCmexTestDataFactory</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__B2BCmexUserController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__B2BCmexUserControllerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__B2BCmexUserService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__B2BCmexUserServiceTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__B2BCmexUtilities</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__B2BCmexValidator</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__B2BCmexValidatorTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -5251,6 +5395,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__BatchChachedApiChangeUpdate</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__BatchJobWrapper</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -5292,6 +5440,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__BillingSpecificationPopulatorAutoTask</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__BulkChangeOfPlanService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__BulkChangeOfPlanServiceTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -5387,6 +5543,34 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__BundleWrapperVerMockInputConverter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__BundleWrapperVerMockRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__BundleWrapperVerRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__BundleWrapperVerResponseGenerator</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__BundleWrapperVerResponseGeneratorTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__BundleWrapperVerSFDBRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__BundleWrapperVerSFDBRepositoryTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__BusinessProcessContTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -5416,6 +5600,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__BusinessProcessUtilityTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CD_IncompleteEntriesMock</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -5467,7 +5655,127 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__CMAPIVerCatalogProfileTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMBundleWrapperInputConverter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMBundleWrapperInputConverterTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMCatalogCodeValidation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMCatalogCodeValidationTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMCatalogProfileMockRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMCatalogProfileRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMCatalogProfileSFDBRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__CMChangeObjects</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMContainsItemTestDataSetup</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMContainsOfferInputModel</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMContainsOfferInputModelTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMContainsOfferResGenCtx</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMContainsOfferResGenCtxTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMContainsOffersInputConverter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMContainsOffersInputConverterTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMContextCombinationValidator</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMContextCombinationValidatorTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMContextCombinationsInputModel</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMContextCombinationsParamValidationTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMContextCombinationsParamsValidation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMContextCombinationsRHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMContextCombinationsRHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMContextDimensionsVerInputConverter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMContextDimensionsVerInputConverterTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMCtxCombinationCacheKeyValidation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMCtxCombinationCacheKeyValidationTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMCtxEligibilityTestDataSetup</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMDatetimesValidation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMDatetimesValidationTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMECommonInstrumentationPtcMock</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -5476,6 +5784,194 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__CMEHelperTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMEInstrumentationFeature</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMEInstrumentationLogger</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMEInstrumentationLoggerBaseAbstract</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMEInstrumentationLoggerBaseAbstractTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMOfferDetailsInputConverter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMOfferDetailsInputConverterTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMOfferDetailsValidation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMOfferDetailsValidationTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMOfferIdValidations</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMOfferIdValidationsTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMOfferRespository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMOfferSFDBRespository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMOfferSFDBRespositoryTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMOffersItemInputConverter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMOffersItemInputConverterTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMOffersItemInputModel</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMOffersItemInputModelTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMOffersItemTestDataSetup</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMPricesInputConverter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMPricesInputConverterTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMPricesRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMPricesSFDBRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMProductVersionInfoInputConverter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMProductVersionInfoInputConverterTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMProductVersionInfoRHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMProductVersionInfoRHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMPromoVersionInfoInputConverter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMPromoVersionInfoInputConverterTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMPromoVersionInfoRHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMPromoVersionInfoRHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMPromoWrapperInputConverter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMPromoWrapperInputConverterTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMPromoWrapperMockVersionRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMPromoWrapperSFDBVersionRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMPromoWrapperSFDBVersionRepositoryTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMPromoWrapperVersionRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMResponseGeneratorOfferDetails</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMResponseGeneratorOfferDetailsTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMRuleSetCombinationsRHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMRuleSetCombinationsRHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMRuleSetValidator</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMRuleSetValidatorTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMRulesetCombinationsInputConverter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMRulesetCombinationsInputModel</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMRulesetCombinationsInputModelTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMSimplePromoIdValidation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMSimplePromoIdValidationTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -5504,6 +6000,222 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__CMTAdminUtils</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMTimeSliceInfoRHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMTimeSliceListRHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMTimeSliceListValidator</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMTimeSliceListValidatorTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVILOfferIdValidation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVILOfferIdValidationTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMValidateProductIdsWithVILTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMValidateProductIdsWithVersionInfoList</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMValidationDefaultSFDBRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMValidationDefaultSFDBRepositoryTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMValidationMockRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMValidationRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerBundleWrapperRHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerBundleWrapperRHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerCatalogProfileInputConvTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerCatalogProfileInputConverter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerCatalogProfileRHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerCatalogProfileValTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerCatalogProfileValidation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerContainsOfferRHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerContainsOfferRHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerContextEligibilityMockRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerContextEligibilityRHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerContextEligibilityRHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerContextEligibilityRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerCtxDimensionInputConverter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerCtxDimensionInputConverterTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerCtxEligibilitySFDBRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerCtxEligibilitySFDBRepositoryTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerHierarchyInputConverter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerHierarchyRHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerOfferDetailsRHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerOffersInputConvTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerOffersInputConverter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerOffersItemRHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerOffersItemRHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerOffersMockRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerOffersRHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerOffersRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerOffersSFDBRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerOffersValidation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerOffersValidationTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerPricesRHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerPricesRHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerPromotionWrapperRHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVerPromotionWrapperRHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVersionInfoListInputConverter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVersionInfoListInputConverterTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVersionInfoListRHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVersionInfoListRHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVersionInfoListValidations</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVersionInfoListValidationsTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVersionInfoValidation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CMVersionInfoValidationTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -5560,6 +6272,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__CacheKeyGenerationServiceTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CacheManagementContext</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CacheManagementContextTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -5716,6 +6436,22 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__CachedRuleSetWrapper</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CachingDecorator</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CachingDecoratorTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CachingItemsDTO</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CachingRepository</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -5891,6 +6627,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__CatalogActionNode</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__CatalogController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -5931,11 +6671,23 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__CatalogInputModel</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CatalogInputModelTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__CatalogMetadataPublishService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__CatalogMetadataPublishServiceTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CatalogOfferInputModel</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -6163,6 +6915,18 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__CmexQuoteLineItemTriggerHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CmexQuoteLineItemTriggerHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CmexTriggerFactory</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__CommunityCanvasController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -6355,11 +7119,31 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__ContextCombinationsResponseGenCtx</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__ContextCombinationsResponseGenCtxTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__ContextConstants</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__ContextDataSetupTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__ContextDimMockConverter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__ContextDimVerResponseGenerator</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__ContextDimVerResponseGeneratorTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -6404,6 +7188,30 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__ContextDimensionsRHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__ContextDimensionsVerMockRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__ContextDimensionsVerRHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__ContextDimensionsVerRHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__ContextDimensionsVerRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__ContextDimensionsVerSFDBRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__ContextDimensionsVerSFDBRepositoryTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -6460,6 +7268,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__ContextEligibilityResultTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__ContextEligibilityVerRequestModel</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__ContextEligibilityVerRequestModelTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -6859,6 +7675,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__CpqApexCallable</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__CpqAppHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -6955,6 +7775,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__CpqAssetsToXLIsAndRelatedObjectsTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__CpqAttributeAssignmentTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -6971,6 +7795,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__CpqBasketValidation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqBasketValidationTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__CpqBulkChangeDataPreProcessor</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -6979,7 +7811,19 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__CpqBundleValidationException</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__CpqBundleValidationTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqCachePopulationImplementation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqCachePopulationImplementationTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -6988,6 +7832,22 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__CpqCachedApiResponseSelectorTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqCalculationMatrixRowSelector</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqCalculationMatrixRowSelectorTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqCalculationMatrixVersionSelector</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqCalculationMatrixVersionSelectorTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -7024,6 +7884,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__CpqCartDocument</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqCartDocumentException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -7095,6 +7959,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__CpqCompileABPMatrixState</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__CpqCompileDataService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -7115,6 +7983,34 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__CpqCompileEntityFilterServiceTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqCompileGetCacheState</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqCompileJobsContext</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqCompileJobsHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqCompileOfferDataState</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqCompilePromotionWrapperHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqCompilePromotionWrapperHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__CpqCompileRuleService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -7123,7 +8019,31 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__CpqCompiledContextInfoService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqCompiledContextInfoServiceTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqCompiledContextRuleService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqCompiledContextRuleServiceTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__CpqCompiledEntityFilter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqCompiledEntityFilterCondition</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqCompiledJobCompletionState</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -7147,6 +8067,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__CpqConfigurationSnapshotService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqConfigurationSnapshotServiceTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__CpqConfigureDiscountsActionV2</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -7163,7 +8091,19 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__CpqContextRuleWrapper</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqContextRuleWrapperTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__CpqContextTestDataFactory</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqContextVerificationTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -7199,11 +8139,23 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__CpqCreateCartUtil</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqCreateCartUtilTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__CpqCreateEcomCartV3Test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__CpqCreateFollowOnOrderActionV2</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqCreateQuote</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -7224,6 +8176,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__CpqDefaultResultToXLIImplementation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqDefaultResultToXLIImplementationTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqDefaultSyncXLIsImplementation</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -7300,6 +8260,26 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__CpqDiscountsUtils</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqEntityFilterConditionCompiler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqEntityFilterConditionCompilerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqEntityFilterConditionSelector</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqEntityFilterConditionSelectorTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -7443,11 +8423,27 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__CpqGetSObjectService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqGetSObjectServiceTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__CpqGetServicePointsActionV2</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__CpqGetServicePointsActionV2Test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqGuardRails</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqGuardRailsTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -7476,6 +8472,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__CpqJSONRecordBuilder</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqJobExecutionState</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -7547,6 +8547,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__CpqPricingPlanStepSelector</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqPricingPlanStepSelectorTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__CpqProcessedRuleInfo</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -7560,6 +8568,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__CpqProductTriggerHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqProductTriggerListener</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -7588,6 +8600,22 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__CpqReplaceOfferActionV2</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqRuleAssignmentSelector</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqRuleAssignmentSelectorTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqRuleSelector</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqRuleSelectorTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -7628,6 +8656,18 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__CpqTestDataFactory</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqTransactionContext</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqTransactionContextTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CpqTruncateCustomObjectBatchJob</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -7703,6 +8743,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__CreateCartBatchProcessor</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__CreateCartException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -7728,6 +8772,18 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__CreateEcomCartRHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CreateEcomCartRHandlerTest_1</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CreateEcomCartRHandlerTest_2</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__CreateEcomCartRHandlerTest_3</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -8052,6 +9108,26 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__DCException</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__DCExceptionMessages</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__DCInstrConst</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__DCInstrumentationFeatures</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__DCInstrumentationLogger</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__DCInstrumentationLoggerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -9247,6 +10323,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__DefaultGetCacheDataImplementationTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__DefaultGetCompiledDataCHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -9343,6 +10423,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__DefaultGetOffersRHandlerV2NoSetupTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__DefaultGetOffersTrxnCtxImplTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -9415,7 +10499,19 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__DefaultInvocableAction</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__DefaultInvocableActionTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__DefaultIsContractDocumentEditableImpl</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__DefaultJobExecutionState</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -10051,6 +11147,22 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__DefaultValidateModifyMediaPlanImpl</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__DefaultValidateModifyMediaPlanImplTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__DefaultValidatePromotionImplTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__DefaultValidatePromotionImplementation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__DefaultXLIMergeHandlerImplTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -10471,7 +11583,15 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__ECommAffectedCacheBase</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__ECommDetermineTypeOfChangeV3</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__ECommRegenVerAffectedCacheTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -10480,6 +11600,22 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__ECommRegenerateInvalidateResponse</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__ECommRegenerateVerDeriveChangeEntity</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__ECommRegenerateVerInvalidate</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__ECommRegenerateVerInvalidateTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__ECommRegenerateVersionAffectedCache</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -10564,6 +11700,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__EPCBaseHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__EPCChargeMeasurementHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__EPCChargeMeasurementHandlerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -10948,6 +12092,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__EcommAddActionV3Test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__EcommAddActionV3VersioningTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__EcommAddActionV3WithSetupTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -11551,6 +12703,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__GAMActivateLineItemIntAdapter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__GAMActivateLineItemIntAdapterTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__GAMLineItemServiceIntegrationAdapter</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -11755,6 +12915,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__GetOffersInputModel</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__GetOffersItemBatch</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -11844,6 +13008,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__GroupSelector</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__GuardRailsException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -12019,6 +13187,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__ITriggerListener</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__IVersion</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -12028,6 +13200,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__IWorkSetDomain</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__IdOutputFormat</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -12080,6 +13256,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__InflightOrderUtility</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__InputConverter</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -12220,6 +13400,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__InvalidateCachedResponsesBatch</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__InvalidateInputModel</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -13015,11 +14199,63 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__MediaAdSalesAddPlacementRespHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__MediaAdSalesAddPlacementRespHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__MediaAdSalesAppHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__MediaAdSalesAppHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__MediaAdSalesExtractLineItems</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__MediaAdSalesExtractLineItemsTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__MediaAdSalesInstrumentation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__MediaAdSalesInstrumentationTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__MediaAdSalesModifyPlanService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__MediaAdSalesModifyPlanServiceTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__MediaAdSalesTargetingHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__MediaAdSalesTargetingHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__MediaAdSalesUpdateLineItem</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__MediaAdSalesUpdateLineItemTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__MediaAdSalesUtil</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -13044,6 +14280,42 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__MediaGetCacheDataImplementationTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__MediaIntegrationProcedureInvocable</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__MediaIntegrationProcedureInvocableTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__MediaIntegrationProcedureMapEntry</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__MediaPostInstallClass</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__MediaPostInstallClassTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__MediaQuoteLineItemTriggerHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__MediaQuoteLineItemTriggerHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__MediasfBillingHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__MediasfBillingHandlerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -13087,11 +14359,35 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__MockCHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__MockCachingRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__MockDocuSignCalloutResponse</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__MockDocuSignCalloutTemplatesResponse</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__MockFailingValidation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__MockInputConverter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__MockPassingValidation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__MockResponseGenerator</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -13232,6 +14528,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__NullBundleVersionValidatorTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__NullOutputFormat</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -13663,11 +14963,39 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__OfferActionNode</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__OfferDetailBundleContextParser</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__OfferDetailBundleContextParserTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__OfferDetailsExistMockRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__OfferDetailsExistRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__OfferDetailsExistValidation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__OfferDetailsExistValidationTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__OfferDetailsInputModel</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__OfferDetailsInputModelTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -13688,6 +15016,18 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__OfferDomainTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__OfferIdsInputModel</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__OfferInputModel</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__OfferInputModelTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -13719,11 +15059,19 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__OffersItemMockRespository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__OffersItemRHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__OffersItemRequestModel</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__OffersItemRespository</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -13903,6 +15251,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__OmniStudioFileBasedContentUtil</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__OmniStudioPostInstallClass</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -13956,6 +15308,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__OpportunityMemberTriggerHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__OpportunityMemberTriggerHandlerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -14231,6 +15587,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__OutputFormat</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__OverrideDefinitionSelector</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -14323,6 +15683,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__PUFieldMapStep</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__PUObjectMapStep</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__PaginationAPITest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -14376,6 +15744,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__PartyTriggerHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__PayloadSequencer</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__PayloadSequencerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -14631,6 +16007,30 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__PopulatedStringSetValidation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__PopulatedStringSetValidationTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__PostInstallRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__PostInstallRepositoryDefaultImpl</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__PostInstallStep</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__PostInstallStepExecutor</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__PreImportValVersionDateWrapperTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -14716,6 +16116,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__PricesRHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__PricesRHandlerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -15235,6 +16639,22 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__ProductExistMockRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__ProductExistsRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__ProductExistsValidation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__ProductExistsValidationTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__ProductHierarchyBatchJob</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -15403,6 +16823,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__ProductVersionInfoInputModel</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__ProductVersionInfoInputModelTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__ProductWrapper</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -15431,7 +16859,31 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__PromoVersionInfoInputModel</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__PromoVersionInfoInputModelTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__PromoVersionInfoMockRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__PromoVersionInfoRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__PromoVersionInfoSFDBRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__PromoWrapperModel</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__PromoWrapperVerValidationRepository</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -15735,6 +17187,18 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__RegenerateTestDataVersioning</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__RegenerateVersioningUtility</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__RegenerateVersioningUtilityTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__RegenerationLock</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -15892,6 +17356,18 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__ResolveRootAccountTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__ResponseGenerator</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__ResponseGeneratorContext</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__ResponseGeneratorContextTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -16072,6 +17548,46 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__RulesUtilitiesTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__SFBillingMyInvoicesImplementation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__SFBillingMyInvoicesImplementationTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__SFBillingProfileImplementation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__SFBillingProfileImplementationTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__SFDBVersioningCachingRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__SFDBVersioningCachingRepositoryTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__SFMediaProcessBilling</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__SFMediaProcessBillingTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__SObjectIdSetValidation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__SObjectIdSetValidationTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -16279,6 +17795,54 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__SfiAdsCustomTargetSelector</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__SfiAdsDayTimeTargetSelector</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__SfiAdsGeoTargetSelector</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__SfiAdsOSTargetSelector</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__SfiAdsTargetPayloadCreator</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__SfiAdsTargetingConstants</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__SfiAdsTargetingDataImportBatch</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__SfiAdsTargetingDataImportController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__SfiAdsTargetingDataImportControllerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__SfiAdsTargetingException</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__SfiEnergyAssetServiceAPIV1</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__SfiEnergyAssetServiceAPIV1Test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__SfiEnergyConsoleAppHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -16319,7 +17883,27 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__SfiEnergyEUCAdministration</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__SfiEnergyEUCAdministrationTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__SfiEnergyException</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__SfiEnergySelfServiceUsrRegController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__SfiEnergySelfServiceUsrRegControllerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__SfiEnergyWithoutSharing</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -16344,6 +17928,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__SimpleDecompositionManager</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__SimpleDecompositionManagerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -16715,6 +18303,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__StoreResponses</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__Story</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -16911,7 +18503,35 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__TMFOpenAPICatalogService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__TMFOpenAPICatalogServiceTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__TMFOpenAPICategoryService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__TMFOpenAPICategoryServiceTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__TMFOpenAPIPostProdOfferingInterface</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__TMFOpenAPIProductModel</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__TMFOpenAPIProductOffering</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__TMFOpenAPIProductOfferingTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -16931,6 +18551,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__TMFOpenAPIResourceHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__TMFOpenAPIResourceHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__TMFOpenAPIResourceTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -16940,6 +18568,26 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__TMFOpenAPISettingServiceTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__TMFOpenApiGetProdOfferingInterface</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__TMFOpenApiGetProductSpecInterface</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__TMFOpenApiPostProductSpecInterface</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__TMFOpenApiProductSpecification</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__TMFOpenApiProductSpecificationTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -17047,6 +18695,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__TelcoPostInstallImpl</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__TelcoPriceBookTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -17064,6 +18716,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__TelcoProductTriggerHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__TelcoProductTriggerListener</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -17167,6 +18823,50 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__TimeSliceInfoInputConverter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__TimeSliceInfoInputConverterTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__TimeSliceInfoMockRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__TimeSliceInfoRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__TimeSliceInfoSFDBRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__TimeSliceInfoSFDBRepositoryTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__TimeSliceListInputConverter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__TimeSliceListInputConverterTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__TimeSliceListMockRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__TimeSliceListRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__TimeSliceListSFDBRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__TimelineDisplayController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -17180,6 +18880,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__TimerAroundLogger</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__TimerAroundLoggerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -17247,11 +18951,23 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__TriggerContext</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__TriggerContextTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__TriggerException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__TriggerFactory</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__TriggerNotifier</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -17763,6 +19479,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__V2PricingAdjSelectorTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__V2PricingService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -17824,6 +19544,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__V2ReplaceOfferService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__V2ReplaceOfferServiceTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -18075,6 +19799,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__VILE_AllValidCatalogsMock</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__VILE_OneInvalidCatalogMock</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__VL2QueryService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -18151,6 +19883,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__ValidationException</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__ValidationRulesImplementation</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -18184,6 +19920,38 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__VersionAwareCatalogServiceTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__VersionInfoListExistsRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__VersionInfoListExistsValidation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__VersionInfoListExistsValidationTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__VersionInfoListMockRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__VersionInfoListRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__VersionInfoListSFDBRepository</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__VersionInputModel</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__VersionInputModelTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -18939,6 +20707,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__XOMAttributesMigrationController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__XOMAttributesMigrationTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__XOMAutoTaskAssetizer</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -19279,6 +21055,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__XOMEventBusHelper</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__XOMEventEmailNotification</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -19363,6 +21143,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__XOMFRLsAttrsMigrateToV2BatchJob</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__XOMField2AttrMappingRule</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -19383,11 +21167,31 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__XOMHybridAPIHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__XOMHybridSupplementalOrderManager</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__XOMHybridSupplementalOrderManagerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__XOMIIsAttrsMigrateToV2BatchJob</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__XOMINSTriggerHelper</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__XOMInboundRESTInterfaceTriggerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__XOMInstrumentationConstant</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -19567,6 +21371,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__XOMOdinSendSubmitToHybridOMHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__XOMOdinSendSubmitToOMHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -19723,6 +21531,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__XOMOrchestrationMethodManager</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__XOMOrchestrationMethodManagerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__XOMOrchestrationPlan</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -19848,6 +21664,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__XOMOrderEventProcessorTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__XOMOrderFulfilmentLifecycleManager</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -20175,6 +21995,18 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__XOMTaskManager</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__XOMTaskManagerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__XOMTaskSyncHelper</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__XOMTestCPQUtils</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -20267,6 +22099,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>vlocity_cmt__XOMTestStoriesDecompositionAmendInCore</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>vlocity_cmt__XOMTestStoriesDecompositionAmendOI</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -20292,6 +22128,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__XOMTestStoriesDecompositionHelper</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>vlocity_cmt__XOMTestStoriesDecompositionInCore</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -20577,6 +22417,10 @@
     </customMetadataTypeAccesses>
     <customMetadataTypeAccesses>
         <enabled>true</enabled>
+        <name>vlocity_cmt__TriggerListener__mdt</name>
+    </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
         <name>vlocity_cmt__VPLAbstractionLayerSetup__mdt</name>
     </customMetadataTypeAccesses>
     <customMetadataTypeAccesses>
@@ -20733,6 +22577,10 @@
     </customSettingAccesses>
     <customSettingAccesses>
         <enabled>true</enabled>
+        <name>vlocity_cmt__MediaConfiguration__c</name>
+    </customSettingAccesses>
+    <customSettingAccesses>
+        <enabled>true</enabled>
         <name>vlocity_cmt__MobileConfiguration__c</name>
     </customSettingAccesses>
     <customSettingAccesses>
@@ -20773,6 +22621,10 @@
     </customSettingAccesses>
     <customSettingAccesses>
         <enabled>true</enabled>
+        <name>vlocity_cmt__SfiAdsTargetingConfiguration__c</name>
+    </customSettingAccesses>
+    <customSettingAccesses>
+        <enabled>true</enabled>
         <name>vlocity_cmt__StoryListPageLimit__c</name>
     </customSettingAccesses>
     <customSettingAccesses>
@@ -20782,6 +22634,10 @@
     <customSettingAccesses>
         <enabled>true</enabled>
         <name>vlocity_cmt__SyncDeltaControl__c</name>
+    </customSettingAccesses>
+    <customSettingAccesses>
+        <enabled>true</enabled>
+        <name>vlocity_cmt__TargetCategoryNameToClassName__c</name>
     </customSettingAccesses>
     <customSettingAccesses>
         <enabled>true</enabled>
@@ -25029,6 +26885,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Order.vlocity_cmt__CartContextValues__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Order.vlocity_cmt__CartIdentifier__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -25305,6 +27166,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Order.vlocity_cmt__OpportunityId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Order.vlocity_cmt__OrchestrationMethod__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -35334,7 +37200,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>vlocity_cmt__CachedAPIChange__c.vlocity_cmt__IsProcessedByPC__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>vlocity_cmt__CachedAPIChange__c.vlocity_cmt__IsProcessed__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>vlocity_cmt__CachedAPIChange__c.vlocity_cmt__ObjectId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -36460,6 +38336,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>vlocity_cmt__CompiledAttributeOverride__c.vlocity_cmt__ProductId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>vlocity_cmt__ConfigurationSnapshot__c.vlocity_cmt__ConfigurationSnapshotId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>vlocity_cmt__ConfigurationSnapshot__c.vlocity_cmt__EffectiveEndDate__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -39709,6 +41595,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>vlocity_cmt__FulfilmentRequestLineDecompRelationship__c.vlocity_cmt__DecompositionRelationshipMetadata__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>vlocity_cmt__FulfilmentRequestLineDecompRelationship__c.vlocity_cmt__DestinationFulfilmentRequestLineId__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -39749,6 +41640,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>vlocity_cmt__FulfilmentRequestLine__c.vlocity_cmt__AttributeSelectedValues__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>vlocity_cmt__FulfilmentRequestLine__c.vlocity_cmt__AttributesMarkupData__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -39785,6 +41681,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>vlocity_cmt__FulfilmentRequestLine__c.vlocity_cmt__IsChangesAllowed__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>vlocity_cmt__FulfilmentRequestLine__c.vlocity_cmt__IsMigrated__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -41129,6 +43030,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>vlocity_cmt__InventoryItem__c.vlocity_cmt__AttributeSelectedValues__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>vlocity_cmt__InventoryItem__c.vlocity_cmt__AverageMonthlyUsage__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -41150,6 +43056,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>vlocity_cmt__InventoryItem__c.vlocity_cmt__InstallDate__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>vlocity_cmt__InventoryItem__c.vlocity_cmt__IsMigrated__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -42914,6 +44825,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>vlocity_cmt__OrchestrationItemDefinition__c.vlocity_cmt__GroupDeveloperName__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>vlocity_cmt__OrchestrationItemDefinition__c.vlocity_cmt__IsPointOfNoReturn__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -43215,6 +45131,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>vlocity_cmt__OrchestrationItem__c.vlocity_cmt__FulfilmentRequestLineId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>vlocity_cmt__OrchestrationItem__c.vlocity_cmt__GroupDeveloperName__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -44370,6 +46291,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>vlocity_cmt__OrderMember__c.vlocity_cmt__OrderGroupId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>vlocity_cmt__OrderMember__c.vlocity_cmt__ParentOrderMemberId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -47689,6 +49615,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>vlocity_cmt__QuoteMember__c.vlocity_cmt__ParentQuoteMemberId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>vlocity_cmt__QuoteMember__c.vlocity_cmt__PostalCode__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -49085,6 +51016,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>vlocity_cmt__TimePolicy__c.vlocity_cmt__StartTimePolicy__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>vlocity_cmt__TriggerListener__mdt.vlocity_cmt__IsActive__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>vlocity_cmt__TriggerListener__mdt.vlocity_cmt__Priority__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -54075,6 +56016,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>vlocity_cmt__ConfigurationSnapshot__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>vlocity_cmt__ConsoleActionLog__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -58044,6 +59994,10 @@
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
+        <apexPage>vlocity_cmt__PCChargeMeasurementDelete</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>vlocity_cmt__PCNewDiscount</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
@@ -58620,7 +60574,19 @@
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
+        <apexPage>vlocity_cmt__XOMManageEncryptionKeysIFrame</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>vlocity_cmt__XOMManageEncryptionKeysLWC</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>vlocity_cmt__XOMManageSecrets</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>vlocity_cmt__XOMManualQueueItems</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>

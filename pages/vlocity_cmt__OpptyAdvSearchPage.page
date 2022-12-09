@@ -15,7 +15,7 @@
 		</head>
 		<body>
 			<c:SummaryConfigurationComponent summaryTitle="Opportunity Summary"/>
-			<c:ProductConfigurationComponent buttonTitle="{!$Label.vlocity_cmt__createquotes}" summaryTitle="Opportunity Summary" cartUrl="/apex/OpportunityManager?id={!URLENCODE($CurrentPage.parameters.Id)}" />
+			<c:ProductConfigurationComponent buttonTitle="{!$Label.vlocity_cmt__CreateQuotes}" summaryTitle="Opportunity Summary" cartUrl="/apex/OpportunityManager?id={!URLENCODE($CurrentPage.parameters.Id)}" />
 		</body>
 	</html>
 </apex:page>

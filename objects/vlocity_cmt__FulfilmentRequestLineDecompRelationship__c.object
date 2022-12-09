@@ -156,6 +156,18 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>vlocity_cmt__DecompositionRelationshipMetadata__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Decomposition relationship metadata for this fulfillment request line.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>JSON code containing the decomposition relationship metadata for this fulfillment request line.</inlineHelpText>
+        <label>Decomposition Relationship Metadata</label>
+        <length>5000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
         <fullName>vlocity_cmt__DestinationFulfilmentRequestLineId__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>

@@ -602,6 +602,17 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>vlocity_cmt__CartContextValues__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The field is used to store context value of the order.</description>
+        <externalId>false</externalId>
+        <label>Cart Context Values</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
         <fullName>vlocity_cmt__CartIdentifier__c</fullName>
         <caseSensitive>false</caseSensitive>
         <deprecated>false</deprecated>
@@ -1268,17 +1279,26 @@
         <fullName>vlocity_cmt__JeopardyStatus__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
-        <formula>IF((ISBLANK(vlocity_cmt__RequestedCompletionDate__c) || ISNULL(vlocity_cmt__RequestedCompletionDate__c)) || (ISBLANK(vlocity_cmt__DueDate__c) || ISNULL(vlocity_cmt__DueDate__c)), &apos;Green&apos;,
-            IF(vlocity_cmt__DueDate__c &gt;= vlocity_cmt__RequestedCompletionDate__c, &apos;Red&apos;,
-            CASE(vlocity_cmt__JeopardySafetyIntervalUnit__c,
-            &apos;Seconds&apos;, IF(vlocity_cmt__DueDate__c + vlocity_cmt__JeopardySafetyInterval__c/(24*60*60) &lt;= vlocity_cmt__RequestedCompletionDate__c, &apos;Green&apos;, &apos;Yellow&apos;),
-            &apos;Calendar Hours&apos;, IF(vlocity_cmt__DueDate__c + vlocity_cmt__JeopardySafetyInterval__c/24 &lt;= vlocity_cmt__RequestedCompletionDate__c, &apos;Green&apos;, &apos;Yellow&apos;),
-            &apos;Calendar Days&apos;, IF(vlocity_cmt__DueDate__c + vlocity_cmt__JeopardySafetyInterval__c &lt;= vlocity_cmt__RequestedCompletionDate__c, &apos;Green&apos;, &apos;Yellow&apos;),
-            /* TODO: Gap - business intervals doesn&apos;t support business calendar */
-            &apos;Business Hours&apos;, IF(vlocity_cmt__DueDate__c + vlocity_cmt__JeopardySafetyInterval__c/24 &lt;= vlocity_cmt__RequestedCompletionDate__c, &apos;Green&apos;, &apos;Yellow&apos;),
-            &apos;Business Days&apos;, IF(vlocity_cmt__DueDate__c + vlocity_cmt__JeopardySafetyInterval__c &lt;= vlocity_cmt__RequestedCompletionDate__c, &apos;Green&apos;, &apos;Yellow&apos;),
-            &apos;Green&apos;)
-            ))</formula>
+        <formula>IF(
+                ISBLANK(vlocity_cmt__RequestedCompletionDate__c) || ISNULL(vlocity_cmt__RequestedCompletionDate__c) || ISBLANK(vlocity_cmt__DueDate__c) || ISNULL(vlocity_cmt__DueDate__c),
+                    &apos;Green&apos;,
+                    IF(
+                        vlocity_cmt__DueDate__c &gt;= vlocity_cmt__RequestedCompletionDate__c,
+                            &apos;Red&apos;,
+                            IF(
+                                vlocity_cmt__JeopardySafetyInterval__c &lt;= 0,
+                                &apos;Green&apos;,
+                                CASE(vlocity_cmt__JeopardySafetyIntervalUnit__c,
+                                    &apos;Seconds&apos;, IF(vlocity_cmt__DueDate__c + (vlocity_cmt__JeopardySafetyInterval__c/(24*60*60)) &lt;= vlocity_cmt__RequestedCompletionDate__c, &apos;Green&apos;, &apos;Yellow&apos;),
+                                    &apos;Calendar Hours&apos;, IF(vlocity_cmt__DueDate__c + (vlocity_cmt__JeopardySafetyInterval__c/24) &lt;= vlocity_cmt__RequestedCompletionDate__c, &apos;Green&apos;, &apos;Yellow&apos;),
+                                    &apos;Calendar Days&apos;, IF(vlocity_cmt__DueDate__c + vlocity_cmt__JeopardySafetyInterval__c &lt;= vlocity_cmt__RequestedCompletionDate__c, &apos;Green&apos;, &apos;Yellow&apos;),
+                                    /* TODO: Gap - business intervals doesn&apos;t support business calendar */
+                                    &apos;Business Hours&apos;, IF(vlocity_cmt__DueDate__c + (vlocity_cmt__JeopardySafetyInterval__c/24) &lt;= vlocity_cmt__RequestedCompletionDate__c, &apos;Green&apos;, &apos;Yellow&apos;),
+                                    &apos;Business Days&apos;, IF(vlocity_cmt__DueDate__c + vlocity_cmt__JeopardySafetyInterval__c &lt;= vlocity_cmt__RequestedCompletionDate__c, &apos;Green&apos;, &apos;Yellow&apos;),
+                                &apos;Green&apos;)
+                            )
+                    )
+            )</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Jeopardy Status</label>
         <required>false</required>
@@ -1496,6 +1516,31 @@
         <required>false</required>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__OrchestrationMethod__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The orchestration method used for Order Management decomposition and orchestration</description>
+        <externalId>false</externalId>
+        <label>Orchestration Method</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Order Management</fullName>
+                    <default>false</default>
+                    <label>Order Management</label>
+                </value>
+                <value>
+                    <fullName>Order Management Plus</fullName>
+                    <default>false</default>
+                    <label>Order Management Plus</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>vlocity_cmt__OrchestrationPlanId__c</fullName>
@@ -2623,6 +2668,17 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>vlocity_cmt__OrchestrationMethod__c</picklist>
+            <values>
+                <fullName>Order Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Order Management Plus</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>vlocity_cmt__OrderStatus__c</picklist>
             <values>
                 <fullName>Activated</fullName>
@@ -3067,6 +3123,17 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>vlocity_cmt__OrchestrationMethod__c</picklist>
+            <values>
+                <fullName>Order Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Order Management Plus</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>vlocity_cmt__OrderStatus__c</picklist>
             <values>
                 <fullName>Activated</fullName>
@@ -3491,6 +3558,17 @@
             </values>
             <values>
                 <fullName>Manual Edit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__OrchestrationMethod__c</picklist>
+            <values>
+                <fullName>Order Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Order Management Plus</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -3943,6 +4021,17 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>vlocity_cmt__OrchestrationMethod__c</picklist>
+            <values>
+                <fullName>Order Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Order Management Plus</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>vlocity_cmt__OrderStatus__c</picklist>
             <values>
                 <fullName>Activated</fullName>
@@ -4370,6 +4459,17 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>vlocity_cmt__OrchestrationMethod__c</picklist>
+            <values>
+                <fullName>Order Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Order Management Plus</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>vlocity_cmt__OrderStatus__c</picklist>
             <values>
                 <fullName>Activated</fullName>
@@ -4790,6 +4890,17 @@
             </values>
             <values>
                 <fullName>Manual Edit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__OrchestrationMethod__c</picklist>
+            <values>
+                <fullName>Order Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Order Management Plus</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -5238,6 +5349,17 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>vlocity_cmt__OrchestrationMethod__c</picklist>
+            <values>
+                <fullName>Order Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Order Management Plus</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>vlocity_cmt__OrderStatus__c</picklist>
             <values>
                 <fullName>Activated</fullName>
@@ -5662,6 +5784,17 @@
             </values>
             <values>
                 <fullName>Manual Edit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__OrchestrationMethod__c</picklist>
+            <values>
+                <fullName>Order Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Order Management Plus</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -6207,7 +6340,7 @@ window.location.href = &apos;/apex/&apos; + simpleDecompPageNamespace + &apos;XO
         <masterLabel>View Orchestration Plan</masterLabel>
         <openType>onClickJavaScript</openType>
         <protected>false</protected>
-        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/19.0/connection.js&quot;)}
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/54.0/connection.js&quot;)}
             {!REQUIRESCRIPT(&quot;/soap/ajax/30.0/apex.js&quot;)}
 
             var namespace_prefix = &apos;&apos;;
@@ -6230,29 +6363,24 @@ window.location.href = &apos;/apex/&apos; + simpleDecompPageNamespace + &apos;XO
                 }
             }
 
-            var simpleDecompControllerNamespace = &apos;&apos;;
-            var simpleDecompPageNamespace = &apos;&apos;;
-            if(namespace_prefix != &quot;&quot;) {
-                simpleDecompControllerNamespace = namespace_prefix + &apos;.&apos;;
-                simpleDecompPageNamespace = namespace_prefix + &apos;__&apos;;
-            }
+            var planviewNSP = (namespace_prefix != &quot;&quot;) ? namespace_prefix + &apos;__&apos; : &apos;&apos;;
 
 var orderId = &apos;{!Order.Id }&apos;;
 var planId = &apos;{!Order.vlocity_cmt__OrchestrationPlanIdId__c}&apos;;
 var thorPlanId = &apos;{!Order.vlocity_cmt__OrchestrationPlanReferenceId__c}&apos;;
-var fulfilmentStatus = &apos;{!Order.vlocity_cmt__FulfilmentStatus__c}&apos;;
+var fulfilmentStatus =  &quot;{!Order.vlocity_cmt__FulfilmentStatus__c}&quot;;
 if(planId !== null &amp;&amp; planId !== &apos;&apos;)
 {
     parent.location.href = parent.location.origin+&apos;/&apos;+planId;
 } else if (thorPlanId !== null &amp;&amp; thorPlanId !== &apos;&apos;)
 {
-   parent.location.href =  &apos;/apex/&apos; + simpleDecompPageNamespace +&apos;OrchestrationPlanViewCommon?id=&apos; + thorPlanId;
+   parent.location.href =  &apos;/apex/&apos; + planviewNSP +&apos;OrchestrationPlanViewCommon?id=&apos; + thorPlanId + &apos;&amp;orderId=&apos; + orderId;
 } else if(fulfilmentStatus ==&apos;Draft&apos;)
 {
     alert(&apos;Order is not associated with any Orchestration Plan!&apos;);
 } else
 {
-    parent.location.href =  &apos;/apex/&apos; + simpleDecompPageNamespace +&apos;OrchestrationPlanViewCommon?id=&apos; + orderId;
+    parent.location.href =  &apos;/apex/&apos; + planviewNSP +&apos;OrchestrationPlanViewCommon?id=&apos; + orderId;
 }</url>
     </webLinks>
     <webLinks>

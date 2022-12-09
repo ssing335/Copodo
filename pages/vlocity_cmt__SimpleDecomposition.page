@@ -266,12 +266,12 @@
 //					console.log('inside run');
 
 					force.init({
-						accessToken: '{!$Api.Session_ID}',
+						accessToken: '{!JSENCODE($Api.Session_ID)}',
 						useProxy: false
 					});
 
 					$rootScope.forcetkClient = new forcetk.Client();
-					$rootScope.forcetkClient.setSessionToken('{!$Api.Session_ID}');
+					$rootScope.forcetkClient.setSessionToken('{!JSENCODE($Api.Session_ID)}');
 
 				}]);
 

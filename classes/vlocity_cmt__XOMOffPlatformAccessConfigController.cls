@@ -9,6 +9,7 @@ global class XOMOffPlatformAccessConfigController {
     global String encryptUIServicesUrl {
         get;
     }
+    @AuraEnabled
     @RemoteAction
     global static Boolean areThorNamedCredentialsEnabled() {
         return null;
@@ -24,7 +25,17 @@ global class XOMOffPlatformAccessConfigController {
     }
     @AuraEnabled
     @RemoteAction
+    global static Boolean isHybridMode() {
+        return null;
+    }
+    @AuraEnabled
+    @RemoteAction
     global static Boolean isOffplatformMode() {
+        return null;
+    }
+    @AuraEnabled
+    @RemoteAction
+    global static Boolean isOnplatformMode() {
         return null;
     }
     @RemoteAction
@@ -35,6 +46,7 @@ global class XOMOffPlatformAccessConfigController {
     global static Object rotateAccessKeysAndReturnObject() {
         return null;
     }
+    @AuraEnabled
     @RemoteAction
     global static Object rotateAccessKeysOfNamedCredentials() {
         return null;

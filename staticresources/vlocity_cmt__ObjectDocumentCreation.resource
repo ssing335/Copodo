@@ -783,6 +783,10 @@ angular.module('objectDocumentCreation').controller('objectDocumentCreationDocXC
 
         var zip = new JSZip(fileContentData);
         var doc = new Docxtemplater();
+        if(JSON.stringify(docXTokenData).includes("HYP_")) {
+            var linkModule = new LinkModule();
+            doc.attachModule(linkModule);
+        }
         doc.setOptions({
             delimiters: {
                 start: '{{', 
@@ -1179,7 +1183,7 @@ angular.module('objectDocumentCreation').directive('filePreviewPdfTron', ['$time
                 'clientSidePdfGenerationConfig':scope.$parent.$parent.$parent.clientSidePdfGenerationConfig
             };
             var wvElement = document.getElementById('viewer');
-            var  wv = new PDFTron.WebViewer({
+            WebViewer({
                 // get path from pdf config
                 path: scope.$parent.$parent.$parent.clientSidePdfGenerationConfig['cs_pdftron_lib'],
                 //List the elements that need to hide/disable.
@@ -1191,21 +1195,18 @@ angular.module('objectDocumentCreation').directive('filePreviewPdfTron', ['$time
                 custom: JSON.stringify(webViewerCustomOptions),
                 l: atob(scope.$parent.$parent.$parent.pdfIntegrationConfig),
                // config: scope.$parent.$parent.$parent.sitePrefix + '/resource/' + scope.$parent.$parent.$parent.nameSpacePrefix + 'cs_pdftron_config'
-            }, wvElement);
-
-            window.addEventListener('ready', function(event) {
-                console.log('document ready to load', wv.getInstance());
+            }, wvElement).then(function(instance) {
+                var coreContrls = instance.Core;
                 //Set WorkerPath before loading the document
-                var coreContrls = wv.iframe.contentWindow.CoreControls;
                 setWorkerPath(coreContrls,scope.$parent.$parent.$parent.clientSidePdfGenerationConfig);
+                var fileExtension = scope.$parent.$parent.$parent.fileExtension? scope.$parent.$parent.$parent.fileExtension: 'docx'; //default to docx
                 //Load document for previewer
-                var instance =wv.getInstance();
                 instance.disableDownload(); // disable download feature
                 instance.disablePrint(); // disable print feature
                 instance.disableTools(); //disable the tools that are used for editing the document.
-				instance.disableElements(['searchButton','toolbarGroup-View','toolbarGroup-Annotate','toolbarGroup-Shapes','toolbarGroup-Insert','toolbarGroup-Edit','toggleNotesButton']);
-                wv.loadDocument(base64ToBlob(scope.$parent.$parent.generatedContentVersion.VersionData),{ filename: 'myfile.docx' , officeOptions: { disableBrowserFontSubstitution: true } });
-            });
+				instance.disableElements(['searchButton','toolbarGroup-View','toolbarGroup-Annotate','toolbarGroup-Shapes','toolbarGroup-Insert','toolbarGroup-Edit','toggleNotesButton','toolbarGroup-FillAndSign', 'toolbarGroup-Forms','languageButton']);
+                instance.loadDocument(base64ToBlob(scope.$parent.$parent.generatedContentVersion.VersionData),{ extension: fileExtension , officeOptions: { disableBrowserFontSubstitution: true } });
+              });
 
             //Method to set the CoreControls Worker Path
             function setWorkerPath(coreContrls, clientSidePdfGenerationConfig){
@@ -1342,6 +1343,10 @@ angular.module('objectDocumentCreation').factory('ObjectDocumentCreationService'
             zip.file('word/_rels/document.xml.rels', result.contractData.DocxRels, {});
         }
         doc = new Docxtemplater();
+        if(JSON.stringify(contractData).includes("HYP_")) {
+            var linkModule = new LinkModule();
+            doc.attachModule(linkModule);
+        }
         doc.loadZip(zip);
         doc.setData(contractData);
         doc.render();

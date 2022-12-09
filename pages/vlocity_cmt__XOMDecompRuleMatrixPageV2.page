@@ -1,3 +1,5 @@
 <apex:page standardController="Product2" standardstylesheets="false" showHeader="false" sidebar="false" docType="html-5.0">
-    <c:XOMDecompRuleMatrixComponent productId="{!JSENCODE($CurrentPage.parameters.Id)}"/>
+    <c:XOMIllustration title="{!$Label.vlocity_cmt__VFPageDepricatedText}"
+            showReturn="false">
+    </c:XOMIllustration>
 </apex:page>

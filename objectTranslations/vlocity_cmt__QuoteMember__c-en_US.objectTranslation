@@ -167,6 +167,11 @@
         <relationshipLabel><!-- Quote Members --></relationshipLabel>
     </fields>
     <fields>
+        <label><!-- Parent Quote Member --></label>
+        <name>vlocity_cmt__ParentQuoteMemberId__c</name>
+        <relationshipLabel><!-- Quote Members (Parent Quote Member) --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- Postal Code --></label>
         <name>vlocity_cmt__PostalCode__c</name>
     </fields>

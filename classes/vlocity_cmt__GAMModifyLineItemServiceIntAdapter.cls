@@ -5,7 +5,7 @@ This read-only file shows the class's global constructors,
 methods, variables, and properties.
 To enable code to compile, all methods return null.
 */
-global class GAMModifyLineItemServiceIntAdapter extends vlocity_cmt.GAMServiceIntegrationAdapter {
+global virtual class GAMModifyLineItemServiceIntAdapter extends vlocity_cmt.GAMServiceIntegrationAdapter {
     global GAMModifyLineItemServiceIntAdapter() {
 
     }

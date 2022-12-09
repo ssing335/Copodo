@@ -1,4 +1,4 @@
-<apex:page showHeader="true" sidebar="true" controller="vlocity_cmt.XOMOffPlatformAccessConfigController" extensions="vlocity_cmt.XOMOMPLAuthController" standardStylesheets="false" docType="html-5.0" >
+<apex:page showHeader="true" sidebar="true" controller="vlocity_cmt.XOMThorSecretsController" extensions="vlocity_cmt.XOMOMPLAuthController,vlocity_cmt.XOMOffPlatformAccessConfigController" standardStylesheets="false" docType="html-5.0" >
     <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ng="http://angularjs.org" ng-app="changeKeysApp">
         <head>
           <base href="/"/>
@@ -96,15 +96,15 @@
                 
             var app = angular.module('changeKeysApp', ["vlocity", "ngSanitize", 'thorIntegration','ui.bootstrap', 'ngMessages']);
             
-            var uiServicesUrl = '{!JSENCODE(HTMLENCODE(encryptUIServicesUrl))}';
+            const uiServicesUrl = '{!JSENCODE(HTMLENCODE(encryptUIServicesUrl))}';
 
-            var conn = new jsforce.Connection({ accessToken: '{!$Api.Session_Id}' });
+            var conn = new jsforce.Connection({ accessToken: '{!JSENCODE($Api.Session_Id)}' });
 
             
             var remoteActions = {
                 saveXOMSetupCustomSettings: "{!$RemoteAction.XOMOffPlatformAccessConfigController.saveXOMSetupCustomSettings}",
-                rotateAccessKeysAndReturnObject: "{!$RemoteAction.XOMOffPlatformAccessConfigController.rotateAccessKeysAndReturnObject}",
-                cleanupAccessKeys: "{!$RemoteAction.XOMOffPlatformAccessConfigController.cleanupAccessKeys}",
+                rotateAccessKeysAndReturnObject: "{!$RemoteAction.XOMThorSecretsController.rotateAccessKeysAndReturnObject}",
+                cleanupAccessKeys: "{!$RemoteAction.XOMThorSecretsController.cleanupAccessKeys}",
                 rotateAccessKeysOfNamedCredentials: "{!$RemoteAction.XOMOffPlatformAccessConfigController.rotateAccessKeysOfNamedCredentials}",
                 areThorNamedCredentialsEnabled: "{!$RemoteAction.XOMOffPlatformAccessConfigController.areThorNamedCredentialsEnabled}",
                 generateAuthToken: '{!$RemoteAction.XOMOMPLAuthController.generateAuthToken}'

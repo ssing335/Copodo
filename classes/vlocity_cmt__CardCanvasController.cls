@@ -429,6 +429,10 @@ global class CardCanvasController implements System.Callable, vlocity_cmt.Vlocit
         return null;
     }
     @RemoteAction
+    global static System.PageReference getVFPageURL(String pageName) {
+        return null;
+    }
+    @RemoteAction
     global static Boolean isAllTriggersOn() {
         return null;
     }

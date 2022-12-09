@@ -77,6 +77,10 @@ global class ObjectDocumentCreationDocxController {
         return null;
     }
     @RemoteAction
+    global static Map<String,Object> getImageContent(Map<String,Object> inputs, Map<String,Object> output, Map<String,Object> options) {
+        return null;
+    }
+    @RemoteAction
     global static Id getNetworkId() {
         return null;
     }

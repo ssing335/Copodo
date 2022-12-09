@@ -304,6 +304,10 @@ angular.module('contractDocumentSectionViewApp').controller('contractDocumentSec
             zip.file('word/_rels/document.xml.rels', result.contractData.DocxRels, {});
         }
         doc = new Docxtemplater();
+        if(JSON.stringify(contractData).includes("HYP_")) {
+            var linkModule = new LinkModule();
+            doc.attachModule(linkModule);
+        }
         doc.loadZip(zip);
         doc.setData(contractData);
         doc.render();
@@ -1321,6 +1325,10 @@ angular.module('contractDocumentSectionViewApp').controller('contractDocumentSec
             }
 
             var doc = new Docxtemplater();
+            if(JSON.stringify(contentDataMap).includes("HYP_")) {
+                var linkModule = new LinkModule();
+                doc.attachModule(linkModule);
+            }
             doc.loadZip(zip);
             $scope.startIndex = 0;
             $scope.wmlContents = '';

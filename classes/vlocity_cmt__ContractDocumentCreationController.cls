@@ -28,6 +28,10 @@ global class ContractDocumentCreationController {
 
     }
     @RemoteAction
+    global static Map<String,Object> convertRichTexValueToWml(String richTextDocxTokensNumbering) {
+        return null;
+    }
+    @RemoteAction
     global static void createContractSections(Id templateId, Id versionId) {
 
     }
@@ -89,6 +93,10 @@ global class ContractDocumentCreationController {
     }
     @RemoteAction
     global static vlocity_cmt.ContractDocumentCreationController.ContractDocumentWrapper getDocxTemplate() {
+        return null;
+    }
+    @RemoteAction
+    global static Map<String,Object> getImageContent(List<String> imageKeyList) {
         return null;
     }
     @RemoteAction

@@ -425,9 +425,9 @@ angular.module('contractVersionComparisonApp').controller('contractVersionCompar
                     if (temporaryObj.sectionContent && temporaryObj.sectionContent.indexOf('style="color: #FF0000;"') > -1) {
                         temporaryObj.sectionContent = $scope.replaceAll(temporaryObj.sectionContent, 'style="color: #FF0000;"' , '');
                     }
-                    if (temporaryObj.sectionContent && temporaryObj.sectionContent.indexOf('style="text-decoration: underline;"') > -1) {
+                    /*if (temporaryObj.sectionContent && temporaryObj.sectionContent.indexOf('style="text-decoration: underline;"') > -1) {
                         temporaryObj.sectionContent = $scope.replaceAll(temporaryObj.sectionContent, 'style="text-decoration: underline;"' , '');
-                    }
+                    }*/
                     //Remove font wrapper
                     //temporaryObj.sectionContent = $scope.replaceAll(temporaryObj.sectionContent, wrapper, '');
 
@@ -446,7 +446,8 @@ angular.module('contractVersionComparisonApp').controller('contractVersionCompar
             }).then(function() {
                 for (var j in itemSections) {
                     remoteActions.formatProductSection(itemSections[j]).then(function(result) {
-                        $scope.versionData[id][j].sectionContent = result;
+                        var itemSectionHeader = itemSections[j][$scope.nameSpacePrefix + 'DisplayHeaderData__c'];
+                        $scope.versionData[id][j].sectionContent = (itemSectionHeader == undefined ? '' : itemSectionHeader) + result;
                     });
                 }
             });

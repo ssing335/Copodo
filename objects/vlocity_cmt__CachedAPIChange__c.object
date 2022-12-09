@@ -285,6 +285,16 @@
         <type>DateTime</type>
     </fields>
     <fields>
+        <fullName>vlocity_cmt__IsProcessedByPC__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Is Processed by Platform Cache update job.</description>
+        <externalId>false</externalId>
+        <label>Is Processed By Platform Cache</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>vlocity_cmt__IsProcessed__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
@@ -292,6 +302,18 @@
         <label>Is Processed</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__ObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This will store the Id of Sobject.</description>
+        <externalId>false</externalId>
+        <label>SObject Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>vlocity_cmt__OfferId__c</fullName>

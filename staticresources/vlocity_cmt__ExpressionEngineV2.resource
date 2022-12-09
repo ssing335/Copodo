@@ -576,7 +576,7 @@
   var FORMAT_DEFAULT = 'YYYY-MM-DDTHH:mm:ssZ';
   var INVALID_DATE_STRING = 'Invalid Date'; // regex
 
-  var REGEX_PARSE = /^(\d{4})[-/]?(\d{1,2})?[-/]?(\d{0,2})[^0-9]*(\d{1,2})?:?(\d{1,2})?:?(\d{1,2})?[.:]?(\d+)?$/;
+  var REGEX_PARSE = /^(\d{4})[-/]?(\d{1,2})?[-/]?(\d{0,2})[Tt\s]*(\d{1,2})?:?(\d{1,2})?:?(\d{1,2})?[.:]?(\d+)?$/;
   var REGEX_FORMAT = /\[([^\]]+)]|Y{1,4}|M{1,4}|D{1,2}|d{1,4}|H{1,2}|h{1,2}|a|A|m{1,2}|s{1,2}|Z{1,2}|SSS/g;
 
   // English [en]
@@ -927,10 +927,10 @@
     _proto.format = function format(formatStr) {
       var _this3 = this;
 
-      if (!this.isValid()) return INVALID_DATE_STRING;
+      var locale = this.$locale();
+      if (!this.isValid()) return locale.invalidDate || INVALID_DATE_STRING;
       var str = formatStr || FORMAT_DEFAULT;
       var zoneStr = Utils.z(this);
-      var locale = this.$locale();
       var $H = this.$H,
           $m = this.$m,
           $M = this.$M;
@@ -1215,6 +1215,11 @@
 
   var locale = {};
 
+  var parseTwoDigitYear = function parseTwoDigitYear(input) {
+    input = +input;
+    return input + (input > 68 ? 1900 : 2000);
+  };
+
   function offsetFromString(string) {
     if (!string) return 0;
     if (string === 'Z') return 0;
@@ -1327,8 +1332,7 @@
     }],
     Y: [matchSigned, addInput('year')],
     YY: [match2, function (input) {
-      input = +input;
-      this.year = input + (input > 68 ? 1900 : 2000);
+      this.year = parseTwoDigitYear(input);
     }],
     YYYY: [match4, addInput('year')],
     Z: zoneExpressions,
@@ -1404,6 +1408,7 @@
 
   var parseFormattedInput = function parseFormattedInput(input, format, utc) {
     try {
+      if (['x', 'X'].indexOf(format) > -1) return new Date((format === 'X' ? 1000 : 1) * input);
       var parser = makeParser(format);
 
       var _parser2 = parser(input),
@@ -1446,6 +1451,11 @@
 
   var customParseFormat = (function (o, C, d) {
     d.p.customParseFormat = true;
+
+    if (o && o.parseTwoDigitYear) {
+      parseTwoDigitYear = o.parseTwoDigitYear;
+    }
+
     var proto = C.prototype;
     var oldParse = proto.parse;
 
@@ -1504,11 +1514,12 @@
     };
   });
 
-  var dayOfYear = (function (o, c) {
+  var dayOfYear = (function (o, c, d) {
     var proto = c.prototype;
 
     proto.dayOfYear = function (input) {
-      var dayOfYear = Math.round((this.startOf('day') - this.startOf('year')) / 864e5) + 1;
+      // d(this) is for badMutable
+      var dayOfYear = Math.round((d(this).startOf('day') - d(this).startOf('year')) / 864e5) + 1;
       return input == null ? dayOfYear : this.add(input - dayOfYear, 'day');
     };
   });
