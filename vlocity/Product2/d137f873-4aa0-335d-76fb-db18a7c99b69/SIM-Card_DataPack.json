@@ -32,7 +32,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "text",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "IMSI",
                             "messages": [
@@ -59,7 +58,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "SIM Type",
                             "messages": [
@@ -70,20 +68,24 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "d1cfe999-c58e-918d-428e-cbfe6734f308",
-                                    "label": "Physical",
-                                    "readonly": false,
-                                    "value": "Physical"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 20,
                                     "id": "018e6f4c-2ea9-32b7-0927-9cb283494189",
                                     "label": "ESIM",
-                                    "readonly": false,
+                                    "name": "018e6f4c-2ea9-32b7-0927-9cb283494189",
+                                    "readonly": true,
                                     "value": "ESIM"
+                                },
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "d1cfe999-c58e-918d-428e-cbfe6734f308",
+                                    "label": "Physical",
+                                    "name": "d1cfe999-c58e-918d-428e-cbfe6734f308",
+                                    "readonly": true,
+                                    "value": "Physical"
                                 }
                             ]
                         }

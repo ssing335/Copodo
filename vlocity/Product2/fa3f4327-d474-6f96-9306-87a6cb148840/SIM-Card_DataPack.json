@@ -28,12 +28,11 @@
                             "code": "VPL_ATTR_IMSI",
                             "dataType": "text",
                             "disabled": false,
-                            "displaySequence": -1,
+                            "displaySequence": 1,
                             "filterable": true,
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "text",
-                            "isNotAssetizable": true,
                             "isNotTranslatable": true,
                             "label": "IMSI",
                             "messages": [
@@ -44,6 +43,7 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultValue": "20",
                                     "disabled": false,
                                     "readonly": false
                                 }
@@ -60,7 +60,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "text",
-                            "isNotAssetizable": true,
                             "isNotTranslatable": true,
                             "label": "ICCID",
                             "messages": [
@@ -87,7 +86,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": true,
                             "label": "SIM Type",
                             "messages": [
@@ -98,26 +96,32 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 10,
                                     "id": "8c0c32a5-def5-f501-be9b-d2de53a7d03e",
                                     "label": "eSim",
+                                    "name": "8c0c32a5-def5-f501-be9b-d2de53a7d03e",
                                     "readonly": false,
                                     "value": "eSim"
                                 },
                                 {
+                                    "defaultSelected": true,
                                     "disabled": false,
                                     "displaySequence": 20,
                                     "id": "ec56aeb2-b2c3-3344-1802-bab3e11791b1",
                                     "label": "NanoSim",
+                                    "name": "ec56aeb2-b2c3-3344-1802-bab3e11791b1",
                                     "readonly": false,
                                     "value": "NanoSim"
                                 },
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 30,
                                     "id": "edd3d407-ba8e-d601-6f45-f5e1c1322c35",
                                     "label": "MicroSim",
+                                    "name": "edd3d407-ba8e-d601-6f45-f5e1c1322c35",
                                     "readonly": false,
                                     "value": "MicroSim"
                                 }

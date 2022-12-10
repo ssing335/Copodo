@@ -32,7 +32,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "SIM Type",
                             "messages": [
@@ -43,20 +42,24 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "d1cfe999-c58e-918d-428e-cbfe6734f308",
-                                    "label": "Physical",
-                                    "readonly": false,
-                                    "value": "Physical"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 20,
                                     "id": "018e6f4c-2ea9-32b7-0927-9cb283494189",
                                     "label": "ESIM",
+                                    "name": "018e6f4c-2ea9-32b7-0927-9cb283494189",
                                     "readonly": false,
                                     "value": "ESIM"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "d1cfe999-c58e-918d-428e-cbfe6734f308",
+                                    "label": "Physical",
+                                    "name": "d1cfe999-c58e-918d-428e-cbfe6734f308",
+                                    "readonly": false,
+                                    "value": "Physical"
                                 }
                             ]
                         }
@@ -86,7 +89,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "SIM Type",
                             "messages": [
@@ -97,26 +99,32 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 10,
                                     "id": "8c0c32a5-def5-f501-be9b-d2de53a7d03e",
                                     "label": "eSim",
+                                    "name": "8c0c32a5-def5-f501-be9b-d2de53a7d03e",
                                     "readonly": false,
                                     "value": "eSim"
                                 },
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 20,
                                     "id": "ec56aeb2-b2c3-3344-1802-bab3e11791b1",
                                     "label": "NanoSim",
+                                    "name": "ec56aeb2-b2c3-3344-1802-bab3e11791b1",
                                     "readonly": false,
                                     "value": "NanoSim"
                                 },
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 30,
                                     "id": "edd3d407-ba8e-d601-6f45-f5e1c1322c35",
                                     "label": "MicroSim",
+                                    "name": "edd3d407-ba8e-d601-6f45-f5e1c1322c35",
                                     "readonly": false,
                                     "value": "MicroSim"
                                 }
