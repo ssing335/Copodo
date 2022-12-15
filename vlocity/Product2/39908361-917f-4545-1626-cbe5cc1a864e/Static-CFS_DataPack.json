@@ -1,0 +1,305 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Static-CFS_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "ATT_BLOCK": null,
+        "ATT_TYPE": null,
+        "ATT_USV4ADD": null
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "8c2f2ca4-a107-364e-101e-f4a8c845cfb2",
+                "Name": "Static IP",
+                "displaySequence": 511,
+                "id": "a2D8G000000CvJlUAK",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a2E8G000000D0ZnUAK",
+                            "cloneable": true,
+                            "code": "ATT_USV4ADD",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Usable Static v4 addresses",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "a977cf3a-b134-8211-4a52-29458bf3e962",
+                                    "label": "6",
+                                    "readonly": false,
+                                    "value": "6"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "b677cd1d-9b4d-08b4-ac49-4f12428c8110",
+                                    "label": "14",
+                                    "readonly": false,
+                                    "value": "14"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "27ece4be-3f6a-64c7-918c-b47b592fe54e",
+                                    "label": "30",
+                                    "readonly": false,
+                                    "value": "30"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "e8fb00ff-9a0f-7d30-19dd-5d14dd828548",
+                                    "label": "62",
+                                    "readonly": false,
+                                    "value": "62"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "7e6e8b0c-16e0-1931-4bbe-d04de0e666b9",
+                                    "label": "126",
+                                    "readonly": false,
+                                    "value": "126"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 60,
+                                    "id": "2c0a58fb-1a65-94d5-5d9f-dee57389e2bb",
+                                    "label": "254",
+                                    "readonly": false,
+                                    "value": "254"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G0000001dwOUAQ",
+                            "cloneable": true,
+                            "code": "ATT_TYPE",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "IP TYPE",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "d8bf5312-4d54-4f38-5382-c819e8e0dbd0",
+                                    "label": "IPv4",
+                                    "readonly": false,
+                                    "value": "IPv4"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "dd4de394-bd08-6cb5-7be2-b774fb2ed727",
+                                    "label": "IPv6",
+                                    "readonly": false,
+                                    "value": "IPv6"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G0000001dwTUAQ",
+                            "cloneable": true,
+                            "code": "ATT_BLOCK",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "IP BLOCK",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "b6422509-b63d-2eff-513d-3e36007fff25",
+                                    "label": "/24",
+                                    "readonly": false,
+                                    "value": "/24"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "7d169564-19e5-7018-6f9b-fcf1154c292e",
+                                    "label": "/25",
+                                    "readonly": false,
+                                    "value": "/25"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "71f52740-1541-b81b-f21f-dd238625d159",
+                                    "label": "/26",
+                                    "readonly": false,
+                                    "value": "/26"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "d376ecaa-c0b2-2277-d8e2-0ebd13d43f74",
+                                    "label": "/27",
+                                    "readonly": false,
+                                    "value": "/27"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "b04f986d-60d3-e29f-8a90-f38f649d47a9",
+                                    "label": "/28",
+                                    "readonly": false,
+                                    "value": "/28"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 60,
+                                    "id": "a0a13d66-2908-fb23-9e21-85556fd5ad26",
+                                    "label": "/29",
+                                    "readonly": false,
+                                    "value": "/29"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 70,
+                                    "id": "1f53a730-a353-dd5f-ecd4-2d2c4c5bbb1b",
+                                    "label": "/48",
+                                    "readonly": false,
+                                    "value": "/48"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 3
+                }
+            }
+        ],
+        "totalSize": 1
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2022-10-10",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2022-10-10T07:00:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "68bacde9-ad03-d7c5-a1f4-ccd32f962f2c",
+    "%vlocity_namespace%__GlobalKey__c": "39908361-917f-4545-1626-cbe5cc1a864e",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": false,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__MainFeatureQuantityUom__c": "",
+    "%vlocity_namespace%__MainFeatureQuantity__c": "",
+    "%vlocity_namespace%__MainFeatureTermInDays__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectFieldAttribute__c": "Static-CFS_ObjectFieldAttributes.json",
+    "%vlocity_namespace%__ObjectTypeId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "4c0096-b7ed8a-fed218-e34b3f-e1c333cd4",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/4c0096-b7ed8a-fed218-e34b3f-e1c333cd4",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+    },
+    "%vlocity_namespace%__ObjectTypeName__c": "Static CFS Spec",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__ProductChildItem__c": "Static-CFS_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "2022-10-10T07:00:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "Service",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "",
+    "%vlocity_namespace%__SubType__c": "None",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "None",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "Access_Type__c": "",
+    "CanUseQuantitySchedule": false,
+    "CanUseRevenueSchedule": false,
+    "Description": "Technical Product for Static IP",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "Static CFS",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "ProductCode": "C-STATIC_CFS",
+    "Product_Ext_Id__c": "",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/39908361-917f-4545-1626-cbe5cc1a864e"
+}
