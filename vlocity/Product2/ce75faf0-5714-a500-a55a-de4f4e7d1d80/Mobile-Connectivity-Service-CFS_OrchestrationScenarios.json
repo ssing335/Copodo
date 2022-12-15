@@ -1,0 +1,290 @@
+[
+    {
+        "%vlocity_namespace%__Action__c": "Add;Modify",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "5096e5-4e864c-8c221b-28290d-cde42cedd",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Move Product Plan",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Move Product Plan",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+        "%vlocity_namespace%__SubAction__c": "Move-Add;Move-Disconnect",
+        "Name": "Mobile postpaid",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/Mobile postpaid/5096e5-4e864c-8c221b-28290d-cde42cedd/Product2/ce75faf0-5714-a500-a55a-de4f4e7d1d80"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add;Modify",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "bc723c-c750ae-3baa40-52181c-14b49ea0c",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "641 Move Provisioning",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/641 Move Provisioning",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+        "%vlocity_namespace%__SubAction__c": "Move-Add;Move-Disconnect",
+        "Name": "mobile postpaid scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/mobile postpaid scenario/bc723c-c750ae-3baa40-52181c-14b49ea0c/Product2/ce75faf0-5714-a500-a55a-de4f4e7d1d80"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add;Modify;NoChange",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "127854-09061f-10d89e-208b8f-a3b72e9e5",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "622 Billing Plan",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/622 Billing Plan",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "Mobile PostPaid Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/Mobile PostPaid Scenario/127854-09061f-10d89e-208b8f-a3b72e9e5/Product2/ce75faf0-5714-a500-a55a-de4f4e7d1d80"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add;Modify;NoChange",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "2d96d3-09218b-2eff60-9dac63-f324139b2",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "622 Shipping Plan",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/622 Shipping Plan",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "Mobile Postpaid Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/Mobile Postpaid Scenario/2d96d3-09218b-2eff60-9dac63-f324139b2/Product2/ce75faf0-5714-a500-a55a-de4f4e7d1d80"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add;Modify;NoChange",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "aac3f7-9e1d0a-d50d6c-d0892a-f05b05e08",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "641 Provisioning",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/641 Provisioning",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "MobilePostPaid",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/MobilePostPaid/aac3f7-9e1d0a-d50d6c-d0892a-f05b05e08/Product2/ce75faf0-5714-a500-a55a-de4f4e7d1d80"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add;Modify;NoChange",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "ef5a71-f17f50-126722-bed6f4-3446bbde9",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Add Modify Product Plan",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Add Modify Product Plan",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "Mobile postpaid 100 Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/Mobile postpaid 100 Scenario/ef5a71-f17f50-126722-bed6f4-3446bbde9/Product2/ce75faf0-5714-a500-a55a-de4f4e7d1d80"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Disconnect",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "782e2e-ffcc62-2c374a-0df49d-c2b3751f4",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Disconnect Provisioning",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Disconnect Provisioning",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "Mobile Postpaid Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/Mobile Postpaid Scenario/782e2e-ffcc62-2c374a-0df49d-c2b3751f4/Product2/ce75faf0-5714-a500-a55a-de4f4e7d1d80"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Disconnect",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "980cb2-78555d-5764c4-c09846-d8dfdd4f5",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Disconnect Product Plan",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Disconnect Product Plan",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "Mobile Postpaid Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/Mobile Postpaid Scenario/980cb2-78555d-5764c4-c09846-d8dfdd4f5/Product2/ce75faf0-5714-a500-a55a-de4f4e7d1d80"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Disconnect",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "f62e24-bab139-7b7c62-3ed83a-8dfd79ed4",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Disconnect Billing",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Disconnect Billing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "Mobile Postpaid Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/Mobile Postpaid Scenario/f62e24-bab139-7b7c62-3ed83a-8dfd79ed4/Product2/ce75faf0-5714-a500-a55a-de4f4e7d1d80"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Suspend;Resume",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "2bf521-3c4a8f-acf0ca-91f175-59bca49f5",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "SR Billing",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/SR Billing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "Mobile",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/Mobile/2bf521-3c4a8f-acf0ca-91f175-59bca49f5/Product2/ce75faf0-5714-a500-a55a-de4f4e7d1d80"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Suspend;Resume",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "3bb3d1-96dec3-832f1b-6e984f-59dd1b0bf",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Suspend-Resume Product Plan",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Suspend-Resume Product Plan",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "Mobile Postpaid Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/Mobile Postpaid Scenario/3bb3d1-96dec3-832f1b-6e984f-59dd1b0bf/Product2/ce75faf0-5714-a500-a55a-de4f4e7d1d80"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Suspend;Resume",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "f38775-0985a0-845e54-236d51-65aa3509d",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "SR-Provisioning/Activation",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/SR-Provisioning/Activation",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "ce75faf0-5714-a500-a55a-de4f4e7d1d80",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "Mobile",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/Mobile/f38775-0985a0-845e54-236d51-65aa3509d/Product2/ce75faf0-5714-a500-a55a-de4f4e7d1d80"
+    }
+]
