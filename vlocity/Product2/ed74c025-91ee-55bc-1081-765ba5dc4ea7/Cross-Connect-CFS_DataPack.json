@@ -31,7 +31,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "3PP Provider",
                             "messages": [
@@ -42,28 +41,34 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 10,
                                     "id": "42264595-8e9d-8ba0-53da-bf7272199811",
                                     "label": "SP1",
+                                    "name": "42264595-8e9d-8ba0-53da-bf7272199811",
                                     "readonly": false,
                                     "value": "SP1"
                                 },
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 20,
-                                    "id": "ec2c5d44-73d9-4f6d-7a28-d8e0784a8491",
-                                    "label": "SP2",
-                                    "readonly": false,
-                                    "value": "SP2"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 30,
                                     "id": "c23b3d22-914e-135d-462d-d3a89f413986",
                                     "label": "SP3",
+                                    "name": "c23b3d22-914e-135d-462d-d3a89f413986",
                                     "readonly": false,
                                     "value": "SP3"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "ec2c5d44-73d9-4f6d-7a28-d8e0784a8491",
+                                    "label": "SP2",
+                                    "name": "ec2c5d44-73d9-4f6d-7a28-d8e0784a8491",
+                                    "readonly": false,
+                                    "value": "SP2"
                                 }
                             ]
                         }

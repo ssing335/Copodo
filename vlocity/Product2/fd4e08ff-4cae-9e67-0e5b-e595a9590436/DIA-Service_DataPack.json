@@ -3,12 +3,10 @@
     "%vlocity_namespace%__ApprovedOn__c": "",
     "%vlocity_namespace%__AttributeAssignment__c": "DIA-Service_AttributeAssignments.json",
     "%vlocity_namespace%__AttributeDefaultValues__c": {
-        "A-SMS-ACC-SUB-FLG": null,
         "ATT_BURSTSPEED": null,
         "ATT_BoD": "False",
         "ATT_DIABANDWIDTH": "100Mbps",
         "ATT_EXBWRATE": null,
-        "ATT_MSISDN": null,
         "ATT_Offer": "Premium",
         "ATT_SLA": null
     },
@@ -16,48 +14,6 @@
         "messages": [
         ],
         "records": [
-            {
-                "Code__c": "7f0bea1d-620d-8a10-aebc-7094b2ab5b4e",
-                "Name": "Mobile Service",
-                "displaySequence": 20,
-                "id": "a2D8G0000000b7vUAA",
-                "messages": [
-                ],
-                "productAttributes": {
-                    "messages": [
-                    ],
-                    "records": [
-                        {
-                            "attributeId": "a2E8G0000005TmOUAU",
-                            "cloneable": true,
-                            "code": "ATT_MSISDN",
-                            "dataType": "text",
-                            "disabled": false,
-                            "displaySequence": 1,
-                            "filterable": false,
-                            "hasRules": false,
-                            "hidden": false,
-                            "inputType": "text",
-                            "isNotAssetizable": false,
-                            "isNotTranslatable": false,
-                            "label": "MSISDN",
-                            "messages": [
-                            ],
-                            "multiselect": false,
-                            "readonly": false,
-                            "required": false,
-                            "userValues": null,
-                            "values": [
-                                {
-                                    "disabled": false,
-                                    "readonly": false
-                                }
-                            ]
-                        }
-                    ],
-                    "totalSize": 1
-                }
-            },
             {
                 "Code__c": "48a169bb-caa8-aa79-2bfd-b064f7f32e21",
                 "Name": "DIA Service",
@@ -70,45 +26,6 @@
                     ],
                     "records": [
                         {
-                            "attributeId": "a2E8G000000D0TBUA0",
-                            "cloneable": true,
-                            "code": "ATT_Offer",
-                            "dataType": "text",
-                            "disabled": false,
-                            "displaySequence": -1,
-                            "filterable": false,
-                            "hasRules": false,
-                            "hidden": true,
-                            "inputType": "dropdown",
-                            "isNotAssetizable": false,
-                            "isNotTranslatable": false,
-                            "label": "Offer",
-                            "messages": [
-                            ],
-                            "multiselect": false,
-                            "readonly": false,
-                            "required": false,
-                            "userValues": null,
-                            "values": [
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "ed555d96-2f0d-2513-3c38-26d4019466b5",
-                                    "label": "Basic",
-                                    "readonly": false,
-                                    "value": "Basic"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 20,
-                                    "id": "73929d29-69a7-0f52-b35d-5affb8665cd7",
-                                    "label": "Premium",
-                                    "readonly": false,
-                                    "value": "Premium"
-                                }
-                            ]
-                        },
-                        {
                             "attributeId": "a2E8G0000001dwiUAA",
                             "cloneable": true,
                             "code": "ATT_SLA",
@@ -119,7 +36,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "SLA",
                             "messages": [
@@ -130,28 +46,34 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "89ad8529-81a6-f48b-00f6-6e1a49450d76",
-                                    "label": "99.6",
-                                    "readonly": false,
-                                    "value": "99.6"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 20,
-                                    "id": "ac233eaa-49d9-0041-07f2-737b39b84669",
-                                    "label": "99.9",
-                                    "readonly": false,
-                                    "value": "99.9"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 30,
                                     "id": "88af628b-c301-ac12-d4c5-0508095b4575",
                                     "label": "99.99",
+                                    "name": "88af628b-c301-ac12-d4c5-0508095b4575",
                                     "readonly": false,
                                     "value": "99.99"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "89ad8529-81a6-f48b-00f6-6e1a49450d76",
+                                    "label": "99.6",
+                                    "name": "89ad8529-81a6-f48b-00f6-6e1a49450d76",
+                                    "readonly": false,
+                                    "value": "99.6"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "ac233eaa-49d9-0041-07f2-737b39b84669",
+                                    "label": "99.9",
+                                    "name": "ac233eaa-49d9-0041-07f2-737b39b84669",
+                                    "readonly": false,
+                                    "value": "99.9"
                                 }
                             ]
                         },
@@ -166,7 +88,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Bandwidth",
                             "messages": [
@@ -177,364 +98,454 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "1ff98fe5-7372-13ee-d7ce-4ebd92eb8fa8",
-                                    "label": "2Mbps",
-                                    "readonly": false,
-                                    "value": "2Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 20,
-                                    "id": "1c54b80c-4349-dc75-a842-7a55441ecdc6",
-                                    "label": "4Mbps",
-                                    "readonly": false,
-                                    "value": "4Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 30,
-                                    "id": "e240f2ea-feae-88cd-16b9-b9edf25fcfc4",
-                                    "label": "6Mbps",
-                                    "readonly": false,
-                                    "value": "6Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 35,
-                                    "id": "8a13ee41-699b-cb57-138a-f1a4c20fa567",
-                                    "label": "5Mbps",
-                                    "readonly": false,
-                                    "value": "5Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 40,
-                                    "id": "c798cc13-dad0-e064-6e6c-83df9399a97f",
-                                    "label": "8Mbps",
-                                    "readonly": false,
-                                    "value": "8Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 50,
-                                    "id": "642c6444-8f62-ecae-242c-d4c79f651ce2",
-                                    "label": "10Mbps",
-                                    "readonly": false,
-                                    "value": "10Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 55,
-                                    "id": "5c950461-1689-76e8-7b60-bf288cfff2f1",
-                                    "label": "15Mbps",
-                                    "readonly": false,
-                                    "value": "15Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 60,
-                                    "id": "d690e60a-f7dd-8cf4-a688-5a9c2b043cd8",
-                                    "label": "20Mbps",
-                                    "readonly": false,
-                                    "value": "20Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 70,
-                                    "id": "3c042dd3-525a-2de8-d9e4-914f6e7be9f6",
-                                    "label": "30Mbps",
-                                    "readonly": false,
-                                    "value": "30Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 80,
-                                    "id": "effc1235-fbb6-8c2c-bac7-134ed9dd8ea9",
-                                    "label": "40Mbps",
-                                    "readonly": false,
-                                    "value": "40Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 90,
-                                    "id": "82d6f63e-ad21-c96e-1cd8-46eef62c8040",
-                                    "label": "50Mbps",
-                                    "readonly": false,
-                                    "value": "50Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 100,
-                                    "id": "68736d4a-2cd9-01d5-bb13-ab5ce87719da",
-                                    "label": "60Mbps",
-                                    "readonly": false,
-                                    "value": "60Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 110,
-                                    "id": "86eddde2-0e7e-7436-6c3a-1a0a66cf5ea7",
-                                    "label": "70Mbps",
-                                    "readonly": false,
-                                    "value": "70Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 120,
-                                    "id": "819c4cf1-37e7-2fc7-3b47-672d5a6cbe23",
-                                    "label": "80Mbps",
-                                    "readonly": false,
-                                    "value": "80Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 130,
-                                    "id": "5aba1371-9acc-1cfa-003a-4760dcc43d87",
-                                    "label": "90Mbps",
-                                    "readonly": false,
-                                    "value": "90Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 140,
-                                    "id": "8f17803c-fcef-d13d-4f62-3656db87a96b",
-                                    "label": "100Mbps",
-                                    "readonly": false,
-                                    "value": "100Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 150,
-                                    "id": "c8308e41-a69e-ec22-cf42-e85cc6b83669",
-                                    "label": "150Mbps",
-                                    "readonly": false,
-                                    "value": "150Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 160,
-                                    "id": "71f7828a-75bf-a7b1-bd48-0953d6617af6",
-                                    "label": "200Mbps",
-                                    "readonly": false,
-                                    "value": "200Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 170,
-                                    "id": "7b1ef4b8-812c-7176-6801-ac4ee6304e2c",
-                                    "label": "250Mbps",
-                                    "readonly": false,
-                                    "value": "250Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 180,
-                                    "id": "e1649c1a-e3d4-414c-8bb5-c9e8f3fddb17",
-                                    "label": "300Mbps",
-                                    "readonly": false,
-                                    "value": "300Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 190,
-                                    "id": "eb90bbe5-0e08-0a5b-104b-f7f3ede7c57b",
-                                    "label": "350Mbps",
-                                    "readonly": false,
-                                    "value": "350Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 200,
-                                    "id": "0c637ea6-bdcc-636d-5929-b8f8c2be968c",
-                                    "label": "400Mbps",
-                                    "readonly": false,
-                                    "value": "400Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 210,
-                                    "id": "6cd4bdc7-62c0-7bd0-8bdb-9f8e79cbc55e",
-                                    "label": "450Mbps",
-                                    "readonly": false,
-                                    "value": "450Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 220,
-                                    "id": "bde39f82-d846-f062-2b05-19f4a3ea980a",
-                                    "label": "500Mbps",
-                                    "readonly": false,
-                                    "value": "500Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 230,
-                                    "id": "dd0a2511-65fb-4da0-425e-7fae0457be78",
-                                    "label": "550Mbps",
-                                    "readonly": false,
-                                    "value": "550Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 240,
-                                    "id": "8d913609-f742-718d-c752-e7cbaf92d7a9",
-                                    "label": "600Mbps",
-                                    "readonly": false,
-                                    "value": "600Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 250,
-                                    "id": "1c82c70c-062d-0578-45a5-8a730da1863b",
-                                    "label": "650Mbps",
-                                    "readonly": false,
-                                    "value": "650Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 260,
-                                    "id": "d183cd39-beb8-e6c6-d8c3-bd8e21973ca9",
-                                    "label": "700Mbps",
-                                    "readonly": false,
-                                    "value": "700Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 270,
-                                    "id": "bc94243d-52ef-260c-44ca-8dd0cb3d90ed",
-                                    "label": "750Mbps",
-                                    "readonly": false,
-                                    "value": "750Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 280,
-                                    "id": "26f88e2c-bdd7-102b-982a-136e39c3ff98",
-                                    "label": "800Mbps",
-                                    "readonly": false,
-                                    "value": "800Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 290,
-                                    "id": "9a5e933e-2048-f0ef-c4bb-344b5945ea23",
-                                    "label": "850Mbps",
-                                    "readonly": false,
-                                    "value": "850Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 300,
-                                    "id": "f832f808-6fac-30e5-359b-316d372ae017",
-                                    "label": "900Mbps",
-                                    "readonly": false,
-                                    "value": "900Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 310,
-                                    "id": "160fb8e7-50ea-a1aa-63c0-4e4a802a8312",
-                                    "label": "1Gbps",
-                                    "readonly": false,
-                                    "value": "1Gbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 315,
-                                    "id": "b521844a-cd92-b223-6356-f62493a873c9",
-                                    "label": "1.5Gbps",
-                                    "readonly": false,
-                                    "value": "1.5Gbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 320,
-                                    "id": "0f83d685-8abc-5880-f5f1-34e2c9e14b55",
-                                    "label": "2Gbps",
-                                    "readonly": false,
-                                    "value": "2Gbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 330,
-                                    "id": "52933946-ba5d-b6cb-b5f0-c3502510d901",
-                                    "label": "3Gbps",
-                                    "readonly": false,
-                                    "value": "3Gbps"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 335,
                                     "id": "0a257cb1-99a6-2591-c4da-1581a474e974",
                                     "label": "3.5Gbps",
+                                    "name": "0a257cb1-99a6-2591-c4da-1581a474e974",
                                     "readonly": false,
                                     "value": "3.5Gbps"
                                 },
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
-                                    "displaySequence": 340,
-                                    "id": "5fe07a9b-e1e8-6deb-5610-c5851dce520e",
-                                    "label": "4Gbps",
+                                    "displaySequence": 200,
+                                    "id": "0c637ea6-bdcc-636d-5929-b8f8c2be968c",
+                                    "label": "400Mbps",
+                                    "name": "0c637ea6-bdcc-636d-5929-b8f8c2be968c",
                                     "readonly": false,
-                                    "value": "4Gbps"
+                                    "value": "400Mbps"
                                 },
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
-                                    "displaySequence": 345,
-                                    "id": "5c8d6e53-4f93-eeaa-7e9a-2f2251a0a135",
-                                    "label": "4.5Gbps",
+                                    "displaySequence": 320,
+                                    "id": "0f83d685-8abc-5880-f5f1-34e2c9e14b55",
+                                    "label": "2Gbps",
+                                    "name": "0f83d685-8abc-5880-f5f1-34e2c9e14b55",
                                     "readonly": false,
-                                    "value": "4.5Gbps"
+                                    "value": "2Gbps"
                                 },
                                 {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 310,
+                                    "id": "160fb8e7-50ea-a1aa-63c0-4e4a802a8312",
+                                    "label": "1Gbps",
+                                    "name": "160fb8e7-50ea-a1aa-63c0-4e4a802a8312",
+                                    "readonly": false,
+                                    "value": "1Gbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "1c54b80c-4349-dc75-a842-7a55441ecdc6",
+                                    "label": "4Mbps",
+                                    "name": "1c54b80c-4349-dc75-a842-7a55441ecdc6",
+                                    "readonly": false,
+                                    "value": "4Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 250,
+                                    "id": "1c82c70c-062d-0578-45a5-8a730da1863b",
+                                    "label": "650Mbps",
+                                    "name": "1c82c70c-062d-0578-45a5-8a730da1863b",
+                                    "readonly": false,
+                                    "value": "650Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 350,
                                     "id": "1eb5bf9a-abda-ea02-1111-9e532fb8f05f",
                                     "label": "5Gbps",
+                                    "name": "1eb5bf9a-abda-ea02-1111-9e532fb8f05f",
                                     "readonly": false,
                                     "value": "5Gbps"
                                 },
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
-                                    "displaySequence": 360,
-                                    "id": "bc709449-240d-fdec-47bd-a4e472a64ebf",
-                                    "label": "6Gbps",
+                                    "displaySequence": 10,
+                                    "id": "1ff98fe5-7372-13ee-d7ce-4ebd92eb8fa8",
+                                    "label": "2Mbps",
+                                    "name": "1ff98fe5-7372-13ee-d7ce-4ebd92eb8fa8",
                                     "readonly": false,
-                                    "value": "6Gbps"
+                                    "value": "2Mbps"
                                 },
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
-                                    "displaySequence": 370,
-                                    "id": "a3a5041e-b95f-e859-5e52-cdd4c6648a57",
-                                    "label": "7Gbps",
+                                    "displaySequence": 280,
+                                    "id": "26f88e2c-bdd7-102b-982a-136e39c3ff98",
+                                    "label": "800Mbps",
+                                    "name": "26f88e2c-bdd7-102b-982a-136e39c3ff98",
                                     "readonly": false,
-                                    "value": "7Gbps"
+                                    "value": "800Mbps"
                                 },
                                 {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 70,
+                                    "id": "3c042dd3-525a-2de8-d9e4-914f6e7be9f6",
+                                    "label": "30Mbps",
+                                    "name": "3c042dd3-525a-2de8-d9e4-914f6e7be9f6",
+                                    "readonly": false,
+                                    "value": "30Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 330,
+                                    "id": "52933946-ba5d-b6cb-b5f0-c3502510d901",
+                                    "label": "3Gbps",
+                                    "name": "52933946-ba5d-b6cb-b5f0-c3502510d901",
+                                    "readonly": false,
+                                    "value": "3Gbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 130,
+                                    "id": "5aba1371-9acc-1cfa-003a-4760dcc43d87",
+                                    "label": "90Mbps",
+                                    "name": "5aba1371-9acc-1cfa-003a-4760dcc43d87",
+                                    "readonly": false,
+                                    "value": "90Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 345,
+                                    "id": "5c8d6e53-4f93-eeaa-7e9a-2f2251a0a135",
+                                    "label": "4.5Gbps",
+                                    "name": "5c8d6e53-4f93-eeaa-7e9a-2f2251a0a135",
+                                    "readonly": false,
+                                    "value": "4.5Gbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 55,
+                                    "id": "5c950461-1689-76e8-7b60-bf288cfff2f1",
+                                    "label": "15Mbps",
+                                    "name": "5c950461-1689-76e8-7b60-bf288cfff2f1",
+                                    "readonly": false,
+                                    "value": "15Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 340,
+                                    "id": "5fe07a9b-e1e8-6deb-5610-c5851dce520e",
+                                    "label": "4Gbps",
+                                    "name": "5fe07a9b-e1e8-6deb-5610-c5851dce520e",
+                                    "readonly": false,
+                                    "value": "4Gbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "642c6444-8f62-ecae-242c-d4c79f651ce2",
+                                    "label": "10Mbps",
+                                    "name": "642c6444-8f62-ecae-242c-d4c79f651ce2",
+                                    "readonly": false,
+                                    "value": "10Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 100,
+                                    "id": "68736d4a-2cd9-01d5-bb13-ab5ce87719da",
+                                    "label": "60Mbps",
+                                    "name": "68736d4a-2cd9-01d5-bb13-ab5ce87719da",
+                                    "readonly": false,
+                                    "value": "60Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 210,
+                                    "id": "6cd4bdc7-62c0-7bd0-8bdb-9f8e79cbc55e",
+                                    "label": "450Mbps",
+                                    "name": "6cd4bdc7-62c0-7bd0-8bdb-9f8e79cbc55e",
+                                    "readonly": false,
+                                    "value": "450Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 160,
+                                    "id": "71f7828a-75bf-a7b1-bd48-0953d6617af6",
+                                    "label": "200Mbps",
+                                    "name": "71f7828a-75bf-a7b1-bd48-0953d6617af6",
+                                    "readonly": false,
+                                    "value": "200Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 170,
+                                    "id": "7b1ef4b8-812c-7176-6801-ac4ee6304e2c",
+                                    "label": "250Mbps",
+                                    "name": "7b1ef4b8-812c-7176-6801-ac4ee6304e2c",
+                                    "readonly": false,
+                                    "value": "250Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 380,
                                     "id": "7ddf6d9e-9dc3-a736-90bb-198afbc41796",
                                     "label": "8Gbps",
+                                    "name": "7ddf6d9e-9dc3-a736-90bb-198afbc41796",
                                     "readonly": false,
                                     "value": "8Gbps"
                                 },
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
-                                    "displaySequence": 390,
-                                    "id": "ffe7a634-ee82-7405-f299-86541d605813",
-                                    "label": "9Gbps",
+                                    "displaySequence": 120,
+                                    "id": "819c4cf1-37e7-2fc7-3b47-672d5a6cbe23",
+                                    "label": "80Mbps",
+                                    "name": "819c4cf1-37e7-2fc7-3b47-672d5a6cbe23",
                                     "readonly": false,
-                                    "value": "9Gbps"
+                                    "value": "80Mbps"
                                 },
                                 {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 90,
+                                    "id": "82d6f63e-ad21-c96e-1cd8-46eef62c8040",
+                                    "label": "50Mbps",
+                                    "name": "82d6f63e-ad21-c96e-1cd8-46eef62c8040",
+                                    "readonly": false,
+                                    "value": "50Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 400,
                                     "id": "8539c0ec-d27e-5a78-f9f7-6f792ff50cb6",
                                     "label": "10Gbps",
+                                    "name": "8539c0ec-d27e-5a78-f9f7-6f792ff50cb6",
                                     "readonly": false,
                                     "value": "10Gbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 110,
+                                    "id": "86eddde2-0e7e-7436-6c3a-1a0a66cf5ea7",
+                                    "label": "70Mbps",
+                                    "name": "86eddde2-0e7e-7436-6c3a-1a0a66cf5ea7",
+                                    "readonly": false,
+                                    "value": "70Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 35,
+                                    "id": "8a13ee41-699b-cb57-138a-f1a4c20fa567",
+                                    "label": "5Mbps",
+                                    "name": "8a13ee41-699b-cb57-138a-f1a4c20fa567",
+                                    "readonly": false,
+                                    "value": "5Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 240,
+                                    "id": "8d913609-f742-718d-c752-e7cbaf92d7a9",
+                                    "label": "600Mbps",
+                                    "name": "8d913609-f742-718d-c752-e7cbaf92d7a9",
+                                    "readonly": false,
+                                    "value": "600Mbps"
+                                },
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 140,
+                                    "id": "8f17803c-fcef-d13d-4f62-3656db87a96b",
+                                    "label": "100Mbps",
+                                    "name": "8f17803c-fcef-d13d-4f62-3656db87a96b",
+                                    "readonly": false,
+                                    "value": "100Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 290,
+                                    "id": "9a5e933e-2048-f0ef-c4bb-344b5945ea23",
+                                    "label": "850Mbps",
+                                    "name": "9a5e933e-2048-f0ef-c4bb-344b5945ea23",
+                                    "readonly": false,
+                                    "value": "850Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 370,
+                                    "id": "a3a5041e-b95f-e859-5e52-cdd4c6648a57",
+                                    "label": "7Gbps",
+                                    "name": "a3a5041e-b95f-e859-5e52-cdd4c6648a57",
+                                    "readonly": false,
+                                    "value": "7Gbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 315,
+                                    "id": "b521844a-cd92-b223-6356-f62493a873c9",
+                                    "label": "1.5Gbps",
+                                    "name": "b521844a-cd92-b223-6356-f62493a873c9",
+                                    "readonly": false,
+                                    "value": "1.5Gbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 360,
+                                    "id": "bc709449-240d-fdec-47bd-a4e472a64ebf",
+                                    "label": "6Gbps",
+                                    "name": "bc709449-240d-fdec-47bd-a4e472a64ebf",
+                                    "readonly": false,
+                                    "value": "6Gbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 270,
+                                    "id": "bc94243d-52ef-260c-44ca-8dd0cb3d90ed",
+                                    "label": "750Mbps",
+                                    "name": "bc94243d-52ef-260c-44ca-8dd0cb3d90ed",
+                                    "readonly": false,
+                                    "value": "750Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 220,
+                                    "id": "bde39f82-d846-f062-2b05-19f4a3ea980a",
+                                    "label": "500Mbps",
+                                    "name": "bde39f82-d846-f062-2b05-19f4a3ea980a",
+                                    "readonly": false,
+                                    "value": "500Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "c798cc13-dad0-e064-6e6c-83df9399a97f",
+                                    "label": "8Mbps",
+                                    "name": "c798cc13-dad0-e064-6e6c-83df9399a97f",
+                                    "readonly": false,
+                                    "value": "8Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 150,
+                                    "id": "c8308e41-a69e-ec22-cf42-e85cc6b83669",
+                                    "label": "150Mbps",
+                                    "name": "c8308e41-a69e-ec22-cf42-e85cc6b83669",
+                                    "readonly": false,
+                                    "value": "150Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 260,
+                                    "id": "d183cd39-beb8-e6c6-d8c3-bd8e21973ca9",
+                                    "label": "700Mbps",
+                                    "name": "d183cd39-beb8-e6c6-d8c3-bd8e21973ca9",
+                                    "readonly": false,
+                                    "value": "700Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 60,
+                                    "id": "d690e60a-f7dd-8cf4-a688-5a9c2b043cd8",
+                                    "label": "20Mbps",
+                                    "name": "d690e60a-f7dd-8cf4-a688-5a9c2b043cd8",
+                                    "readonly": false,
+                                    "value": "20Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 230,
+                                    "id": "dd0a2511-65fb-4da0-425e-7fae0457be78",
+                                    "label": "550Mbps",
+                                    "name": "dd0a2511-65fb-4da0-425e-7fae0457be78",
+                                    "readonly": false,
+                                    "value": "550Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 180,
+                                    "id": "e1649c1a-e3d4-414c-8bb5-c9e8f3fddb17",
+                                    "label": "300Mbps",
+                                    "name": "e1649c1a-e3d4-414c-8bb5-c9e8f3fddb17",
+                                    "readonly": false,
+                                    "value": "300Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "e240f2ea-feae-88cd-16b9-b9edf25fcfc4",
+                                    "label": "6Mbps",
+                                    "name": "e240f2ea-feae-88cd-16b9-b9edf25fcfc4",
+                                    "readonly": false,
+                                    "value": "6Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 190,
+                                    "id": "eb90bbe5-0e08-0a5b-104b-f7f3ede7c57b",
+                                    "label": "350Mbps",
+                                    "name": "eb90bbe5-0e08-0a5b-104b-f7f3ede7c57b",
+                                    "readonly": false,
+                                    "value": "350Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 80,
+                                    "id": "effc1235-fbb6-8c2c-bac7-134ed9dd8ea9",
+                                    "label": "40Mbps",
+                                    "name": "effc1235-fbb6-8c2c-bac7-134ed9dd8ea9",
+                                    "readonly": false,
+                                    "value": "40Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 300,
+                                    "id": "f832f808-6fac-30e5-359b-316d372ae017",
+                                    "label": "900Mbps",
+                                    "name": "f832f808-6fac-30e5-359b-316d372ae017",
+                                    "readonly": false,
+                                    "value": "900Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 390,
+                                    "id": "ffe7a634-ee82-7405-f299-86541d605813",
+                                    "label": "9Gbps",
+                                    "name": "ffe7a634-ee82-7405-f299-86541d605813",
+                                    "readonly": false,
+                                    "value": "9Gbps"
                                 }
                             ]
                         },
@@ -549,7 +560,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "BoD",
                             "messages": [
@@ -560,18 +570,22 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 10,
                                     "id": "173d18bb-e244-6e6b-827f-b633308b9457",
                                     "label": "True",
+                                    "name": "173d18bb-e244-6e6b-827f-b633308b9457",
                                     "readonly": false,
                                     "value": "True"
                                 },
                                 {
+                                    "defaultSelected": true,
                                     "disabled": false,
                                     "displaySequence": 20,
                                     "id": "b6319a9e-0cb5-3605-896b-d4aa669e4095",
                                     "label": "False",
+                                    "name": "b6319a9e-0cb5-3605-896b-d4aa669e4095",
                                     "readonly": false,
                                     "value": "False"
                                 }
@@ -588,7 +602,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Burst Speed",
                             "messages": [
@@ -599,132 +612,164 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "9e62c459-2dde-eae1-1b20-b31becba7df4",
-                                    "label": "10Mbps",
-                                    "readonly": false,
-                                    "value": "10Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 20,
-                                    "id": "24f3c4e5-bf31-1643-3b53-c03bee7a99fc",
-                                    "label": "20Mbps",
-                                    "readonly": false,
-                                    "value": "20Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 30,
-                                    "id": "5da560aa-b0b2-1424-64be-b7aef61516a6",
-                                    "label": "50Mbps",
-                                    "readonly": false,
-                                    "value": "50Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 40,
-                                    "id": "1961e007-f12c-f9e5-3f23-999955eda8de",
-                                    "label": "100Mbps",
-                                    "readonly": false,
-                                    "value": "100Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 50,
-                                    "id": "145cd382-3a62-ced9-863a-56ac3103f63e",
-                                    "label": "200Mbps",
-                                    "readonly": false,
-                                    "value": "200Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 60,
-                                    "id": "b3de26b1-75ab-0686-ed27-adf299e5ab5d",
-                                    "label": "500Mbps",
-                                    "readonly": false,
-                                    "value": "500Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 70,
-                                    "id": "62759ffb-4e2e-23fe-a04e-27e1a0b753f0",
-                                    "label": "1Gbps",
-                                    "readonly": false,
-                                    "value": "1Gbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 80,
-                                    "id": "550d8b4e-f2b5-bd50-5f1a-76e874854bc8",
-                                    "label": "2Gbps",
-                                    "readonly": false,
-                                    "value": "2Gbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 90,
-                                    "id": "3f930144-3511-8842-4a8f-3c4416cde843",
-                                    "label": "3Gbps",
-                                    "readonly": false,
-                                    "value": "3Gbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 100,
-                                    "id": "93b655ac-6f9f-eea2-df0e-f4dfcb3bc67b",
-                                    "label": "4Gbps",
-                                    "readonly": false,
-                                    "value": "4Gbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 110,
-                                    "id": "a7bcb9ca-c407-cc8b-62a4-dba90ae5ddb5",
-                                    "label": "5Gbps",
-                                    "readonly": false,
-                                    "value": "5Gbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 120,
-                                    "id": "1f48aa9c-5fa0-9238-f607-b37d6e9de540",
-                                    "label": "6Gbps",
-                                    "readonly": false,
-                                    "value": "6Gbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 130,
-                                    "id": "7f2cd7bc-0ef5-3e20-6873-b3b63cf5921a",
-                                    "label": "7Gbps",
-                                    "readonly": false,
-                                    "value": "7Gbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 140,
-                                    "id": "5e0bae30-6f57-c6a1-841b-f59a2e006855",
-                                    "label": "8Gbps",
-                                    "readonly": false,
-                                    "value": "8Gbps"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 150,
                                     "id": "126e575c-1cfd-1934-8b98-e18ace2f1701",
                                     "label": "9Gbps",
+                                    "name": "126e575c-1cfd-1934-8b98-e18ace2f1701",
                                     "readonly": false,
                                     "value": "9Gbps"
                                 },
                                 {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "145cd382-3a62-ced9-863a-56ac3103f63e",
+                                    "label": "200Mbps",
+                                    "name": "145cd382-3a62-ced9-863a-56ac3103f63e",
+                                    "readonly": false,
+                                    "value": "200Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "1961e007-f12c-f9e5-3f23-999955eda8de",
+                                    "label": "100Mbps",
+                                    "name": "1961e007-f12c-f9e5-3f23-999955eda8de",
+                                    "readonly": false,
+                                    "value": "100Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 120,
+                                    "id": "1f48aa9c-5fa0-9238-f607-b37d6e9de540",
+                                    "label": "6Gbps",
+                                    "name": "1f48aa9c-5fa0-9238-f607-b37d6e9de540",
+                                    "readonly": false,
+                                    "value": "6Gbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "24f3c4e5-bf31-1643-3b53-c03bee7a99fc",
+                                    "label": "20Mbps",
+                                    "name": "24f3c4e5-bf31-1643-3b53-c03bee7a99fc",
+                                    "readonly": false,
+                                    "value": "20Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 90,
+                                    "id": "3f930144-3511-8842-4a8f-3c4416cde843",
+                                    "label": "3Gbps",
+                                    "name": "3f930144-3511-8842-4a8f-3c4416cde843",
+                                    "readonly": false,
+                                    "value": "3Gbps"
+                                },
+                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 160,
                                     "id": "4ec13769-6e36-d40c-58c8-328d1e03d00d",
                                     "label": "10Gbps",
+                                    "name": "4ec13769-6e36-d40c-58c8-328d1e03d00d",
                                     "readonly": false,
                                     "value": "10Gbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 80,
+                                    "id": "550d8b4e-f2b5-bd50-5f1a-76e874854bc8",
+                                    "label": "2Gbps",
+                                    "name": "550d8b4e-f2b5-bd50-5f1a-76e874854bc8",
+                                    "readonly": false,
+                                    "value": "2Gbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "5da560aa-b0b2-1424-64be-b7aef61516a6",
+                                    "label": "50Mbps",
+                                    "name": "5da560aa-b0b2-1424-64be-b7aef61516a6",
+                                    "readonly": false,
+                                    "value": "50Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 140,
+                                    "id": "5e0bae30-6f57-c6a1-841b-f59a2e006855",
+                                    "label": "8Gbps",
+                                    "name": "5e0bae30-6f57-c6a1-841b-f59a2e006855",
+                                    "readonly": false,
+                                    "value": "8Gbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 70,
+                                    "id": "62759ffb-4e2e-23fe-a04e-27e1a0b753f0",
+                                    "label": "1Gbps",
+                                    "name": "62759ffb-4e2e-23fe-a04e-27e1a0b753f0",
+                                    "readonly": false,
+                                    "value": "1Gbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 130,
+                                    "id": "7f2cd7bc-0ef5-3e20-6873-b3b63cf5921a",
+                                    "label": "7Gbps",
+                                    "name": "7f2cd7bc-0ef5-3e20-6873-b3b63cf5921a",
+                                    "readonly": false,
+                                    "value": "7Gbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 100,
+                                    "id": "93b655ac-6f9f-eea2-df0e-f4dfcb3bc67b",
+                                    "label": "4Gbps",
+                                    "name": "93b655ac-6f9f-eea2-df0e-f4dfcb3bc67b",
+                                    "readonly": false,
+                                    "value": "4Gbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "9e62c459-2dde-eae1-1b20-b31becba7df4",
+                                    "label": "10Mbps",
+                                    "name": "9e62c459-2dde-eae1-1b20-b31becba7df4",
+                                    "readonly": false,
+                                    "value": "10Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 110,
+                                    "id": "a7bcb9ca-c407-cc8b-62a4-dba90ae5ddb5",
+                                    "label": "5Gbps",
+                                    "name": "a7bcb9ca-c407-cc8b-62a4-dba90ae5ddb5",
+                                    "readonly": false,
+                                    "value": "5Gbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 60,
+                                    "id": "b3de26b1-75ab-0686-ed27-adf299e5ab5d",
+                                    "label": "500Mbps",
+                                    "name": "b3de26b1-75ab-0686-ed27-adf299e5ab5d",
+                                    "readonly": false,
+                                    "value": "500Mbps"
                                 }
                             ]
                         },
@@ -739,7 +784,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "number",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Excess BW Rate",
                             "messages": [
@@ -766,7 +810,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Offer",
                             "messages": [
@@ -777,68 +820,33 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "ed555d96-2f0d-2513-3c38-26d4019466b5",
-                                    "label": "Basic",
-                                    "readonly": false,
-                                    "value": "Basic"
-                                },
-                                {
+                                    "defaultSelected": true,
                                     "disabled": false,
                                     "displaySequence": 20,
                                     "id": "73929d29-69a7-0f52-b35d-5affb8665cd7",
                                     "label": "Premium",
+                                    "name": "73929d29-69a7-0f52-b35d-5affb8665cd7",
                                     "readonly": false,
                                     "value": "Premium"
-                                }
-                            ]
-                        }
-                    ],
-                    "totalSize": 7
-                }
-            },
-            {
-                "Code__c": "VPL_ATTRIBUTE_CATEGORY_GENERIC_ATTRIBUTES",
-                "Name": "Generic Attributes",
-                "displaySequence": 7000,
-                "id": "a2D8G0000000brPUAQ",
-                "messages": [
-                ],
-                "productAttributes": {
-                    "messages": [
-                    ],
-                    "records": [
-                        {
-                            "attributeId": "a2E8G0000005TpIUAU",
-                            "cloneable": true,
-                            "code": "A-SMS-ACC-SUB-FLG",
-                            "disabled": false,
-                            "displaySequence": 1,
-                            "filterable": false,
-                            "hasRules": false,
-                            "hidden": false,
-                            "isNotAssetizable": false,
-                            "isNotTranslatable": false,
-                            "label": "SMS Access subscription flag",
-                            "messages": [
-                            ],
-                            "readonly": false,
-                            "required": false,
-                            "userValues": null,
-                            "values": [
+                                },
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
-                                    "readonly": false
+                                    "displaySequence": 10,
+                                    "id": "ed555d96-2f0d-2513-3c38-26d4019466b5",
+                                    "label": "Basic",
+                                    "name": "ed555d96-2f0d-2513-3c38-26d4019466b5",
+                                    "readonly": false,
+                                    "value": "Basic"
                                 }
                             ]
                         }
                     ],
-                    "totalSize": 1
+                    "totalSize": 6
                 }
             }
         ],
-        "totalSize": 3
+        "totalSize": 1
     },
     "%vlocity_namespace%__AttributeRules__c": "{}",
     "%vlocity_namespace%__AttributesMarkupConfig__c": "",

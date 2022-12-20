@@ -35,7 +35,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": true,
                             "isNotTranslatable": false,
                             "label": "UNI Multiplexing Type",
                             "messages": [
@@ -46,20 +45,24 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "66e93327-ecf4-f227-9629-183a32417118",
-                                    "label": "Port-Based",
-                                    "readonly": false,
-                                    "value": "Port-Based"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 20,
                                     "id": "5123da13-c0ac-eef8-2b7a-a0e1a3dd745e",
                                     "label": "VLAN-Based",
+                                    "name": "5123da13-c0ac-eef8-2b7a-a0e1a3dd745e",
                                     "readonly": false,
                                     "value": "VLAN-Based"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "66e93327-ecf4-f227-9629-183a32417118",
+                                    "label": "Port-Based",
+                                    "name": "66e93327-ecf4-f227-9629-183a32417118",
+                                    "readonly": false,
+                                    "value": "Port-Based"
                                 }
                             ]
                         },
@@ -75,7 +78,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": true,
                             "isNotTranslatable": false,
                             "label": "UNI Port Type",
                             "messages": [
@@ -86,50 +88,62 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 10,
                                     "id": "13fb2600-02c3-190b-eb75-938347de1f4a",
                                     "label": "10BASE-T",
+                                    "name": "13fb2600-02c3-190b-eb75-938347de1f4a",
                                     "readonly": false,
                                     "value": "10BASE-T"
                                 },
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 20,
-                                    "id": "ddb08256-b4a4-f385-fa7c-bd29748c1e76",
-                                    "label": "100BASE-T",
-                                    "readonly": false,
-                                    "value": "100BASE-T"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 30,
-                                    "id": "d2a26d6a-0412-dd0b-6bc1-4eb7f612a0d3",
-                                    "label": "100BASE-FX",
-                                    "readonly": false,
-                                    "value": "100BASE-FX"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 40,
                                     "id": "1de34a32-031f-096a-f083-1080d542292f",
                                     "label": "1000BASE-T",
+                                    "name": "1de34a32-031f-096a-f083-1080d542292f",
                                     "readonly": false,
                                     "value": "1000BASE-T"
                                 },
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 50,
                                     "id": "9b7a617f-8473-69e2-fe46-d4eb6c92c8d9",
                                     "label": "1000BASE-SX",
+                                    "name": "9b7a617f-8473-69e2-fe46-d4eb6c92c8d9",
                                     "readonly": false,
                                     "value": "1000BASE-SX"
                                 },
                                 {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "d2a26d6a-0412-dd0b-6bc1-4eb7f612a0d3",
+                                    "label": "100BASE-FX",
+                                    "name": "d2a26d6a-0412-dd0b-6bc1-4eb7f612a0d3",
+                                    "readonly": false,
+                                    "value": "100BASE-FX"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "ddb08256-b4a4-f385-fa7c-bd29748c1e76",
+                                    "label": "100BASE-T",
+                                    "name": "ddb08256-b4a4-f385-fa7c-bd29748c1e76",
+                                    "readonly": false,
+                                    "value": "100BASE-T"
+                                },
+                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 60,
                                     "id": "f28bf75e-920f-1f53-d995-e7a984a793ee",
                                     "label": "1000BASE-LX",
+                                    "name": "f28bf75e-920f-1f53-d995-e7a984a793ee",
                                     "readonly": false,
                                     "value": "1000BASE-LX"
                                 }
@@ -147,7 +161,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": true,
                             "isNotTranslatable": false,
                             "label": "UNI Deployment Option",
                             "messages": [
@@ -158,18 +171,22 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 10,
                                     "id": "8c28d7cb-eb53-7c7d-39d1-060674ed586d",
                                     "label": "New UNI",
+                                    "name": "8c28d7cb-eb53-7c7d-39d1-060674ed586d",
                                     "readonly": false,
                                     "value": "New UNI"
                                 },
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 20,
                                     "id": "b9f49067-156a-ef08-973d-d2b4ec23ae45",
                                     "label": "Reuse Existing UNI",
+                                    "name": "b9f49067-156a-ef08-973d-d2b4ec23ae45",
                                     "readonly": false,
                                     "value": "Reuse Existing UNI"
                                 }
@@ -187,7 +204,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "text",
-                            "isNotAssetizable": true,
                             "isNotTranslatable": false,
                             "label": "UNI Handover Details",
                             "messages": [

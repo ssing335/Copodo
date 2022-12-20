@@ -35,7 +35,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": true,
                             "isNotTranslatable": false,
                             "label": "CPE Deployment Option",
                             "messages": [
@@ -46,18 +45,22 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 10,
                                     "id": "4f607cb9-1cef-dce8-ea13-a425f943a962",
                                     "label": "New CPE",
+                                    "name": "4f607cb9-1cef-dce8-ea13-a425f943a962",
                                     "readonly": false,
                                     "value": "New CPE"
                                 },
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 20,
                                     "id": "a1559fbc-b5a1-7abb-579e-3526807c5718",
                                     "label": "Reuse Existing CPE",
+                                    "name": "a1559fbc-b5a1-7abb-579e-3526807c5718",
                                     "readonly": false,
                                     "value": "Reuse Existing CPE"
                                 }
@@ -75,7 +78,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": true,
                             "isNotTranslatable": false,
                             "label": "CPE Role",
                             "messages": [
@@ -86,18 +88,22 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 10,
                                     "id": "3de81de8-c510-5cbb-0b12-e7abb08791d0",
                                     "label": "Customer-Premises Equipment (CPE)",
+                                    "name": "3de81de8-c510-5cbb-0b12-e7abb08791d0",
                                     "readonly": false,
                                     "value": "Customer-Premises Equipment (CPE)"
                                 },
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 20,
                                     "id": "ffb64633-0438-b327-44ba-d9bb199ad443",
                                     "label": "Provide Equipment (PE)",
+                                    "name": "ffb64633-0438-b327-44ba-d9bb199ad443",
                                     "readonly": false,
                                     "value": "Provide Equipment (PE)"
                                 }
@@ -115,7 +121,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "text",
-                            "isNotAssetizable": true,
                             "isNotTranslatable": false,
                             "label": "Manufacturer",
                             "messages": [
@@ -143,7 +148,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "text",
-                            "isNotAssetizable": true,
                             "isNotTranslatable": false,
                             "label": "SKU",
                             "messages": [

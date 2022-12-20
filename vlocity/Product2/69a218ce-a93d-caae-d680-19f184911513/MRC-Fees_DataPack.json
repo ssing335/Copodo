@@ -30,33 +30,6 @@
                     ],
                     "records": [
                         {
-                            "attributeId": "a2Ef0000001NZJzEAO",
-                            "cloneable": true,
-                            "code": "ATT_DSRR",
-                            "dataType": "text",
-                            "disabled": true,
-                            "displaySequence": 1,
-                            "filterable": true,
-                            "hasRules": false,
-                            "hidden": false,
-                            "inputType": "checkbox",
-                            "isNotAssetizable": false,
-                            "isNotTranslatable": false,
-                            "label": "Decision Support Review Required",
-                            "messages": [
-                            ],
-                            "multiselect": false,
-                            "readonly": true,
-                            "required": false,
-                            "userValues": null,
-                            "values": [
-                                {
-                                    "disabled": true,
-                                    "readonly": true
-                                }
-                            ]
-                        },
-                        {
                             "attributeId": "a2Ef0000001NZJfEAO",
                             "cloneable": true,
                             "code": "ATT_WINSTALL",
@@ -67,7 +40,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "checkbox",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Waive Installation",
                             "messages": [
@@ -78,6 +50,61 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultValue": false,
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZJzEAO",
+                            "cloneable": true,
+                            "code": "ATT_DSRR",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotTranslatable": false,
+                            "label": "Decision Support Review Required",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultValue": false,
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZJkEAO",
+                            "cloneable": true,
+                            "code": "ATT_INSTFEES",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 2,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotTranslatable": false,
+                            "label": "Installtion Fees",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultValue": false,
                                     "disabled": false,
                                     "readonly": false
                                 }
@@ -94,7 +121,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "checkbox",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Enterprise No Upfront Costs (Waive Install Fee)",
                             "messages": [
@@ -105,33 +131,7 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "readonly": false
-                                }
-                            ]
-                        },
-                        {
-                            "attributeId": "a2Ef0000001NZJkEAO",
-                            "cloneable": true,
-                            "code": "ATT_INSTFEES",
-                            "dataType": "text",
-                            "disabled": false,
-                            "displaySequence": 2,
-                            "filterable": true,
-                            "hasRules": false,
-                            "hidden": false,
-                            "inputType": "checkbox",
-                            "isNotAssetizable": false,
-                            "isNotTranslatable": false,
-                            "label": "Installtion Fees",
-                            "messages": [
-                            ],
-                            "multiselect": false,
-                            "readonly": false,
-                            "required": false,
-                            "userValues": null,
-                            "values": [
-                                {
+                                    "defaultValue": false,
                                     "disabled": false,
                                     "readonly": false
                                 }
@@ -148,9 +148,35 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "checkbox",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "FIA Discretionary Pricing Promo",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultValue": false,
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2Ef0000001NZJuEAO",
+                            "cloneable": true,
+                            "code": "CURR_CCFEES",
+                            "dataType": "currency",
+                            "disabled": false,
+                            "displaySequence": 4,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotTranslatable": false,
+                            "label": "Contribution to Construction Fees",
                             "messages": [
                             ],
                             "multiselect": false,
@@ -175,7 +201,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "checkbox",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Contract Buyout",
                             "messages": [
@@ -186,33 +211,7 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "readonly": false
-                                }
-                            ]
-                        },
-                        {
-                            "attributeId": "a2Ef0000001NZJuEAO",
-                            "cloneable": true,
-                            "code": "CURR_CCFEES",
-                            "dataType": "currency",
-                            "disabled": false,
-                            "displaySequence": 4,
-                            "filterable": true,
-                            "hasRules": false,
-                            "hidden": false,
-                            "inputType": "number",
-                            "isNotAssetizable": false,
-                            "isNotTranslatable": false,
-                            "label": "Contribution to Construction Fees",
-                            "messages": [
-                            ],
-                            "multiselect": false,
-                            "readonly": false,
-                            "required": false,
-                            "userValues": null,
-                            "values": [
-                                {
+                                    "defaultValue": false,
                                     "disabled": false,
                                     "readonly": false
                                 }
@@ -229,7 +228,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "checkbox",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "FIA Enterprise Discount NYC",
                             "messages": [
@@ -240,6 +238,7 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultValue": false,
                                     "disabled": false,
                                     "readonly": false
                                 }
@@ -256,7 +255,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "checkbox",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Contract Buyout $1500",
                             "messages": [
@@ -267,6 +265,7 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultValue": false,
                                     "disabled": false,
                                     "readonly": false
                                 }
@@ -283,7 +282,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "number",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "BGP Configuration Fees",
                             "messages": [

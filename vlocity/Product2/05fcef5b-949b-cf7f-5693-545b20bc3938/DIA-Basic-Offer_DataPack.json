@@ -4,7 +4,8 @@
     "%vlocity_namespace%__AttributeAssignment__c": "DIA-Basic-Offer_AttributeAssignments.json",
     "%vlocity_namespace%__AttributeDefaultValues__c": {
         "ATT_CONTTERM": null,
-        "ATT_CONTTYPE": null
+        "ATT_CONTTYPE": null,
+        "ATT_DIACONTTERM": null
     },
     "%vlocity_namespace%__AttributeMetadata__c": {
         "messages": [
@@ -32,7 +33,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Contract Term(months)",
                             "messages": [
@@ -43,44 +43,54 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "d39dd733-34ea-a3a1-0a01-d2d7ca443c4f",
-                                    "label": "12",
-                                    "readonly": false,
-                                    "value": "12"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 20,
-                                    "id": "c7a22c7a-8540-e3cb-97af-f093bf8cecd0",
-                                    "label": "24",
-                                    "readonly": false,
-                                    "value": "24"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 30,
-                                    "id": "8dd3e81b-f7bd-557e-618b-df2dc534cc57",
-                                    "label": "36",
-                                    "readonly": false,
-                                    "value": "36"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 40,
-                                    "id": "91069c62-61cc-c575-b3b0-d98f22e40069",
-                                    "label": "48",
-                                    "readonly": false,
-                                    "value": "48"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 50,
                                     "id": "1882ca5c-8c43-e572-179f-f3212e58d006",
                                     "label": "60",
+                                    "name": "1882ca5c-8c43-e572-179f-f3212e58d006",
                                     "readonly": false,
                                     "value": "60"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "8dd3e81b-f7bd-557e-618b-df2dc534cc57",
+                                    "label": "36",
+                                    "name": "8dd3e81b-f7bd-557e-618b-df2dc534cc57",
+                                    "readonly": false,
+                                    "value": "36"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "91069c62-61cc-c575-b3b0-d98f22e40069",
+                                    "label": "48",
+                                    "name": "91069c62-61cc-c575-b3b0-d98f22e40069",
+                                    "readonly": false,
+                                    "value": "48"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "c7a22c7a-8540-e3cb-97af-f093bf8cecd0",
+                                    "label": "24",
+                                    "name": "c7a22c7a-8540-e3cb-97af-f093bf8cecd0",
+                                    "readonly": false,
+                                    "value": "24"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "d39dd733-34ea-a3a1-0a01-d2d7ca443c4f",
+                                    "label": "12",
+                                    "name": "d39dd733-34ea-a3a1-0a01-d2d7ca443c4f",
+                                    "readonly": false,
+                                    "value": "12"
                                 }
                             ]
                         }
@@ -110,7 +120,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Contract Term(months)",
                             "messages": [
@@ -132,7 +141,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Contract Type",
                             "messages": [
@@ -143,10 +151,12 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 10,
                                     "id": "8e4a1072-65bf-4439-da6b-a2a1621ce928",
                                     "label": "Regular",
+                                    "name": "8e4a1072-65bf-4439-da6b-a2a1621ce928",
                                     "readonly": false,
                                     "value": "Regular"
                                 }

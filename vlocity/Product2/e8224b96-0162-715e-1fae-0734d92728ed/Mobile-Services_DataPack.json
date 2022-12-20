@@ -29,12 +29,11 @@
                             "code": "VPL_ATTR_ADULT_FILTER",
                             "dataType": "text",
                             "disabled": false,
-                            "displaySequence": -1,
+                            "displaySequence": 1,
                             "filterable": true,
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "checkbox",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": true,
                             "label": "Adult Filter",
                             "messages": [
@@ -45,6 +44,7 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultValue": false,
                                     "disabled": false,
                                     "readonly": false
                                 }
@@ -56,12 +56,11 @@
                             "code": "VPL_ATTR_CALLER_ID",
                             "dataType": "text",
                             "disabled": false,
-                            "displaySequence": -1,
+                            "displaySequence": 1,
                             "filterable": true,
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "checkbox",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": true,
                             "label": "Caller Id",
                             "messages": [
@@ -72,6 +71,7 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultValue": false,
                                     "disabled": false,
                                     "readonly": false
                                 }
@@ -83,12 +83,11 @@
                             "code": "VPL_ATTR_CALL_WAITING",
                             "dataType": "text",
                             "disabled": false,
-                            "displaySequence": -1,
+                            "displaySequence": 1,
                             "filterable": true,
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "checkbox",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": true,
                             "label": "Call Waiting",
                             "messages": [
@@ -99,6 +98,7 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultValue": false,
                                     "disabled": false,
                                     "readonly": false
                                 }
@@ -110,12 +110,11 @@
                             "code": "VPL_ATTR_VOICE_MAIL",
                             "dataType": "text",
                             "disabled": false,
-                            "displaySequence": -1,
+                            "displaySequence": 1,
                             "filterable": true,
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "checkbox",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": true,
                             "label": "Voice Mail",
                             "messages": [
@@ -126,6 +125,7 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultValue": false,
                                     "disabled": false,
                                     "readonly": false
                                 }

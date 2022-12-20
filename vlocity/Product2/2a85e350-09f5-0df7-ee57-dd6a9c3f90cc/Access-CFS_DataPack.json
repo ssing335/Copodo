@@ -32,7 +32,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Access Type",
                             "messages": [
@@ -43,50 +42,62 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "72dc6a7c-9e4e-e401-9bc8-a43c0125a1c1",
-                                    "label": "CEN",
-                                    "readonly": false,
-                                    "value": "CEN"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 20,
-                                    "id": "7e0c5064-c75c-75c9-63e2-35b136c1b355",
-                                    "label": "FTTX",
-                                    "readonly": false,
-                                    "value": "FTTX"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 30,
-                                    "id": "6724f4ff-d058-3d13-6942-e165416c3a9c",
-                                    "label": "3PP",
-                                    "readonly": false,
-                                    "value": "3PP"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 40,
-                                    "id": "5d56e834-9304-97d7-2bdd-b3dd98059d99",
-                                    "label": "IP Radio",
-                                    "readonly": false,
-                                    "value": "IP Radio"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 50,
                                     "id": "4c4eebd6-09ef-83ee-b12e-f2a671c0c96e",
                                     "label": "xDSL",
+                                    "name": "4c4eebd6-09ef-83ee-b12e-f2a671c0c96e",
                                     "readonly": false,
                                     "value": "xDSL"
                                 },
                                 {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "5d56e834-9304-97d7-2bdd-b3dd98059d99",
+                                    "label": "IP Radio",
+                                    "name": "5d56e834-9304-97d7-2bdd-b3dd98059d99",
+                                    "readonly": false,
+                                    "value": "IP Radio"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "6724f4ff-d058-3d13-6942-e165416c3a9c",
+                                    "label": "3PP",
+                                    "name": "6724f4ff-d058-3d13-6942-e165416c3a9c",
+                                    "readonly": false,
+                                    "value": "3PP"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "72dc6a7c-9e4e-e401-9bc8-a43c0125a1c1",
+                                    "label": "CEN",
+                                    "name": "72dc6a7c-9e4e-e401-9bc8-a43c0125a1c1",
+                                    "readonly": false,
+                                    "value": "CEN"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "7e0c5064-c75c-75c9-63e2-35b136c1b355",
+                                    "label": "FTTX",
+                                    "name": "7e0c5064-c75c-75c9-63e2-35b136c1b355",
+                                    "readonly": false,
+                                    "value": "FTTX"
+                                },
+                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 60,
                                     "id": "813d195a-7c3d-cba6-ff41-dadb18d2aeb0",
                                     "label": "VSAT",
+                                    "name": "813d195a-7c3d-cba6-ff41-dadb18d2aeb0",
                                     "readonly": false,
                                     "value": "VSAT"
                                 }
@@ -103,7 +114,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "3PP Provider",
                             "messages": [
@@ -114,28 +124,34 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 10,
                                     "id": "42264595-8e9d-8ba0-53da-bf7272199811",
                                     "label": "SP1",
+                                    "name": "42264595-8e9d-8ba0-53da-bf7272199811",
                                     "readonly": false,
                                     "value": "SP1"
                                 },
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 20,
-                                    "id": "ec2c5d44-73d9-4f6d-7a28-d8e0784a8491",
-                                    "label": "SP2",
-                                    "readonly": false,
-                                    "value": "SP2"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 30,
                                     "id": "c23b3d22-914e-135d-462d-d3a89f413986",
                                     "label": "SP3",
+                                    "name": "c23b3d22-914e-135d-462d-d3a89f413986",
                                     "readonly": false,
                                     "value": "SP3"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "ec2c5d44-73d9-4f6d-7a28-d8e0784a8491",
+                                    "label": "SP2",
+                                    "name": "ec2c5d44-73d9-4f6d-7a28-d8e0784a8491",
+                                    "readonly": false,
+                                    "value": "SP2"
                                 }
                             ]
                         }

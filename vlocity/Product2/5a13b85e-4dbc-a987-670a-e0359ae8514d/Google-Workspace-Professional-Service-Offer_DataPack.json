@@ -24,52 +24,25 @@
                             "attributeId": "a2E8G000000CvKOUA0",
                             "cloneable": true,
                             "code": "ATT_PRFCONTTERM",
+                            "dataType": "text",
                             "disabled": false,
                             "displaySequence": 1,
                             "filterable": false,
                             "hasRules": false,
                             "hidden": false,
-                            "isNotAssetizable": false,
+                            "inputType": "dropdown",
                             "isNotTranslatable": false,
                             "label": "Contract Term",
                             "messages": [
                             ],
+                            "multiselect": false,
                             "readonly": false,
                             "required": false,
                             "userValues": null,
-                            "values": [
-                                {
-                                    "disabled": false,
-                                    "readonly": false
-                                }
-                            ]
-                        },
-                        {
-                            "attributeId": "a2E8G000000CvKOUA0",
-                            "cloneable": true,
-                            "code": "ATT_PRFCONTTERM",
-                            "disabled": false,
-                            "displaySequence": 1,
-                            "filterable": false,
-                            "hasRules": false,
-                            "hidden": false,
-                            "isNotAssetizable": false,
-                            "isNotTranslatable": false,
-                            "label": "Contract Term",
-                            "messages": [
-                            ],
-                            "readonly": false,
-                            "required": false,
-                            "userValues": null,
-                            "values": [
-                                {
-                                    "disabled": false,
-                                    "readonly": false
-                                }
-                            ]
+                            "values": null
                         }
                     ],
-                    "totalSize": 2
+                    "totalSize": 1
                 }
             }
         ],

@@ -31,7 +31,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Corporate Package Type",
                             "messages": [
@@ -42,34 +41,42 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "bd84bbc7-c0ed-5e22-5d67-05f74631c89f",
-                                    "label": "Guided",
-                                    "readonly": false,
-                                    "value": "Guided"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 20,
-                                    "id": "b617ea60-6319-dd6d-495f-52b14d6a1afe",
-                                    "label": "Starter",
-                                    "readonly": false,
-                                    "value": "Starter"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 30,
                                     "id": "966e5917-3c65-32ed-eb2a-b28019dc1aa2",
                                     "label": "Advanced",
+                                    "name": "966e5917-3c65-32ed-eb2a-b28019dc1aa2",
                                     "readonly": false,
                                     "value": "Advanced"
                                 },
                                 {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "b617ea60-6319-dd6d-495f-52b14d6a1afe",
+                                    "label": "Starter",
+                                    "name": "b617ea60-6319-dd6d-495f-52b14d6a1afe",
+                                    "readonly": false,
+                                    "value": "Starter"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "bd84bbc7-c0ed-5e22-5d67-05f74631c89f",
+                                    "label": "Guided",
+                                    "name": "bd84bbc7-c0ed-5e22-5d67-05f74631c89f",
+                                    "readonly": false,
+                                    "value": "Guided"
+                                },
+                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 40,
                                     "id": "e7a8d36d-1de4-fc21-f90b-cc71ae207958",
                                     "label": "Premium",
+                                    "name": "e7a8d36d-1de4-fc21-f90b-cc71ae207958",
                                     "readonly": false,
                                     "value": "Premium"
                                 }

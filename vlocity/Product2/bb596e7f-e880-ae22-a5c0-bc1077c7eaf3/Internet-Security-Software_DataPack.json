@@ -31,7 +31,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "number",
-                            "isNotAssetizable": true,
                             "isNotTranslatable": false,
                             "label": "Number of Security Software Licenses",
                             "messages": [
@@ -42,6 +41,7 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultValue": 5,
                                     "disabled": false,
                                     "readonly": false
                                 }

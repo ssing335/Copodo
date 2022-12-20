@@ -32,7 +32,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Edition",
                             "messages": [
@@ -43,28 +42,34 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "c09c6050-9005-baf4-9d5e-e110f751f21c",
-                                    "label": "Business Starter",
-                                    "readonly": false,
-                                    "value": "Business Starter"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 20,
-                                    "id": "33f5b603-8866-a126-8332-71f74c2a96f5",
-                                    "label": "Business Standard",
-                                    "readonly": false,
-                                    "value": "Business Standard"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 30,
                                     "id": "1f80179e-0430-1807-4103-868e332d682e",
                                     "label": "Business Plus",
+                                    "name": "1f80179e-0430-1807-4103-868e332d682e",
                                     "readonly": false,
                                     "value": "Business Plus"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "33f5b603-8866-a126-8332-71f74c2a96f5",
+                                    "label": "Business Standard",
+                                    "name": "33f5b603-8866-a126-8332-71f74c2a96f5",
+                                    "readonly": false,
+                                    "value": "Business Standard"
+                                },
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "c09c6050-9005-baf4-9d5e-e110f751f21c",
+                                    "label": "Business Starter",
+                                    "name": "c09c6050-9005-baf4-9d5e-e110f751f21c",
+                                    "readonly": false,
+                                    "value": "Business Starter"
                                 }
                             ]
                         }
@@ -94,7 +99,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Pricing Option",
                             "messages": [
@@ -105,11 +109,13 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultSelected": true,
                                     "disabled": false,
                                     "displaySequence": 10,
                                     "id": "4e81d219-b529-89e2-9a46-a4a5ae6e267e",
                                     "label": "ARC",
-                                    "readonly": false,
+                                    "name": "4e81d219-b529-89e2-9a46-a4a5ae6e267e",
+                                    "readonly": true,
                                     "value": "ARC"
                                 }
                             ]

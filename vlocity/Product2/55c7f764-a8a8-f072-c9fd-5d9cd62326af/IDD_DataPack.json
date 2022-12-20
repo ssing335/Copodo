@@ -34,7 +34,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "text",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "IDD Call rate(USD/min)",
                             "messages": [
@@ -61,7 +60,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "text",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "IDD SMS rate",
                             "messages": [
@@ -88,7 +86,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "IDD SMS",
                             "messages": [
@@ -99,20 +96,24 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "8c485204-2752-bb4b-4b79-74b02e767ef2",
-                                    "label": "Enabled",
-                                    "readonly": false,
-                                    "value": "Enabled"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 30,
                                     "id": "0a207f25-3ddb-9087-f585-1411df97ee67",
                                     "label": "Disabled",
+                                    "name": "0a207f25-3ddb-9087-f585-1411df97ee67",
                                     "readonly": false,
                                     "value": "Disabled"
+                                },
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "8c485204-2752-bb4b-4b79-74b02e767ef2",
+                                    "label": "Enabled",
+                                    "name": "8c485204-2752-bb4b-4b79-74b02e767ef2",
+                                    "readonly": false,
+                                    "value": "Enabled"
                                 }
                             ]
                         },
@@ -127,7 +128,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "IDD Calls",
                             "messages": [
@@ -138,20 +138,24 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "8c485204-2752-bb4b-4b79-74b02e767ef2",
-                                    "label": "Enabled",
-                                    "readonly": false,
-                                    "value": "Enabled"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 30,
                                     "id": "0a207f25-3ddb-9087-f585-1411df97ee67",
                                     "label": "Disabled",
+                                    "name": "0a207f25-3ddb-9087-f585-1411df97ee67",
                                     "readonly": false,
                                     "value": "Disabled"
+                                },
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "8c485204-2752-bb4b-4b79-74b02e767ef2",
+                                    "label": "Enabled",
+                                    "name": "8c485204-2752-bb4b-4b79-74b02e767ef2",
+                                    "readonly": false,
+                                    "value": "Enabled"
                                 }
                             ]
                         }

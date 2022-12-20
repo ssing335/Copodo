@@ -5,54 +5,15 @@
     "%vlocity_namespace%__AttributeDefaultValues__c": {
         "VPL_ATTR_BALANCE": null,
         "VPL_ATTR_DATA": null,
-        "VPL_ATTR_TANGIBLE": false
+        "VPL_ATTR_DURATION": null,
+        "VPL_ATTR_DURATION_UOM": null,
+        "VPL_ATTR_SMS": null,
+        "VPL_ATTR_VOICE": null
     },
     "%vlocity_namespace%__AttributeMetadata__c": {
         "messages": [
         ],
         "records": [
-            {
-                "Code__c": "VEPC_ATTRIBUTE_CATEGORY_OTHER_DETAILS",
-                "Name": "Other Details",
-                "displaySequence": 6210,
-                "id": "a2D8G0000000brMUAQ",
-                "messages": [
-                ],
-                "productAttributes": {
-                    "messages": [
-                    ],
-                    "records": [
-                        {
-                            "attributeId": "a2E8G000000AilRUAS",
-                            "cloneable": true,
-                            "code": "VPL_ATTR_TANGIBLE",
-                            "dataType": "text",
-                            "disabled": false,
-                            "displaySequence": 10,
-                            "filterable": false,
-                            "hasRules": false,
-                            "hidden": false,
-                            "inputType": "checkbox",
-                            "isNotAssetizable": false,
-                            "isNotTranslatable": false,
-                            "label": "Tangible",
-                            "messages": [
-                            ],
-                            "multiselect": false,
-                            "readonly": false,
-                            "required": false,
-                            "userValues": null,
-                            "values": [
-                                {
-                                    "disabled": false,
-                                    "readonly": false
-                                }
-                            ]
-                        }
-                    ],
-                    "totalSize": 1
-                }
-            },
             {
                 "Code__c": "VPL_ATTRIBUTE_CATEGORY_GENERIC_ATTRIBUTES",
                 "Name": "Generic Attributes",
@@ -70,12 +31,11 @@
                             "code": "VPL_ATTR_BALANCE",
                             "dataType": "number",
                             "disabled": false,
-                            "displaySequence": -1,
+                            "displaySequence": 1,
                             "filterable": true,
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "number",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": true,
                             "label": "Balance",
                             "messages": [
@@ -97,12 +57,11 @@
                             "code": "VPL_ATTR_DATA",
                             "dataType": "number",
                             "disabled": false,
-                            "displaySequence": -1,
+                            "displaySequence": 1,
                             "filterable": true,
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "number",
-                            "isNotAssetizable": true,
                             "isNotTranslatable": true,
                             "label": "Data",
                             "messages": [
@@ -117,13 +76,117 @@
                                     "readonly": false
                                 }
                             ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000AildUAC",
+                            "cloneable": true,
+                            "code": "VPL_ATTR_DURATION",
+                            "dataType": "number",
+                            "disabled": true,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotTranslatable": true,
+                            "label": "Duration",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000AileUAC",
+                            "cloneable": true,
+                            "code": "VPL_ATTR_DURATION_UOM",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": true,
+                            "label": "Duration UOM",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000AilkUAC",
+                            "cloneable": true,
+                            "code": "VPL_ATTR_SMS",
+                            "dataType": "number",
+                            "disabled": true,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotTranslatable": true,
+                            "label": "SMS",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000AilnUAC",
+                            "cloneable": true,
+                            "code": "VPL_ATTR_VOICE",
+                            "dataType": "number",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotTranslatable": true,
+                            "label": "Voice",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
                         }
                     ],
-                    "totalSize": 2
+                    "totalSize": 6
                 }
             }
         ],
-        "totalSize": 2
+        "totalSize": 1
     },
     "%vlocity_namespace%__AttributeRules__c": "{}",
     "%vlocity_namespace%__AttributesMarkupConfig__c": "",

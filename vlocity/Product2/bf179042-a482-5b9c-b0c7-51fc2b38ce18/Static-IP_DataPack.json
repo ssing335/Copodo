@@ -31,7 +31,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": true,
                             "isNotTranslatable": false,
                             "label": "Number of Static IP Addresses",
                             "messages": [
@@ -42,68 +41,84 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 50,
-                                    "id": "568dc84d-bef2-8266-f0bb-825902cde9ad",
-                                    "label": "61",
-                                    "readonly": false,
-                                    "value": "61"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 50,
-                                    "id": "e26038e6-cbf1-0ddf-ca88-c47a1aa4caa2",
-                                    "label": "29",
-                                    "readonly": false,
-                                    "value": "29"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 50,
-                                    "id": "ac62306f-2a00-b574-e859-8ac87d05761e",
-                                    "label": "13",
-                                    "readonly": false,
-                                    "value": "13"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 50,
-                                    "id": "32bde95b-59bb-c622-38fb-b1be790efca1",
-                                    "label": "5",
-                                    "readonly": false,
-                                    "value": "5"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 50,
-                                    "id": "fa3431c4-ffdb-c42a-02b6-35d8f9f5a799",
-                                    "label": "2",
-                                    "readonly": false,
-                                    "value": "2"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 50,
-                                    "id": "c8121cee-37e1-f982-78f4-3d71d77bc969",
-                                    "label": "1",
-                                    "readonly": false,
-                                    "value": "1"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 50,
                                     "id": "00e697a3-a3c5-c256-807e-650b00b539c9",
                                     "label": "125",
+                                    "name": "00e697a3-a3c5-c256-807e-650b00b539c9",
                                     "readonly": false,
                                     "value": "125"
                                 },
                                 {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "32bde95b-59bb-c622-38fb-b1be790efca1",
+                                    "label": "5",
+                                    "name": "32bde95b-59bb-c622-38fb-b1be790efca1",
+                                    "readonly": false,
+                                    "value": "5"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "568dc84d-bef2-8266-f0bb-825902cde9ad",
+                                    "label": "61",
+                                    "name": "568dc84d-bef2-8266-f0bb-825902cde9ad",
+                                    "readonly": false,
+                                    "value": "61"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "ac62306f-2a00-b574-e859-8ac87d05761e",
+                                    "label": "13",
+                                    "name": "ac62306f-2a00-b574-e859-8ac87d05761e",
+                                    "readonly": false,
+                                    "value": "13"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "c8121cee-37e1-f982-78f4-3d71d77bc969",
+                                    "label": "1",
+                                    "name": "c8121cee-37e1-f982-78f4-3d71d77bc969",
+                                    "readonly": false,
+                                    "value": "1"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "e26038e6-cbf1-0ddf-ca88-c47a1aa4caa2",
+                                    "label": "29",
+                                    "name": "e26038e6-cbf1-0ddf-ca88-c47a1aa4caa2",
+                                    "readonly": false,
+                                    "value": "29"
+                                },
+                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 50,
                                     "id": "f9589164-4b36-7feb-1d9f-91dcc38b0ce2",
                                     "label": "125",
+                                    "name": "f9589164-4b36-7feb-1d9f-91dcc38b0ce2",
                                     "readonly": false,
                                     "value": "125"
+                                },
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "fa3431c4-ffdb-c42a-02b6-35d8f9f5a799",
+                                    "label": "2",
+                                    "name": "fa3431c4-ffdb-c42a-02b6-35d8f9f5a799",
+                                    "readonly": false,
+                                    "value": "2"
                                 }
                             ]
                         }

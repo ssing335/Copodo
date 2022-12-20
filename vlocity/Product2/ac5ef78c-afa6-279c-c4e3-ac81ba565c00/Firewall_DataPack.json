@@ -2,58 +2,8 @@
     "%vlocity_namespace%__ApprovedBy__c": "",
     "%vlocity_namespace%__ApprovedOn__c": "",
     "%vlocity_namespace%__AttributeAssignment__c": "Firewall_AttributeAssignments.json",
-    "%vlocity_namespace%__AttributeDefaultValues__c": {
-        "VPL_ATTR_TANGIBLE": false
-    },
-    "%vlocity_namespace%__AttributeMetadata__c": {
-        "messages": [
-        ],
-        "records": [
-            {
-                "Code__c": "VEPC_ATTRIBUTE_CATEGORY_OTHER_DETAILS",
-                "Name": "Other Details",
-                "displaySequence": 6210,
-                "id": "a2D8G0000000brMUAQ",
-                "messages": [
-                ],
-                "productAttributes": {
-                    "messages": [
-                    ],
-                    "records": [
-                        {
-                            "attributeId": "a2E8G000000AilRUAS",
-                            "cloneable": true,
-                            "code": "VPL_ATTR_TANGIBLE",
-                            "dataType": "text",
-                            "disabled": false,
-                            "displaySequence": 10,
-                            "filterable": false,
-                            "hasRules": false,
-                            "hidden": false,
-                            "inputType": "checkbox",
-                            "isNotAssetizable": false,
-                            "isNotTranslatable": false,
-                            "label": "Tangible",
-                            "messages": [
-                            ],
-                            "multiselect": false,
-                            "readonly": false,
-                            "required": false,
-                            "userValues": null,
-                            "values": [
-                                {
-                                    "disabled": false,
-                                    "readonly": false
-                                }
-                            ]
-                        }
-                    ],
-                    "totalSize": 1
-                }
-            }
-        ],
-        "totalSize": 1
-    },
+    "%vlocity_namespace%__AttributeDefaultValues__c": "",
+    "%vlocity_namespace%__AttributeMetadata__c": "",
     "%vlocity_namespace%__AttributeRules__c": "{}",
     "%vlocity_namespace%__AttributesMarkupConfig__c": "",
     "%vlocity_namespace%__CategoryData__c": "",

@@ -3,7 +3,10 @@
     "%vlocity_namespace%__ApprovedOn__c": "",
     "%vlocity_namespace%__AttributeAssignment__c": "Business-Postpaid-PRO-Plan_AttributeAssignments.json",
     "%vlocity_namespace%__AttributeDefaultValues__c": {
-        "VPL_ATTR_DATA": 15
+        "VPL_ATTR_DATA": 15,
+        "VPL_ATTR_MMS": 100,
+        "VPL_ATTR_SMS": 100,
+        "VPL_ATTR_VOICE": 100
     },
     "%vlocity_namespace%__AttributeMetadata__c": {
         "messages": [
@@ -26,12 +29,11 @@
                             "code": "VPL_ATTR_DATA",
                             "dataType": "number",
                             "disabled": true,
-                            "displaySequence": -1,
+                            "displaySequence": 1,
                             "filterable": true,
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "number",
-                            "isNotAssetizable": true,
                             "isNotTranslatable": true,
                             "label": "Data",
                             "messages": [
@@ -42,13 +44,95 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultValue": 15,
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000AilhUAC",
+                            "cloneable": true,
+                            "code": "VPL_ATTR_MMS",
+                            "dataType": "number",
+                            "disabled": true,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotTranslatable": true,
+                            "label": "MMS",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultValue": 100,
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000AilkUAC",
+                            "cloneable": true,
+                            "code": "VPL_ATTR_SMS",
+                            "dataType": "number",
+                            "disabled": true,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotTranslatable": true,
+                            "label": "SMS",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultValue": 100,
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E8G000000AilnUAC",
+                            "cloneable": true,
+                            "code": "VPL_ATTR_VOICE",
+                            "dataType": "number",
+                            "disabled": true,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotTranslatable": true,
+                            "label": "Voice",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultValue": 100,
                                     "disabled": true,
                                     "readonly": true
                                 }
                             ]
                         }
                     ],
-                    "totalSize": 1
+                    "totalSize": 4
                 }
             }
         ],

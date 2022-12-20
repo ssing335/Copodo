@@ -31,7 +31,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "BundleOrNot",
                             "messages": [
@@ -42,20 +41,24 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "ed649303-67b7-ca30-4f83-8c0b0fb1e7a3",
-                                    "label": "InBundle",
-                                    "readonly": false,
-                                    "value": "InBundle"
-                                },
-                                {
+                                    "defaultSelected": true,
                                     "disabled": false,
                                     "displaySequence": 20,
                                     "id": "53f9733e-5f7f-b340-56f6-552d62d294db",
                                     "label": "NotInBundle",
+                                    "name": "53f9733e-5f7f-b340-56f6-552d62d294db",
                                     "readonly": false,
                                     "value": "NotInBundle"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "ed649303-67b7-ca30-4f83-8c0b0fb1e7a3",
+                                    "label": "InBundle",
+                                    "name": "ed649303-67b7-ca30-4f83-8c0b0fb1e7a3",
+                                    "readonly": false,
+                                    "value": "InBundle"
                                 }
                             ]
                         }

@@ -32,7 +32,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Contract Term",
                             "messages": [
@@ -43,124 +42,154 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "ddb387dc-07c8-a2e8-f70a-c00af5cce968",
-                                    "label": "1 Years",
-                                    "readonly": false,
-                                    "value": "1 Years"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 20,
-                                    "id": "310c3481-e660-1484-316a-2e1bb3a4d9ce",
-                                    "label": "2 Years",
-                                    "readonly": false,
-                                    "value": "2 Years"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 30,
-                                    "id": "4d33dac1-9183-f568-5104-3cb5aead6a62",
-                                    "label": "3 Years",
-                                    "readonly": false,
-                                    "value": "3 Years"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 40,
-                                    "id": "55462697-b5b2-c88b-02de-dbe5c65afac5",
-                                    "label": "4 Years",
-                                    "readonly": false,
-                                    "value": "4 Years"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 50,
                                     "id": "130d568a-214b-84a5-6b09-daee3a9be6dd",
                                     "label": "5 Years",
+                                    "name": "130d568a-214b-84a5-6b09-daee3a9be6dd",
                                     "readonly": false,
                                     "value": "5 Years"
                                 },
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 60,
-                                    "id": "d3ce8f3a-bf7a-ca73-43df-45aa78fd33fd",
-                                    "label": "6 Years",
-                                    "readonly": false,
-                                    "value": "6 Years"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 70,
-                                    "id": "8d6399b2-f64f-3fce-fc19-ce50a6e57935",
-                                    "label": "7 Years",
-                                    "readonly": false,
-                                    "value": "7 Years"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 80,
-                                    "id": "639732b8-0c00-3889-4e75-0704257937ad",
-                                    "label": "8 Years",
-                                    "readonly": false,
-                                    "value": "8 Years"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 90,
-                                    "id": "b15943f0-974d-23bc-b2d3-eb767deaa706",
-                                    "label": "9 Years",
-                                    "readonly": false,
-                                    "value": "9 Years"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 91,
-                                    "id": "2e64a648-c78b-2e85-39f5-56241d49b2e4",
-                                    "label": "10 Years",
-                                    "readonly": false,
-                                    "value": "10 Years"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 92,
-                                    "id": "5631c33d-b10b-241f-fded-99e47cbb4d78",
-                                    "label": "11 Years",
-                                    "readonly": false,
-                                    "value": "11 Years"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 93,
-                                    "id": "94beb7f3-4554-6ca5-94e1-47501e8940bd",
-                                    "label": "12 Years",
-                                    "readonly": false,
-                                    "value": "12 Years"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 94,
                                     "id": "2b91d395-c845-b067-ce82-0573b38d8bfb",
                                     "label": "13 Years",
+                                    "name": "2b91d395-c845-b067-ce82-0573b38d8bfb",
                                     "readonly": false,
                                     "value": "13 Years"
                                 },
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
-                                    "displaySequence": 95,
-                                    "id": "aa8a3cd6-98b8-f516-d1fb-36bf7f636225",
-                                    "label": "14 Years",
+                                    "displaySequence": 91,
+                                    "id": "2e64a648-c78b-2e85-39f5-56241d49b2e4",
+                                    "label": "10 Years",
+                                    "name": "2e64a648-c78b-2e85-39f5-56241d49b2e4",
                                     "readonly": false,
-                                    "value": "14 Years"
+                                    "value": "10 Years"
                                 },
                                 {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "310c3481-e660-1484-316a-2e1bb3a4d9ce",
+                                    "label": "2 Years",
+                                    "name": "310c3481-e660-1484-316a-2e1bb3a4d9ce",
+                                    "readonly": false,
+                                    "value": "2 Years"
+                                },
+                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 96,
                                     "id": "4359056c-7135-f412-9a46-0ae9870d3f99",
                                     "label": "15 Years",
+                                    "name": "4359056c-7135-f412-9a46-0ae9870d3f99",
                                     "readonly": false,
                                     "value": "15 Years"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "4d33dac1-9183-f568-5104-3cb5aead6a62",
+                                    "label": "3 Years",
+                                    "name": "4d33dac1-9183-f568-5104-3cb5aead6a62",
+                                    "readonly": false,
+                                    "value": "3 Years"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "55462697-b5b2-c88b-02de-dbe5c65afac5",
+                                    "label": "4 Years",
+                                    "name": "55462697-b5b2-c88b-02de-dbe5c65afac5",
+                                    "readonly": false,
+                                    "value": "4 Years"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 92,
+                                    "id": "5631c33d-b10b-241f-fded-99e47cbb4d78",
+                                    "label": "11 Years",
+                                    "name": "5631c33d-b10b-241f-fded-99e47cbb4d78",
+                                    "readonly": false,
+                                    "value": "11 Years"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 80,
+                                    "id": "639732b8-0c00-3889-4e75-0704257937ad",
+                                    "label": "8 Years",
+                                    "name": "639732b8-0c00-3889-4e75-0704257937ad",
+                                    "readonly": false,
+                                    "value": "8 Years"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 70,
+                                    "id": "8d6399b2-f64f-3fce-fc19-ce50a6e57935",
+                                    "label": "7 Years",
+                                    "name": "8d6399b2-f64f-3fce-fc19-ce50a6e57935",
+                                    "readonly": false,
+                                    "value": "7 Years"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 93,
+                                    "id": "94beb7f3-4554-6ca5-94e1-47501e8940bd",
+                                    "label": "12 Years",
+                                    "name": "94beb7f3-4554-6ca5-94e1-47501e8940bd",
+                                    "readonly": false,
+                                    "value": "12 Years"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 95,
+                                    "id": "aa8a3cd6-98b8-f516-d1fb-36bf7f636225",
+                                    "label": "14 Years",
+                                    "name": "aa8a3cd6-98b8-f516-d1fb-36bf7f636225",
+                                    "readonly": false,
+                                    "value": "14 Years"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 90,
+                                    "id": "b15943f0-974d-23bc-b2d3-eb767deaa706",
+                                    "label": "9 Years",
+                                    "name": "b15943f0-974d-23bc-b2d3-eb767deaa706",
+                                    "readonly": false,
+                                    "value": "9 Years"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 60,
+                                    "id": "d3ce8f3a-bf7a-ca73-43df-45aa78fd33fd",
+                                    "label": "6 Years",
+                                    "name": "d3ce8f3a-bf7a-ca73-43df-45aa78fd33fd",
+                                    "readonly": false,
+                                    "value": "6 Years"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "ddb387dc-07c8-a2e8-f70a-c00af5cce968",
+                                    "label": "1 Years",
+                                    "name": "ddb387dc-07c8-a2e8-f70a-c00af5cce968",
+                                    "readonly": false,
+                                    "value": "1 Years"
                                 }
                             ]
                         },
@@ -175,7 +204,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Pricing Option",
                             "messages": [
@@ -186,11 +214,13 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultSelected": true,
                                     "disabled": false,
                                     "displaySequence": 10,
                                     "id": "4e81d219-b529-89e2-9a46-a4a5ae6e267e",
                                     "label": "ARC",
-                                    "readonly": false,
+                                    "name": "4e81d219-b529-89e2-9a46-a4a5ae6e267e",
+                                    "readonly": true,
                                     "value": "ARC"
                                 }
                             ]

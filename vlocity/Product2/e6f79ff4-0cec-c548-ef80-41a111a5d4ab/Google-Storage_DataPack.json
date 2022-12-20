@@ -32,7 +32,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Storage Size",
                             "messages": [
@@ -43,76 +42,94 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 10,
                                     "id": "099b2136-a5e0-d0cf-d5e5-a537003e5f54",
                                     "label": "20GB",
+                                    "name": "099b2136-a5e0-d0cf-d5e5-a537003e5f54",
                                     "readonly": false,
                                     "value": "20GB"
                                 },
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 20,
-                                    "id": "2af375e8-26c1-00a0-373d-b306801867d2",
-                                    "label": "50GB",
-                                    "readonly": false,
-                                    "value": "50GB"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 30,
-                                    "id": "5c79873b-5598-125b-c77f-3f100aefa387",
-                                    "label": "200GB",
-                                    "readonly": false,
-                                    "value": "200GB"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 40,
-                                    "id": "dcc5a325-d88c-3f97-25e7-a896d8d16a4b",
-                                    "label": "400GB",
-                                    "readonly": false,
-                                    "value": "400GB"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 50,
-                                    "id": "d72ac6b2-dc7f-a1da-6274-3ed11c2d1516",
-                                    "label": "1TB",
-                                    "readonly": false,
-                                    "value": "1TB"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 60,
-                                    "id": "f627b392-7c08-ac82-f1f5-37e62b4d8873",
-                                    "label": "2TB",
-                                    "readonly": false,
-                                    "value": "2TB"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 70,
                                     "id": "20d57b2a-e1cc-1e70-7cd0-90986eb9a474",
                                     "label": "4TB",
+                                    "name": "20d57b2a-e1cc-1e70-7cd0-90986eb9a474",
                                     "readonly": false,
                                     "value": "4TB"
                                 },
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
-                                    "displaySequence": 80,
-                                    "id": "c6613b35-0db5-e98c-4111-199166dca296",
-                                    "label": "8TB",
+                                    "displaySequence": 20,
+                                    "id": "2af375e8-26c1-00a0-373d-b306801867d2",
+                                    "label": "50GB",
+                                    "name": "2af375e8-26c1-00a0-373d-b306801867d2",
                                     "readonly": false,
-                                    "value": "8TB"
+                                    "value": "50GB"
                                 },
                                 {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "5c79873b-5598-125b-c77f-3f100aefa387",
+                                    "label": "200GB",
+                                    "name": "5c79873b-5598-125b-c77f-3f100aefa387",
+                                    "readonly": false,
+                                    "value": "200GB"
+                                },
+                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 90,
                                     "id": "a21d2e27-2eeb-c3f5-8e35-01080f24ca01",
                                     "label": "16TB",
+                                    "name": "a21d2e27-2eeb-c3f5-8e35-01080f24ca01",
                                     "readonly": false,
                                     "value": "16TB"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 80,
+                                    "id": "c6613b35-0db5-e98c-4111-199166dca296",
+                                    "label": "8TB",
+                                    "name": "c6613b35-0db5-e98c-4111-199166dca296",
+                                    "readonly": false,
+                                    "value": "8TB"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "d72ac6b2-dc7f-a1da-6274-3ed11c2d1516",
+                                    "label": "1TB",
+                                    "name": "d72ac6b2-dc7f-a1da-6274-3ed11c2d1516",
+                                    "readonly": false,
+                                    "value": "1TB"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "dcc5a325-d88c-3f97-25e7-a896d8d16a4b",
+                                    "label": "400GB",
+                                    "name": "dcc5a325-d88c-3f97-25e7-a896d8d16a4b",
+                                    "readonly": false,
+                                    "value": "400GB"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 60,
+                                    "id": "f627b392-7c08-ac82-f1f5-37e62b4d8873",
+                                    "label": "2TB",
+                                    "name": "f627b392-7c08-ac82-f1f5-37e62b4d8873",
+                                    "readonly": false,
+                                    "value": "2TB"
                                 }
                             ]
                         },
@@ -127,7 +144,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Pricing Option",
                             "messages": [
@@ -138,11 +154,13 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultSelected": true,
                                     "disabled": false,
                                     "displaySequence": 10,
                                     "id": "4e81d219-b529-89e2-9a46-a4a5ae6e267e",
                                     "label": "ARC",
-                                    "readonly": false,
+                                    "name": "4e81d219-b529-89e2-9a46-a4a5ae6e267e",
+                                    "readonly": true,
                                     "value": "ARC"
                                 }
                             ]

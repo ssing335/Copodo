@@ -12,48 +12,6 @@
         ],
         "records": [
             {
-                "Code__c": "74929099-0477-908d-4fa6-0c4199e71437",
-                "Name": "P_OTHER_EQUIPMENT",
-                "displaySequence": 604,
-                "id": "a2D8G0000004deKUAQ",
-                "messages": [
-                ],
-                "productAttributes": {
-                    "messages": [
-                    ],
-                    "records": [
-                        {
-                            "attributeId": "a2E8G000000DFrZUAW",
-                            "cloneable": true,
-                            "code": "ATT-ModelEquipment",
-                            "dataType": "text",
-                            "disabled": false,
-                            "displaySequence": 20,
-                            "filterable": false,
-                            "hasRules": false,
-                            "hidden": false,
-                            "inputType": "text",
-                            "isNotAssetizable": false,
-                            "isNotTranslatable": false,
-                            "label": "Model_Equipment",
-                            "messages": [
-                            ],
-                            "multiselect": false,
-                            "readonly": false,
-                            "required": false,
-                            "userValues": null,
-                            "values": [
-                                {
-                                    "disabled": false,
-                                    "readonly": false
-                                }
-                            ]
-                        }
-                    ],
-                    "totalSize": 1
-                }
-            },
-            {
                 "Code__c": "d1cda5e1-554b-f0ea-882b-6be3c5f43d2f",
                 "Name": "SDWAN_Common_Att",
                 "displaySequence": 600,
@@ -75,7 +33,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "text",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Serial Number",
                             "messages": [
@@ -102,9 +59,50 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "text",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Manufacturer",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultValue": "CISCO",
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 2
+                }
+            },
+            {
+                "Code__c": "74929099-0477-908d-4fa6-0c4199e71437",
+                "Name": "P_OTHER_EQUIPMENT",
+                "displaySequence": 604,
+                "id": "a2D8G0000004deKUAQ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a2E8G000000DFrZUAW",
+                            "cloneable": true,
+                            "code": "ATT-ModelEquipment",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 20,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Model_Equipment",
                             "messages": [
                             ],
                             "multiselect": false,
@@ -119,7 +117,7 @@
                             ]
                         }
                     ],
-                    "totalSize": 2
+                    "totalSize": 1
                 }
             }
         ],

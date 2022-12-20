@@ -40,7 +40,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "NoOfSite",
                             "messages": [
@@ -51,28 +50,34 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 1,
-                                    "id": "d400265c-d2fa-0dc2-3828-afadd3280db1",
-                                    "label": "1",
-                                    "readonly": false,
-                                    "value": "1"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 2,
                                     "id": "4dfd5f46-bd87-81fb-c86b-133cbe0eea51",
                                     "label": "2-4",
+                                    "name": "4dfd5f46-bd87-81fb-c86b-133cbe0eea51",
                                     "readonly": false,
                                     "value": "2-4"
                                 },
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 3,
                                     "id": "9cc9a8a8-6867-22cb-3baf-b585dbe64bb6",
                                     "label": "5+",
+                                    "name": "9cc9a8a8-6867-22cb-3baf-b585dbe64bb6",
                                     "readonly": false,
                                     "value": "5+"
+                                },
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "d400265c-d2fa-0dc2-3828-afadd3280db1",
+                                    "label": "1",
+                                    "name": "d400265c-d2fa-0dc2-3828-afadd3280db1",
+                                    "readonly": false,
+                                    "value": "1"
                                 }
                             ]
                         },
@@ -87,7 +92,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "BundleOrNot",
                             "messages": [
@@ -98,20 +102,24 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "ed649303-67b7-ca30-4f83-8c0b0fb1e7a3",
-                                    "label": "InBundle",
-                                    "readonly": false,
-                                    "value": "InBundle"
-                                },
-                                {
+                                    "defaultSelected": true,
                                     "disabled": false,
                                     "displaySequence": 20,
                                     "id": "53f9733e-5f7f-b340-56f6-552d62d294db",
                                     "label": "NotInBundle",
+                                    "name": "53f9733e-5f7f-b340-56f6-552d62d294db",
                                     "readonly": false,
                                     "value": "NotInBundle"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "ed649303-67b7-ca30-4f83-8c0b0fb1e7a3",
+                                    "label": "InBundle",
+                                    "name": "ed649303-67b7-ca30-4f83-8c0b0fb1e7a3",
+                                    "readonly": false,
+                                    "value": "InBundle"
                                 }
                             ]
                         },
@@ -126,7 +134,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Maximum throughput",
                             "messages": [
@@ -137,36 +144,44 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "d969686d-be63-2e13-9762-c198c17ea468",
-                                    "label": "100 Mpbs",
-                                    "readonly": false,
-                                    "value": "100 Mpbs"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 20,
-                                    "id": "b3e6b3d3-dfc9-967a-7444-5fa8410eab5d",
-                                    "label": "400 Mbps",
-                                    "readonly": false,
-                                    "value": "400 Mbps"
-                                },
-                                {
+                                    "defaultSelected": true,
                                     "disabled": false,
                                     "displaySequence": 30,
                                     "id": "9d53a6e0-fb15-ed31-ff0c-6be6a3f08bdd",
                                     "label": "600 Mbps",
+                                    "name": "9d53a6e0-fb15-ed31-ff0c-6be6a3f08bdd",
                                     "readonly": false,
                                     "value": "600 Mbps"
                                 },
                                 {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "b3e6b3d3-dfc9-967a-7444-5fa8410eab5d",
+                                    "label": "400 Mbps",
+                                    "name": "b3e6b3d3-dfc9-967a-7444-5fa8410eab5d",
+                                    "readonly": false,
+                                    "value": "400 Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 40,
                                     "id": "ce26459e-5926-ade0-e822-b0620eacac7d",
                                     "label": "1300 Mbps",
+                                    "name": "ce26459e-5926-ade0-e822-b0620eacac7d",
                                     "readonly": false,
                                     "value": "1300 Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "d969686d-be63-2e13-9762-c198c17ea468",
+                                    "label": "100 Mpbs",
+                                    "name": "d969686d-be63-2e13-9762-c198c17ea468",
+                                    "readonly": false,
+                                    "value": "100 Mpbs"
                                 }
                             ]
                         },
@@ -181,7 +196,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Maintenance Model",
                             "messages": [
@@ -192,20 +206,24 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "cb24e976-d9ea-29ed-dcf2-cc1c7c5f4f3f",
-                                    "label": "Advanced",
-                                    "readonly": false,
-                                    "value": "Advanced"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 20,
                                     "id": "39d8cca9-fc3d-2eec-a8b6-283916d9aa57",
                                     "label": "Basic",
+                                    "name": "39d8cca9-fc3d-2eec-a8b6-283916d9aa57",
                                     "readonly": false,
                                     "value": "Basic"
+                                },
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "cb24e976-d9ea-29ed-dcf2-cc1c7c5f4f3f",
+                                    "label": "Advanced",
+                                    "name": "cb24e976-d9ea-29ed-dcf2-cc1c7c5f4f3f",
+                                    "readonly": false,
+                                    "value": "Advanced"
                                 }
                             ]
                         },
@@ -220,7 +238,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Deployment Schema",
                             "messages": [
@@ -231,26 +248,32 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "d4d80af5-9069-d898-ff29-e1fbc2adf06a",
-                                    "label": "Customer Managed",
-                                    "readonly": false,
-                                    "value": "Customer Managed"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 20,
                                     "id": "70e962c3-a2d3-97f1-dc99-589705676ff2",
                                     "label": "O2 Managed",
+                                    "name": "70e962c3-a2d3-97f1-dc99-589705676ff2",
                                     "readonly": false,
                                     "value": "O2 Managed"
                                 },
                                 {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "d4d80af5-9069-d898-ff29-e1fbc2adf06a",
+                                    "label": "Customer Managed",
+                                    "name": "d4d80af5-9069-d898-ff29-e1fbc2adf06a",
+                                    "readonly": false,
+                                    "value": "Customer Managed"
+                                },
+                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 30,
                                     "id": "d8b1ae86-4a91-d2dd-b172-03e61c5e1092",
                                     "label": "Hybrid",
+                                    "name": "d8b1ae86-4a91-d2dd-b172-03e61c5e1092",
                                     "readonly": false,
                                     "value": "Hybrid"
                                 }
@@ -267,7 +290,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "number",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "# of on-site Applications",
                             "messages": [
@@ -278,6 +300,7 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultValue": 4,
                                     "disabled": false,
                                     "readonly": false
                                 }
@@ -294,7 +317,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "number",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "# of cloud Applications",
                             "messages": [
@@ -305,6 +327,7 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultValue": 3,
                                     "disabled": false,
                                     "readonly": false
                                 }
@@ -321,7 +344,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Range of # of final users",
                             "messages": [
@@ -332,28 +354,34 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "eebed835-cc40-2fef-05b3-c3620a41b947",
-                                    "label": "1000",
-                                    "readonly": false,
-                                    "value": "1000"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 20,
-                                    "id": "b91b5908-39a4-6a5f-c80c-70af23d55462",
-                                    "label": "5000",
-                                    "readonly": false,
-                                    "value": "5000"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 30,
                                     "id": "3fa6419c-dc59-084f-f069-0d103533833a",
                                     "label": "10000",
+                                    "name": "3fa6419c-dc59-084f-f069-0d103533833a",
                                     "readonly": false,
                                     "value": "10000"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "b91b5908-39a4-6a5f-c80c-70af23d55462",
+                                    "label": "5000",
+                                    "name": "b91b5908-39a4-6a5f-c80c-70af23d55462",
+                                    "readonly": false,
+                                    "value": "5000"
+                                },
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "eebed835-cc40-2fef-05b3-c3620a41b947",
+                                    "label": "1000",
+                                    "name": "eebed835-cc40-2fef-05b3-c3620a41b947",
+                                    "readonly": false,
+                                    "value": "1000"
                                 }
                             ]
                         }
@@ -383,7 +411,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Type",
                             "messages": [
@@ -394,20 +421,24 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "48c43a89-f5a5-19ba-1e4f-5653857e15ff",
-                                    "label": "Hub & Spoke",
-                                    "readonly": false,
-                                    "value": "Hub & Spoke"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 20,
                                     "id": "05d3b4bb-df9d-6384-a89e-000238f7778a",
                                     "label": "Mesh",
+                                    "name": "05d3b4bb-df9d-6384-a89e-000238f7778a",
                                     "readonly": false,
                                     "value": "Mesh"
+                                },
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "48c43a89-f5a5-19ba-1e4f-5653857e15ff",
+                                    "label": "Hub & Spoke",
+                                    "name": "48c43a89-f5a5-19ba-1e4f-5653857e15ff",
+                                    "readonly": false,
+                                    "value": "Hub & Spoke"
                                 }
                             ]
                         },
@@ -422,7 +453,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Visibility",
                             "messages": [
@@ -433,18 +463,22 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultSelected": true,
                                     "disabled": false,
                                     "displaySequence": 10,
                                     "id": "c2086259-a38b-d934-e744-4771189b9604",
                                     "label": "Child Business Accounts",
+                                    "name": "c2086259-a38b-d934-e744-4771189b9604",
                                     "readonly": false,
                                     "value": "Child Business Accounts"
                                 },
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 20,
                                     "id": "e4a375f0-e048-488d-1473-2dd51e3d4919",
                                     "label": "Service Accounts",
+                                    "name": "e4a375f0-e048-488d-1473-2dd51e3d4919",
                                     "readonly": false,
                                     "value": "Service Accounts"
                                 }

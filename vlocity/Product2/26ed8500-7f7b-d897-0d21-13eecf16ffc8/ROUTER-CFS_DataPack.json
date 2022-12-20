@@ -3,6 +3,7 @@
     "%vlocity_namespace%__ApprovedOn__c": "",
     "%vlocity_namespace%__AttributeAssignment__c": "ROUTER-CFS_AttributeAssignments.json",
     "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "ATT-ModelRouter": null,
         "ATT_Manufacturer": "CISCO",
         "ATT_Serial Number": null
     },
@@ -32,7 +33,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "text",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Serial Number",
                             "messages": [
@@ -59,7 +59,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "text",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Manufacturer",
                             "messages": [
@@ -70,6 +69,7 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultValue": "CISCO",
                                     "disabled": false,
                                     "readonly": false
                                 }
@@ -101,7 +101,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Model_Router",
                             "messages": [

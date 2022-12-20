@@ -32,7 +32,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "SD WAN Device Model",
                             "messages": [
@@ -43,20 +42,24 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": true,
-                                    "displaySequence": 10,
-                                    "id": "fcc73ca9-63b9-affd-b89b-b806caa9e456",
-                                    "label": "MX67C",
-                                    "readonly": true,
-                                    "value": "MX67C"
-                                },
-                                {
-                                    "disabled": true,
+                                    "defaultSelected": true,
+                                    "disabled": false,
                                     "displaySequence": 20,
                                     "id": "23405c41-9880-d9c1-8ce2-fff7e1bd8de5",
                                     "label": "MX68CW",
+                                    "name": "23405c41-9880-d9c1-8ce2-fff7e1bd8de5",
                                     "readonly": true,
                                     "value": "MX68CW"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "fcc73ca9-63b9-affd-b89b-b806caa9e456",
+                                    "label": "MX67C",
+                                    "name": "fcc73ca9-63b9-affd-b89b-b806caa9e456",
+                                    "readonly": true,
+                                    "value": "MX67C"
                                 }
                             ]
                         },
@@ -71,7 +74,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "SD WAN License Type",
                             "messages": [
@@ -82,28 +84,34 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "f5b6ebec-b4df-c3a4-7a13-62aae7ee2a5b",
-                                    "label": "Enterprise",
-                                    "readonly": false,
-                                    "value": "Enterprise"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 20,
-                                    "id": "f88b390f-e7d5-20ad-18b5-2bbdf98095a9",
-                                    "label": "Advanced Security",
-                                    "readonly": false,
-                                    "value": "Advanced Security"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 30,
                                     "id": "5d07e8d4-4e54-087e-921d-75610f61f7f7",
                                     "label": "Secure SD-WAN Plus",
+                                    "name": "5d07e8d4-4e54-087e-921d-75610f61f7f7",
                                     "readonly": false,
                                     "value": "Secure SD-WAN Plus"
+                                },
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "f5b6ebec-b4df-c3a4-7a13-62aae7ee2a5b",
+                                    "label": "Enterprise",
+                                    "name": "f5b6ebec-b4df-c3a4-7a13-62aae7ee2a5b",
+                                    "readonly": false,
+                                    "value": "Enterprise"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "f88b390f-e7d5-20ad-18b5-2bbdf98095a9",
+                                    "label": "Advanced Security",
+                                    "name": "f88b390f-e7d5-20ad-18b5-2bbdf98095a9",
+                                    "readonly": false,
+                                    "value": "Advanced Security"
                                 }
                             ]
                         }

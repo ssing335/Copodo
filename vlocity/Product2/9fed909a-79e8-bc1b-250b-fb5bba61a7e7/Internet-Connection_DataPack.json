@@ -36,7 +36,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Bandwidth",
                             "messages": [
@@ -47,68 +46,84 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "13ffd049-a40a-1661-95d3-fa8cde95cd0f",
-                                    "label": "100 Mbps",
-                                    "readonly": false,
-                                    "value": "100 Mbps"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 20,
                                     "id": "04d8cd89-61b4-54e4-f6b8-cb30036ba979",
                                     "label": "200 Mbps",
+                                    "name": "04d8cd89-61b4-54e4-f6b8-cb30036ba979",
                                     "readonly": false,
                                     "value": "200 Mbps"
                                 },
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 30,
-                                    "id": "42cda7e2-b97d-536c-45d6-6d192e974d82",
-                                    "label": "500 Mbps",
-                                    "readonly": false,
-                                    "value": "500 Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 40,
-                                    "id": "ed4492be-e08f-5a3d-e590-506b755ffcd4",
-                                    "label": "800 Mbps",
-                                    "readonly": false,
-                                    "value": "800 Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 50,
-                                    "id": "93b767bd-abd1-070d-d56f-1960d895c25b",
-                                    "label": "1 Gbps",
-                                    "readonly": false,
-                                    "value": "1 Gbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 60,
-                                    "id": "d509cdae-d1a3-5320-7c63-f38c25e18efe",
-                                    "label": "2 Gbps",
-                                    "readonly": false,
-                                    "value": "2 Gbps"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 70,
                                     "id": "0c7c8780-5c54-917b-dd75-63537967ad36",
                                     "label": "5 Gbps",
+                                    "name": "0c7c8780-5c54-917b-dd75-63537967ad36",
                                     "readonly": false,
                                     "value": "5 Gbps"
                                 },
                                 {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "13ffd049-a40a-1661-95d3-fa8cde95cd0f",
+                                    "label": "100 Mbps",
+                                    "name": "13ffd049-a40a-1661-95d3-fa8cde95cd0f",
+                                    "readonly": false,
+                                    "value": "100 Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "42cda7e2-b97d-536c-45d6-6d192e974d82",
+                                    "label": "500 Mbps",
+                                    "name": "42cda7e2-b97d-536c-45d6-6d192e974d82",
+                                    "readonly": false,
+                                    "value": "500 Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 80,
                                     "id": "825cfa58-6eab-40e3-df0d-12e3930eb6f2",
                                     "label": "10 Gbps",
+                                    "name": "825cfa58-6eab-40e3-df0d-12e3930eb6f2",
                                     "readonly": false,
                                     "value": "10 Gbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "93b767bd-abd1-070d-d56f-1960d895c25b",
+                                    "label": "1 Gbps",
+                                    "name": "93b767bd-abd1-070d-d56f-1960d895c25b",
+                                    "readonly": false,
+                                    "value": "1 Gbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 60,
+                                    "id": "d509cdae-d1a3-5320-7c63-f38c25e18efe",
+                                    "label": "2 Gbps",
+                                    "name": "d509cdae-d1a3-5320-7c63-f38c25e18efe",
+                                    "readonly": false,
+                                    "value": "2 Gbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "ed4492be-e08f-5a3d-e590-506b755ffcd4",
+                                    "label": "800 Mbps",
+                                    "name": "ed4492be-e08f-5a3d-e590-506b755ffcd4",
+                                    "readonly": false,
+                                    "value": "800 Mbps"
                                 }
                             ]
                         },
@@ -123,7 +138,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Term",
                             "messages": [
@@ -134,52 +148,64 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultSelected": true,
                                     "disabled": false,
                                     "displaySequence": 10,
                                     "id": "16365ef6-c4b6-6c92-0310-ccbd2615b9cc",
                                     "label": "12 Months",
+                                    "name": "16365ef6-c4b6-6c92-0310-ccbd2615b9cc",
                                     "readonly": false,
                                     "value": "12 Months"
                                 },
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 20,
                                     "id": "21fa5904-7d48-a907-e042-784798f0eca7",
                                     "label": "24 Months",
+                                    "name": "21fa5904-7d48-a907-e042-784798f0eca7",
                                     "readonly": false,
                                     "value": "24 Months"
                                 },
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 30,
-                                    "id": "d5856b80-59a7-7476-4563-3d445cc37168",
-                                    "label": "36 Months",
-                                    "readonly": false,
-                                    "value": "36 Months"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 40,
-                                    "id": "87076d0c-bc40-165d-bd1d-f6875d0bb81b",
-                                    "label": "48 Months",
-                                    "readonly": false,
-                                    "value": "48 Months"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 50,
-                                    "id": "bb7f0cac-f8c8-01da-dbe0-2716dda7bf93",
-                                    "label": "60 Months",
-                                    "readonly": false,
-                                    "value": "60 Months"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 60,
                                     "id": "6d7edc50-56e8-1f39-4d1e-21e641c1ed5c",
                                     "label": "72 Months",
+                                    "name": "6d7edc50-56e8-1f39-4d1e-21e641c1ed5c",
                                     "readonly": false,
                                     "value": "72 Months"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "87076d0c-bc40-165d-bd1d-f6875d0bb81b",
+                                    "label": "48 Months",
+                                    "name": "87076d0c-bc40-165d-bd1d-f6875d0bb81b",
+                                    "readonly": false,
+                                    "value": "48 Months"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "bb7f0cac-f8c8-01da-dbe0-2716dda7bf93",
+                                    "label": "60 Months",
+                                    "name": "bb7f0cac-f8c8-01da-dbe0-2716dda7bf93",
+                                    "readonly": false,
+                                    "value": "60 Months"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "d5856b80-59a7-7476-4563-3d445cc37168",
+                                    "label": "36 Months",
+                                    "name": "d5856b80-59a7-7476-4563-3d445cc37168",
+                                    "readonly": false,
+                                    "value": "36 Months"
                                 }
                             ]
                         },
@@ -194,7 +220,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Type of Order",
                             "messages": [
@@ -205,20 +230,24 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": true,
-                                    "displaySequence": 1,
-                                    "id": "5cb28e00-dbba-6336-2ef0-8a50fa4b6ae2",
-                                    "label": "Wholesale",
-                                    "readonly": true,
-                                    "value": "Wholesale"
-                                },
-                                {
-                                    "disabled": true,
+                                    "defaultSelected": true,
+                                    "disabled": false,
                                     "displaySequence": 2,
                                     "id": "3bc1ebe6-eeec-c173-59e9-e189f59db50d",
                                     "label": "Retail",
+                                    "name": "3bc1ebe6-eeec-c173-59e9-e189f59db50d",
                                     "readonly": true,
                                     "value": "Retail"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "5cb28e00-dbba-6336-2ef0-8a50fa4b6ae2",
+                                    "label": "Wholesale",
+                                    "name": "5cb28e00-dbba-6336-2ef0-8a50fa4b6ae2",
+                                    "readonly": true,
+                                    "value": "Wholesale"
                                 }
                             ]
                         },
@@ -233,7 +262,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "On-Net/Off-Net",
                             "messages": [
@@ -244,20 +272,24 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "d19231b2-37cd-4596-013d-9fad6872273a",
-                                    "label": "On-Net",
-                                    "readonly": false,
-                                    "value": "On-Net"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 20,
                                     "id": "9a404a10-7e3e-5c9d-ebee-8fc0134bcfac",
                                     "label": "Off-Net",
+                                    "name": "9a404a10-7e3e-5c9d-ebee-8fc0134bcfac",
                                     "readonly": false,
                                     "value": "Off-Net"
+                                },
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "d19231b2-37cd-4596-013d-9fad6872273a",
+                                    "label": "On-Net",
+                                    "name": "d19231b2-37cd-4596-013d-9fad6872273a",
+                                    "readonly": false,
+                                    "value": "On-Net"
                                 }
                             ]
                         },
@@ -272,7 +304,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "checkbox",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "E-Rate",
                             "messages": [
@@ -283,6 +314,7 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultValue": false,
                                     "disabled": false,
                                     "readonly": false
                                 }
@@ -299,7 +331,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "checkbox",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Requires MultiGig SPARC",
                             "messages": [
@@ -310,6 +341,7 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultValue": false,
                                     "disabled": true,
                                     "readonly": true
                                 }

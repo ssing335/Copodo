@@ -3,8 +3,15 @@
     "%vlocity_namespace%__ApprovedOn__c": "",
     "%vlocity_namespace%__AttributeAssignment__c": "Site-Type-A-CFS_AttributeAssignments.json",
     "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "ATT-Type": null,
+        "ATT-Visibility": null,
         "ATT_# of cloud Applications": null,
-        "ATT_# of on-site Applications": null
+        "ATT_# of on-site Applications": null,
+        "ATT_NoOfSite": null,
+        "ATT_Range of # of final users": null,
+        "Att_Deployment Schema": null,
+        "Att_Maintenance Model": null,
+        "Att_Maximum throughput": null
     },
     "%vlocity_namespace%__AttributeMetadata__c": {
         "messages": [
@@ -32,7 +39,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "NoOfSite",
                             "messages": [
@@ -54,7 +60,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Maximum throughput",
                             "messages": [
@@ -76,7 +81,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Maintenance Model",
                             "messages": [
@@ -98,7 +102,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Deployment Schema",
                             "messages": [
@@ -120,7 +123,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "number",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "# of on-site Applications",
                             "messages": [
@@ -147,7 +149,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "number",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "# of cloud Applications",
                             "messages": [
@@ -174,7 +175,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Range of # of final users",
                             "messages": [
@@ -211,7 +211,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Type",
                             "messages": [
@@ -233,7 +232,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Visibility",
                             "messages": [

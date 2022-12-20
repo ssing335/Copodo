@@ -3,8 +3,14 @@
     "%vlocity_namespace%__ApprovedOn__c": "",
     "%vlocity_namespace%__AttributeAssignment__c": "P_ANALYTICS-CFS_AttributeAssignments.json",
     "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "ATT-#ofmonths(history)": null,
         "ATT-#ofnodes": null,
-        "ATT-Monitoring(Valor)": null
+        "ATT-Monitoring(Valor)": null,
+        "ATT-Monitoringsample(Unidad)": null,
+        "ATT-NetworkKPIs": null,
+        "ATT-SecurityKPIs": null,
+        "ATT-TypeofKPIs": null,
+        "ATT-TypeofSolution": null
     },
     "%vlocity_namespace%__AttributeMetadata__c": {
         "messages": [
@@ -32,7 +38,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Type of KPIs",
                             "messages": [
@@ -54,7 +59,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Network KPIs",
                             "messages": [
@@ -76,7 +80,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Security KPIs",
                             "messages": [
@@ -98,7 +101,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Monitoring sample freq (Unidad)",
                             "messages": [
@@ -120,7 +122,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "number",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Monitoring sample freq (Valor)",
                             "messages": [
@@ -147,7 +148,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Type of Solution",
                             "messages": [
@@ -169,7 +169,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "number",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "# of nodes",
                             "messages": [
@@ -196,7 +195,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "# of months (history)",
                             "messages": [

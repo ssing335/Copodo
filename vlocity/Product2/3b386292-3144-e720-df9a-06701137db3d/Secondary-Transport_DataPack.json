@@ -36,7 +36,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "text",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "SD WAN Subnet Mask",
                             "messages": [
@@ -63,7 +62,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "SD WAN Gateway IP Protocol Picklist",
                             "messages": [
@@ -74,20 +72,24 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "b26cd0a4-173c-aa6f-6dc4-5512fd53fb29",
-                                    "label": "IPv4",
-                                    "readonly": false,
-                                    "value": "IPv4"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 20,
                                     "id": "72619e21-f3dc-f47a-3aaa-5ea21c52f123",
                                     "label": "IPv6",
+                                    "name": "72619e21-f3dc-f47a-3aaa-5ea21c52f123",
                                     "readonly": false,
                                     "value": "IPv6"
+                                },
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "b26cd0a4-173c-aa6f-6dc4-5512fd53fb29",
+                                    "label": "IPv4",
+                                    "name": "b26cd0a4-173c-aa6f-6dc4-5512fd53fb29",
+                                    "readonly": false,
+                                    "value": "IPv4"
                                 }
                             ]
                         },
@@ -102,7 +104,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "SD WAN Gateway IP Configuration",
                             "messages": [
@@ -113,18 +114,22 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultSelected": true,
                                     "disabled": false,
                                     "displaySequence": 10,
                                     "id": "c98d9e44-2109-db75-0f7c-5a65e3bb5ee2",
                                     "label": "Static",
+                                    "name": "c98d9e44-2109-db75-0f7c-5a65e3bb5ee2",
                                     "readonly": false,
                                     "value": "Static"
                                 },
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 20,
                                     "id": "df94e533-6e63-9786-5611-2143abf7ddf8",
                                     "label": "Dynamic",
+                                    "name": "df94e533-6e63-9786-5611-2143abf7ddf8",
                                     "readonly": false,
                                     "value": "Dynamic"
                                 }
@@ -141,7 +146,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "text",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "SD WAN Gateway IP Address",
                             "messages": [
@@ -168,7 +172,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "text",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "SD WAN Transport Sequence",
                             "messages": [
@@ -210,7 +213,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "SD WAN Bandwidth",
                             "messages": [
@@ -221,28 +223,34 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "da516a2c-c686-eb1d-2ccc-85ec5d1dcfcd",
-                                    "label": "50 Mbps",
-                                    "readonly": false,
-                                    "value": "50 Mbps"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 20,
-                                    "id": "cbc6ce9f-2a94-f708-6687-1e2ecad33c7f",
-                                    "label": "100 Mbps",
-                                    "readonly": false,
-                                    "value": "100 Mbps"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 30,
                                     "id": "96631ff3-4b8b-b35b-6f5a-d87e5ff9aa25",
                                     "label": "200 Mbps",
+                                    "name": "96631ff3-4b8b-b35b-6f5a-d87e5ff9aa25",
                                     "readonly": false,
                                     "value": "200 Mbps"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "cbc6ce9f-2a94-f708-6687-1e2ecad33c7f",
+                                    "label": "100 Mbps",
+                                    "name": "cbc6ce9f-2a94-f708-6687-1e2ecad33c7f",
+                                    "readonly": false,
+                                    "value": "100 Mbps"
+                                },
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "da516a2c-c686-eb1d-2ccc-85ec5d1dcfcd",
+                                    "label": "50 Mbps",
+                                    "name": "da516a2c-c686-eb1d-2ccc-85ec5d1dcfcd",
+                                    "readonly": false,
+                                    "value": "50 Mbps"
                                 }
                             ]
                         }

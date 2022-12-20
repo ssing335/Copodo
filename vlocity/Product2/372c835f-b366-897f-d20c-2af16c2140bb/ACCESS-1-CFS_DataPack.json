@@ -3,114 +3,16 @@
     "%vlocity_namespace%__ApprovedOn__c": "",
     "%vlocity_namespace%__AttributeAssignment__c": "ACCESS-1-CFS_AttributeAssignments.json",
     "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "ATT-BackUp": null,
+        "ATT-BundleOrNot": null,
+        "ATT-FeasibilityResult": null,
+        "ATT-Technology": null,
+        "Bandwidth1_SDWAN": null
     },
     "%vlocity_namespace%__AttributeMetadata__c": {
         "messages": [
         ],
         "records": [
-            {
-                "Code__c": "26af54df-9c0a-5d98-ebf7-667df9a47272",
-                "Name": "P_ACCESS",
-                "displaySequence": 602,
-                "id": "a2D8G0000004deOUAQ",
-                "messages": [
-                ],
-                "productAttributes": {
-                    "messages": [
-                    ],
-                    "records": [
-                        {
-                            "attributeId": "a2E8G000000DFreUAG",
-                            "cloneable": true,
-                            "code": "Bandwidth1_SDWAN",
-                            "dataType": "text",
-                            "disabled": false,
-                            "displaySequence": 10,
-                            "filterable": false,
-                            "hasRules": false,
-                            "hidden": false,
-                            "inputType": "dropdown",
-                            "isNotAssetizable": false,
-                            "isNotTranslatable": false,
-                            "label": "Bandwidth1",
-                            "messages": [
-                            ],
-                            "multiselect": false,
-                            "readonly": false,
-                            "required": false,
-                            "userValues": null,
-                            "values": null
-                        },
-                        {
-                            "attributeId": "a2E8G000000DFrFUAW",
-                            "cloneable": true,
-                            "code": "ATT-Technology",
-                            "dataType": "text",
-                            "disabled": false,
-                            "displaySequence": 10,
-                            "filterable": false,
-                            "hasRules": false,
-                            "hidden": false,
-                            "inputType": "dropdown",
-                            "isNotAssetizable": false,
-                            "isNotTranslatable": false,
-                            "label": "Technology",
-                            "messages": [
-                            ],
-                            "multiselect": false,
-                            "readonly": false,
-                            "required": false,
-                            "userValues": null,
-                            "values": null
-                        },
-                        {
-                            "attributeId": "a2E8G000000DFrKUAW",
-                            "cloneable": true,
-                            "code": "ATT-BackUp",
-                            "dataType": "text",
-                            "disabled": false,
-                            "displaySequence": 20,
-                            "filterable": false,
-                            "hasRules": false,
-                            "hidden": false,
-                            "inputType": "dropdown",
-                            "isNotAssetizable": false,
-                            "isNotTranslatable": false,
-                            "label": "Back Up",
-                            "messages": [
-                            ],
-                            "multiselect": false,
-                            "readonly": false,
-                            "required": false,
-                            "userValues": null,
-                            "values": null
-                        },
-                        {
-                            "attributeId": "a2E8G000000DFrPUAW",
-                            "cloneable": true,
-                            "code": "ATT-FeasibilityResult",
-                            "dataType": "text",
-                            "disabled": false,
-                            "displaySequence": 30,
-                            "filterable": false,
-                            "hasRules": false,
-                            "hidden": false,
-                            "inputType": "dropdown",
-                            "isNotAssetizable": false,
-                            "isNotTranslatable": false,
-                            "label": "Feasibility Result",
-                            "messages": [
-                            ],
-                            "multiselect": false,
-                            "readonly": false,
-                            "required": false,
-                            "userValues": null,
-                            "values": null
-                        }
-                    ],
-                    "totalSize": 4
-                }
-            },
             {
                 "Code__c": "d1cda5e1-554b-f0ea-882b-6be3c5f43d2f",
                 "Name": "SDWAN_Common_Att",
@@ -133,7 +35,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "BundleOrNot",
                             "messages": [
@@ -146,6 +47,105 @@
                         }
                     ],
                     "totalSize": 1
+                }
+            },
+            {
+                "Code__c": "26af54df-9c0a-5d98-ebf7-667df9a47272",
+                "Name": "P_ACCESS",
+                "displaySequence": 602,
+                "id": "a2D8G0000004deOUAQ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a2E8G000000DFreUAG",
+                            "cloneable": true,
+                            "code": "Bandwidth1_SDWAN",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 10,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Bandwidth1",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": null
+                        },
+                        {
+                            "attributeId": "a2E8G000000DFrFUAW",
+                            "cloneable": true,
+                            "code": "ATT-Technology",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 10,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Technology",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": null
+                        },
+                        {
+                            "attributeId": "a2E8G000000DFrKUAW",
+                            "cloneable": true,
+                            "code": "ATT-BackUp",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 20,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Back Up",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": null
+                        },
+                        {
+                            "attributeId": "a2E8G000000DFrPUAW",
+                            "cloneable": true,
+                            "code": "ATT-FeasibilityResult",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 30,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Feasibility Result",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": null
+                        }
+                    ],
+                    "totalSize": 4
                 }
             }
         ],

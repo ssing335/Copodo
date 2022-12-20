@@ -26,12 +26,11 @@
                             "code": "VPL_ATTR_TARIFF",
                             "dataType": "number",
                             "disabled": true,
-                            "displaySequence": -1,
+                            "displaySequence": 1,
                             "filterable": true,
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "number",
-                            "isNotAssetizable": true,
                             "isNotTranslatable": true,
                             "label": "Tariff",
                             "messages": [
@@ -42,6 +41,7 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultValue": 50,
                                     "disabled": true,
                                     "readonly": true
                                 }

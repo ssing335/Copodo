@@ -36,46 +36,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
-                            "isNotTranslatable": false,
-                            "label": "IP Block",
-                            "messages": [
-                            ],
-                            "multiselect": false,
-                            "readonly": false,
-                            "required": true,
-                            "userValues": null,
-                            "values": [
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 1,
-                                    "id": "836bed6d-1cd7-3859-0047-1f0704f0733c",
-                                    "label": "IPv4",
-                                    "readonly": false,
-                                    "value": "IPv4"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 2,
-                                    "id": "5e856f4a-6a83-ff2f-c3c2-e9ff4805fc82",
-                                    "label": "IPv6",
-                                    "readonly": false,
-                                    "value": "IPv6"
-                                }
-                            ]
-                        },
-                        {
-                            "attributeId": "a2Ef0000001NZJBEA4",
-                            "cloneable": true,
-                            "code": "ATT_IPBLK",
-                            "dataType": "text",
-                            "disabled": false,
-                            "displaySequence": 1,
-                            "filterable": true,
-                            "hasRules": false,
-                            "hidden": false,
-                            "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "IP Block",
                             "messages": [
@@ -86,20 +46,24 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 1,
-                                    "id": "836bed6d-1cd7-3859-0047-1f0704f0733c",
-                                    "label": "IPv4",
-                                    "readonly": false,
-                                    "value": "IPv4"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 2,
                                     "id": "5e856f4a-6a83-ff2f-c3c2-e9ff4805fc82",
                                     "label": "IPv6",
+                                    "name": "5e856f4a-6a83-ff2f-c3c2-e9ff4805fc82",
                                     "readonly": false,
                                     "value": "IPv6"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "836bed6d-1cd7-3859-0047-1f0704f0733c",
+                                    "label": "IPv4",
+                                    "name": "836bed6d-1cd7-3859-0047-1f0704f0733c",
+                                    "readonly": false,
+                                    "value": "IPv4"
                                 }
                             ]
                         },
@@ -114,86 +78,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
-                            "isNotTranslatable": false,
-                            "label": "Number of Static IPs",
-                            "messages": [
-                            ],
-                            "multiselect": false,
-                            "readonly": false,
-                            "required": true,
-                            "userValues": null,
-                            "values": [
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "440725a6-0a9e-8cbb-355c-c018fdf4c9b2",
-                                    "label": "1 Static IP",
-                                    "readonly": false,
-                                    "value": "1 Static IP"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 20,
-                                    "id": "63b79325-ae5b-2fe4-f2aa-7b44e313513f",
-                                    "label": "16 Static IP",
-                                    "readonly": false,
-                                    "value": "16 Static IP"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 30,
-                                    "id": "f1964a97-0c71-cbc1-4197-fd6ef7c3b04b",
-                                    "label": "64 Static IP",
-                                    "readonly": false,
-                                    "value": "64 Static IP"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 40,
-                                    "id": "4fa613d7-2b36-14d2-020b-0b4bd130ca05",
-                                    "label": "128 Static IP",
-                                    "readonly": false,
-                                    "value": "128 Static IP"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 50,
-                                    "id": "cc2b592f-e98a-6984-f108-869e0fc9ff42",
-                                    "label": "256 Static IP",
-                                    "readonly": false,
-                                    "value": "256 Static IP"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 60,
-                                    "id": "a28af595-1af3-d1ee-bf9a-f856f74789b9",
-                                    "label": "512 Static IP",
-                                    "readonly": false,
-                                    "value": "512 Static IP"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 70,
-                                    "id": "a1df8150-87b1-54df-a9fd-364d03da7f10",
-                                    "label": "1024 Static IP",
-                                    "readonly": false,
-                                    "value": "1024 Static IP"
-                                }
-                            ]
-                        },
-                        {
-                            "attributeId": "a2Ef0000001NZJGEA4",
-                            "cloneable": true,
-                            "code": "ATT_NOSIPS",
-                            "dataType": "text",
-                            "disabled": false,
-                            "displaySequence": 2,
-                            "filterable": true,
-                            "hasRules": false,
-                            "hidden": false,
-                            "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Number of Static IPs",
                             "messages": [
@@ -204,87 +88,74 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 10,
                                     "id": "440725a6-0a9e-8cbb-355c-c018fdf4c9b2",
                                     "label": "1 Static IP",
+                                    "name": "440725a6-0a9e-8cbb-355c-c018fdf4c9b2",
                                     "readonly": false,
                                     "value": "1 Static IP"
                                 },
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 20,
-                                    "id": "63b79325-ae5b-2fe4-f2aa-7b44e313513f",
-                                    "label": "16 Static IP",
-                                    "readonly": false,
-                                    "value": "16 Static IP"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 30,
-                                    "id": "f1964a97-0c71-cbc1-4197-fd6ef7c3b04b",
-                                    "label": "64 Static IP",
-                                    "readonly": false,
-                                    "value": "64 Static IP"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 40,
                                     "id": "4fa613d7-2b36-14d2-020b-0b4bd130ca05",
                                     "label": "128 Static IP",
+                                    "name": "4fa613d7-2b36-14d2-020b-0b4bd130ca05",
                                     "readonly": false,
                                     "value": "128 Static IP"
                                 },
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
-                                    "displaySequence": 50,
-                                    "id": "cc2b592f-e98a-6984-f108-869e0fc9ff42",
-                                    "label": "256 Static IP",
+                                    "displaySequence": 20,
+                                    "id": "63b79325-ae5b-2fe4-f2aa-7b44e313513f",
+                                    "label": "16 Static IP",
+                                    "name": "63b79325-ae5b-2fe4-f2aa-7b44e313513f",
                                     "readonly": false,
-                                    "value": "256 Static IP"
+                                    "value": "16 Static IP"
                                 },
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 60,
-                                    "id": "a28af595-1af3-d1ee-bf9a-f856f74789b9",
-                                    "label": "512 Static IP",
-                                    "readonly": false,
-                                    "value": "512 Static IP"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 70,
                                     "id": "a1df8150-87b1-54df-a9fd-364d03da7f10",
                                     "label": "1024 Static IP",
+                                    "name": "a1df8150-87b1-54df-a9fd-364d03da7f10",
                                     "readonly": false,
                                     "value": "1024 Static IP"
-                                }
-                            ]
-                        },
-                        {
-                            "attributeId": "a2Ef0000001NZJLEA4",
-                            "cloneable": true,
-                            "code": "ATT_IPJFR",
-                            "dataType": "text",
-                            "disabled": true,
-                            "displaySequence": 3,
-                            "filterable": true,
-                            "hasRules": false,
-                            "hidden": false,
-                            "inputType": "checkbox",
-                            "isNotAssetizable": false,
-                            "isNotTranslatable": false,
-                            "label": "IP Justification Form is Required",
-                            "messages": [
-                            ],
-                            "multiselect": false,
-                            "readonly": true,
-                            "required": false,
-                            "userValues": null,
-                            "values": [
+                                },
                                 {
-                                    "disabled": true,
-                                    "readonly": true
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 60,
+                                    "id": "a28af595-1af3-d1ee-bf9a-f856f74789b9",
+                                    "label": "512 Static IP",
+                                    "name": "a28af595-1af3-d1ee-bf9a-f856f74789b9",
+                                    "readonly": false,
+                                    "value": "512 Static IP"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "cc2b592f-e98a-6984-f108-869e0fc9ff42",
+                                    "label": "256 Static IP",
+                                    "name": "cc2b592f-e98a-6984-f108-869e0fc9ff42",
+                                    "readonly": false,
+                                    "value": "256 Static IP"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "f1964a97-0c71-cbc1-4197-fd6ef7c3b04b",
+                                    "label": "64 Static IP",
+                                    "name": "f1964a97-0c71-cbc1-4197-fd6ef7c3b04b",
+                                    "readonly": false,
+                                    "value": "64 Static IP"
                                 }
                             ]
                         },
@@ -299,7 +170,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "checkbox",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "IP Justification Form is Required",
                             "messages": [
@@ -310,6 +180,7 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultValue": false,
                                     "disabled": false,
                                     "readonly": false
                                 }
@@ -320,40 +191,12 @@
                             "cloneable": true,
                             "code": "ATT_WSIPFees",
                             "dataType": "text",
-                            "disabled": true,
-                            "displaySequence": 4,
-                            "filterable": true,
-                            "hasRules": false,
-                            "hidden": false,
-                            "inputType": "checkbox",
-                            "isNotAssetizable": false,
-                            "isNotTranslatable": false,
-                            "label": "Waive Static IP Fee",
-                            "messages": [
-                            ],
-                            "multiselect": false,
-                            "readonly": true,
-                            "required": false,
-                            "userValues": null,
-                            "values": [
-                                {
-                                    "disabled": true,
-                                    "readonly": true
-                                }
-                            ]
-                        },
-                        {
-                            "attributeId": "a2Ef0000001NZJQEA4",
-                            "cloneable": true,
-                            "code": "ATT_WSIPFees",
-                            "dataType": "text",
                             "disabled": false,
                             "displaySequence": 4,
                             "filterable": true,
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "checkbox",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Waive Static IP Fee",
                             "messages": [
@@ -364,6 +207,7 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultValue": false,
                                     "disabled": false,
                                     "readonly": false
                                 }
@@ -380,7 +224,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "checkbox",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "ICB Approval Required",
                             "messages": [
@@ -391,33 +234,7 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "readonly": false
-                                }
-                            ]
-                        },
-                        {
-                            "attributeId": "a2Ef0000001NZJVEA4",
-                            "cloneable": true,
-                            "code": "ATT_ICBAR",
-                            "dataType": "text",
-                            "disabled": false,
-                            "displaySequence": 5,
-                            "filterable": true,
-                            "hasRules": false,
-                            "hidden": false,
-                            "inputType": "checkbox",
-                            "isNotAssetizable": false,
-                            "isNotTranslatable": false,
-                            "label": "ICB Approval Required",
-                            "messages": [
-                            ],
-                            "multiselect": false,
-                            "readonly": false,
-                            "required": false,
-                            "userValues": null,
-                            "values": [
-                                {
+                                    "defaultValue": false,
                                     "disabled": false,
                                     "readonly": false
                                 }
@@ -434,7 +251,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "checkbox",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "ICB and SPARC Approval required",
                             "messages": [
@@ -445,40 +261,14 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "readonly": false
-                                }
-                            ]
-                        },
-                        {
-                            "attributeId": "a2Ef0000001NZJaEAO",
-                            "cloneable": true,
-                            "code": "ATT_ICBSPARCAPPVL",
-                            "dataType": "text",
-                            "disabled": false,
-                            "displaySequence": 6,
-                            "filterable": true,
-                            "hasRules": false,
-                            "hidden": false,
-                            "inputType": "checkbox",
-                            "isNotAssetizable": false,
-                            "isNotTranslatable": false,
-                            "label": "ICB and SPARC Approval required",
-                            "messages": [
-                            ],
-                            "multiselect": false,
-                            "readonly": false,
-                            "required": false,
-                            "userValues": null,
-                            "values": [
-                                {
+                                    "defaultValue": false,
                                     "disabled": false,
                                     "readonly": false
                                 }
                             ]
                         }
                     ],
-                    "totalSize": 12
+                    "totalSize": 6
                 }
             }
         ],

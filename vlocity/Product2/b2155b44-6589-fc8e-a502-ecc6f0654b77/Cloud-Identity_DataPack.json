@@ -31,7 +31,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Pricing Option",
                             "messages": [
@@ -42,11 +41,13 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultSelected": true,
                                     "disabled": false,
                                     "displaySequence": 10,
                                     "id": "4e81d219-b529-89e2-9a46-a4a5ae6e267e",
                                     "label": "ARC",
-                                    "readonly": false,
+                                    "name": "4e81d219-b529-89e2-9a46-a4a5ae6e267e",
+                                    "readonly": true,
                                     "value": "ARC"
                                 }
                             ]

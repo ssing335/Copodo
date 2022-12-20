@@ -33,7 +33,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Usable Static v4 addresses",
                             "messages": [
@@ -44,52 +43,64 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "a977cf3a-b134-8211-4a52-29458bf3e962",
-                                    "label": "6",
-                                    "readonly": false,
-                                    "value": "6"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 20,
-                                    "id": "b677cd1d-9b4d-08b4-ac49-4f12428c8110",
-                                    "label": "14",
-                                    "readonly": false,
-                                    "value": "14"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 30,
                                     "id": "27ece4be-3f6a-64c7-918c-b47b592fe54e",
                                     "label": "30",
+                                    "name": "27ece4be-3f6a-64c7-918c-b47b592fe54e",
                                     "readonly": false,
                                     "value": "30"
                                 },
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 40,
-                                    "id": "e8fb00ff-9a0f-7d30-19dd-5d14dd828548",
-                                    "label": "62",
-                                    "readonly": false,
-                                    "value": "62"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 50,
-                                    "id": "7e6e8b0c-16e0-1931-4bbe-d04de0e666b9",
-                                    "label": "126",
-                                    "readonly": false,
-                                    "value": "126"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 60,
                                     "id": "2c0a58fb-1a65-94d5-5d9f-dee57389e2bb",
                                     "label": "254",
+                                    "name": "2c0a58fb-1a65-94d5-5d9f-dee57389e2bb",
                                     "readonly": false,
                                     "value": "254"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "7e6e8b0c-16e0-1931-4bbe-d04de0e666b9",
+                                    "label": "126",
+                                    "name": "7e6e8b0c-16e0-1931-4bbe-d04de0e666b9",
+                                    "readonly": false,
+                                    "value": "126"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "a977cf3a-b134-8211-4a52-29458bf3e962",
+                                    "label": "6",
+                                    "name": "a977cf3a-b134-8211-4a52-29458bf3e962",
+                                    "readonly": false,
+                                    "value": "6"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "b677cd1d-9b4d-08b4-ac49-4f12428c8110",
+                                    "label": "14",
+                                    "name": "b677cd1d-9b4d-08b4-ac49-4f12428c8110",
+                                    "readonly": false,
+                                    "value": "14"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "e8fb00ff-9a0f-7d30-19dd-5d14dd828548",
+                                    "label": "62",
+                                    "name": "e8fb00ff-9a0f-7d30-19dd-5d14dd828548",
+                                    "readonly": false,
+                                    "value": "62"
                                 }
                             ]
                         },
@@ -104,7 +115,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "IP TYPE",
                             "messages": [
@@ -115,18 +125,22 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 10,
                                     "id": "d8bf5312-4d54-4f38-5382-c819e8e0dbd0",
                                     "label": "IPv4",
+                                    "name": "d8bf5312-4d54-4f38-5382-c819e8e0dbd0",
                                     "readonly": false,
                                     "value": "IPv4"
                                 },
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 20,
                                     "id": "dd4de394-bd08-6cb5-7be2-b774fb2ed727",
                                     "label": "IPv6",
+                                    "name": "dd4de394-bd08-6cb5-7be2-b774fb2ed727",
                                     "readonly": false,
                                     "value": "IPv6"
                                 }
@@ -143,7 +157,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "IP BLOCK",
                             "messages": [
@@ -154,60 +167,74 @@
                             "userValues": null,
                             "values": [
                                 {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "b6422509-b63d-2eff-513d-3e36007fff25",
-                                    "label": "/24",
-                                    "readonly": false,
-                                    "value": "/24"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 20,
-                                    "id": "7d169564-19e5-7018-6f9b-fcf1154c292e",
-                                    "label": "/25",
-                                    "readonly": false,
-                                    "value": "/25"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 30,
-                                    "id": "71f52740-1541-b81b-f21f-dd238625d159",
-                                    "label": "/26",
-                                    "readonly": false,
-                                    "value": "/26"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 40,
-                                    "id": "d376ecaa-c0b2-2277-d8e2-0ebd13d43f74",
-                                    "label": "/27",
-                                    "readonly": false,
-                                    "value": "/27"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 50,
-                                    "id": "b04f986d-60d3-e29f-8a90-f38f649d47a9",
-                                    "label": "/28",
-                                    "readonly": false,
-                                    "value": "/28"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 60,
-                                    "id": "a0a13d66-2908-fb23-9e21-85556fd5ad26",
-                                    "label": "/29",
-                                    "readonly": false,
-                                    "value": "/29"
-                                },
-                                {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 70,
                                     "id": "1f53a730-a353-dd5f-ecd4-2d2c4c5bbb1b",
                                     "label": "/48",
+                                    "name": "1f53a730-a353-dd5f-ecd4-2d2c4c5bbb1b",
                                     "readonly": false,
                                     "value": "/48"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "71f52740-1541-b81b-f21f-dd238625d159",
+                                    "label": "/26",
+                                    "name": "71f52740-1541-b81b-f21f-dd238625d159",
+                                    "readonly": false,
+                                    "value": "/26"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "7d169564-19e5-7018-6f9b-fcf1154c292e",
+                                    "label": "/25",
+                                    "name": "7d169564-19e5-7018-6f9b-fcf1154c292e",
+                                    "readonly": false,
+                                    "value": "/25"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 60,
+                                    "id": "a0a13d66-2908-fb23-9e21-85556fd5ad26",
+                                    "label": "/29",
+                                    "name": "a0a13d66-2908-fb23-9e21-85556fd5ad26",
+                                    "readonly": false,
+                                    "value": "/29"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "b04f986d-60d3-e29f-8a90-f38f649d47a9",
+                                    "label": "/28",
+                                    "name": "b04f986d-60d3-e29f-8a90-f38f649d47a9",
+                                    "readonly": false,
+                                    "value": "/28"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "b6422509-b63d-2eff-513d-3e36007fff25",
+                                    "label": "/24",
+                                    "name": "b6422509-b63d-2eff-513d-3e36007fff25",
+                                    "readonly": false,
+                                    "value": "/24"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "d376ecaa-c0b2-2277-d8e2-0ebd13d43f74",
+                                    "label": "/27",
+                                    "name": "d376ecaa-c0b2-2277-d8e2-0ebd13d43f74",
+                                    "readonly": false,
+                                    "value": "/27"
                                 }
                             ]
                         }

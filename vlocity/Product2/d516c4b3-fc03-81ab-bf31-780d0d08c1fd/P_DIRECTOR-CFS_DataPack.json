@@ -4,7 +4,9 @@
     "%vlocity_namespace%__AttributeAssignment__c": "P_DIRECTOR-CFS_AttributeAssignments.json",
     "%vlocity_namespace%__AttributeDefaultValues__c": {
         "ATT-IDAnalytics": null,
-        "ATT-IPs/GWBranches": null
+        "ATT-IPs/GWBranches": null,
+        "ATT_OnPremise": null,
+        "Att_Max # of Remote Sites": null
     },
     "%vlocity_namespace%__AttributeMetadata__c": {
         "messages": [
@@ -32,7 +34,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Max # of Remote Sites",
                             "messages": [
@@ -69,7 +70,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "On Premise",
                             "messages": [
@@ -91,7 +91,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "text",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "IPs/GW Branches",
                             "messages": [
@@ -118,7 +117,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "text",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "ID Analytics",
                             "messages": [

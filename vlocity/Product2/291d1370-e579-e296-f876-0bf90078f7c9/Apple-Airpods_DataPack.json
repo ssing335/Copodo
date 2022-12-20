@@ -3,6 +3,7 @@
     "%vlocity_namespace%__ApprovedOn__c": "",
     "%vlocity_namespace%__AttributeAssignment__c": "Apple-Airpods_AttributeAssignments.json",
     "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "ATT_PAYMTHD": null
     },
     "%vlocity_namespace%__AttributeMetadata__c": {
         "messages": [
@@ -30,7 +31,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Payment Method",
                             "messages": [

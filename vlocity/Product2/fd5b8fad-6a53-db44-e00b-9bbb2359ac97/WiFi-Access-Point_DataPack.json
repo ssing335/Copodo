@@ -33,7 +33,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "dropdown",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Make",
                             "messages": [
@@ -44,51 +43,14 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultSelected": false,
                                     "disabled": false,
                                     "displaySequence": 10,
                                     "id": "c4e1f518-7826-56de-5d92-05dc60fa1592",
                                     "label": "Cisco Meraki",
+                                    "name": "c4e1f518-7826-56de-5d92-05dc60fa1592",
                                     "readonly": false,
                                     "value": "Cisco Meraki"
-                                }
-                            ]
-                        },
-                        {
-                            "attributeId": "a2E0m000000jMJzEAM",
-                            "cloneable": true,
-                            "code": "ATTR_MODEL",
-                            "dataType": "text",
-                            "disabled": false,
-                            "displaySequence": 1,
-                            "filterable": false,
-                            "hasRules": false,
-                            "hidden": false,
-                            "inputType": "dropdown",
-                            "isNotAssetizable": false,
-                            "isNotTranslatable": false,
-                            "label": "Model",
-                            "messages": [
-                            ],
-                            "multiselect": false,
-                            "readonly": false,
-                            "required": false,
-                            "userValues": null,
-                            "values": [
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 10,
-                                    "id": "ccd4a13b-d3f8-4abb-4562-05f4782fc215",
-                                    "label": "MR20",
-                                    "readonly": false,
-                                    "value": "MR20"
-                                },
-                                {
-                                    "disabled": false,
-                                    "displaySequence": 20,
-                                    "id": "70b32c7f-a4b6-8453-9e01-0c32f093d407",
-                                    "label": "MR21",
-                                    "readonly": false,
-                                    "value": "MR21"
                                 }
                             ]
                         },
@@ -103,7 +65,6 @@
                             "hasRules": false,
                             "hidden": false,
                             "inputType": "text",
-                            "isNotAssetizable": false,
                             "isNotTranslatable": false,
                             "label": "Serial No",
                             "messages": [
@@ -116,6 +77,48 @@
                                 {
                                     "disabled": false,
                                     "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a2E0m000000jMJzEAM",
+                            "cloneable": true,
+                            "code": "ATTR_MODEL",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Model",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "70b32c7f-a4b6-8453-9e01-0c32f093d407",
+                                    "label": "MR21",
+                                    "name": "70b32c7f-a4b6-8453-9e01-0c32f093d407",
+                                    "readonly": false,
+                                    "value": "MR21"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "ccd4a13b-d3f8-4abb-4562-05f4782fc215",
+                                    "label": "MR20",
+                                    "name": "ccd4a13b-d3f8-4abb-4562-05f4782fc215",
+                                    "readonly": false,
+                                    "value": "MR20"
                                 }
                             ]
                         }
