@@ -231,6 +231,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>CustomOdinAPIHandlerImplementation</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>CustomPricingPlanStepImpl</apexClass>
         <enabled>false</enabled>
     </classAccesses>
