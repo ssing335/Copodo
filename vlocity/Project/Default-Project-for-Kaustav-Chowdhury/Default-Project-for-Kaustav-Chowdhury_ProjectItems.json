@@ -1,6 +1,441 @@
 [
     {
         "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__GlobalKey__c": "1dc3a899-f110-f1a0-f79f-3e5d9834885c",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": "a5d0m00000056UWAAY",
+        "%vlocity_namespace%__ItemType__c": "Price List Entry",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ffa8dfb5-8226-37da-1e91-5f52663999ce",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/ffa8dfb5-8226-37da-1e91-5f52663999ce",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ffa8dfb5-8226-37da-1e91-5f52663999ce",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/ffa8dfb5-8226-37da-1e91-5f52663999ce",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "Price | One-time | $100",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/1dc3a899-f110-f1a0-f79f-3e5d9834885c"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__GlobalKey__c": "21e21384-ab7f-0a94-57b7-588a4f6dc347",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "f78c7bd3-8868-13af-abc6-dbb799891769",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__PriceListEntry__c/f78c7bd3-8868-13af-abc6-dbb799891769",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__PriceListEntry__c"
+        },
+        "%vlocity_namespace%__ItemType__c": "Price List Entry",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ee38030b-0770-6004-597e-20caadeea80b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/ee38030b-0770-6004-597e-20caadeea80b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ee38030b-0770-6004-597e-20caadeea80b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/ee38030b-0770-6004-597e-20caadeea80b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "Price | One-time | $100",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/21e21384-ab7f-0a94-57b7-588a4f6dc347"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__GlobalKey__c": "31fb3173-9308-1bd5-66c7-6ff73eeb4253",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "03ee67c9-49ee-3664-53aa-40cbd822358f",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__PriceListEntry__c/03ee67c9-49ee-3664-53aa-40cbd822358f",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__PriceListEntry__c"
+        },
+        "%vlocity_namespace%__ItemType__c": "Price List Entry",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "fbb5647b-74da-dd62-12c6-1358b90e85ab",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/fbb5647b-74da-dd62-12c6-1358b90e85ab",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "fbb5647b-74da-dd62-12c6-1358b90e85ab",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/fbb5647b-74da-dd62-12c6-1358b90e85ab",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "Price | One-time | $100",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/31fb3173-9308-1bd5-66c7-6ff73eeb4253"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__GlobalKey__c": "3392a16f-93ba-aa32-8447-86b4656b4fba",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "744849ca-17fb-24ba-18ef-0d6b7024ce9a",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__PriceListEntry__c/744849ca-17fb-24ba-18ef-0d6b7024ce9a",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__PriceListEntry__c"
+        },
+        "%vlocity_namespace%__ItemType__c": "Price List Entry",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b225e442-e396-1cb7-6ea0-2f038f0f29e5",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/b225e442-e396-1cb7-6ea0-2f038f0f29e5",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b225e442-e396-1cb7-6ea0-2f038f0f29e5",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/b225e442-e396-1cb7-6ea0-2f038f0f29e5",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "Price | One-time | $200",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/3392a16f-93ba-aa32-8447-86b4656b4fba"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__GlobalKey__c": "42886568-dc9b-ecfa-2d53-8d753e53f883",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "69d494dd-a6ef-ef9f-019f-0eff6e139dd3",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__PriceListEntry__c/69d494dd-a6ef-ef9f-019f-0eff6e139dd3",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__PriceListEntry__c"
+        },
+        "%vlocity_namespace%__ItemType__c": "Price List Entry",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ee38030b-0770-6004-597e-20caadeea80b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/ee38030b-0770-6004-597e-20caadeea80b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ee38030b-0770-6004-597e-20caadeea80b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/ee38030b-0770-6004-597e-20caadeea80b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "Price | One-time | $150",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/42886568-dc9b-ecfa-2d53-8d753e53f883"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__GlobalKey__c": "53679c6c-6032-3f27-e83a-39048c36b9e0",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": "a5d0m00000056UqAAI",
+        "%vlocity_namespace%__ItemType__c": "Price List Entry",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "aad9cd58-c414-20d1-0a5a-9996e429b5a4",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/aad9cd58-c414-20d1-0a5a-9996e429b5a4",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "aad9cd58-c414-20d1-0a5a-9996e429b5a4",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/aad9cd58-c414-20d1-0a5a-9996e429b5a4",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "Price | One-time | $400",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/53679c6c-6032-3f27-e83a-39048c36b9e0"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__GlobalKey__c": "5dc0e37e-994b-cc32-68a6-206355641e47",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "f2b5521b-d653-03da-d154-a4a93a3830c5",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__PriceListEntry__c/f2b5521b-d653-03da-d154-a4a93a3830c5",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__PriceListEntry__c"
+        },
+        "%vlocity_namespace%__ItemType__c": "Price List Entry",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "d1235516-c5df-6a43-3340-42e698f57668",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/d1235516-c5df-6a43-3340-42e698f57668",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "d1235516-c5df-6a43-3340-42e698f57668",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/d1235516-c5df-6a43-3340-42e698f57668",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "Price | One-time | $200",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/5dc0e37e-994b-cc32-68a6-206355641e47"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__GlobalKey__c": "7311fa6f-ad9a-2ad2-75d7-a34b96ead4dc",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": "a5d0m00000056UgAAI",
+        "%vlocity_namespace%__ItemType__c": "Price List Entry",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ffa8dfb5-8226-37da-1e91-5f52663999ce",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/ffa8dfb5-8226-37da-1e91-5f52663999ce",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ffa8dfb5-8226-37da-1e91-5f52663999ce",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/ffa8dfb5-8226-37da-1e91-5f52663999ce",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "Price | One-time | $200",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/7311fa6f-ad9a-2ad2-75d7-a34b96ead4dc"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__GlobalKey__c": "74a8a52a-cde9-51a9-7f93-db2be1e1fd19",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "02989b07-5a19-c768-83d9-dfeb842afec9",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__PriceListEntry__c/02989b07-5a19-c768-83d9-dfeb842afec9",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__PriceListEntry__c"
+        },
+        "%vlocity_namespace%__ItemType__c": "Price List Entry",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "fbb5647b-74da-dd62-12c6-1358b90e85ab",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/fbb5647b-74da-dd62-12c6-1358b90e85ab",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "fbb5647b-74da-dd62-12c6-1358b90e85ab",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/fbb5647b-74da-dd62-12c6-1358b90e85ab",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "Price | One-time | $80",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/74a8a52a-cde9-51a9-7f93-db2be1e1fd19"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__GlobalKey__c": "8521e863-1883-848c-1a89-da5ebc279abb",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "981f3f18-61ef-cc45-45d4-31fe95259dad",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__PriceListEntry__c/981f3f18-61ef-cc45-45d4-31fe95259dad",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__PriceListEntry__c"
+        },
+        "%vlocity_namespace%__ItemType__c": "Price List Entry",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "f0c807de-6ff3-c278-be26-3a8b3aaa07a3",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/f0c807de-6ff3-c278-be26-3a8b3aaa07a3",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "f0c807de-6ff3-c278-be26-3a8b3aaa07a3",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/f0c807de-6ff3-c278-be26-3a8b3aaa07a3",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "Price | One-time | $300",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/8521e863-1883-848c-1a89-da5ebc279abb"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__GlobalKey__c": "8ac68059-a408-ec75-621d-370a1baa363a",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "50426138-f41d-7546-c7e9-12fb61a22425",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__PriceListEntry__c/50426138-f41d-7546-c7e9-12fb61a22425",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__PriceListEntry__c"
+        },
+        "%vlocity_namespace%__ItemType__c": "Price List Entry",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "d1235516-c5df-6a43-3340-42e698f57668",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/d1235516-c5df-6a43-3340-42e698f57668",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "d1235516-c5df-6a43-3340-42e698f57668",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/d1235516-c5df-6a43-3340-42e698f57668",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "Price | One-time | $150",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/8ac68059-a408-ec75-621d-370a1baa363a"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__GlobalKey__c": "8d9c8c0b-50a7-886f-a7d6-da3269014e7b",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": "a5d0m00000056UlAAI",
+        "%vlocity_namespace%__ItemType__c": "Price List Entry",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "c279dd42-2480-ce29-bd16-0141bbcf2b4a",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/c279dd42-2480-ce29-bd16-0141bbcf2b4a",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "c279dd42-2480-ce29-bd16-0141bbcf2b4a",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/c279dd42-2480-ce29-bd16-0141bbcf2b4a",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "Price | One-time | $50",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/8d9c8c0b-50a7-886f-a7d6-da3269014e7b"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__GlobalKey__c": "93801ce9-889f-0efb-0913-1d22b6370499",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "2f3384db-2464-ca83-d701-cbca8f77faad",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__PriceListEntry__c/2f3384db-2464-ca83-d701-cbca8f77faad",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__PriceListEntry__c"
+        },
+        "%vlocity_namespace%__ItemType__c": "Price List Entry",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "f0c807de-6ff3-c278-be26-3a8b3aaa07a3",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/f0c807de-6ff3-c278-be26-3a8b3aaa07a3",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "f0c807de-6ff3-c278-be26-3a8b3aaa07a3",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/f0c807de-6ff3-c278-be26-3a8b3aaa07a3",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "Price | One-time | $250",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/93801ce9-889f-0efb-0913-1d22b6370499"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add",
         "%vlocity_namespace%__GlobalKey__c": "bddcc05a-12de-ad8d-676c-030785fa9d0f",
         "%vlocity_namespace%__ItemGlobalKey__c": "",
         "%vlocity_namespace%__ItemId__c": "%vlocity_namespace%__OverrideDefinition__c/Generated318072290",
@@ -28,6 +463,161 @@
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
         "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/bddcc05a-12de-ad8d-676c-030785fa9d0f"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__GlobalKey__c": "c5485fc3-4be8-1d35-1764-d0ebcbab8561",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": "a5d0m00000056URAAY",
+        "%vlocity_namespace%__ItemType__c": "Price List Entry",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "870426e2-6a4a-d12b-ab33-a05c4d8bb029",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/870426e2-6a4a-d12b-ab33-a05c4d8bb029",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "870426e2-6a4a-d12b-ab33-a05c4d8bb029",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/870426e2-6a4a-d12b-ab33-a05c4d8bb029",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "Price | One-time | $100",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/c5485fc3-4be8-1d35-1764-d0ebcbab8561"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__GlobalKey__c": "dcf43358-b09d-4f16-d3cd-9c50531fe2ac",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": "a5d0m00000056UvAAI",
+        "%vlocity_namespace%__ItemType__c": "Price List Entry",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "c279dd42-2480-ce29-bd16-0141bbcf2b4a",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/c279dd42-2480-ce29-bd16-0141bbcf2b4a",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "c279dd42-2480-ce29-bd16-0141bbcf2b4a",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/c279dd42-2480-ce29-bd16-0141bbcf2b4a",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "Price | One-time | $100",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/dcf43358-b09d-4f16-d3cd-9c50531fe2ac"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__GlobalKey__c": "de6f27bb-48e7-45ea-2480-e9d0107c4cfc",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": "a5d0m00000056UbAAI",
+        "%vlocity_namespace%__ItemType__c": "Price List Entry",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "aad9cd58-c414-20d1-0a5a-9996e429b5a4",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/aad9cd58-c414-20d1-0a5a-9996e429b5a4",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "aad9cd58-c414-20d1-0a5a-9996e429b5a4",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/aad9cd58-c414-20d1-0a5a-9996e429b5a4",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "Price | One-time | $200",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/de6f27bb-48e7-45ea-2480-e9d0107c4cfc"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__GlobalKey__c": "e226c0a0-8de7-1bb8-1252-a2f4d5113fec",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "4a2bffba-e6ba-e532-3658-ce504ecf926a",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__PriceListEntry__c/4a2bffba-e6ba-e532-3658-ce504ecf926a",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__PriceListEntry__c"
+        },
+        "%vlocity_namespace%__ItemType__c": "Price List Entry",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b225e442-e396-1cb7-6ea0-2f038f0f29e5",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/b225e442-e396-1cb7-6ea0-2f038f0f29e5",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b225e442-e396-1cb7-6ea0-2f038f0f29e5",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/b225e442-e396-1cb7-6ea0-2f038f0f29e5",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "Price | One-time | $150",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/e226c0a0-8de7-1bb8-1252-a2f4d5113fec"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__GlobalKey__c": "e566e7e8-5b8c-4285-81d7-1a9d80de9d3a",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": "a5d0m00000056V0AAI",
+        "%vlocity_namespace%__ItemType__c": "Price List Entry",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "870426e2-6a4a-d12b-ab33-a05c4d8bb029",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/870426e2-6a4a-d12b-ab33-a05c4d8bb029",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "870426e2-6a4a-d12b-ab33-a05c4d8bb029",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/870426e2-6a4a-d12b-ab33-a05c4d8bb029",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "Price | One-time | $200",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/e566e7e8-5b8c-4285-81d7-1a9d80de9d3a"
     },
     {
         "%vlocity_namespace%__Action__c": "Add",
@@ -74,6 +664,135 @@
     },
     {
         "%vlocity_namespace%__Action__c": "Change",
+        "%vlocity_namespace%__GlobalKey__c": "0792cc14-a600-af18-9513-23ec9e38e26e",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__AttributeId__r.%vlocity_namespace%__Code__c": "ATT_DSRR",
+            "%vlocity_namespace%__IsOverride__c": false,
+            "%vlocity_namespace%__ObjectId__c": {
+                "%vlocity_namespace%__GlobalKey__c": "69a218ce-a93d-caae-d680-19f184911513",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Product2/69a218ce-a93d-caae-d680-19f184911513",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "%vlocity_namespace%__OverrideContext__c": null,
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/aac7cc60-0373-08a1-dfc3-d15032426d7f",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c"
+        },
+        "%vlocity_namespace%__ItemType__c": "Attribute Assignment",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "f0c807de-6ff3-c278-be26-3a8b3aaa07a3",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/f0c807de-6ff3-c278-be26-3a8b3aaa07a3",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "f0c807de-6ff3-c278-be26-3a8b3aaa07a3",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/f0c807de-6ff3-c278-be26-3a8b3aaa07a3",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "Decision Support Review Required",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/0792cc14-a600-af18-9513-23ec9e38e26e"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Change",
+        "%vlocity_namespace%__GlobalKey__c": "3a0446f1-f318-9893-ca44-3c7484ebdb77",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__AttributeId__r.%vlocity_namespace%__Code__c": "ATT_IPJFR",
+            "%vlocity_namespace%__IsOverride__c": false,
+            "%vlocity_namespace%__ObjectId__c": {
+                "%vlocity_namespace%__GlobalKey__c": "003169d4-0fef-9e63-efb8-5103ce39bb17",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Product2/003169d4-0fef-9e63-efb8-5103ce39bb17",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "%vlocity_namespace%__OverrideContext__c": null,
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/58ab0428-85bf-314e-1cf6-b9177a64f390",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c"
+        },
+        "%vlocity_namespace%__ItemType__c": "Attribute Assignment",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "fbb5647b-74da-dd62-12c6-1358b90e85ab",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/fbb5647b-74da-dd62-12c6-1358b90e85ab",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "fbb5647b-74da-dd62-12c6-1358b90e85ab",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/fbb5647b-74da-dd62-12c6-1358b90e85ab",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "IP Justification Form is Required",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/3a0446f1-f318-9893-ca44-3c7484ebdb77"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Change",
+        "%vlocity_namespace%__GlobalKey__c": "5cff3633-2c0d-3687-9ea6-ee1439535129",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__AttributeId__r.%vlocity_namespace%__Code__c": "ATT_ONNETOFFNET",
+            "%vlocity_namespace%__IsOverride__c": false,
+            "%vlocity_namespace%__ObjectId__c": {
+                "%vlocity_namespace%__GlobalKey__c": "9fed909a-79e8-bc1b-250b-fb5bba61a7e7",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Product2/9fed909a-79e8-bc1b-250b-fb5bba61a7e7",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "%vlocity_namespace%__OverrideContext__c": null,
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/0f1a1c5b-fe82-ff23-b297-780b932b5b81",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c"
+        },
+        "%vlocity_namespace%__ItemType__c": "Attribute Assignment",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ee38030b-0770-6004-597e-20caadeea80b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/ee38030b-0770-6004-597e-20caadeea80b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ee38030b-0770-6004-597e-20caadeea80b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/ee38030b-0770-6004-597e-20caadeea80b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "On-Net/Off-Net",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/5cff3633-2c0d-3687-9ea6-ee1439535129"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Change",
         "%vlocity_namespace%__GlobalKey__c": "729fe03c-45b2-9f13-5b93-ce08ba819b53",
         "%vlocity_namespace%__ItemGlobalKey__c": "",
         "%vlocity_namespace%__ItemId__c": {
@@ -109,6 +828,159 @@
     },
     {
         "%vlocity_namespace%__Action__c": "Change",
+        "%vlocity_namespace%__GlobalKey__c": "8a2a9aa2-4e0f-2ae6-8291-60b4344059f8",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__AttributeId__r.%vlocity_namespace%__Code__c": "ATT_TERM",
+            "%vlocity_namespace%__IsOverride__c": false,
+            "%vlocity_namespace%__ObjectId__c": {
+                "%vlocity_namespace%__GlobalKey__c": "9fed909a-79e8-bc1b-250b-fb5bba61a7e7",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Product2/9fed909a-79e8-bc1b-250b-fb5bba61a7e7",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "%vlocity_namespace%__OverrideContext__c": null,
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/6d6e300b-fb4a-4990-64fd-8f023861d444",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c"
+        },
+        "%vlocity_namespace%__ItemType__c": "Attribute Assignment",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ee38030b-0770-6004-597e-20caadeea80b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/ee38030b-0770-6004-597e-20caadeea80b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ee38030b-0770-6004-597e-20caadeea80b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/ee38030b-0770-6004-597e-20caadeea80b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "Term",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/8a2a9aa2-4e0f-2ae6-8291-60b4344059f8"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Change",
+        "%vlocity_namespace%__GlobalKey__c": "9c3f90fc-4c99-b6d7-ace1-944c4161dc5c",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__AttributeId__r.%vlocity_namespace%__Code__c": "ATT_NOSIPS",
+            "%vlocity_namespace%__IsOverride__c": false,
+            "%vlocity_namespace%__ObjectId__c": {
+                "%vlocity_namespace%__GlobalKey__c": "003169d4-0fef-9e63-efb8-5103ce39bb17",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Product2/003169d4-0fef-9e63-efb8-5103ce39bb17",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "%vlocity_namespace%__OverrideContext__c": null,
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/24b80b72-8a6d-c829-aeb0-745ab107c277",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c"
+        },
+        "%vlocity_namespace%__ItemType__c": "Attribute Assignment",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "fbb5647b-74da-dd62-12c6-1358b90e85ab",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/fbb5647b-74da-dd62-12c6-1358b90e85ab",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "fbb5647b-74da-dd62-12c6-1358b90e85ab",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/fbb5647b-74da-dd62-12c6-1358b90e85ab",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "Number of Static IPs",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/9c3f90fc-4c99-b6d7-ace1-944c4161dc5c"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Change",
+        "%vlocity_namespace%__GlobalKey__c": "a2f37d93-35c6-5906-bb44-95e4d724b286",
+        "%vlocity_namespace%__ItemGlobalKey__c": "f7e536a0-dd27-4df4-3079-366b2287cab8",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "f7e536a0-dd27-4df4-3079-366b2287cab8",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/f7e536a0-dd27-4df4-3079-366b2287cab8",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__ItemVersion__c": "Fiber Connect +",
+        "%vlocity_namespace%__ParentItemId__c": "",
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "Name": "ZZZFiber Connect +",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/a2f37d93-35c6-5906-bb44-95e4d724b286"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Change",
+        "%vlocity_namespace%__GlobalKey__c": "b3f135a6-b73c-2f46-2073-c0ace4cde25f",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__AttributeId__r.%vlocity_namespace%__Code__c": "ATT_MGSPARC",
+            "%vlocity_namespace%__IsOverride__c": false,
+            "%vlocity_namespace%__ObjectId__c": {
+                "%vlocity_namespace%__GlobalKey__c": "9fed909a-79e8-bc1b-250b-fb5bba61a7e7",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Product2/9fed909a-79e8-bc1b-250b-fb5bba61a7e7",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "%vlocity_namespace%__OverrideContext__c": null,
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/98efcbf6-2320-cfe3-124a-dbc2710770d5",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c"
+        },
+        "%vlocity_namespace%__ItemType__c": "Attribute Assignment",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ee38030b-0770-6004-597e-20caadeea80b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/ee38030b-0770-6004-597e-20caadeea80b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ee38030b-0770-6004-597e-20caadeea80b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/ee38030b-0770-6004-597e-20caadeea80b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "Requires MultiGig SPARC",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/b3f135a6-b73c-2f46-2073-c0ace4cde25f"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Change",
         "%vlocity_namespace%__GlobalKey__c": "c0752e48-83fd-e251-f46c-49bf9fff3148",
         "%vlocity_namespace%__ItemGlobalKey__c": "",
         "%vlocity_namespace%__ItemId__c": {
@@ -141,6 +1013,250 @@
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
         "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/c0752e48-83fd-e251-f46c-49bf9fff3148"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Change",
+        "%vlocity_namespace%__GlobalKey__c": "d53fa222-9acd-5333-51f1-c5ee61464572",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__AttributeId__r.%vlocity_namespace%__Code__c": "ATT_TYPORDER",
+            "%vlocity_namespace%__IsOverride__c": false,
+            "%vlocity_namespace%__ObjectId__c": {
+                "%vlocity_namespace%__GlobalKey__c": "9fed909a-79e8-bc1b-250b-fb5bba61a7e7",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Product2/9fed909a-79e8-bc1b-250b-fb5bba61a7e7",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "%vlocity_namespace%__OverrideContext__c": null,
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/4168d389-f684-7677-17a8-4c2f0a3af152",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c"
+        },
+        "%vlocity_namespace%__ItemType__c": "Attribute Assignment",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ee38030b-0770-6004-597e-20caadeea80b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/ee38030b-0770-6004-597e-20caadeea80b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ee38030b-0770-6004-597e-20caadeea80b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/ee38030b-0770-6004-597e-20caadeea80b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "Type of Order",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/d53fa222-9acd-5333-51f1-c5ee61464572"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Change",
+        "%vlocity_namespace%__GlobalKey__c": "d6d0d46d-3f6b-e963-1248-645552bc89e4",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__AttributeId__r.%vlocity_namespace%__Code__c": "ATT_WSIPFees",
+            "%vlocity_namespace%__IsOverride__c": false,
+            "%vlocity_namespace%__ObjectId__c": {
+                "%vlocity_namespace%__GlobalKey__c": "003169d4-0fef-9e63-efb8-5103ce39bb17",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Product2/003169d4-0fef-9e63-efb8-5103ce39bb17",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "%vlocity_namespace%__OverrideContext__c": null,
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/684faa60-0608-193e-1bf0-b564acfd01d0",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c"
+        },
+        "%vlocity_namespace%__ItemType__c": "Attribute Assignment",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "fbb5647b-74da-dd62-12c6-1358b90e85ab",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/fbb5647b-74da-dd62-12c6-1358b90e85ab",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "fbb5647b-74da-dd62-12c6-1358b90e85ab",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/fbb5647b-74da-dd62-12c6-1358b90e85ab",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "Waive Static IP Fee",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/d6d0d46d-3f6b-e963-1248-645552bc89e4"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Change",
+        "%vlocity_namespace%__GlobalKey__c": "e1235f6a-7cae-cd34-9dba-c292cde6f0db",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__AttributeId__r.%vlocity_namespace%__Code__c": "ATT_BANDWIDTH",
+            "%vlocity_namespace%__IsOverride__c": false,
+            "%vlocity_namespace%__ObjectId__c": {
+                "%vlocity_namespace%__GlobalKey__c": "9fed909a-79e8-bc1b-250b-fb5bba61a7e7",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Product2/9fed909a-79e8-bc1b-250b-fb5bba61a7e7",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "%vlocity_namespace%__OverrideContext__c": null,
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/b0086c97-d064-27c8-c8a9-4b8e526db0ab",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c"
+        },
+        "%vlocity_namespace%__ItemType__c": "Attribute Assignment",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ee38030b-0770-6004-597e-20caadeea80b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/ee38030b-0770-6004-597e-20caadeea80b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ee38030b-0770-6004-597e-20caadeea80b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/ee38030b-0770-6004-597e-20caadeea80b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "Bandwidth",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/e1235f6a-7cae-cd34-9dba-c292cde6f0db"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Change",
+        "%vlocity_namespace%__GlobalKey__c": "e21c8c1d-ec24-69c7-ac2d-58c9a21804b8",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__AttributeId__r.%vlocity_namespace%__Code__c": "ATT_IPBLK",
+            "%vlocity_namespace%__IsOverride__c": false,
+            "%vlocity_namespace%__ObjectId__c": {
+                "%vlocity_namespace%__GlobalKey__c": "003169d4-0fef-9e63-efb8-5103ce39bb17",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Product2/003169d4-0fef-9e63-efb8-5103ce39bb17",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "%vlocity_namespace%__OverrideContext__c": null,
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/2a613b6c-6191-7a69-27d4-1ced9d7b7e1e",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c"
+        },
+        "%vlocity_namespace%__ItemType__c": "Attribute Assignment",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "fbb5647b-74da-dd62-12c6-1358b90e85ab",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/fbb5647b-74da-dd62-12c6-1358b90e85ab",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "fbb5647b-74da-dd62-12c6-1358b90e85ab",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/fbb5647b-74da-dd62-12c6-1358b90e85ab",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "IP Block",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/e21c8c1d-ec24-69c7-ac2d-58c9a21804b8"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Change",
+        "%vlocity_namespace%__GlobalKey__c": "ee38030b-0770-6004-597e-20caadeea80b",
+        "%vlocity_namespace%__ItemGlobalKey__c": "9fed909a-79e8-bc1b-250b-fb5bba61a7e7",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "9fed909a-79e8-bc1b-250b-fb5bba61a7e7",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/9fed909a-79e8-bc1b-250b-fb5bba61a7e7",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__ItemVersion__c": "V1",
+        "%vlocity_namespace%__ParentItemId__c": "",
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "Name": "Internet Connection",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/ee38030b-0770-6004-597e-20caadeea80b"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Change",
+        "%vlocity_namespace%__GlobalKey__c": "f0c807de-6ff3-c278-be26-3a8b3aaa07a3",
+        "%vlocity_namespace%__ItemGlobalKey__c": "69a218ce-a93d-caae-d680-19f184911513",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "69a218ce-a93d-caae-d680-19f184911513",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/69a218ce-a93d-caae-d680-19f184911513",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__ItemVersion__c": "V1",
+        "%vlocity_namespace%__ParentItemId__c": "",
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "Name": "MRC Fees",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/f0c807de-6ff3-c278-be26-3a8b3aaa07a3"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Change",
+        "%vlocity_namespace%__GlobalKey__c": "fbb5647b-74da-dd62-12c6-1358b90e85ab",
+        "%vlocity_namespace%__ItemGlobalKey__c": "003169d4-0fef-9e63-efb8-5103ce39bb17",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "003169d4-0fef-9e63-efb8-5103ce39bb17",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/003169d4-0fef-9e63-efb8-5103ce39bb17",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__ItemVersion__c": "V1",
+        "%vlocity_namespace%__ParentItemId__c": "",
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "Name": "IP Addresses",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/fbb5647b-74da-dd62-12c6-1358b90e85ab"
     },
     {
         "%vlocity_namespace%__Action__c": "Delete",
@@ -252,6 +1368,68 @@
     },
     {
         "%vlocity_namespace%__Action__c": "No Change",
+        "%vlocity_namespace%__GlobalKey__c": "870426e2-6a4a-d12b-ab33-a05c4d8bb029",
+        "%vlocity_namespace%__ItemGlobalKey__c": "f939ce6d-0787-6b9f-4cb2-d2f7e051c457",
+        "%vlocity_namespace%__ItemId__c": "01t0m000005hhIbAAI",
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": "",
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "Name": "Fiber Internet Connection",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/870426e2-6a4a-d12b-ab33-a05c4d8bb029"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "No Change",
+        "%vlocity_namespace%__GlobalKey__c": "aad9cd58-c414-20d1-0a5a-9996e429b5a4",
+        "%vlocity_namespace%__ItemGlobalKey__c": "5f021c3d-36dd-e8ec-80aa-5e434c8396c2",
+        "%vlocity_namespace%__ItemId__c": "01t0m000005hhIqAAI",
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": "",
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "Name": "MRC Fees",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/aad9cd58-c414-20d1-0a5a-9996e429b5a4"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "No Change",
+        "%vlocity_namespace%__GlobalKey__c": "b225e442-e396-1cb7-6ea0-2f038f0f29e5",
+        "%vlocity_namespace%__ItemGlobalKey__c": "d6d0f775-aa4e-bab4-0ed0-6908f8c3ed5f",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "d6d0f775-aa4e-bab4-0ed0-6908f8c3ed5f",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/d6d0f775-aa4e-bab4-0ed0-6908f8c3ed5f",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__ItemVersion__c": "V1",
+        "%vlocity_namespace%__ParentItemId__c": "",
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "Name": "Fiber Internet Connection",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/b225e442-e396-1cb7-6ea0-2f038f0f29e5"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "No Change",
         "%vlocity_namespace%__GlobalKey__c": "ba10dc6a-a753-b808-e36a-75afbda13dcd",
         "%vlocity_namespace%__ItemGlobalKey__c": "ae473c90-0777-e447-d37f-dad0b5b4d26b",
         "%vlocity_namespace%__ItemId__c": "01tf0000007cEF8AAM",
@@ -268,5 +1446,67 @@
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
         "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/ba10dc6a-a753-b808-e36a-75afbda13dcd"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "No Change",
+        "%vlocity_namespace%__GlobalKey__c": "c279dd42-2480-ce29-bd16-0141bbcf2b4a",
+        "%vlocity_namespace%__ItemGlobalKey__c": "f662cf7d-a5c0-063d-37d1-db37f6abf5cb",
+        "%vlocity_namespace%__ItemId__c": "01t0m000005hhIlAAI",
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": "",
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "Name": "IP Addresses",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/c279dd42-2480-ce29-bd16-0141bbcf2b4a"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "No Change",
+        "%vlocity_namespace%__GlobalKey__c": "d1235516-c5df-6a43-3340-42e698f57668",
+        "%vlocity_namespace%__ItemGlobalKey__c": "7aeadfc0-bdf4-a893-f672-14fd7ca71930",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "7aeadfc0-bdf4-a893-f672-14fd7ca71930",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/7aeadfc0-bdf4-a893-f672-14fd7ca71930",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__ItemVersion__c": "V1",
+        "%vlocity_namespace%__ParentItemId__c": "",
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "Name": "Fiber Connect +",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/d1235516-c5df-6a43-3340-42e698f57668"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "No Change",
+        "%vlocity_namespace%__GlobalKey__c": "ffa8dfb5-8226-37da-1e91-5f52663999ce",
+        "%vlocity_namespace%__ItemGlobalKey__c": "a5cd760d-6a06-c15c-2442-bb7e4a8e26f2",
+        "%vlocity_namespace%__ItemId__c": "01t0m000005hhIgAAI",
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": "",
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ba1f532f-8cba-f176-461a-0711dfe4371b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "Name": "Internet Connection",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/ffa8dfb5-8226-37da-1e91-5f52663999ce"
     }
 ]
