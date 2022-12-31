@@ -9,7 +9,12 @@
     "%vlocity_namespace%__ConditionData__c": "",
     "%vlocity_namespace%__Condition__c": "",
     "%vlocity_namespace%__CustomTaskExecutionURL__c": "",
-    "%vlocity_namespace%__ErrorQueueId__c": "",
+    "%vlocity_namespace%__ErrorQueueId__c": {
+        "Name": "Provisioning Fallout Queue",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ManualQueue__c/Provisioning Fallout Queue",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ManualQueue__c"
+    },
     "%vlocity_namespace%__EventConditionData__c": "",
     "%vlocity_namespace%__GlobalKey__c": "643b755a-d5ce-8ee8-92dc-d56664c07710",
     "%vlocity_namespace%__GroupDeveloperName__c": "",
@@ -48,7 +53,12 @@
         "VlocityLookupRecordSourceKey": "%vlocity_namespace%__DRBundle__c/UpdateServiceActivationReponseToOrder",
         "VlocityRecordSObjectType": "%vlocity_namespace%__DRBundle__c"
     },
-    "%vlocity_namespace%__RetryPolicy__c": "",
+    "%vlocity_namespace%__RetryPolicy__c": {
+        "%vlocity_namespace%__GlobalKey__c": "16abb7-07d039-38ef05-113f2e-bdf3c6e54",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__IntegrationRetryPolicy__c/16abb7-07d039-38ef05-113f2e-bdf3c6e54",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__IntegrationRetryPolicy__c"
+    },
     "%vlocity_namespace%__RollBackPlanDefinitionId__c": {
         "Name": "Cancel Provisioning Plan",
         "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
