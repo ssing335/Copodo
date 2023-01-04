@@ -8,7 +8,7 @@
     "%vlocity_namespace%__CancelAmendBehaviour__c": "",
     "%vlocity_namespace%__ConditionData__c": "",
     "%vlocity_namespace%__Condition__c": "",
-    "%vlocity_namespace%__CustomTaskExecutionURL__c": "",
+    "%vlocity_namespace%__CustomTaskExecutionURL__c": "/apex/%vlocity_namespace%__OmniScriptUniversalPageWHeaderSidebar?id={0}&layout=lightning#/OmniScriptType/VU/OmniScriptSubType/Credit Check/OmniScriptLang/English/ContextId/{0}/PrefillDataRaptorBundle//true",
     "%vlocity_namespace%__ErrorQueueId__c": "",
     "%vlocity_namespace%__EventConditionData__c": "",
     "%vlocity_namespace%__GlobalKey__c": "b13e5212-7fdb-1e0f-2653-95195654b314",
@@ -54,9 +54,9 @@
     "%vlocity_namespace%__VlocityDataRaptorBundleId__c": "",
     "%vlocity_namespace%__itemImplementationId__c": "",
     "%vlocity_namespace%__manualQueueId__c": {
-        "Name": "Order Approval Queue",
+        "Name": "Sample Manual Queue 1",
         "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
-        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ManualQueue__c/Order Approval Queue",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ManualQueue__c/Sample Manual Queue 1",
         "VlocityRecordSObjectType": "%vlocity_namespace%__ManualQueue__c"
     },
     "Name": "Manual Task 1",
