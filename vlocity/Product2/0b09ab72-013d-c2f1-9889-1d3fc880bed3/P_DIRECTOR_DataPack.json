@@ -4,7 +4,7 @@
     "%vlocity_namespace%__AttributeAssignment__c": "P_DIRECTOR_AttributeAssignments.json",
     "%vlocity_namespace%__AttributeDefaultValues__c": {
         "ATT-#ofmonths(history)": null,
-        "ATT-#ofnodes": null,
+        "ATT-#ofnodes": 2,
         "ATT-BundleOrNot": "NotInBundle",
         "ATT-IDAnalytics": "Analytics",
         "ATT-IPs/GWBranches": "6",
@@ -618,6 +618,7 @@
                             "userValues": null,
                             "values": [
                                 {
+                                    "defaultValue": 2,
                                     "disabled": false,
                                     "readonly": false
                                 }
