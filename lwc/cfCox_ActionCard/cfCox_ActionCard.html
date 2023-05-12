@@ -1,0 +1,77 @@
+<template>
+            <div class="slds-grid slds-wrap slds-is-relative ">
+            <div style="position: fixed;z-index: 999999;top: 0;right: 0;">
+  <vlocity_cmt-toast class="flexcard-toast-element" theme="slds" title="" message="" styletype=""> </vlocity_cmt-toast>
+</div>
+            <div if:true={showLoader} class="slds-is-absolute vloc-loader_override" style="height: 100%; width: 100%; min-height:50px; background: transparent; z-index: 99;">
+  <div>
+   <vlocity_cmt-spinner
+      variant="brand"
+      alternative-text="Loading content..."
+      size="medium"
+      theme="slds"
+      ></vlocity_cmt-spinner>
+  </div>
+</div>
+            <template if:false={hasPermission}>
+              You don't have required permissions to view this card.
+            </template>
+            <template if:true={hasPermission}>
+              <template if:true={hasRecords}>
+                        <template for:each={_records} for:item="record" for:index="rindex">
+                            <vlocity_cmt-flex-card-state if:true={record}  key={record._flex.uniqueKey} data-recordid={record.Id} record={record} data-statue="true"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12 "  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-theme_default slds-card  slds-p-right_xx-small " style="background-color:#D1D4D4;      
+         ">
+          <div data-style-id="state0element0" class="slds-col   slds-border_top slds-border_right slds-border_bottom slds-border_left  slds-size_12-of-12  " data-rindex={rindex} style="background-color:#F4F4F4;     border-top: #000000 3px solid;border-right: #000000 3px solid;border-bottom: #000000 3px solid;border-left: #000000 3px solid; 
+    border-radius:30px;    color:#00629B; " >
+    <vlocity_cmt-block data-style-id="state0element0_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds"  ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0" class="slds-col  slds-text-align_center  slds-size_12-of-12  " data-rindex={rindex} style="      
+         " ><vlocity_cmt-flex-action data-style-id="state0element0block_element0_child"  tracking-obj={_childCardTrackingObj}  class= "state0element0block_element0_child flexActionElement" 
+        data-action-element-class="state0element0block_element0_child" onexecuteaction={performAction} data-show-spinner="false"
+        data-element-label="block1action0"   record={record}  card={card}  state-obj={record}  icon-size="small"  icon-color="#000000"  action-list='\[{"stateObj":"{record}","card":"{card}","record":"{record}","stateAction":{"id":"flex-action-1675154472622","type":"Flyout","displayName":"","vlocityIcon":"utility:add","openUrlIn":"Current Window","flyoutType":"childCard","openFlyoutIn":"Popover","cardName":"COX_ComingSoon","flyoutLwc":"COX_ComingSoon","channelName":"close_modal"},"iconSize":"small","iconColor":"#00629B","key":"1675151610549-jb6q565oc","label":"Action","draggable":false,"isOpen":true,"actionIndex":0}]'  icon-name="utility:add"  flyout-channel="close_modal"  flyout-details='\{"openFlyoutIn":"Popover"}'  theme="slds"  ><div slot="popoverflyout" class="block1action0action0" > <c-cf-c-o-x_-coming-soon data-style-id="state0element0block_element0_child"  parent-record={record}  records={_records}  parent-mergefields={card}  record-id={recordId}  object-api-name={objectApiName}  parent-attribute='\{}'  ></c-cf-c-o-x_-coming-soon></div></vlocity_cmt-flex-action>
+      </div><div data-style-id="state0element0block_element1" class="slds-col  slds-text-align_center  slds-size_12-of-12  " data-rindex={rindex} style="      
+         " ><vlocity_cmt-output-field data-style-id="state0element0block_element1_child"   card={card}  record={record}  merge-field="%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%20color:%20#000000;%22%3E%3Cstrong%3EFiber%20Connect%20Plus%3C/strong%3E%3C/span%3E%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element0block_element2" class="slds-col  slds-text-align_center  slds-size_12-of-12  " data-rindex={rindex} style="      
+         " ><vlocity_cmt-output-field data-style-id="state0element0block_element2_child"   card={card}  record={record}  merge-field="%3Cdiv%3E%3Cspan%20style=%22color:%20#7e8c8d;%22%3E%3Cstrong%3EPurchase%20Fiber%20Connect%20Plus%3C/strong%3E%3C/span%3E%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div>
+      </vlocity_cmt-flex-card-state>
+                        </template>
+                      </template>
+                      <template if:false={hasRecords}>
+                            <vlocity_cmt-flex-card-state  record={record} data-statue="false"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12 "  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-theme_default slds-card  slds-p-right_xx-small " style="background-color:#D1D4D4;      
+         ">
+          <div data-style-id="state0element0" class="slds-col   slds-border_top slds-border_right slds-border_bottom slds-border_left  slds-size_12-of-12  " data-rindex={rindex} style="background-color:#F4F4F4;     border-top: #000000 3px solid;border-right: #000000 3px solid;border-bottom: #000000 3px solid;border-left: #000000 3px solid; 
+    border-radius:30px;    color:#00629B; " >
+    <vlocity_cmt-block data-style-id="state0element0_child"  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds"  ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0" class="slds-col  slds-text-align_center  slds-size_12-of-12  " data-rindex={rindex} style="      
+         " ><vlocity_cmt-flex-action data-style-id="state0element0block_element0_child"  tracking-obj={_childCardTrackingObj}  class= "state0element0block_element0_child flexActionElement" 
+        data-action-element-class="state0element0block_element0_child" onexecuteaction={performAction} data-show-spinner="false"
+        data-element-label="block1action0"   record={record}  card={card}  state-obj={record}  icon-size="small"  icon-color="#000000"  action-list='\[{"stateObj":"{record}","card":"{card}","record":"{record}","stateAction":{"id":"flex-action-1675154472622","type":"Flyout","displayName":"","vlocityIcon":"utility:add","openUrlIn":"Current Window","flyoutType":"childCard","openFlyoutIn":"Popover","cardName":"COX_ComingSoon","flyoutLwc":"COX_ComingSoon","channelName":"close_modal"},"iconSize":"small","iconColor":"#00629B","key":"1675151610549-jb6q565oc","label":"Action","draggable":false,"isOpen":true,"actionIndex":0}]'  icon-name="utility:add"  flyout-channel="close_modal"  flyout-details='\{"openFlyoutIn":"Popover"}'  theme="slds"  ><div slot="popoverflyout" class="block1action0action0" > <c-cf-c-o-x_-coming-soon data-style-id="state0element0block_element0_child"  parent-record={record}  records={_records}  parent-mergefields={card}  record-id={recordId}  object-api-name={objectApiName}  parent-attribute='\{}'  ></c-cf-c-o-x_-coming-soon></div></vlocity_cmt-flex-action>
+      </div><div data-style-id="state0element0block_element1" class="slds-col  slds-text-align_center  slds-size_12-of-12  " data-rindex={rindex} style="      
+         " ><vlocity_cmt-output-field data-style-id="state0element0block_element1_child"   card={card}  record={record}  merge-field="%3Cdiv%3E%3Cspan%20style=%22font-size:%2012pt;%20color:%20#000000;%22%3E%3Cstrong%3EFiber%20Connect%20Plus%3C/strong%3E%3C/span%3E%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element0block_element2" class="slds-col  slds-text-align_center  slds-size_12-of-12  " data-rindex={rindex} style="      
+         " ><vlocity_cmt-output-field data-style-id="state0element0block_element2_child"   card={card}  record={record}  merge-field="%3Cdiv%3E%3Cspan%20style=%22color:%20#7e8c8d;%22%3E%3Cstrong%3EPurchase%20Fiber%20Connect%20Plus%3C/strong%3E%3C/span%3E%3C/div%3E"  theme="slds"  ></vlocity_cmt-output-field>
+      </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div>
+      </vlocity_cmt-flex-card-state>
+                      </template>
+            </template>
+            <template if:true={hasError}>
+            {error}
+            </template>
+            
+      <vlocity_cmt-action action-wrapperclass="slds-hide" re-render-flyout class="action-trigger slds-col" onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction} onfireactionevent={actionEvtHandler}>
+      
+      </vlocity_cmt-action>
+  
+            <vlocity_cmt-action class="execute-action" re-render-flyout action-wrapperclass="slds-hide" onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction} onfireactionevent={actionEvtHandler}>
+            
+            </vlocity_cmt-action>
+            </div>
+          </template>
