@@ -1,0 +1,43 @@
+{
+    "%vlocity_namespace%__Author__c": "copado",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 3,
+                    "name": "recordId",
+                    "val": "001f000001idhyjAAA"
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "DataRaptor",
+            "value": {
+                "bundle": "FetchBillingAccountDetails",
+                "bundleType": "",
+                "dsDelay": "",
+                "inputMap": {
+                    "AccountId": "{recordId}"
+                },
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "resultVar": ""
+            }
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "COX_BillingAccount.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "COX_BillingAccount/copado/1/1674494328695",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__SampleData__c": "[{\"AccountAddress\":\"Test Street 1, Test City 1, Test P1, Test Country 1 - test ZIP 1\",\"acToggle\":\"false\",\"AccountCreatedDate\":\"2022-01-21T11:39:45.000Z\",\"AccountRecordType\":\"Billing\",\"AccountId\":\"001f000001z379GAAQ\",\"AccountRecordTypeId\":\"0125Y000001wP5sQAE\",\"AccountName\":\"Amazon Billing Account 1\",\"AccountPhone\":\"65465546464\"},{\"AccountAddress\":\"Test Street 1, Test City 1, Test P1, Test Country 1 - test ZIP 1\",\"acToggle\":\"false\",\"AccountCreatedDate\":\"2022-01-21T11:41:13.000Z\",\"AccountRecordType\":\"Billing\",\"AccountId\":\"001f000001z379fAAA\",\"AccountRecordTypeId\":\"0125Y000001wP5sQAE\",\"AccountName\":\"Amazon Billing Account 2\",\"AccountPhone\":\"9876987687\"},{\"AccountAddress\":\"Test Street 1, Test City 1, Test P1, Test Country 1 - test ZIP 1\",\"acToggle\":\"false\",\"AccountCreatedDate\":\"2022-01-21T11:41:25.000Z\",\"AccountRecordType\":\"Billing\",\"AccountId\":\"001f000001z379kAAA\",\"AccountRecordTypeId\":\"0125Y000001wP5sQAE\",\"AccountName\":\"Amazon Billing Account 3\",\"AccountPhone\":\"6353376547\"},{\"AccountAddress\":\"Test Street 1, Test City 1, Test P1, Test Country 1 - test ZIP 1\",\"acToggle\":\"false\",\"AccountStatus\":\"Active\",\"AccountCreatedDate\":\"2022-01-22T20:22:47.000Z\",\"AccountRecordType\":\"Billing\",\"AccountId\":\"001f000001z3O2yAAE\",\"AccountRecordTypeId\":\"0125Y000001wP5sQAE\",\"AccountName\":\"Amazon Billing Account 4\",\"AccountPhone\":\"7648763549\"}]",
+    "%vlocity_namespace%__Styles__c": "{\"customStyles\":\".coxbg{\\r\\n    background: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);\\r\\n}\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "COX_BillingAccount",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/COX_BillingAccount"
+}
