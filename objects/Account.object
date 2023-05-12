@@ -489,6 +489,18 @@ IF(ShippingPostalCode = &apos;95014&apos; || ShippingPostalCode = &apos;98109&ap
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Shipping_Postal_Code__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Shipping Postal Code</label>
+        <referenceTo>Shipping_Postal_Code__c</referenceTo>
+        <relationshipLabel>Accounts</relationshipLabel>
+        <relationshipName>Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Sic</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
